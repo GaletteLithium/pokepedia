@@ -1,0 +1,762 @@
+Fichier:Sprite 001 EB.png
+Fichier:Sprite 001 chromatique EB.png
+Fichier:Sprite 002 EB.png
+Fichier:Sprite 002 chromatique EB.png
+Fichier:Sprite 003 ♀ EB.png
+Fichier:Sprite 003 ♀ chromatique EB.png
+Fichier:Sprite 003 ♂ EB.png
+Fichier:Sprite 003 ♂ chromatique EB.png
+Fichier:Sprite 004 EB.png
+Fichier:Sprite 004 chromatique EB.png
+Fichier:Sprite 005 EB.png
+Fichier:Sprite 005 chromatique EB.png
+Fichier:Sprite 006 EB.png
+Fichier:Sprite 006 chromatique EB.png
+Fichier:Sprite 007 EB.png
+Fichier:Sprite 007 chromatique EB.png
+Fichier:Sprite 008 EB.png
+Fichier:Sprite 008 chromatique EB.png
+Fichier:Sprite 009 EB.png
+Fichier:Sprite 009 chromatique EB.png
+Fichier:Sprite 010 EB.png
+Fichier:Sprite 010 chromatique EB.png
+Fichier:Sprite 011 EB.png
+Fichier:Sprite 011 chromatique EB.png
+Fichier:Sprite 012 ♀ EB.png
+Fichier:Sprite 012 ♀ chromatique EB.png
+Fichier:Sprite 012 ♂ EB.png
+Fichier:Sprite 012 ♂ chromatique EB.png
+Fichier:Sprite 025 ♀ EB.png
+Fichier:Sprite 025 ♀ chromatique EB.png
+Fichier:Sprite 025 ♂ EB.png
+Fichier:Sprite 025 ♂ chromatique EB.png
+Fichier:Sprite 026 ♀ EB.png
+Fichier:Sprite 026 ♀ chromatique EB.png
+Fichier:Sprite 026 ♂ EB.png
+Fichier:Sprite 026 ♂ chromatique EB.png
+Fichier:Sprite 027 EB.png
+Fichier:Sprite 027 chromatique EB.png
+Fichier:Sprite 028 EB.png
+Fichier:Sprite 028 chromatique EB.png
+Fichier:Sprite 029 EB.png
+Fichier:Sprite 029 chromatique EB.png
+Fichier:Sprite 030 EB.png
+Fichier:Sprite 030 chromatique EB.png
+Fichier:Sprite 031 EB.png
+Fichier:Sprite 031 chromatique EB.png
+Fichier:Sprite 032 EB.png
+Fichier:Sprite 032 chromatique EB.png
+Fichier:Sprite 033 EB.png
+Fichier:Sprite 033 chromatique EB.png
+Fichier:Sprite 034 EB.png
+Fichier:Sprite 034 chromatique EB.png
+Fichier:Sprite 035 EB.png
+Fichier:Sprite 035 chromatique EB.png
+Fichier:Sprite 036 EB.png
+Fichier:Sprite 036 chromatique EB.png
+Fichier:Sprite 037 EB.png
+Fichier:Sprite 037 chromatique EB.png
+Fichier:Sprite 038 EB.png
+Fichier:Sprite 038 chromatique EB.png
+Fichier:Sprite 039 EB.png
+Fichier:Sprite 039 chromatique EB.png
+Fichier:Sprite 040 EB.png
+Fichier:Sprite 040 chromatique EB.png
+Fichier:Sprite 041 chromatique EB.png
+Fichier:Sprite 041 ♂ EB.png
+Fichier:Sprite 042 chromatique EB.png
+Fichier:Sprite 042 ♂ EB.png
+Fichier:Sprite 043 EB.png
+Fichier:Sprite 043 chromatique EB.png
+Fichier:Sprite 044 ♀ EB.png
+Fichier:Sprite 044 ♀ chromatique EB.png
+Fichier:Sprite 044 ♂ EB.png
+Fichier:Sprite 044 ♂ chromatique EB.png
+Fichier:Sprite 045 ♀ EB.png
+Fichier:Sprite 045 ♀ chromatique EB.png
+Fichier:Sprite 045 ♂ EB.png
+Fichier:Sprite 045 ♂ chromatique EB.png
+Fichier:Sprite 050 EB.png
+Fichier:Sprite 050 chromatique EB.png
+Fichier:Sprite 051 EB.png
+Fichier:Sprite 051 chromatique EB.png
+Fichier:Sprite 052 EB.png
+Fichier:Sprite 052 chromatique EB.png
+Fichier:Sprite 053 EB.png
+Fichier:Sprite 053 chromatique EB.png
+Fichier:Sprite 054 EB.png
+Fichier:Sprite 054 chromatique EB.png
+Fichier:Sprite 055 EB.png
+Fichier:Sprite 055 chromatique EB.png
+Fichier:Sprite 058 EB.png
+Fichier:Sprite 058 chromatique EB.png
+Fichier:Sprite 059 EB.png
+Fichier:Sprite 059 chromatique EB.png
+Fichier:Sprite 060 EB.png
+Fichier:Sprite 060 chromatique EB.png
+Fichier:Sprite 061 EB.png
+Fichier:Sprite 061 chromatique EB.png
+Fichier:Sprite 062 EB.png
+Fichier:Sprite 062 chromatique EB.png
+Fichier:Sprite 063 EB.png
+Fichier:Sprite 063 chromatique EB.png
+Fichier:Sprite 064 ♀ EB.png
+Fichier:Sprite 064 ♀ chromatique EB.png
+Fichier:Sprite 064 ♂ EB.png
+Fichier:Sprite 064 ♂ chromatique EB.png
+Fichier:Sprite 065 ♀ EB.png
+Fichier:Sprite 065 ♀ chromatique EB.png
+Fichier:Sprite 065 ♂ EB.png
+Fichier:Sprite 065 ♂ chromatique EB.png
+Fichier:Sprite 066 EB.png
+Fichier:Sprite 066 chromatique EB.png
+Fichier:Sprite 067 EB.png
+Fichier:Sprite 067 chromatique EB.png
+Fichier:Sprite 068 EB.png
+Fichier:Sprite 068 chromatique EB.png
+Fichier:Sprite 072 EB.png
+Fichier:Sprite 072 chromatique EB.png
+Fichier:Sprite 073 EB.png
+Fichier:Sprite 073 chromatique EB.png
+Fichier:Sprite 077 EB.png
+Fichier:Sprite 077 chromatique EB.png
+Fichier:Sprite 078 EB.png
+Fichier:Sprite 078 chromatique EB.png
+Fichier:Sprite 079 EB.png
+Fichier:Sprite 079 chromatique EB.png
+Fichier:Sprite 080 EB.png
+Fichier:Sprite 080 chromatique EB.png
+Fichier:Sprite 081 EB.png
+Fichier:Sprite 081 chromatique EB.png
+Fichier:Sprite 082 EB.png
+Fichier:Sprite 082 chromatique EB.png
+Fichier:Sprite 083 EB.png
+Fichier:Sprite 083 chromatique EB.png
+Fichier:Sprite 090 EB.png
+Fichier:Sprite 090 chromatique EB.png
+Fichier:Sprite 091 EB.png
+Fichier:Sprite 091 chromatique EB.png
+Fichier:Sprite 092 EB.png
+Fichier:Sprite 092 chromatique EB.png
+Fichier:Sprite 093 EB.png
+Fichier:Sprite 093 chromatique EB.png
+Fichier:Sprite 094 EB.png
+Fichier:Sprite 094 chromatique EB.png
+Fichier:Sprite 095 EB.png
+Fichier:Sprite 095 chromatique EB.png
+Fichier:Sprite 098 EB.png
+Fichier:Sprite 098 chromatique EB.png
+Fichier:Sprite 099 EB.png
+Fichier:Sprite 099 chromatique EB.png
+Fichier:Sprite 102 EB.png
+Fichier:Sprite 102 chromatique EB.png
+Fichier:Sprite 103 EB.png
+Fichier:Sprite 103 chromatique EB.png
+Fichier:Sprite 104 EB.png
+Fichier:Sprite 104 chromatique EB.png
+Fichier:Sprite 105 EB.png
+Fichier:Sprite 105 chromatique EB.png
+Fichier:Sprite 106 EB.png
+Fichier:Sprite 106 chromatique EB.png
+Fichier:Sprite 107 EB.png
+Fichier:Sprite 107 chromatique EB.png
+Fichier:Sprite 108 EB.png
+Fichier:Sprite 108 chromatique EB.png
+Fichier:Sprite 109 EB.png
+Fichier:Sprite 109 chromatique EB.png
+Fichier:Sprite 109 dos EB.png
+Fichier:Sprite 110 EB.png
+Fichier:Sprite 110 chromatique EB.png
+Fichier:Sprite 111 ♀ EB.png
+Fichier:Sprite 111 ♀ chromatique EB.png
+Fichier:Sprite 111 ♂ EB.png
+Fichier:Sprite 111 ♂ chromatique EB.png
+Fichier:Sprite 112 ♀ EB.png
+Fichier:Sprite 112 ♀ chromatique EB.png
+Fichier:Sprite 112 ♂ EB.png
+Fichier:Sprite 112 ♂ chromatique EB.png
+Fichier:Sprite 113 EB.png
+Fichier:Sprite 113 chromatique EB.png
+Fichier:Sprite 114 EB.png
+Fichier:Sprite 114 chromatique EB.png
+Fichier:Sprite 115 EB.png
+Fichier:Sprite 115 chromatique EB.png
+Fichier:Sprite 116 EB.png
+Fichier:Sprite 116 chromatique EB.png
+Fichier:Sprite 117 EB.png
+Fichier:Sprite 117 chromatique EB.png
+Fichier:Sprite 118 ♀ EB.png
+Fichier:Sprite 118 ♀ chromatique EB.png
+Fichier:Sprite 118 ♂ EB.png
+Fichier:Sprite 118 ♂ chromatique EB.png
+Fichier:Sprite 119 ♀ EB.png
+Fichier:Sprite 119 ♀ chromatique EB.png
+Fichier:Sprite 119 ♂ EB.png
+Fichier:Sprite 119 ♂ chromatique EB.png
+Fichier:Sprite 120 EB.png
+Fichier:Sprite 120 chromatique EB.png
+Fichier:Sprite 121 EB.png
+Fichier:Sprite 121 chromatique EB.png
+Fichier:Sprite 122 EB.png
+Fichier:Sprite 122 chromatique EB.png
+Fichier:Sprite 123 ♀ EB.png
+Fichier:Sprite 123 ♀ chromatique EB.png
+Fichier:Sprite 123 ♂ EB.png
+Fichier:Sprite 123 ♂ chromatique EB.png
+Fichier:Sprite 124 EB.png
+Fichier:Sprite 124 chromatique EB.png
+Fichier:Sprite 125 EB.png
+Fichier:Sprite 125 chromatique EB.png
+Fichier:Sprite 126 EB.png
+Fichier:Sprite 126 chromatique EB.png
+Fichier:Sprite 127 EB.png
+Fichier:Sprite 127 chromatique EB.png
+Fichier:Sprite 128 EB.png
+Fichier:Sprite 128 chromatique EB.png
+Fichier:Sprite 129 ♀ EB.png
+Fichier:Sprite 129 ♀ chromatique EB.png
+Fichier:Sprite 129 ♂ EB.png
+Fichier:Sprite 129 ♂ chromatique EB.png
+Fichier:Sprite 130 ♀ EB.png
+Fichier:Sprite 130 ♀ chromatique EB.png
+Fichier:Sprite 130 ♂ EB.png
+Fichier:Sprite 130 ♂ chromatique EB.png
+Fichier:Sprite 131 EB.png
+Fichier:Sprite 131 chromatique EB.png
+Fichier:Sprite 132 EB.png
+Fichier:Sprite 132 chromatique EB.png
+Fichier:Sprite 133 ♀ EB.png
+Fichier:Sprite 133 ♀ chromatique EB.png
+Fichier:Sprite 133 ♀ dos EB.png
+Fichier:Sprite 133 ♂ EB.png
+Fichier:Sprite 133 ♂ chromatique EB.png
+Fichier:Sprite 133 ♂ dos EB.png
+Fichier:Sprite 134 EB.png
+Fichier:Sprite 134 chromatique EB.png
+Fichier:Sprite 135 EB.png
+Fichier:Sprite 135 chromatique EB.png
+Fichier:Sprite 136 EB.png
+Fichier:Sprite 136 chromatique EB.png
+Fichier:Sprite 137 EB.png
+Fichier:Sprite 137 chromatique EB.png
+Fichier:Sprite 138 EB.png
+Fichier:Sprite 138 chromatique EB.png
+Fichier:Sprite 139 EB.png
+Fichier:Sprite 139 chromatique EB.png
+Fichier:Sprite 140 EB.png
+Fichier:Sprite 140 chromatique EB.png
+Fichier:Sprite 141 EB.png
+Fichier:Sprite 141 chromatique EB.png
+Fichier:Sprite 142 EB.png
+Fichier:Sprite 142 chromatique EB.png
+Fichier:Sprite 143 EB.png
+Fichier:Sprite 143 chromatique EB.png
+Fichier:Sprite 144 EB.png
+Fichier:Sprite 144 chromatique EB.png
+Fichier:Sprite 145 EB.png
+Fichier:Sprite 145 chromatique EB.png
+Fichier:Sprite 146 EB.png
+Fichier:Sprite 146 chromatique EB.png
+Fichier:Sprite 147 EB.png
+Fichier:Sprite 147 chromatique EB.png
+Fichier:Sprite 148 EB.png
+Fichier:Sprite 148 chromatique EB.png
+Fichier:Sprite 149 EB.png
+Fichier:Sprite 149 chromatique EB.png
+Fichier:Sprite 150 EB.png
+Fichier:Sprite 150 chromatique EB.png
+Fichier:Sprite 151 EB.png
+Fichier:Sprite 151 chromatique EB.png
+Fichier:Sprite 163 EB.png
+Fichier:Sprite 163 chromatique EB.png
+Fichier:Sprite 164 EB.png
+Fichier:Sprite 164 chromatique EB.png
+Fichier:Sprite 169 EB.png
+Fichier:Sprite 169 chromatique EB.png
+Fichier:Sprite 170 EB.png
+Fichier:Sprite 170 chromatique EB.png
+Fichier:Sprite 171 EB.png
+Fichier:Sprite 171 chromatique EB.png
+Fichier:Sprite 172 EB.png
+Fichier:Sprite 172 chromatique EB.png
+Fichier:Sprite 173 EB.png
+Fichier:Sprite 173 chromatique EB.png
+Fichier:Sprite 174 EB.png
+Fichier:Sprite 174 chromatique EB.png
+Fichier:Sprite 175 EB.png
+Fichier:Sprite 175 chromatique EB.png
+Fichier:Sprite 176 EB.png
+Fichier:Sprite 176 chromatique EB.png
+Fichier:Sprite 177 EB.png
+Fichier:Sprite 177 chromatique EB.png
+Fichier:Sprite 178 ♀ EB.png
+Fichier:Sprite 178 ♀ chromatique EB.png
+Fichier:Sprite 178 ♂ EB.png
+Fichier:Sprite 178 ♂ chromatique EB.png
+Fichier:Sprite 182 EB.png
+Fichier:Sprite 182 chromatique EB.png
+Fichier:Sprite 183 EB.png
+Fichier:Sprite 183 chromatique EB.png
+Fichier:Sprite 184 EB.png
+Fichier:Sprite 184 chromatique EB.png
+Fichier:Sprite 185 ♀ EB.png
+Fichier:Sprite 185 ♀ chromatique EB.png
+Fichier:Sprite 185 ♂ EB.png
+Fichier:Sprite 185 ♂ chromatique EB.png
+Fichier:Sprite 186 ♀ EB.png
+Fichier:Sprite 186 ♀ chromatique EB.png
+Fichier:Sprite 186 ♂ EB.png
+Fichier:Sprite 186 ♂ chromatique EB.png
+Fichier:Sprite 194 ♀ EB.png
+Fichier:Sprite 194 ♀ chromatique EB.png
+Fichier:Sprite 194 ♂ EB.png
+Fichier:Sprite 194 ♂ chromatique EB.png
+Fichier:Sprite 195 EB.png
+Fichier:Sprite 195 chromatique EB.png
+Fichier:Sprite 196 EB.png
+Fichier:Sprite 196 chromatique EB.png
+Fichier:Sprite 197 EB.png
+Fichier:Sprite 197 chromatique EB.png
+Fichier:Sprite 199 EB.png
+Fichier:Sprite 199 chromatique EB.png
+Fichier:Sprite 202 ♀ EB.png
+Fichier:Sprite 202 ♀ chromatique EB.png
+Fichier:Sprite 202 ♂ EB.png
+Fichier:Sprite 202 ♂ chromatique EB.png
+Fichier:Sprite 206 EB.png
+Fichier:Sprite 206 chromatique EB.png
+Fichier:Sprite 208 ♀ EB.png
+Fichier:Sprite 208 ♂ EB.png
+Fichier:Sprite 208 ♂ chromatique EB.png
+Fichier:Sprite 211 EB.png
+Fichier:Sprite 211 chromatique EB.png
+Fichier:Sprite 212 ♀ EB.png
+Fichier:Sprite 212 ♀ chromatique EB.png
+Fichier:Sprite 212 ♂ EB.png
+Fichier:Sprite 212 ♂ chromatique EB.png
+Fichier:Sprite 213 EB.png
+Fichier:Sprite 213 chromatique EB.png
+Fichier:Sprite 214 ♀ EB.png
+Fichier:Sprite 214 ♀ chromatique EB.png
+Fichier:Sprite 214 ♂ EB.png
+Fichier:Sprite 214 ♂ chromatique EB.png
+Fichier:Sprite 215 ♀ EB.png
+Fichier:Sprite 215 ♀ chromatique EB.png
+Fichier:Sprite 215 ♂ EB.png
+Fichier:Sprite 215 ♂ chromatique EB.png
+Fichier:Sprite 220 EB.png
+Fichier:Sprite 220 chromatique EB.png
+Fichier:Sprite 221 ♀ EB.png
+Fichier:Sprite 221 ♀ chromatique EB.png
+Fichier:Sprite 221 ♂ EB.png
+Fichier:Sprite 221 ♂ chromatique EB.png
+Fichier:Sprite 222 EB.png
+Fichier:Sprite 222 chromatique EB.png
+Fichier:Sprite 223 EB.png
+Fichier:Sprite 223 chromatique EB.png
+Fichier:Sprite 224 ♀ EB.png
+Fichier:Sprite 224 ♀ chromatique EB.png
+Fichier:Sprite 224 ♂ EB.png
+Fichier:Sprite 224 ♂ chromatique EB.png
+Fichier:Sprite 225 EB.png
+Fichier:Sprite 225 chromatique EB.png
+Fichier:Sprite 226 EB.png
+Fichier:Sprite 226 chromatique EB.png
+Fichier:Sprite 227 EB.png
+Fichier:Sprite 227 chromatique EB.png
+Fichier:Sprite 230 EB.png
+Fichier:Sprite 230 chromatique EB.png
+Fichier:Sprite 233 EB.png
+Fichier:Sprite 233 chromatique EB.png
+Fichier:Sprite 236 EB.png
+Fichier:Sprite 236 chromatique EB.png
+Fichier:Sprite 237 EB.png
+Fichier:Sprite 237 chromatique EB.png
+Fichier:Sprite 238 EB.png
+Fichier:Sprite 238 chromatique EB.png
+Fichier:Sprite 239 EB.png
+Fichier:Sprite 239 chromatique EB.png
+Fichier:Sprite 240 EB.png
+Fichier:Sprite 240 chromatique EB.png
+Fichier:Sprite 241 EB.png
+Fichier:Sprite 241 chromatique EB.png
+Fichier:Sprite 242 EB.png
+Fichier:Sprite 242 chromatique EB.png
+Fichier:Sprite 243 EB.png
+Fichier:Sprite 243 chromatique EB.png
+Fichier:Sprite 244 EB.png
+Fichier:Sprite 244 chromatique EB.png
+Fichier:Sprite 245 EB.png
+Fichier:Sprite 245 chromatique EB.png
+Fichier:Sprite 246 EB.png
+Fichier:Sprite 246 chromatique EB.png
+Fichier:Sprite 247 EB.png
+Fichier:Sprite 247 chromatique EB.png
+Fichier:Sprite 248 EB.png
+Fichier:Sprite 248 chromatique EB.png
+Fichier:Sprite 249 EB.png
+Fichier:Sprite 249 chromatique EB.png
+Fichier:Sprite 250 EB.png
+Fichier:Sprite 250 chromatique EB.png
+Fichier:Sprite 251 EB.png
+Fichier:Sprite 251 chromatique EB.png
+Fichier:Sprite 252 EB.png
+Fichier:Sprite 252 chromatique EB.png
+Fichier:Sprite 253 EB.png
+Fichier:Sprite 253 chromatique EB.png
+Fichier:Sprite 254 EB.png
+Fichier:Sprite 254 chromatique EB.png
+Fichier:Sprite 255 EB.png
+Fichier:Sprite 255 chromatique EB.png
+Fichier:Sprite 256 ♂ EB.png
+Fichier:Sprite 256 ♂ chromatique EB.png
+Fichier:Sprite 257 ♂ EB.png
+Fichier:Sprite 257 ♂ chromatique EB.png
+Fichier:Sprite 258 EB.png
+Fichier:Sprite 258 chromatique EB.png
+Fichier:Sprite 259 EB.png
+Fichier:Sprite 259 chromatique EB.png
+Fichier:Sprite 260 EB.png
+Fichier:Sprite 260 chromatique EB.png
+Fichier:Sprite 263 EB.png
+Fichier:Sprite 263 chromatique EB.png
+Fichier:Sprite 264 EB.png
+Fichier:Sprite 264 chromatique EB.png
+Fichier:Sprite 270 EB.png
+Fichier:Sprite 270 chromatique EB.png
+Fichier:Sprite 271 EB.png
+Fichier:Sprite 271 chromatique EB.png
+Fichier:Sprite 272 ♀ EB.png
+Fichier:Sprite 272 ♀ chromatique EB.png
+Fichier:Sprite 272 ♂ EB.png
+Fichier:Sprite 272 ♂ chromatique EB.png
+Fichier:Sprite 273 EB.png
+Fichier:Sprite 273 chromatique EB.png
+Fichier:Sprite 274 ♀ EB.png
+Fichier:Sprite 274 ♀ chromatique EB.png
+Fichier:Sprite 274 ♂ EB.png
+Fichier:Sprite 274 ♂ chromatique EB.png
+Fichier:Sprite 275 ♀ EB.png
+Fichier:Sprite 275 ♀ chromatique EB.png
+Fichier:Sprite 275 ♂ EB.png
+Fichier:Sprite 275 ♂ chromatique EB.png
+Fichier:Sprite 278 EB.png
+Fichier:Sprite 278 chromatique EB.png
+Fichier:Sprite 279 EB.png
+Fichier:Sprite 279 chromatique EB.png
+Fichier:Sprite 280 EB.png
+Fichier:Sprite 280 chromatique EB.png
+Fichier:Sprite 281 EB.png
+Fichier:Sprite 281 chromatique EB.png
+Fichier:Sprite 282 EB.png
+Fichier:Sprite 282 chromatique EB.png
+Fichier:Sprite 290 EB.png
+Fichier:Sprite 290 chromatique EB.png
+Fichier:Sprite 291 EB.png
+Fichier:Sprite 291 chromatique EB.png
+Fichier:Sprite 292 EB.png
+Fichier:Sprite 292 chromatique EB.png
+Fichier:Sprite 293 EB.png
+Fichier:Sprite 293 chromatique EB.png
+Fichier:Sprite 294 EB.png
+Fichier:Sprite 294 chromatique EB.png
+Fichier:Sprite 295 EB.png
+Fichier:Sprite 295 chromatique EB.png
+Fichier:Sprite 298 EB.png
+Fichier:Sprite 298 chromatique EB.png
+Fichier:Sprite 302 EB.png
+Fichier:Sprite 302 chromatique EB.png
+Fichier:Sprite 303 EB.png
+Fichier:Sprite 303 chromatique EB.png
+Fichier:Sprite 304 EB.png
+Fichier:Sprite 304 chromatique EB.png
+Fichier:Sprite 305 EB.png
+Fichier:Sprite 305 chromatique EB.png
+Fichier:Sprite 306 EB.png
+Fichier:Sprite 306 chromatique EB.png
+Fichier:Sprite 309 EB.png
+Fichier:Sprite 309 chromatique EB.png
+Fichier:Sprite 310 EB.png
+Fichier:Sprite 310 chromatique EB.png
+Fichier:Sprite 315 ♀ EB.png
+Fichier:Sprite 315 ♀ chromatique EB.png
+Fichier:Sprite 315 ♂ EB.png
+Fichier:Sprite 315 ♂ chromatique EB.png
+Fichier:Sprite 318 EB.png
+Fichier:Sprite 318 chromatique EB.png
+Fichier:Sprite 319 EB.png
+Fichier:Sprite 319 chromatique EB.png
+Fichier:Sprite 320 EB.png
+Fichier:Sprite 320 chromatique EB.png
+Fichier:Sprite 321 EB.png
+Fichier:Sprite 321 chromatique EB.png
+Fichier:Sprite 324 EB.png
+Fichier:Sprite 324 chromatique EB.png
+Fichier:Sprite 328 EB.png
+Fichier:Sprite 328 chromatique EB.png
+Fichier:Sprite 329 EB.png
+Fichier:Sprite 329 chromatique EB.png
+Fichier:Sprite 330 EB.png
+Fichier:Sprite 330 chromatique EB.png
+Fichier:Sprite 333 EB.png
+Fichier:Sprite 333 chromatique EB.png
+Fichier:Sprite 334 EB.png
+Fichier:Sprite 334 chromatique EB.png
+Fichier:Sprite 337 EB.png
+Fichier:Sprite 337 chromatique EB.png
+Fichier:Sprite 338 EB.png
+Fichier:Sprite 338 chromatique EB.png
+Fichier:Sprite 339 EB.png
+Fichier:Sprite 339 chromatique EB.png
+Fichier:Sprite 340 EB.png
+Fichier:Sprite 340 chromatique EB.png
+Fichier:Sprite 341 EB.png
+Fichier:Sprite 341 chromatique EB.png
+Fichier:Sprite 342 EB.png
+Fichier:Sprite 342 chromatique EB.png
+Fichier:Sprite 343 EB.png
+Fichier:Sprite 343 chromatique EB.png
+Fichier:Sprite 344 EB.png
+Fichier:Sprite 344 chromatique EB.png
+Fichier:Sprite 345 EB.png
+Fichier:Sprite 345 chromatique EB.png
+Fichier:Sprite 346 EB.png
+Fichier:Sprite 346 chromatique EB.png
+Fichier:Sprite 347 EB.png
+Fichier:Sprite 347 chromatique EB.png
+Fichier:Sprite 348 EB.png
+Fichier:Sprite 348 chromatique EB.png
+Fichier:Sprite 349 EB.png
+Fichier:Sprite 349 chromatique EB.png
+Fichier:Sprite 350 ♀ EB.png
+Fichier:Sprite 350 ♀ chromatique EB.png
+Fichier:Sprite 350 ♂ EB.png
+Fichier:Sprite 350 ♂ chromatique EB.png
+Fichier:Sprite 355 EB.png
+Fichier:Sprite 355 chromatique EB.png
+Fichier:Sprite 356 EB.png
+Fichier:Sprite 356 chromatique EB.png
+Fichier:Sprite 359 EB.png
+Fichier:Sprite 359 chromatique EB.png
+Fichier:Sprite 360 EB.png
+Fichier:Sprite 360 chromatique EB.png
+Fichier:Sprite 361 EB.png
+Fichier:Sprite 361 chromatique EB.png
+Fichier:Sprite 362 EB.png
+Fichier:Sprite 362 chromatique EB.png
+Fichier:Sprite 363 EB.png
+Fichier:Sprite 363 chromatique EB.png
+Fichier:Sprite 364 EB.png
+Fichier:Sprite 364 chromatique EB.png
+Fichier:Sprite 365 EB.png
+Fichier:Sprite 365 chromatique EB.png
+Fichier:Sprite 369 ♀ chromatique EB.png
+Fichier:Sprite 369 ♂ EB.png
+Fichier:Sprite 369 ♂ chromatique EB.png
+Fichier:Sprite 371 EB.png
+Fichier:Sprite 371 chromatique EB.png
+Fichier:Sprite 372 EB.png
+Fichier:Sprite 372 chromatique EB.png
+Fichier:Sprite 373 EB.png
+Fichier:Sprite 373 chromatique EB.png
+Fichier:Sprite 374 EB.png
+Fichier:Sprite 374 chromatique EB.png
+Fichier:Sprite 375 EB.png
+Fichier:Sprite 375 chromatique EB.png
+Fichier:Sprite 376 EB.png
+Fichier:Sprite 376 chromatique EB.png
+Fichier:Sprite 377 EB.png
+Fichier:Sprite 377 chromatique EB.png
+Fichier:Sprite 378 EB.png
+Fichier:Sprite 378 chromatique EB.png
+Fichier:Sprite 379 EB.png
+Fichier:Sprite 379 chromatique EB.png
+Fichier:Sprite 380 EB.png
+Fichier:Sprite 380 chromatique EB.png
+Fichier:Sprite 381 EB.png
+Fichier:Sprite 381 chromatique EB.png
+Fichier:Sprite 382 EB.png
+Fichier:Sprite 382 chromatique EB.png
+Fichier:Sprite 383 EB.png
+Fichier:Sprite 383 chromatique EB.png
+Fichier:Sprite 384 EB.png
+Fichier:Sprite 384 chromatique EB.png
+Fichier:Sprite 385 EB.png
+Fichier:Sprite 385 chromatique EB.png
+Fichier:Sprite 403 ♀ EB.png
+Fichier:Sprite 403 ♀ chromatique EB.png
+Fichier:Sprite 403 ♂ EB.png
+Fichier:Sprite 403 ♂ chromatique EB.png
+Fichier:Sprite 404 ♀ EB.png
+Fichier:Sprite 404 ♀ chromatique EB.png
+Fichier:Sprite 404 ♂ EB.png
+Fichier:Sprite 404 ♂ chromatique EB.png
+Fichier:Sprite 405 ♀ EB.png
+Fichier:Sprite 405 ♀ chromatique EB.png
+Fichier:Sprite 405 ♂ EB.png
+Fichier:Sprite 405 ♂ chromatique EB.png
+Fichier:Sprite 406 EB.png
+Fichier:Sprite 406 chromatique EB.png
+Fichier:Sprite 407 ♀ EB.png
+Fichier:Sprite 407 ♀ chromatique EB.png
+Fichier:Sprite 407 ♂ EB.png
+Fichier:Sprite 407 ♂ chromatique EB.png
+Fichier:Sprite 415 ♀ EB.png
+Fichier:Sprite 415 ♀ chromatique EB.png
+Fichier:Sprite 415 ♂ EB.png
+Fichier:Sprite 415 ♂ chromatique EB.png
+Fichier:Sprite 416 EB.png
+Fichier:Sprite 416 chromatique EB.png
+Fichier:Sprite 420 EB.png
+Fichier:Sprite 420 chromatique EB.png
+Fichier:Sprite 421 Couvert EB.png
+Fichier:Sprite 421 Couvert chromatique EB.png
+Fichier:Sprite 421 Ensoleillé EB.png
+Fichier:Sprite 421 Ensoleillé chromatique EB.png
+Fichier:Sprite 422 Occident EB.png
+Fichier:Sprite 422 Occident chromatique EB.png
+Fichier:Sprite 422 Orient EB.png
+Fichier:Sprite 422 Orient chromatique EB.png
+Fichier:Sprite 423 Occident EB.png
+Fichier:Sprite 423 Occident chromatique EB.png
+Fichier:Sprite 423 Orient EB.png
+Fichier:Sprite 423 Orient chromatique EB.png
+Fichier:Sprite 425 EB.png
+Fichier:Sprite 425 chromatique EB.png
+Fichier:Sprite 426 EB.png
+Fichier:Sprite 426 chromatique EB.png
+Fichier:Sprite 427 EB.png
+Fichier:Sprite 427 chromatique EB.png
+Fichier:Sprite 428 EB.png
+Fichier:Sprite 428 chromatique EB.png
+Fichier:Sprite 434 EB.png
+Fichier:Sprite 434 chromatique EB.png
+Fichier:Sprite 435 EB.png
+Fichier:Sprite 435 chromatique EB.png
+Fichier:Sprite 436 EB.png
+Fichier:Sprite 436 chromatique EB.png
+Fichier:Sprite 437 EB.png
+Fichier:Sprite 437 chromatique EB.png
+Fichier:Sprite 438 EB.png
+Fichier:Sprite 438 chromatique EB.png
+Fichier:Sprite 439 EB.png
+Fichier:Sprite 439 chromatique EB.png
+Fichier:Sprite 440 EB.png
+Fichier:Sprite 440 chromatique EB.png
+Fichier:Sprite 442 EB.png
+Fichier:Sprite 442 chromatique EB.png
+Fichier:Sprite 443 ♀ chromatique EB.png
+Fichier:Sprite 443 ♂ EB.png
+Fichier:Sprite 443 ♂ chromatique EB.png
+Fichier:Sprite 444 ♀ EB.png
+Fichier:Sprite 444 ♀ chromatique EB.png
+Fichier:Sprite 444 ♂ chromatique EB.png
+Fichier:Sprite 445 ♀ chromatique EB.png
+Fichier:Sprite 445 ♂ EB.png
+Fichier:Sprite 445 ♂ chromatique EB.png
+Fichier:Sprite 446 EB.png
+Fichier:Sprite 446 chromatique EB.png
+Fichier:Sprite 447 EB.png
+Fichier:Sprite 447 chromatique EB.png
+Fichier:Sprite 448 EB.png
+Fichier:Sprite 448 chromatique EB.png
+Fichier:Sprite 449 ♀ EB.png
+Fichier:Sprite 449 ♀ chromatique EB.png
+Fichier:Sprite 449 ♂ EB.png
+Fichier:Sprite 449 ♂ chromatique EB.png
+Fichier:Sprite 450 ♀ EB.png
+Fichier:Sprite 450 ♀ chromatique EB.png
+Fichier:Sprite 450 ♂ EB.png
+Fichier:Sprite 450 ♂ chromatique EB.png
+Fichier:Sprite 451 EB.png
+Fichier:Sprite 451 chromatique EB.png
+Fichier:Sprite 452 EB.png
+Fichier:Sprite 452 chromatique EB.png
+Fichier:Sprite 453 ♀ EB.png
+Fichier:Sprite 453 ♀ chromatique EB.png
+Fichier:Sprite 453 ♂ EB.png
+Fichier:Sprite 453 ♂ chromatique EB.png
+Fichier:Sprite 454 ♀ EB.png
+Fichier:Sprite 454 ♀ chromatique EB.png
+Fichier:Sprite 454 ♂ EB.png
+Fichier:Sprite 454 ♂ chromatique EB.png
+Fichier:Sprite 458 EB.png
+Fichier:Sprite 458 chromatique EB.png
+Fichier:Sprite 459 ♀ EB.png
+Fichier:Sprite 459 ♀ chromatique EB.png
+Fichier:Sprite 459 ♂ EB.png
+Fichier:Sprite 459 ♂ chromatique EB.png
+Fichier:Sprite 460 ♀ EB.png
+Fichier:Sprite 460 ♀ chromatique EB.png
+Fichier:Sprite 460 ♂ EB.png
+Fichier:Sprite 460 ♂ chromatique EB.png
+Fichier:Sprite 461 ♀ EB.png
+Fichier:Sprite 461 ♀ chromatique EB.png
+Fichier:Sprite 461 ♂ EB.png
+Fichier:Sprite 461 ♂ chromatique EB.png
+Fichier:Sprite 462 EB.png
+Fichier:Sprite 462 chromatique EB.png
+Fichier:Sprite 463 EB.png
+Fichier:Sprite 463 chromatique EB.png
+Fichier:Sprite 464 ♀ EB.png
+Fichier:Sprite 464 ♀ chromatique EB.png
+Fichier:Sprite 464 ♂ EB.png
+Fichier:Sprite 464 ♂ chromatique EB.png
+Fichier:Sprite 465 ♀ EB.png
+Fichier:Sprite 465 ♀ chromatique EB.png
+Fichier:Sprite 465 ♂ EB.png
+Fichier:Sprite 465 ♂ chromatique EB.png
+Fichier:Sprite 466 EB.png
+Fichier:Sprite 466 chromatique EB.png
+Fichier:Sprite 467 EB.png
+Fichier:Sprite 467 chromatique EB.png
+Fichier:Sprite 468 EB.png
+Fichier:Sprite 468 chromatique EB.png
+Fichier:Sprite 470 EB.png
+Fichier:Sprite 470 chromatique EB.png
+Fichier:Sprite 471 EB.png
+Fichier:Sprite 471 chromatique EB.png
+Fichier:Sprite 473 ♀ EB.png
+Fichier:Sprite 473 ♀ chromatique EB.png
+Fichier:Sprite 473 ♂ EB.png
+Fichier:Sprite 473 ♂ chromatique EB.png
+Fichier:Sprite 474 EB.png
+Fichier:Sprite 474 chromatique EB.png
+Fichier:Sprite 475 EB.png
+Fichier:Sprite 475 chromatique EB.png
+Fichier:Sprite 477 EB.png
+Fichier:Sprite 477 chromatique EB.png
+Fichier:Sprite 478 EB.png
+Fichier:Sprite 478 chromatique EB.png
+Fichier:Sprite 479 Chaleur EB.png
+Fichier:Sprite 479 Chaleur chromatique EB.png
+Fichier:Sprite 479 EB.png
+Fichier:Sprite 479 Froid EB.png
+Fichier:Sprite 479 Froid chromatique EB.png
+Fichier:Sprite 479 Hélice EB.png
+Fichier:Sprite 479 Hélice chromatique EB.png
+Fichier:Sprite 479 Lavage EB.png
+Fichier:Sprite 479 Lavage chromatique EB.png
+Fichier:Sprite 479 Tonte EB.png
+Fichier:Sprite 479 Tonte chromatique EB.png
+Fichier:Sprite 479 chromatique EB.png
+Fichier:Sprite 480 EB.png
+Fichier:Sprite 480 chromatique EB.png
+Fichier:Sprite 481 EB.png
+Fichier:Sprite 481 chromatique EB.png
+Fichier:Sprite 482 EB.png
+Fichier:Sprite 482 chromatique EB.png
+Fichier:Sprite 483 EB.png
+Fichier:Sprite 483 chromatique EB.png
+Fichier:Sprite 484 EB.png
+Fichier:Sprite 484 chromatique EB.png
+Fichier:Sprite 485 EB.png
+Fichier:Sprite 485 chromatique EB.png
+Fichier:Sprite 486 EB.png
+Fichier:Sprite 486 chromatique EB.png
+Fichier:Sprite 487 Alternative EB.png
+Fichier:Sprite 487 Alternative chromatique EB.png
+Fichier:Sprite 487 Originelle EB.png
+Fichier:Sprite 487 Originelle chromatique EB.png
+Fichier:Sprite 488 EB.png
+Fichier:Sprite 488 chromatique EB.png

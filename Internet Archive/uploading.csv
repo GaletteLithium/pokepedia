@@ -1,0 +1,8 @@
+identifier,file,description,subject[0],subject[1],subject[2],title,creator,date,collection
+<identifier>,foo.txt,my description,first subject,second,,,foo bar,1999,test_collection
+,foo2.txt,,,,,,,,
+,foo3.txt,,,,,,,,
+<identifier>,bar.txt,,,,,,foo bar,1996,test_collection
+<identifier>,baz.txt,my other description,first subject,2nd,3rd,,foo bar,1993,test_collection
+,baz2.txt,,,,,,,,
+<identifier>,bop.txt,,,,,My Title,foo bar,2003,test_collection

@@ -1,0 +1,6335 @@
+=== [[Bulbizarre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 001 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bulbizarre|génération=5}}
+|}
+=== [[Herbizarre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 002 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Herbizarre|génération=5}}
+|}
+=== [[Florizarre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 003 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Florizarre|génération=5}}
+|}
+=== [[Salamèche]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 004 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Salamèche|génération=5}}
+|}
+=== [[Reptincel]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 005 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Reptincel|génération=5}}
+|}
+=== [[Dracaufeu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 006 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dracaufeu|génération=5}}
+|}
+=== [[Carapuce]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 007 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Carapuce|génération=5}}
+|}
+=== [[Carabaffe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 008 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Carabaffe|génération=5}}
+|}
+=== [[Tortank]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 009 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tortank|génération=5}}
+|}
+=== [[Chenipan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 010 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chenipan|génération=5}}
+|}
+=== [[Chrysacier]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 011 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chrysacier|génération=5}}
+|}
+=== [[Papilusion]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 012 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Papilusion|génération=5}}
+|}
+=== [[Aspicot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 013 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Aspicot|génération=5}}
+|}
+=== [[Coconfort]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 014 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coconfort|génération=5}}
+|}
+=== [[Dardargnan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 015 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dardargnan|génération=5}}
+|}
+=== [[Roucool]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 016 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roucool|génération=5}}
+|}
+=== [[Roucoups]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 017 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roucoups|génération=5}}
+|}
+=== [[Roucarnage]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 018 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roucarnage|génération=5}}
+|}
+=== [[Rattata]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 019 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rattata|génération=5}}
+|}
+=== [[Rattatac]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 020 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rattatac|génération=5}}
+|}
+=== [[Piafabec]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 021 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Piafabec|génération=5}}
+|}
+=== [[Rapasdepic]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 022 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rapasdepic|génération=5}}
+|}
+=== [[Abo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 023 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Abo|génération=5}}
+|}
+=== [[Arbok]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 024 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Arbok|génération=5}}
+|}
+=== [[Pikachu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 025 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pikachu|génération=5}}
+|}
+=== [[Raichu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 026 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Raichu|génération=5}}
+|}
+=== [[Sabelette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 027 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sabelette|génération=5}}
+|}
+=== [[Sablaireau]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 028 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sablaireau|génération=5}}
+|}
+=== [[Nidoran♀]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 029 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nidoran♀|génération=5}}
+|}
+=== [[Nidorina]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 030 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nidorina|génération=5}}
+|}
+=== [[Nidoqueen]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 031 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nidoqueen|génération=5}}
+|}
+=== [[Nidoran♂]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 032 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nidoran♂|génération=5}}
+|}
+=== [[Nidorino]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 033 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nidorino|génération=5}}
+|}
+=== [[Nidoking]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 034 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nidoking|génération=5}}
+|}
+=== [[Mélofée]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 035 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mélofée|génération=5}}
+|}
+=== [[Mélodelfe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 036 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mélodelfe|génération=5}}
+|}
+=== [[Goupix]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 037 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Goupix|génération=5}}
+|}
+=== [[Feunard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 038 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Feunard|génération=5}}
+|}
+=== [[Rondoudou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 039 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rondoudou|génération=5}}
+|}
+=== [[Grodoudou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 040 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grodoudou|génération=5}}
+|}
+=== [[Nosferapti]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 041 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nosferapti|génération=5}}
+|}
+=== [[Nosferalto]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 042 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nosferalto|génération=5}}
+|}
+=== [[Mystherbe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 043 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mystherbe|génération=5}}
+|}
+=== [[Ortide]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 044 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ortide|génération=5}}
+|}
+=== [[Rafflesia]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 045 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rafflesia|génération=5}}
+|}
+=== [[Paras]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 046 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Paras|génération=5}}
+|}
+=== [[Parasect]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 047 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Parasect|génération=5}}
+|}
+=== [[Mimitoss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 048 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mimitoss|génération=5}}
+|}
+=== [[Aéromite]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 049 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Aéromite|génération=5}}
+|}
+=== [[Taupiqueur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 050 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Taupiqueur|génération=5}}
+|}
+=== [[Triopikeur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 051 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Triopikeur|génération=5}}
+|}
+=== [[Miaouss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 052 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Miaouss|génération=5}}
+|}
+=== [[Persian]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 053 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Persian|génération=5}}
+|}
+=== [[Psykokwak]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 054 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Psykokwak|génération=5}}
+|}
+=== [[Akwakwak]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 055 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Akwakwak|génération=5}}
+|}
+=== [[Férosinge]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 056 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Férosinge|génération=5}}
+|}
+=== [[Colossinge]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 057 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Colossinge|génération=5}}
+|}
+=== [[Caninos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 058 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Caninos|génération=5}}
+|}
+=== [[Arcanin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 059 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Arcanin|génération=5}}
+|}
+=== [[Ptitard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 060 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ptitard|génération=5}}
+|}
+=== [[Têtarte]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 061 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Têtarte|génération=5}}
+|}
+=== [[Tartard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 062 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tartard|génération=5}}
+|}
+=== [[Abra]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 063 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Abra|génération=5}}
+|}
+=== [[Kadabra]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 064 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kadabra|génération=5}}
+|}
+=== [[Alakazam]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 065 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Alakazam|génération=5}}
+|}
+=== [[Machoc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 066 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Machoc|génération=5}}
+|}
+=== [[Machopeur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 067 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Machopeur|génération=5}}
+|}
+=== [[Mackogneur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 068 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mackogneur|génération=5}}
+|}
+=== [[Chétiflor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 069 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chétiflor|génération=5}}
+|}
+=== [[Boustiflor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 070 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Boustiflor|génération=5}}
+|}
+=== [[Empiflor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 071 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Empiflor|génération=5}}
+|}
+=== [[Tentacool]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 072 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tentacool|génération=5}}
+|}
+=== [[Tentacruel]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 073 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tentacruel|génération=5}}
+|}
+=== [[Racaillou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 074 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Racaillou|génération=5}}
+|}
+=== [[Gravalanch]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 075 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gravalanch|génération=5}}
+|}
+=== [[Grolem]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 076 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grolem|génération=5}}
+|}
+=== [[Ponyta]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 077 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ponyta|génération=5}}
+|}
+=== [[Galopa]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 078 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galopa|génération=5}}
+|}
+=== [[Ramoloss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 079 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ramoloss|génération=5}}
+|}
+=== [[Flagadoss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 080 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flagadoss|génération=5}}
+|}
+=== [[Magnéti]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 081 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magnéti|génération=5}}
+|}
+=== [[Magnéton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 082 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magnéton|génération=5}}
+|}
+=== [[Canarticho]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 083 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Canarticho|génération=5}}
+|}
+=== [[Doduo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 084 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Doduo|génération=5}}
+|}
+=== [[Dodrio]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 085 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dodrio|génération=5}}
+|}
+=== [[Otaria]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 086 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Otaria|génération=5}}
+|}
+=== [[Lamantine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 087 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lamantine|génération=5}}
+|}
+=== [[Tadmorv]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 088 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tadmorv|génération=5}}
+|}
+=== [[Grotadmorv]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 089 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grotadmorv|génération=5}}
+|}
+=== [[Kokiyas]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 090 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kokiyas|génération=5}}
+|}
+=== [[Crustabri]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 091 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crustabri|génération=5}}
+|}
+=== [[Fantominus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 092 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fantominus|génération=5}}
+|}
+=== [[Spectrum]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 093 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Spectrum|génération=5}}
+|}
+=== [[Ectoplasma]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 094 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ectoplasma|génération=5}}
+|}
+=== [[Onix]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 095 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Onix|génération=5}}
+|}
+=== [[Soporifik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 096 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Soporifik|génération=5}}
+|}
+=== [[Hypnomade]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 097 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hypnomade|génération=5}}
+|}
+=== [[Krabby]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 098 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Krabby|génération=5}}
+|}
+=== [[Krabboss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 099 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Krabboss|génération=5}}
+|}
+=== [[Voltorbe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 100 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Voltorbe|génération=5}}
+|}
+=== [[Électrode]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 101 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Électrode|génération=5}}
+|}
+=== [[Noeunoeuf]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 102 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Noeunoeuf|génération=5}}
+|}
+=== [[Noadkoko]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 103 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Noadkoko|génération=5}}
+|}
+=== [[Osselait]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 104 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Osselait|génération=5}}
+|}
+=== [[Ossatueur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 105 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ossatueur|génération=5}}
+|}
+=== [[Kicklee]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 106 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kicklee|génération=5}}
+|}
+=== [[Tygnon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 107 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tygnon|génération=5}}
+|}
+=== [[Excelangue]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 108 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Excelangue|génération=5}}
+|}
+=== [[Smogo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 109 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Smogo|génération=5}}
+|}
+=== [[Smogogo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 110 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Smogogo|génération=5}}
+|}
+=== [[Rhinocorne]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 111 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rhinocorne|génération=5}}
+|}
+=== [[Rhinoféros]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 112 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rhinoféros|génération=5}}
+|}
+=== [[Leveinard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 113 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Leveinard|génération=5}}
+|}
+=== [[Saquedeneu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 114 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Saquedeneu|génération=5}}
+|}
+=== [[Kangourex]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 115 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kangourex|génération=5}}
+|}
+=== [[Hypotrempe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 116 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hypotrempe|génération=5}}
+|}
+=== [[Hypocéan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 117 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hypocéan|génération=5}}
+|}
+=== [[Poissirène]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 118 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Poissirène|génération=5}}
+|}
+=== [[Poissoroy]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 119 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Poissoroy|génération=5}}
+|}
+=== [[Stari]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 120 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Stari|génération=5}}
+|}
+=== [[Staross]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 121 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Staross|génération=5}}
+|}
+=== [[M. Mime]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 122 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|M. Mime|génération=5}}
+|}
+=== [[Insécateur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 123 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Insécateur|génération=5}}
+|}
+=== [[Lippoutou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 124 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lippoutou|génération=5}}
+|}
+=== [[Élektek]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 125 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Élektek|génération=5}}
+|}
+=== [[Magmar]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 126 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magmar|génération=5}}
+|}
+=== [[Scarabrute]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 127 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scarabrute|génération=5}}
+|}
+=== [[Tauros]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 128 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tauros|génération=5}}
+|}
+=== [[Magicarpe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 129 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magicarpe|génération=5}}
+|}
+=== [[Léviator]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 130 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Léviator|génération=5}}
+|}
+=== [[Lokhlass]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 131 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lokhlass|génération=5}}
+|}
+=== [[Métamorph]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 132 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Métamorph|génération=5}}
+|}
+=== [[Évoli]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 133 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Évoli|génération=5}}
+|}
+=== [[Aquali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 134 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Aquali|génération=5}}
+|}
+=== [[Voltali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 135 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Voltali|génération=5}}
+|}
+=== [[Pyroli]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 136 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pyroli|génération=5}}
+|}
+=== [[Porygon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 137 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Porygon|génération=5}}
+|}
+=== [[Amonita]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 138 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Amonita|génération=5}}
+|}
+=== [[Amonistar]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 139 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Amonistar|génération=5}}
+|}
+=== [[Kabuto]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 140 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kabuto|génération=5}}
+|}
+=== [[Kabutops]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 141 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kabutops|génération=5}}
+|}
+=== [[Ptéra]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 142 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ptéra|génération=5}}
+|}
+=== [[Ronflex]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 143 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ronflex|génération=5}}
+|}
+=== [[Artikodin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 144 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Artikodin|génération=5}}
+|}
+=== [[Électhor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 145 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Électhor|génération=5}}
+|}
+=== [[Sulfura]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 146 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sulfura|génération=5}}
+|}
+=== [[Minidraco]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 147 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Minidraco|génération=5}}
+|}
+=== [[Draco]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 148 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Draco|génération=5}}
+|}
+=== [[Dracolosse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 149 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dracolosse|génération=5}}
+|}
+=== [[Mewtwo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 150 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mewtwo|génération=5}}
+|}
+=== [[Mew]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 151 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mew|génération=5}}
+|}
+=== [[Germignon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 152 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Germignon|génération=5}}
+|}
+=== [[Macronium]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 153 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Macronium|génération=5}}
+|}
+=== [[Méganium]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 154 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Méganium|génération=5}}
+|}
+=== [[Héricendre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 155 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Héricendre|génération=5}}
+|}
+=== [[Feurisson]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 156 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Feurisson|génération=5}}
+|}
+=== [[Typhlosion]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 157 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Typhlosion|génération=5}}
+|}
+=== [[Kaiminus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 158 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kaiminus|génération=5}}
+|}
+=== [[Crocrodil]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 159 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crocrodil|génération=5}}
+|}
+=== [[Aligatueur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 160 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Aligatueur|génération=5}}
+|}
+=== [[Fouinette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 161 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fouinette|génération=5}}
+|}
+=== [[Fouinar]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 162 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fouinar|génération=5}}
+|}
+=== [[Hoothoot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 163 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hoothoot|génération=5}}
+|}
+=== [[Noarfang]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 164 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Noarfang|génération=5}}
+|}
+=== [[Coxy]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 165 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coxy|génération=5}}
+|}
+=== [[Coxyclaque]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 166 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coxyclaque|génération=5}}
+|}
+=== [[Mimigal]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 167 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mimigal|génération=5}}
+|}
+=== [[Migalos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 168 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Migalos|génération=5}}
+|}
+=== [[Nostenfer]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 169 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nostenfer|génération=5}}
+|}
+=== [[Loupio]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 170 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Loupio|génération=5}}
+|}
+=== [[Lanturn]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 171 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lanturn|génération=5}}
+|}
+=== [[Pichu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 172 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pichu|génération=5}}
+|}
+=== [[Mélo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 173 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mélo|génération=5}}
+|}
+=== [[Toudoudou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 174 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Toudoudou|génération=5}}
+|}
+=== [[Togepi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 175 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Togepi|génération=5}}
+|}
+=== [[Togetic]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 176 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Togetic|génération=5}}
+|}
+=== [[Natu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 177 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Natu|génération=5}}
+|}
+=== [[Xatu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 178 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Xatu|génération=5}}
+|}
+=== [[Wattouat]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 179 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Wattouat|génération=5}}
+|}
+=== [[Lainergie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 180 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lainergie|génération=5}}
+|}
+=== [[Pharamp]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 181 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pharamp|génération=5}}
+|}
+=== [[Joliflor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 182 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Joliflor|génération=5}}
+|}
+=== [[Marill]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 183 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Marill|génération=5}}
+|}
+=== [[Azumarill]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 184 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Azumarill|génération=5}}
+|}
+=== [[Simularbre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 185 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Simularbre|génération=5}}
+|}
+=== [[Tarpaud]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 186 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tarpaud|génération=5}}
+|}
+=== [[Granivol]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 187 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Granivol|génération=5}}
+|}
+=== [[Floravol]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 188 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Floravol|génération=5}}
+|}
+=== [[Cotovol]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 189 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cotovol|génération=5}}
+|}
+=== [[Capumain]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 190 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Capumain|génération=5}}
+|}
+=== [[Tournegrin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 191 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tournegrin|génération=5}}
+|}
+=== [[Héliatronc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 192 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Héliatronc|génération=5}}
+|}
+=== [[Yanma]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 193 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Yanma|génération=5}}
+|}
+=== [[Axoloto]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 194 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Axoloto|génération=5}}
+|}
+=== [[Maraiste]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 195 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Maraiste|génération=5}}
+|}
+=== [[Mentali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 196 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mentali|génération=5}}
+|}
+=== [[Noctali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 197 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Noctali|génération=5}}
+|}
+=== [[Cornèbre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 198 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cornèbre|génération=5}}
+|}
+=== [[Roigada]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 199 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roigada|génération=5}}
+|}
+=== [[Feuforêve]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 200 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Feuforêve|génération=5}}
+|}
+=== [[Zarbi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 201 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zarbi|génération=5}}
+|}
+=== [[Qulbutoké]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 202 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Qulbutoké|génération=5}}
+|}
+=== [[Girafarig]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 203 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Girafarig|génération=5}}
+|}
+=== [[Pomdepik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 204 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pomdepik|génération=5}}
+|}
+=== [[Foretress]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 205 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Foretress|génération=5}}
+|}
+=== [[Insolourdo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 206 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Insolourdo|génération=5}}
+|}
+=== [[Scorplane]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 207 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scorplane|génération=5}}
+|}
+=== [[Steelix]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 208 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Steelix|génération=5}}
+|}
+=== [[Snubbull]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 209 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Snubbull|génération=5}}
+|}
+=== [[Granbull]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 210 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Granbull|génération=5}}
+|}
+=== [[Qwilfish]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 211 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Qwilfish|génération=5}}
+|}
+=== [[Cizayox]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 212 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cizayox|génération=5}}
+|}
+=== [[Caratroc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 213 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Caratroc|génération=5}}
+|}
+=== [[Scarhino]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 214 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scarhino|génération=5}}
+|}
+=== [[Farfuret]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 215 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Farfuret|génération=5}}
+|}
+=== [[Teddiursa]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 216 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Teddiursa|génération=5}}
+|}
+=== [[Ursaring]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 217 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ursaring|génération=5}}
+|}
+=== [[Limagma]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 218 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Limagma|génération=5}}
+|}
+=== [[Volcaropod]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 219 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Volcaropod|génération=5}}
+|}
+=== [[Marcacrin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 220 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Marcacrin|génération=5}}
+|}
+=== [[Cochignon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 221 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cochignon|génération=5}}
+|}
+=== [[Corayon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 222 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Corayon|génération=5}}
+|}
+=== [[Rémoraid]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 223 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rémoraid|génération=5}}
+|}
+=== [[Octillery]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 224 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Octillery|génération=5}}
+|}
+=== [[Cadoizo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 225 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cadoizo|génération=5}}
+|}
+=== [[Démanta]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 226 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Démanta|génération=5}}
+|}
+=== [[Airmure]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 227 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Airmure|génération=5}}
+|}
+=== [[Malosse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 228 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Malosse|génération=5}}
+|}
+=== [[Démolosse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 229 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Démolosse|génération=5}}
+|}
+=== [[Hyporoi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 230 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hyporoi|génération=5}}
+|}
+=== [[Phanpy]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 231 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Phanpy|génération=5}}
+|}
+=== [[Donphan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 232 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Donphan|génération=5}}
+|}
+=== [[Porygon2]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 233 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Porygon2|génération=5}}
+|}
+=== [[Cerfrousse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 234 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cerfrousse|génération=5}}
+|}
+=== [[Queulorior]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 235 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Queulorior|génération=5}}
+|}
+=== [[Debugant]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 236 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Debugant|génération=5}}
+|}
+=== [[Kapoera]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 237 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kapoera|génération=5}}
+|}
+=== [[Lippouti]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 238 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lippouti|génération=5}}
+|}
+=== [[Élekid]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 239 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Élekid|génération=5}}
+|}
+=== [[Magby]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 240 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magby|génération=5}}
+|}
+=== [[Écrémeuh]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 241 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Écrémeuh|génération=5}}
+|}
+=== [[Leuphorie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 242 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Leuphorie|génération=5}}
+|}
+=== [[Raikou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 243 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Raikou|génération=5}}
+|}
+=== [[Entei]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 244 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Entei|génération=5}}
+|}
+=== [[Suicune]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 245 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Suicune|génération=5}}
+|}
+=== [[Embrylex]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 246 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Embrylex|génération=5}}
+|}
+=== [[Ymphect]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 247 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ymphect|génération=5}}
+|}
+=== [[Tyranocif]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 248 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tyranocif|génération=5}}
+|}
+=== [[Lugia]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 249 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lugia|génération=5}}
+|}
+=== [[Ho-Oh]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 250 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ho-Oh|génération=5}}
+|}
+=== [[Celebi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 251 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Celebi|génération=5}}
+|}
+=== [[Arcko]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 252 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Arcko|génération=5}}
+|}
+=== [[Massko]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 253 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Massko|génération=5}}
+|}
+=== [[Jungko]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 254 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Jungko|génération=5}}
+|}
+=== [[Poussifeu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 255 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Poussifeu|génération=5}}
+|}
+=== [[Galifeu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 256 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galifeu|génération=5}}
+|}
+=== [[Braségali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 257 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Braségali|génération=5}}
+|}
+=== [[Gobou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 258 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gobou|génération=5}}
+|}
+=== [[Flobio]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 259 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flobio|génération=5}}
+|}
+=== [[Laggron]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 260 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Laggron|génération=5}}
+|}
+=== [[Medhyèna]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 261 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Medhyèna|génération=5}}
+|}
+=== [[Grahyèna]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 262 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grahyèna|génération=5}}
+|}
+=== [[Zigzaton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 263 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zigzaton|génération=5}}
+|}
+=== [[Linéon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 264 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Linéon|génération=5}}
+|}
+=== [[Chenipotte]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 265 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chenipotte|génération=5}}
+|}
+=== [[Armulys]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 266 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Armulys|génération=5}}
+|}
+=== [[Charmillon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 267 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Charmillon|génération=5}}
+|}
+=== [[Blindalys]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 268 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Blindalys|génération=5}}
+|}
+=== [[Papinox]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 269 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Papinox|génération=5}}
+|}
+=== [[Nénupiot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 270 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nénupiot|génération=5}}
+|}
+=== [[Lombre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 271 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lombre|génération=5}}
+|}
+=== [[Ludicolo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 272 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ludicolo|génération=5}}
+|}
+=== [[Grainipiot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 273 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grainipiot|génération=5}}
+|}
+=== [[Pifeuil]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 274 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pifeuil|génération=5}}
+|}
+=== [[Tengalice]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 275 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tengalice|génération=5}}
+|}
+=== [[Nirondelle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 276 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nirondelle|génération=5}}
+|}
+=== [[Hélédelle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 277 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hélédelle|génération=5}}
+|}
+=== [[Goélise]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 278 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Goélise|génération=5}}
+|}
+=== [[Bekipan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 279 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bekipan|génération=5}}
+|}
+=== [[Tarsal]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 280 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tarsal|génération=5}}
+|}
+=== [[Kirlia]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 281 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kirlia|génération=5}}
+|}
+=== [[Gardevoir]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 282 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gardevoir|génération=5}}
+|}
+=== [[Arakdo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 283 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Arakdo|génération=5}}
+|}
+=== [[Maskadra]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 284 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Maskadra|génération=5}}
+|}
+=== [[Balignon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 285 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Balignon|génération=5}}
+|}
+=== [[Chapignon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 286 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chapignon|génération=5}}
+|}
+=== [[Parecool]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 287 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Parecool|génération=5}}
+|}
+=== [[Vigoroth]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 288 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vigoroth|génération=5}}
+|}
+=== [[Monaflèmit]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 289 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Monaflèmit|génération=5}}
+|}
+=== [[Ningale]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 290 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ningale|génération=5}}
+|}
+=== [[Ninjask]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 291 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ninjask|génération=5}}
+|}
+=== [[Munja]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 292 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Munja|génération=5}}
+|}
+=== [[Chuchmur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 293 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chuchmur|génération=5}}
+|}
+=== [[Ramboum]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 294 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ramboum|génération=5}}
+|}
+=== [[Brouhabam]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 295 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Brouhabam|génération=5}}
+|}
+=== [[Makuhita]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 296 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Makuhita|génération=5}}
+|}
+=== [[Hariyama]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 297 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hariyama|génération=5}}
+|}
+=== [[Azurill]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 298 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Azurill|génération=5}}
+|}
+=== [[Tarinor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 299 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tarinor|génération=5}}
+|}
+=== [[Skitty]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 300 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Skitty|génération=5}}
+|}
+=== [[Delcatty]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 301 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Delcatty|génération=5}}
+|}
+=== [[Ténéfix]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 302 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ténéfix|génération=5}}
+|}
+=== [[Mysdibule]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 303 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mysdibule|génération=5}}
+|}
+=== [[Galekid]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 304 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galekid|génération=5}}
+|}
+=== [[Galegon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 305 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galegon|génération=5}}
+|}
+=== [[Galeking]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 306 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galeking|génération=5}}
+|}
+=== [[Méditikka]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 307 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Méditikka|génération=5}}
+|}
+=== [[Charmina]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 308 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Charmina|génération=5}}
+|}
+=== [[Dynavolt]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 309 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dynavolt|génération=5}}
+|}
+=== [[Élecsprint]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 310 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Élecsprint|génération=5}}
+|}
+=== [[Posipi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 311 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Posipi|génération=5}}
+|}
+=== [[Négapi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 312 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Négapi|génération=5}}
+|}
+=== [[Muciole]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 313 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Muciole|génération=5}}
+|}
+=== [[Lumivole]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 314 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lumivole|génération=5}}
+|}
+=== [[Rosélia]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 315 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rosélia|génération=5}}
+|}
+=== [[Gloupti]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 316 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gloupti|génération=5}}
+|}
+=== [[Avaltout]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 317 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Avaltout|génération=5}}
+|}
+=== [[Carvanha]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 318 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Carvanha|génération=5}}
+|}
+=== [[Sharpedo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 319 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sharpedo|génération=5}}
+|}
+=== [[Wailmer]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 320 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Wailmer|génération=5}}
+|}
+=== [[Wailord]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 321 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Wailord|génération=5}}
+|}
+=== [[Chamallot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 322 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chamallot|génération=5}}
+|}
+=== [[Camérupt]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 323 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Camérupt|génération=5}}
+|}
+=== [[Chartor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 324 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chartor|génération=5}}
+|}
+=== [[Spoink]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 325 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Spoink|génération=5}}
+|}
+=== [[Groret]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 326 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Groret|génération=5}}
+|}
+=== [[Spinda]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 327 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Spinda|génération=5}}
+|}
+=== [[Kraknoix]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 328 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kraknoix|génération=5}}
+|}
+=== [[Vibraninf]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 329 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vibraninf|génération=5}}
+|}
+=== [[Libégon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 330 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Libégon|génération=5}}
+|}
+=== [[Cacnea]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 331 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cacnea|génération=5}}
+|}
+=== [[Cacturne]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 332 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cacturne|génération=5}}
+|}
+=== [[Tylton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 333 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tylton|génération=5}}
+|}
+=== [[Altaria]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 334 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Altaria|génération=5}}
+|}
+=== [[Mangriff]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 335 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mangriff|génération=5}}
+|}
+=== [[Séviper]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 336 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Séviper|génération=5}}
+|}
+=== [[Séléroc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 337 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Séléroc|génération=5}}
+|}
+=== [[Solaroc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 338 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Solaroc|génération=5}}
+|}
+=== [[Barloche]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 339 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Barloche|génération=5}}
+|}
+=== [[Barbicha]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 340 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Barbicha|génération=5}}
+|}
+=== [[Écrapince]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 341 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Écrapince|génération=5}}
+|}
+=== [[Colhomard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 342 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Colhomard|génération=5}}
+|}
+=== [[Balbuto]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 343 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Balbuto|génération=5}}
+|}
+=== [[Kaorine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 344 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kaorine|génération=5}}
+|}
+=== [[Lilia]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 345 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lilia|génération=5}}
+|}
+=== [[Vacilys]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 346 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vacilys|génération=5}}
+|}
+=== [[Anorith]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 347 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Anorith|génération=5}}
+|}
+=== [[Armaldo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 348 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Armaldo|génération=5}}
+|}
+=== [[Barpau]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 349 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Barpau|génération=5}}
+|}
+=== [[Milobellus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 350 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Milobellus|génération=5}}
+|}
+=== [[Morphéo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 351 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Morphéo|génération=5}}
+|}
+=== [[Kecleon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 352 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kecleon|génération=5}}
+|}
+=== [[Polichombr]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 353 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Polichombr|génération=5}}
+|}
+=== [[Branette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 354 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Branette|génération=5}}
+|}
+=== [[Skelénox]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 355 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Skelénox|génération=5}}
+|}
+=== [[Téraclope]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 356 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Téraclope|génération=5}}
+|}
+=== [[Tropius]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 357 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tropius|génération=5}}
+|}
+=== [[Éoko]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 358 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Éoko|génération=5}}
+|}
+=== [[Absol]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 359 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Absol|génération=5}}
+|}
+=== [[Okéoké]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 360 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Okéoké|génération=5}}
+|}
+=== [[Stalgamin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 361 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Stalgamin|génération=5}}
+|}
+=== [[Oniglali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 362 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Oniglali|génération=5}}
+|}
+=== [[Obalie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 363 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Obalie|génération=5}}
+|}
+=== [[Phogleur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 364 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Phogleur|génération=5}}
+|}
+=== [[Kaimorse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 365 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kaimorse|génération=5}}
+|}
+=== [[Coquiperl]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 366 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coquiperl|génération=5}}
+|}
+=== [[Serpang]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 367 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Serpang|génération=5}}
+|}
+=== [[Rosabyss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 368 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rosabyss|génération=5}}
+|}
+=== [[Relicanth]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 369 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Relicanth|génération=5}}
+|}
+=== [[Lovdisc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 370 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lovdisc|génération=5}}
+|}
+=== [[Draby]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 371 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Draby|génération=5}}
+|}
+=== [[Drackhaus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 372 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Drackhaus|génération=5}}
+|}
+=== [[Drattak]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 373 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Drattak|génération=5}}
+|}
+=== [[Terhal]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 374 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Terhal|génération=5}}
+|}
+=== [[Métang]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 375 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Métang|génération=5}}
+|}
+=== [[Métalosse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 376 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Métalosse|génération=5}}
+|}
+=== [[Regirock]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 377 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Regirock|génération=5}}
+|}
+=== [[Regice]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 378 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Regice|génération=5}}
+|}
+=== [[Registeel]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 379 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Registeel|génération=5}}
+|}
+=== [[Latias]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 380 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Latias|génération=5}}
+|}
+=== [[Latios]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 381 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Latios|génération=5}}
+|}
+=== [[Kyogre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 382 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kyogre|génération=5}}
+|}
+=== [[Groudon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 383 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Groudon|génération=5}}
+|}
+=== [[Rayquaza]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 384 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rayquaza|génération=5}}
+|}
+=== [[Jirachi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 385 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Jirachi|génération=5}}
+|}
+=== [[Deoxys]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 386 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Deoxys|génération=5}}
+|}
+=== [[Tortipouss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 387 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tortipouss|génération=5}}
+|}
+=== [[Boskara]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 388 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Boskara|génération=5}}
+|}
+=== [[Torterra]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 389 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Torterra|génération=5}}
+|}
+=== [[Ouisticram]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 390 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ouisticram|génération=5}}
+|}
+=== [[Chimpenfeu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 391 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chimpenfeu|génération=5}}
+|}
+=== [[Simiabraz]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 392 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Simiabraz|génération=5}}
+|}
+=== [[Tiplouf]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 393 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tiplouf|génération=5}}
+|}
+=== [[Prinplouf]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 394 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Prinplouf|génération=5}}
+|}
+=== [[Pingoléon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 395 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pingoléon|génération=5}}
+|}
+=== [[Étourmi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 396 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Étourmi|génération=5}}
+|}
+=== [[Étourvol]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 397 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Étourvol|génération=5}}
+|}
+=== [[Étouraptor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 398 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Étouraptor|génération=5}}
+|}
+=== [[Keunotor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 399 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Keunotor|génération=5}}
+|}
+=== [[Castorno]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 400 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Castorno|génération=5}}
+|}
+=== [[Crikzik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 401 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crikzik|génération=5}}
+|}
+=== [[Mélokrik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 402 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mélokrik|génération=5}}
+|}
+=== [[Lixy]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 403 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lixy|génération=5}}
+|}
+=== [[Luxio]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 404 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Luxio|génération=5}}
+|}
+=== [[Luxray]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 405 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Luxray|génération=5}}
+|}
+=== [[Rozbouton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 406 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rozbouton|génération=5}}
+|}
+=== [[Roserade]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 407 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roserade|génération=5}}
+|}
+=== [[Kranidos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 408 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kranidos|génération=5}}
+|}
+=== [[Charkos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 409 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Charkos|génération=5}}
+|}
+=== [[Dinoclier]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 410 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dinoclier|génération=5}}
+|}
+=== [[Bastiodon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 411 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bastiodon|génération=5}}
+|}
+=== [[Cheniti]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 412 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cheniti|génération=5}}
+|}
+=== [[Cheniselle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 413 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cheniselle|génération=5}}
+|}
+=== [[Papilord]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 414 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Papilord|génération=5}}
+|}
+=== [[Apitrini]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 415 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Apitrini|génération=5}}
+|}
+=== [[Apireine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 416 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Apireine|génération=5}}
+|}
+=== [[Pachirisu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 417 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pachirisu|génération=5}}
+|}
+=== [[Mustébouée]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 418 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mustébouée|génération=5}}
+|}
+=== [[Mustéflott]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 419 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mustéflott|génération=5}}
+|}
+=== [[Ceribou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 420 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ceribou|génération=5}}
+|}
+=== [[Ceriflor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 421 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ceriflor|génération=5}}
+|}
+=== [[Sancoki]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 422 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sancoki|génération=5}}
+|}
+=== [[Tritosor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 423 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tritosor|génération=5}}
+|}
+=== [[Capidextre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 424 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Capidextre|génération=5}}
+|}
+=== [[Baudrive]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 425 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Baudrive|génération=5}}
+|}
+=== [[Grodrive]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 426 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grodrive|génération=5}}
+|}
+=== [[Laporeille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 427 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Laporeille|génération=5}}
+|}
+=== [[Lockpin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 428 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lockpin|génération=5}}
+|}
+=== [[Magirêve]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 429 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magirêve|génération=5}}
+|}
+=== [[Corboss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 430 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Corboss|génération=5}}
+|}
+=== [[Chaglam]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 431 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chaglam|génération=5}}
+|}
+=== [[Chaffreux]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 432 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chaffreux|génération=5}}
+|}
+=== [[Korillon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 433 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Korillon|génération=5}}
+|}
+=== [[Moufouette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 434 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Moufouette|génération=5}}
+|}
+=== [[Moufflair]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 435 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Moufflair|génération=5}}
+|}
+=== [[Archéomire]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 436 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Archéomire|génération=5}}
+|}
+=== [[Archéodong]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 437 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Archéodong|génération=5}}
+|}
+=== [[Manzaï]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 438 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Manzaï|génération=5}}
+|}
+=== [[Mime Jr.]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 439 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mime Jr.|génération=5}}
+|}
+=== [[Ptiravi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 440 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ptiravi|génération=5}}
+|}
+=== [[Pijako]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 441 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pijako|génération=5}}
+|}
+=== [[Spiritomb]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 442 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Spiritomb|génération=5}}
+|}
+=== [[Griknot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 443 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Griknot|génération=5}}
+|}
+=== [[Carmache]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 444 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Carmache|génération=5}}
+|}
+=== [[Carchacrok]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 445 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Carchacrok|génération=5}}
+|}
+=== [[Goinfrex]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 446 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Goinfrex|génération=5}}
+|}
+=== [[Riolu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 447 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Riolu|génération=5}}
+|}
+=== [[Lucario]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 448 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lucario|génération=5}}
+|}
+=== [[Hippopotas]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 449 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hippopotas|génération=5}}
+|}
+=== [[Hippodocus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 450 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hippodocus|génération=5}}
+|}
+=== [[Rapion]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 451 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rapion|génération=5}}
+|}
+=== [[Drascore]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 452 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Drascore|génération=5}}
+|}
+=== [[Cradopaud]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 453 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cradopaud|génération=5}}
+|}
+=== [[Coatox]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 454 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coatox|génération=5}}
+|}
+=== [[Vortente]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 455 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vortente|génération=5}}
+|}
+=== [[Écayon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 456 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Écayon|génération=5}}
+|}
+=== [[Luminéon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 457 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Luminéon|génération=5}}
+|}
+=== [[Babimanta]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 458 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Babimanta|génération=5}}
+|}
+=== [[Blizzi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 459 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Blizzi|génération=5}}
+|}
+=== [[Blizzaroi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 460 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Blizzaroi|génération=5}}
+|}
+=== [[Dimoret]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 461 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dimoret|génération=5}}
+|}
+=== [[Magnézone]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 462 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magnézone|génération=5}}
+|}
+=== [[Coudlangue]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 463 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coudlangue|génération=5}}
+|}
+=== [[Rhinastoc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 464 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rhinastoc|génération=5}}
+|}
+=== [[Bouldeneu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 465 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bouldeneu|génération=5}}
+|}
+=== [[Élekable]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 466 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Élekable|génération=5}}
+|}
+=== [[Maganon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 467 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Maganon|génération=5}}
+|}
+=== [[Togekiss]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 468 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Togekiss|génération=5}}
+|}
+=== [[Yanmega]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 469 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Yanmega|génération=5}}
+|}
+=== [[Phyllali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 470 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Phyllali|génération=5}}
+|}
+=== [[Givrali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 471 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Givrali|génération=5}}
+|}
+=== [[Scorvol]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 472 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scorvol|génération=5}}
+|}
+=== [[Mammochon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 473 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mammochon|génération=5}}
+|}
+=== [[Porygon-Z]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 474 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Porygon-Z|génération=5}}
+|}
+=== [[Gallame]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 475 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gallame|génération=5}}
+|}
+=== [[Tarinorme]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 476 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tarinorme|génération=5}}
+|}
+=== [[Noctunoir]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 477 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Noctunoir|génération=5}}
+|}
+=== [[Momartik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 478 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Momartik|génération=5}}
+|}
+=== [[Motisma]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 479 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Motisma|génération=5}}
+|}
+=== [[Créhelf]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 480 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Créhelf|génération=5}}
+|}
+=== [[Créfollet]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 481 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Créfollet|génération=5}}
+|}
+=== [[Créfadet]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 482 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Créfadet|génération=5}}
+|}
+=== [[Dialga]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 483 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dialga|génération=5}}
+|}
+=== [[Palkia]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 484 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Palkia|génération=5}}
+|}
+=== [[Heatran]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 485 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Heatran|génération=5}}
+|}
+=== [[Regigigas]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 486 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Regigigas|génération=5}}
+|}
+=== [[Giratina]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 487 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Giratina|génération=5}}
+|}
+=== [[Cresselia]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 488 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cresselia|génération=5}}
+|}
+=== [[Phione]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 489 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Phione|génération=5}}
+|}
+=== [[Manaphy]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 490 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Manaphy|génération=5}}
+|}
+=== [[Darkrai]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 491 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Darkrai|génération=5}}
+|}
+=== [[Shaymin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 492 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Shaymin|génération=5}}
+|}
+=== [[Arceus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 493 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Arceus|génération=5}}
+|}
+=== [[Victini]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 494 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Victini|génération=5}}
+|}
+=== [[Vipélierre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 495 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vipélierre|génération=5}}
+|}
+=== [[Lianaja]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 496 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lianaja|génération=5}}
+|}
+=== [[Majaspic]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 497 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Majaspic|génération=5}}
+|}
+=== [[Gruikui]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 498 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gruikui|génération=5}}
+|}
+=== [[Grotichon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 499 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grotichon|génération=5}}
+|}
+=== [[Roitiflam]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 500 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roitiflam|génération=5}}
+|}
+=== [[Moustillon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 501 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Moustillon|génération=5}}
+|}
+=== [[Mateloutre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 502 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mateloutre|génération=5}}
+|}
+=== [[Clamiral]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 503 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Clamiral|génération=5}}
+|}
+=== [[Ratentif]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 504 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ratentif|génération=5}}
+|}
+=== [[Miradar]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 505 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Miradar|génération=5}}
+|}
+=== [[Ponchiot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 506 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ponchiot|génération=5}}
+|}
+=== [[Ponchien]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 507 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ponchien|génération=5}}
+|}
+=== [[Mastouffe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 508 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mastouffe|génération=5}}
+|}
+=== [[Chacripan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 509 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chacripan|génération=5}}
+|}
+=== [[Léopardus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 510 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Léopardus|génération=5}}
+|}
+=== [[Feuillajou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 511 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Feuillajou|génération=5}}
+|}
+=== [[Feuiloutan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 512 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Feuiloutan|génération=5}}
+|}
+=== [[Flamajou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 513 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flamajou|génération=5}}
+|}
+=== [[Flamoutan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 514 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flamoutan|génération=5}}
+|}
+=== [[Flotajou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 515 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flotajou|génération=5}}
+|}
+=== [[Flotoutan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 516 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flotoutan|génération=5}}
+|}
+=== [[Munna]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 517 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Munna|génération=5}}
+|}
+=== [[Mushana]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 518 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mushana|génération=5}}
+|}
+=== [[Poichigeon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 519 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Poichigeon|génération=5}}
+|}
+=== [[Colombeau]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 520 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Colombeau|génération=5}}
+|}
+=== [[Déflaisan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 521 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Déflaisan|génération=5}}
+|}
+=== [[Zébibron]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 522 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zébibron|génération=5}}
+|}
+=== [[Zéblitz]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 523 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zéblitz|génération=5}}
+|}
+=== [[Nodulithe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 524 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nodulithe|génération=5}}
+|}
+=== [[Géolithe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 525 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Géolithe|génération=5}}
+|}
+=== [[Gigalithe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 526 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gigalithe|génération=5}}
+|}
+=== [[Chovsourir]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 527 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chovsourir|génération=5}}
+|}
+=== [[Rhinolove]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 528 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rhinolove|génération=5}}
+|}
+=== [[Rototaupe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 529 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rototaupe|génération=5}}
+|}
+=== [[Minotaupe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 530 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Minotaupe|génération=5}}
+|}
+=== [[Nanméouïe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 531 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nanméouïe|génération=5}}
+|}
+=== [[Charpenti]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 532 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Charpenti|génération=5}}
+|}
+=== [[Ouvrifier]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 533 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ouvrifier|génération=5}}
+|}
+=== [[Bétochef]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 534 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bétochef|génération=5}}
+|}
+=== [[Tritonde]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 535 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tritonde|génération=5}}
+|}
+=== [[Batracné]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 536 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Batracné|génération=5}}
+|}
+=== [[Crapustule]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 537 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crapustule|génération=5}}
+|}
+=== [[Judokrak]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 538 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Judokrak|génération=5}}
+|}
+=== [[Karaclée]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 539 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Karaclée|génération=5}}
+|}
+=== [[Larveyette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 540 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Larveyette|génération=5}}
+|}
+=== [[Couverdure]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 541 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Couverdure|génération=5}}
+|}
+=== [[Manternel]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 542 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Manternel|génération=5}}
+|}
+=== [[Venipatte]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 543 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Venipatte|génération=5}}
+|}
+=== [[Scobolide]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 544 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scobolide|génération=5}}
+|}
+=== [[Brutapode]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 545 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Brutapode|génération=5}}
+|}
+=== [[Doudouvet]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 546 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Doudouvet|génération=5}}
+|}
+=== [[Farfaduvet]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 547 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Farfaduvet|génération=5}}
+|}
+=== [[Chlorobule]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 548 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chlorobule|génération=5}}
+|}
+=== [[Fragilady]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 549 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fragilady|génération=5}}
+|}
+=== [[Bargantua]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 550 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bargantua|génération=5}}
+|}
+=== [[Mascaïman]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 551 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mascaïman|génération=5}}
+|}
+=== [[Escroco]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 552 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Escroco|génération=5}}
+|}
+=== [[Crocorible]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 553 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crocorible|génération=5}}
+|}
+=== [[Darumarond]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 554 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Darumarond|génération=5}}
+|}
+=== [[Darumacho]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 555 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Darumacho|génération=5}}
+|}
+=== [[Maracachi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 556 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Maracachi|génération=5}}
+|}
+=== [[Crabicoque]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 557 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crabicoque|génération=5}}
+|}
+=== [[Crabaraque]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 558 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crabaraque|génération=5}}
+|}
+=== [[Baggiguane]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 559 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Baggiguane|génération=5}}
+|}
+=== [[Baggaïd]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 560 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Baggaïd|génération=5}}
+|}
+=== [[Cryptéro]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 561 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cryptéro|génération=5}}
+|}
+=== [[Tutafeh]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 562 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tutafeh|génération=5}}
+|}
+=== [[Tutankafer]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 563 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tutankafer|génération=5}}
+|}
+=== [[Carapagos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 564 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Carapagos|génération=5}}
+|}
+=== [[Mégapagos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 565 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mégapagos|génération=5}}
+|}
+=== [[Arkéapti]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 566 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Arkéapti|génération=5}}
+|}
+=== [[Aéroptéryx]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 567 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Aéroptéryx|génération=5}}
+|}
+=== [[Miamiasme]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 568 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Miamiasme|génération=5}}
+|}
+=== [[Miasmax]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 569 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Miasmax|génération=5}}
+|}
+=== [[Zorua]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 570 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zorua|génération=5}}
+|}
+=== [[Zoroark]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 571 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zoroark|génération=5}}
+|}
+=== [[Chinchidou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 572 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chinchidou|génération=5}}
+|}
+=== [[Pashmilla]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 573 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pashmilla|génération=5}}
+|}
+=== [[Scrutella]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 574 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scrutella|génération=5}}
+|}
+=== [[Mesmérella]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 575 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mesmérella|génération=5}}
+|}
+=== [[Sidérella]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 576 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sidérella|génération=5}}
+|}
+=== [[Nucléos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 577 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nucléos|génération=5}}
+|}
+=== [[Méios]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 578 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Méios|génération=5}}
+|}
+=== [[Symbios]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 579 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Symbios|génération=5}}
+|}
+=== [[Couaneton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 580 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Couaneton|génération=5}}
+|}
+=== [[Lakmécygne]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 581 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lakmécygne|génération=5}}
+|}
+=== [[Sorbébé]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 582 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sorbébé|génération=5}}
+|}
+=== [[Sorboul]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 583 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sorboul|génération=5}}
+|}
+=== [[Sorbouboul]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 584 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sorbouboul|génération=5}}
+|}
+=== [[Vivaldaim]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 585 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vivaldaim|génération=5}}
+|}
+=== [[Haydaim]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 586 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Haydaim|génération=5}}
+|}
+=== [[Emolga]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 587 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Emolga|génération=5}}
+|}
+=== [[Carabing]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 588 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Carabing|génération=5}}
+|}
+=== [[Lançargot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 589 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lançargot|génération=5}}
+|}
+=== [[Trompignon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 590 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Trompignon|génération=5}}
+|}
+=== [[Gaulet]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 591 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gaulet|génération=5}}
+|}
+=== [[Viskuse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 592 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Viskuse|génération=5}}
+|}
+=== [[Moyade]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 593 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Moyade|génération=5}}
+|}
+=== [[Mamanbo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 594 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mamanbo|génération=5}}
+|}
+=== [[Statitik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 595 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Statitik|génération=5}}
+|}
+=== [[Mygavolt]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 596 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mygavolt|génération=5}}
+|}
+=== [[Grindur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 597 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grindur|génération=5}}
+|}
+=== [[Noacier]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 598 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Noacier|génération=5}}
+|}
+=== [[Tic]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 599 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tic|génération=5}}
+|}
+=== [[Clic]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 600 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Clic|génération=5}}
+|}
+=== [[Cliticlic]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 601 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cliticlic|génération=5}}
+|}
+=== [[Anchwatt]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 602 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Anchwatt|génération=5}}
+|}
+=== [[Lampéroie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 603 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lampéroie|génération=5}}
+|}
+=== [[Ohmassacre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 604 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ohmassacre|génération=5}}
+|}
+=== [[Lewsor]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 605 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lewsor|génération=5}}
+|}
+=== [[Neitram]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 606 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Neitram|génération=5}}
+|}
+=== [[Funécire]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 607 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Funécire|génération=5}}
+|}
+=== [[Mélancolux]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 608 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mélancolux|génération=5}}
+|}
+=== [[Lugulabre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 609 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lugulabre|génération=5}}
+|}
+=== [[Coupenotte]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 610 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coupenotte|génération=5}}
+|}
+=== [[Incisache]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 611 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Incisache|génération=5}}
+|}
+=== [[Tranchodon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 612 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tranchodon|génération=5}}
+|}
+=== [[Polarhume]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 613 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Polarhume|génération=5}}
+|}
+=== [[Polagriffe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 614 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Polagriffe|génération=5}}
+|}
+=== [[Hexagel]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 615 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hexagel|génération=5}}
+|}
+=== [[Escargaume]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 616 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Escargaume|génération=5}}
+|}
+=== [[Limaspeed]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 617 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Limaspeed|génération=5}}
+|}
+=== [[Limonde]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 618 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Limonde|génération=5}}
+|}
+=== [[Kungfouine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 619 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kungfouine|génération=5}}
+|}
+=== [[Shaofouine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 620 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Shaofouine|génération=5}}
+|}
+=== [[Drakkarmin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 621 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Drakkarmin|génération=5}}
+|}
+=== [[Gringolem]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 622 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gringolem|génération=5}}
+|}
+=== [[Golemastoc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 623 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Golemastoc|génération=5}}
+|}
+=== [[Scalpion]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 624 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scalpion|génération=5}}
+|}
+=== [[Scalproie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 625 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scalproie|génération=5}}
+|}
+=== [[Frison]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 626 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Frison|génération=5}}
+|}
+=== [[Furaiglon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 627 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Furaiglon|génération=5}}
+|}
+=== [[Gueriaigle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 628 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gueriaigle|génération=5}}
+|}
+=== [[Vostourno]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 629 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vostourno|génération=5}}
+|}
+=== [[Vaututrice]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 630 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vaututrice|génération=5}}
+|}
+=== [[Aflamanoir]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 631 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Aflamanoir|génération=5}}
+|}
+=== [[Fermite]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 632 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fermite|génération=5}}
+|}
+=== [[Solochi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 633 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Solochi|génération=5}}
+|}
+=== [[Diamat]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 634 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Diamat|génération=5}}
+|}
+=== [[Trioxhydre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 635 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Trioxhydre|génération=5}}
+|}
+=== [[Pyronille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 636 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pyronille|génération=5}}
+|}
+=== [[Pyrax]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 637 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pyrax|génération=5}}
+|}
+=== [[Cobaltium]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 638 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cobaltium|génération=5}}
+|}
+=== [[Terrakium]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 639 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Terrakium|génération=5}}
+|}
+=== [[Viridium]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 640 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Viridium|génération=5}}
+|}
+=== [[Boréas]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 641 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Boréas|génération=5}}
+|}
+=== [[Fulguris]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 642 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fulguris|génération=5}}
+|}
+=== [[Reshiram]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 643 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Reshiram|génération=5}}
+|}
+=== [[Zekrom]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 644 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zekrom|génération=5}}
+|}
+=== [[Démétéros]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 645 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Démétéros|génération=5}}
+|}
+=== [[Kyurem]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 646 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kyurem|génération=5}}
+|}
+=== [[Keldeo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 647 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Keldeo|génération=5}}
+|}
+=== [[Meloetta]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 648 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Meloetta|génération=5}}
+|}
+=== [[Genesect]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 649 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Genesect|génération=5}}
+|}
+=== [[Marisson]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 650 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Marisson|génération=5}}
+|}
+=== [[Boguérisse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 651 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Boguérisse|génération=5}}
+|}
+=== [[Blindépique]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 652 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Blindépique|génération=5}}
+|}
+=== [[Feunnec]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 653 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Feunnec|génération=5}}
+|}
+=== [[Roussil]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 654 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roussil|génération=5}}
+|}
+=== [[Goupelin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 655 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Goupelin|génération=5}}
+|}
+=== [[Grenousse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 656 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grenousse|génération=5}}
+|}
+=== [[Croâporal]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 657 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Croâporal|génération=5}}
+|}
+=== [[Amphinobi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 658 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Amphinobi|génération=5}}
+|}
+=== [[Sapereau]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 659 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sapereau|génération=5}}
+|}
+=== [[Excavarenne]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 660 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Excavarenne|génération=5}}
+|}
+=== [[Passerouge]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 661 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Passerouge|génération=5}}
+|}
+=== [[Braisillon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 662 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Braisillon|génération=5}}
+|}
+=== [[Flambusard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 663 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flambusard|génération=5}}
+|}
+=== [[Lépidonille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 664 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lépidonille|génération=5}}
+|}
+=== [[Pérégrain]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 665 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pérégrain|génération=5}}
+|}
+=== [[Prismillon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 666 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Prismillon|génération=5}}
+|}
+=== [[Hélionceau]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 667 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hélionceau|génération=5}}
+|}
+=== [[Némélios]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 668 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Némélios|génération=5}}
+|}
+=== [[Flabébé]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 669 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flabébé|génération=5}}
+|}
+=== [[Floette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 670 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Floette|génération=5}}
+|}
+=== [[Florges]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 671 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Florges|génération=5}}
+|}
+=== [[Cabriolaine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 672 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cabriolaine|génération=5}}
+|}
+=== [[Chevroum]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 673 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chevroum|génération=5}}
+|}
+=== [[Pandespiègle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 674 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pandespiègle|génération=5}}
+|}
+=== [[Pandarbare]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 675 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pandarbare|génération=5}}
+|}
+=== [[Couafarel]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 676 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Couafarel|génération=5}}
+|}
+=== [[Psystigri]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 677 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Psystigri|génération=5}}
+|}
+=== [[Mistigrix]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 678 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mistigrix|génération=5}}
+|}
+=== [[Monorpale]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 679 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Monorpale|génération=5}}
+|}
+=== [[Dimoclès]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 680 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dimoclès|génération=5}}
+|}
+=== [[Exagide]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 681 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Exagide|génération=5}}
+|}
+=== [[Fluvetin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 682 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fluvetin|génération=5}}
+|}
+=== [[Cocotine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 683 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cocotine|génération=5}}
+|}
+=== [[Sucroquin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 684 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sucroquin|génération=5}}
+|}
+=== [[Cupcanaille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 685 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cupcanaille|génération=5}}
+|}
+=== [[Sepiatop]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 686 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sepiatop|génération=5}}
+|}
+=== [[Sepiatroce]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 687 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sepiatroce|génération=5}}
+|}
+=== [[Opermine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 688 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Opermine|génération=5}}
+|}
+=== [[Golgopathe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 689 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Golgopathe|génération=5}}
+|}
+=== [[Venalgue]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 690 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Venalgue|génération=5}}
+|}
+=== [[Kravarech]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 691 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Kravarech|génération=5}}
+|}
+=== [[Flingouste]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 692 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flingouste|génération=5}}
+|}
+=== [[Gamblast]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 693 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gamblast|génération=5}}
+|}
+=== [[Galvaran]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 694 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galvaran|génération=5}}
+|}
+=== [[Iguolta]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 695 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Iguolta|génération=5}}
+|}
+=== [[Ptyranidur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 696 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ptyranidur|génération=5}}
+|}
+=== [[Rexillius]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 697 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rexillius|génération=5}}
+|}
+=== [[Amagara]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 698 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Amagara|génération=5}}
+|}
+=== [[Dragmara]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 699 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dragmara|génération=5}}
+|}
+=== [[Nymphali]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 700 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nymphali|génération=5}}
+|}
+=== [[Brutalibré]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 701 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Brutalibré|génération=5}}
+|}
+=== [[Dedenne]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 702 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dedenne|génération=5}}
+|}
+=== [[Strassie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 703 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Strassie|génération=5}}
+|}
+=== [[Mucuscule]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 704 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mucuscule|génération=5}}
+|}
+=== [[Colimucus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 705 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Colimucus|génération=5}}
+|}
+=== [[Muplodocus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 706 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Muplodocus|génération=5}}
+|}
+=== [[Trousselin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 707 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Trousselin|génération=5}}
+|}
+=== [[Brocélôme]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 708 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Brocélôme|génération=5}}
+|}
+=== [[Desséliande]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 709 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Desséliande|génération=5}}
+|}
+=== [[Pitrouille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 710 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pitrouille|génération=5}}
+|}
+=== [[Banshitrouye]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 711 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Banshitrouye|génération=5}}
+|}
+=== [[Grelaçon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 712 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grelaçon|génération=5}}
+|}
+=== [[Séracrawl]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 713 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Séracrawl|génération=5}}
+|}
+=== [[Sonistrelle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 714 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sonistrelle|génération=5}}
+|}
+=== [[Bruyverne]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 715 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bruyverne|génération=5}}
+|}
+=== [[Xerneas]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 716 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Xerneas|génération=5}}
+|}
+=== [[Yveltal]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 717 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Yveltal|génération=5}}
+|}
+=== [[Zygarde]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 718 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zygarde|génération=5}}
+|}
+=== [[Diancie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 719 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Diancie|génération=5}}
+|}
+=== [[Hoopa]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 720 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hoopa|génération=5}}
+|}
+=== [[Volcanion]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 721 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Volcanion|génération=5}}
+|}
+=== [[Brindibou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 722 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Brindibou|génération=5}}
+|}
+=== [[Efflèche]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 723 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Efflèche|génération=5}}
+|}
+=== [[Archéduc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 724 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Archéduc|génération=5}}
+|}
+=== [[Flamiaou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 725 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flamiaou|génération=5}}
+|}
+=== [[Matoufeu]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 726 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Matoufeu|génération=5}}
+|}
+=== [[Félinferno]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 727 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Félinferno|génération=5}}
+|}
+=== [[Otaquin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 728 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Otaquin|génération=5}}
+|}
+=== [[Otarlette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 729 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Otarlette|génération=5}}
+|}
+=== [[Oratoria]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 730 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Oratoria|génération=5}}
+|}
+=== [[Picassaut]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 731 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Picassaut|génération=5}}
+|}
+=== [[Piclairon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 732 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Piclairon|génération=5}}
+|}
+=== [[Bazoucan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 733 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bazoucan|génération=5}}
+|}
+=== [[Manglouton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 734 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Manglouton|génération=5}}
+|}
+=== [[Argouste]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 735 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Argouste|génération=5}}
+|}
+=== [[Larvibule]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 736 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Larvibule|génération=5}}
+|}
+=== [[Chrysapile]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 737 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chrysapile|génération=5}}
+|}
+=== [[Lucanon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 738 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lucanon|génération=5}}
+|}
+=== [[Crabagarre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 739 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crabagarre|génération=5}}
+|}
+=== [[Crabominable]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 740 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crabominable|génération=5}}
+|}
+=== [[Plumeline]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 741 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Plumeline|génération=5}}
+|}
+=== [[Bombydou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 742 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bombydou|génération=5}}
+|}
+=== [[Rubombelle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 743 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rubombelle|génération=5}}
+|}
+=== [[Rocabot]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 744 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rocabot|génération=5}}
+|}
+=== [[Lougaroc]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 745 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lougaroc|génération=5}}
+|}
+=== [[Froussardine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 746 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Froussardine|génération=5}}
+|}
+=== [[Vorastérie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 747 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vorastérie|génération=5}}
+|}
+=== [[Prédastérie]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 748 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Prédastérie|génération=5}}
+|}
+=== [[Tiboudet]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 749 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tiboudet|génération=5}}
+|}
+=== [[Bourrinos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 750 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bourrinos|génération=5}}
+|}
+=== [[Araqua]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 751 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Araqua|génération=5}}
+|}
+=== [[Tarenbulle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 752 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tarenbulle|génération=5}}
+|}
+=== [[Mimantis]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 753 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mimantis|génération=5}}
+|}
+=== [[Floramantis]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 754 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Floramantis|génération=5}}
+|}
+=== [[Spododo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 755 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Spododo|génération=5}}
+|}
+=== [[Lampignon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 756 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lampignon|génération=5}}
+|}
+=== [[Tritox]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 757 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tritox|génération=5}}
+|}
+=== [[Malamandre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 758 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Malamandre|génération=5}}
+|}
+=== [[Nounourson]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 759 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nounourson|génération=5}}
+|}
+=== [[Chelours]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 760 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chelours|génération=5}}
+|}
+=== [[Croquine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 761 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Croquine|génération=5}}
+|}
+=== [[Candine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 762 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Candine|génération=5}}
+|}
+=== [[Sucreine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 763 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sucreine|génération=5}}
+|}
+=== [[Guérilande]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 764 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Guérilande|génération=5}}
+|}
+=== [[Gouroutan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 765 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gouroutan|génération=5}}
+|}
+=== [[Quartermac]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 766 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Quartermac|génération=5}}
+|}
+=== [[Sovkipou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 767 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sovkipou|génération=5}}
+|}
+=== [[Sarmuraï]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 768 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sarmuraï|génération=5}}
+|}
+=== [[Bacabouh]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 769 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bacabouh|génération=5}}
+|}
+=== [[Trépassable]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 770 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Trépassable|génération=5}}
+|}
+=== [[Concombaffe]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 771 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Concombaffe|génération=5}}
+|}
+=== [[Type:0]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 772 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Type:0|génération=5}}
+|}
+=== [[Silvallié]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 773 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Silvallié|génération=5}}
+|}
+=== [[Météno]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 774 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Météno|génération=5}}
+|}
+=== [[Dodoala]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 775 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dodoala|génération=5}}
+|}
+=== [[Boumata]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 776 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Boumata|génération=5}}
+|}
+=== [[Togedemaru]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 777 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Togedemaru|génération=5}}
+|}
+=== [[Mimiqui]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 778 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mimiqui|génération=5}}
+|}
+=== [[Denticrisse]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 779 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Denticrisse|génération=5}}
+|}
+=== [[Draïeul]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 780 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Draïeul|génération=5}}
+|}
+=== [[Sinistrail]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 781 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sinistrail|génération=5}}
+|}
+=== [[Bébécaille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 782 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bébécaille|génération=5}}
+|}
+=== [[Écaïd]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 783 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Écaïd|génération=5}}
+|}
+=== [[Ékaïser]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 784 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ékaïser|génération=5}}
+|}
+=== [[Tokorico]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 785 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tokorico|génération=5}}
+|}
+=== [[Tokopiyon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 786 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tokopiyon|génération=5}}
+|}
+=== [[Tokotoro]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 787 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tokotoro|génération=5}}
+|}
+=== [[Tokopisco]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 788 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tokopisco|génération=5}}
+|}
+=== [[Cosmog]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 789 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cosmog|génération=5}}
+|}
+=== [[Cosmovum]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 790 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cosmovum|génération=5}}
+|}
+=== [[Solgaleo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 791 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Solgaleo|génération=5}}
+|}
+=== [[Lunala]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 792 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lunala|génération=5}}
+|}
+=== [[Zéroïd]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 793 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zéroïd|génération=5}}
+|}
+=== [[Mouscoto]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 794 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mouscoto|génération=5}}
+|}
+=== [[Cancrelove]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 795 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cancrelove|génération=5}}
+|}
+=== [[Câblifère]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 796 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Câblifère|génération=5}}
+|}
+=== [[Bamboiselle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 797 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bamboiselle|génération=5}}
+|}
+=== [[Katagami]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 798 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Katagami|génération=5}}
+|}
+=== [[Engloutyran]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 799 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Engloutyran|génération=5}}
+|}
+=== [[Necrozma]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 800 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Necrozma|génération=5}}
+|}
+=== [[Magearna]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 801 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Magearna|génération=5}}
+|}
+=== [[Marshadow]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 802 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Marshadow|génération=5}}
+|}
+=== [[Vémini]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 803 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Vémini|génération=5}}
+|}
+=== [[Mandrillon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 804 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Mandrillon|génération=5}}
+|}
+=== [[Ama-Ama]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 805 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ama-Ama|génération=5}}
+|}
+=== [[Pierroteknik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 806 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pierroteknik|génération=5}}
+|}
+=== [[Zeraora]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 807 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zeraora|génération=5}}
+|}
+=== [[Meltan]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 808 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Meltan|génération=5}}
+|}
+=== [[Melmetal]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 809 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Melmetal|génération=5}}
+|}
+=== [[Ouistempo]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 810 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ouistempo|génération=5}}
+|}
+=== [[Badabouin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 811 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Badabouin|génération=5}}
+|}
+=== [[Gorythmic]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 812 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Gorythmic|génération=5}}
+|}
+=== [[Flambino]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 813 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Flambino|génération=5}}
+|}
+=== [[Lapyro]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 814 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lapyro|génération=5}}
+|}
+=== [[Pyrobut]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 815 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pyrobut|génération=5}}
+|}
+=== [[Larméléon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 816 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Larméléon|génération=5}}
+|}
+=== [[Arrozard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 817 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Arrozard|génération=5}}
+|}
+=== [[Lézargus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 818 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lézargus|génération=5}}
+|}
+=== [[Rongourmand]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 819 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rongourmand|génération=5}}
+|}
+=== [[Rongrigou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 820 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Rongrigou|génération=5}}
+|}
+=== [[Minisange]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 821 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Minisange|génération=5}}
+|}
+=== [[Bleuseille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 822 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bleuseille|génération=5}}
+|}
+=== [[Corvaillus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 823 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Corvaillus|génération=5}}
+|}
+=== [[Larvadar]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 824 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Larvadar|génération=5}}
+|}
+=== [[Coléodôme]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 825 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Coléodôme|génération=5}}
+|}
+=== [[Astronelle]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 826 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Astronelle|génération=5}}
+|}
+=== [[Goupilou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 827 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Goupilou|génération=5}}
+|}
+=== [[Roublenard]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 828 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Roublenard|génération=5}}
+|}
+=== [[Tournicoton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 829 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tournicoton|génération=5}}
+|}
+=== [[Blancoton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 830 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Blancoton|génération=5}}
+|}
+=== [[Moumouton]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 831 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Moumouton|génération=5}}
+|}
+=== [[Moumouflon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 832 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Moumouflon|génération=5}}
+|}
+=== [[Khélocrok]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 833 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Khélocrok|génération=5}}
+|}
+=== [[Torgamord]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 834 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Torgamord|génération=5}}
+|}
+=== [[Voltoutou]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 835 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Voltoutou|génération=5}}
+|}
+=== [[Fulgudog]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 836 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fulgudog|génération=5}}
+|}
+=== [[Charbi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 837 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Charbi|génération=5}}
+|}
+=== [[Wagomine]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 838 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Wagomine|génération=5}}
+|}
+=== [[Monthracite]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 839 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Monthracite|génération=5}}
+|}
+=== [[Verpom]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 840 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Verpom|génération=5}}
+|}
+=== [[Pomdrapi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 841 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pomdrapi|génération=5}}
+|}
+=== [[Dratatin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 842 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dratatin|génération=5}}
+|}
+=== [[Dunaja]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 843 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dunaja|génération=5}}
+|}
+=== [[Dunaconda]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 844 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dunaconda|génération=5}}
+|}
+=== [[Nigosier]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 845 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Nigosier|génération=5}}
+|}
+=== [[Embrochet]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 846 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Embrochet|génération=5}}
+|}
+=== [[Hastacuda]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 847 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hastacuda|génération=5}}
+|}
+=== [[Toxizap]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 848 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Toxizap|génération=5}}
+|}
+=== [[Salarsen]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 849 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Salarsen|génération=5}}
+|}
+=== [[Grillepattes]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 850 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grillepattes|génération=5}}
+|}
+=== [[Scolocendre]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 851 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Scolocendre|génération=5}}
+|}
+=== [[Poulpaf]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 852 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Poulpaf|génération=5}}
+|}
+=== [[Krakos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 853 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Krakos|génération=5}}
+|}
+=== [[Théffroi]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 854 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Théffroi|génération=5}}
+|}
+=== [[Polthégeist]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 855 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Polthégeist|génération=5}}
+|}
+=== [[Bibichut]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 856 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bibichut|génération=5}}
+|}
+=== [[Chapotus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 857 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Chapotus|génération=5}}
+|}
+=== [[Sorcilence]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 858 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sorcilence|génération=5}}
+|}
+=== [[Grimalin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 859 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Grimalin|génération=5}}
+|}
+=== [[Fourbelin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 860 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fourbelin|génération=5}}
+|}
+=== [[Angoliath]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 861 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Angoliath|génération=5}}
+|}
+=== [[Ixon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 862 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ixon|génération=5}}
+|}
+=== [[Berserkatt]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 863 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Berserkatt|génération=5}}
+|}
+=== [[Corayôme]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 864 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Corayôme|génération=5}}
+|}
+=== [[Palarticho]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 865 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Palarticho|génération=5}}
+|}
+=== [[M. Glaquette]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 866 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|M. Glaquette|génération=5}}
+|}
+=== [[Tutétékri]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 867 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Tutétékri|génération=5}}
+|}
+=== [[Crèmy]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 868 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Crèmy|génération=5}}
+|}
+=== [[Charmilly]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 869 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Charmilly|génération=5}}
+|}
+=== [[Hexadron]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 870 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hexadron|génération=5}}
+|}
+=== [[Wattapik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 871 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Wattapik|génération=5}}
+|}
+=== [[Frissonille]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 872 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Frissonille|génération=5}}
+|}
+=== [[Beldeneige]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 873 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Beldeneige|génération=5}}
+|}
+=== [[Dolman]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 874 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dolman|génération=5}}
+|}
+=== [[Bekaglaçon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 875 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Bekaglaçon|génération=5}}
+|}
+=== [[Wimessir]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 876 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Wimessir|génération=5}}
+|}
+=== [[Morpeko]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 877 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Morpeko|génération=5}}
+|}
+=== [[Charibari]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 878 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Charibari|génération=5}}
+|}
+=== [[Pachyradjah]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 879 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Pachyradjah|génération=5}}
+|}
+=== [[Galvagon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 880 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galvagon|génération=5}}
+|}
+=== [[Galvagla]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 881 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Galvagla|génération=5}}
+|}
+=== [[Hydragon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 882 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hydragon|génération=5}}
+|}
+=== [[Hydragla]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 883 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hydragla|génération=5}}
+|}
+=== [[Duralugon]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 884 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Duralugon|génération=5}}
+|}
+=== [[Fantyrm]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 885 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Fantyrm|génération=5}}
+|}
+=== [[Dispareptil]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 886 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Dispareptil|génération=5}}
+|}
+=== [[Lanssorien]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 887 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Lanssorien|génération=5}}
+|}
+=== [[Zacian]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 888 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zacian|génération=5}}
+|}
+=== [[Zamazenta]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 889 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zamazenta|génération=5}}
+|}
+=== [[Éthernatos]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 890 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Éthernatos|génération=5}}
+|}
+=== [[Wushours]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 891 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Wushours|génération=5}}
+|}
+=== [[Shifours]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 892 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Shifours|génération=5}}
+|}
+=== [[Zarude]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 893 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Zarude|génération=5}}
+|}
+=== [[Regieleki]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 894 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Regieleki|génération=5}}
+|}
+=== [[Regidrago]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 895 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Regidrago|génération=5}}
+|}
+=== [[Blizzeval]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 896 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Blizzeval|génération=5}}
+|}
+=== [[Spectreval]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 897 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Spectreval|génération=5}}
+|}
+=== [[Sylveroy]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 898 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Sylveroy|génération=5}}
+|}
+=== [[Cerbyllin]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 899 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Cerbyllin|génération=5}}
+|}
+=== [[Hachécateur]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 900 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Hachécateur|génération=5}}
+|}
+=== [[Ursaking]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 901 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Ursaking|génération=5}}
+|}
+=== [[Paragruel]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 902 ♂ NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Paragruel|génération=5}}
+|}
+=== [[Farfurex]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 903 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Farfurex|génération=5}}
+|}
+=== [[Qwilpik]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 904 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Qwilpik|génération=5}}
+|}
+=== [[Amovénus]] ===
+{| align="center"
+|-
+| [[Fichier:Sprite 905 NB.png]]
+| width="20px" |
+| {{#invoke:Localisations|pokemon|Amovénus|génération=5}}
+|}

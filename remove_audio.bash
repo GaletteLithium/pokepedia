@@ -1,0 +1,1 @@
+for %i in (*.mp4) do ffmpeg -i "%i" -c copy -an "no_sound/%i"

@@ -1,0 +1,1846 @@
+=== [[Bulbizarre]] ===
+{{#invoke:Localisations|pokemon|Bulbizarre|génération=7}}
+=== [[Herbizarre]] ===
+{{#invoke:Localisations|pokemon|Herbizarre|génération=7}}
+=== [[Florizarre]] ===
+{{#invoke:Localisations|pokemon|Florizarre|génération=7}}
+=== [[Salamèche]] ===
+{{#invoke:Localisations|pokemon|Salamèche|génération=7}}
+=== [[Reptincel]] ===
+{{#invoke:Localisations|pokemon|Reptincel|génération=7}}
+=== [[Dracaufeu]] ===
+{{#invoke:Localisations|pokemon|Dracaufeu|génération=7}}
+=== [[Carapuce]] ===
+{{#invoke:Localisations|pokemon|Carapuce|génération=7}}
+=== [[Carabaffe]] ===
+{{#invoke:Localisations|pokemon|Carabaffe|génération=7}}
+=== [[Tortank]] ===
+{{#invoke:Localisations|pokemon|Tortank|génération=7}}
+=== [[Chenipan]] ===
+{{#invoke:Localisations|pokemon|Chenipan|génération=7}}
+=== [[Chrysacier]] ===
+{{#invoke:Localisations|pokemon|Chrysacier|génération=7}}
+=== [[Papilusion]] ===
+{{#invoke:Localisations|pokemon|Papilusion|génération=7}}
+=== [[Aspicot]] ===
+{{#invoke:Localisations|pokemon|Aspicot|génération=7}}
+=== [[Coconfort]] ===
+{{#invoke:Localisations|pokemon|Coconfort|génération=7}}
+=== [[Dardargnan]] ===
+{{#invoke:Localisations|pokemon|Dardargnan|génération=7}}
+=== [[Roucool]] ===
+{{#invoke:Localisations|pokemon|Roucool|génération=7}}
+=== [[Roucoups]] ===
+{{#invoke:Localisations|pokemon|Roucoups|génération=7}}
+=== [[Roucarnage]] ===
+{{#invoke:Localisations|pokemon|Roucarnage|génération=7}}
+=== [[Rattata]] ===
+{{#invoke:Localisations|pokemon|Rattata|génération=7}}
+==== [[Rattata d'Alola]] ====
+{{#invoke:Localisations|pokemon|Rattata d'Alola|génération=7}}
+=== [[Rattatac]] ===
+{{#invoke:Localisations|pokemon|Rattatac|génération=7}}
+==== [[Rattatac d'Alola]] ====
+{{#invoke:Localisations|pokemon|Rattatac d'Alola|génération=7}}
+=== [[Piafabec]] ===
+{{#invoke:Localisations|pokemon|Piafabec|génération=7}}
+=== [[Rapasdepic]] ===
+{{#invoke:Localisations|pokemon|Rapasdepic|génération=7}}
+=== [[Abo]] ===
+{{#invoke:Localisations|pokemon|Abo|génération=7}}
+=== [[Arbok]] ===
+{{#invoke:Localisations|pokemon|Arbok|génération=7}}
+=== [[Pikachu]] ===
+{{#invoke:Localisations|pokemon|Pikachu|génération=7}}
+=== [[Raichu]] ===
+{{#invoke:Localisations|pokemon|Raichu|génération=7}}
+==== [[Raichu d'Alola]] ====
+{{#invoke:Localisations|pokemon|Raichu d'Alola|génération=7}}
+=== [[Sabelette]] ===
+{{#invoke:Localisations|pokemon|Sabelette|génération=7}}
+==== [[Sabelette d'Alola]] ====
+{{#invoke:Localisations|pokemon|Sabelette d'Alola|génération=7}}
+=== [[Sablaireau]] ===
+{{#invoke:Localisations|pokemon|Sablaireau|génération=7}}
+==== [[Sablaireau d'Alola]] ====
+{{#invoke:Localisations|pokemon|Sablaireau d'Alola|génération=7}}
+=== [[Nidoran♀]] ===
+{{#invoke:Localisations|pokemon|Nidoran♀|génération=7}}
+=== [[Nidorina]] ===
+{{#invoke:Localisations|pokemon|Nidorina|génération=7}}
+=== [[Nidoqueen]] ===
+{{#invoke:Localisations|pokemon|Nidoqueen|génération=7}}
+=== [[Nidoran♂]] ===
+{{#invoke:Localisations|pokemon|Nidoran♂|génération=7}}
+=== [[Nidorino]] ===
+{{#invoke:Localisations|pokemon|Nidorino|génération=7}}
+=== [[Nidoking]] ===
+{{#invoke:Localisations|pokemon|Nidoking|génération=7}}
+=== [[Mélofée]] ===
+{{#invoke:Localisations|pokemon|Mélofée|génération=7}}
+=== [[Mélodelfe]] ===
+{{#invoke:Localisations|pokemon|Mélodelfe|génération=7}}
+=== [[Goupix]] ===
+{{#invoke:Localisations|pokemon|Goupix|génération=7}}
+==== [[Goupix d'Alola]] ====
+{{#invoke:Localisations|pokemon|Goupix d'Alola|génération=7}}
+=== [[Feunard]] ===
+{{#invoke:Localisations|pokemon|Feunard|génération=7}}
+==== [[Feunard d'Alola]] ====
+{{#invoke:Localisations|pokemon|Feunard d'Alola|génération=7}}
+=== [[Rondoudou]] ===
+{{#invoke:Localisations|pokemon|Rondoudou|génération=7}}
+=== [[Grodoudou]] ===
+{{#invoke:Localisations|pokemon|Grodoudou|génération=7}}
+=== [[Nosferapti]] ===
+{{#invoke:Localisations|pokemon|Nosferapti|génération=7}}
+=== [[Nosferalto]] ===
+{{#invoke:Localisations|pokemon|Nosferalto|génération=7}}
+=== [[Mystherbe]] ===
+{{#invoke:Localisations|pokemon|Mystherbe|génération=7}}
+=== [[Ortide]] ===
+{{#invoke:Localisations|pokemon|Ortide|génération=7}}
+=== [[Rafflesia]] ===
+{{#invoke:Localisations|pokemon|Rafflesia|génération=7}}
+=== [[Paras]] ===
+{{#invoke:Localisations|pokemon|Paras|génération=7}}
+=== [[Parasect]] ===
+{{#invoke:Localisations|pokemon|Parasect|génération=7}}
+=== [[Mimitoss]] ===
+{{#invoke:Localisations|pokemon|Mimitoss|génération=7}}
+=== [[Aéromite]] ===
+{{#invoke:Localisations|pokemon|Aéromite|génération=7}}
+=== [[Taupiqueur]] ===
+{{#invoke:Localisations|pokemon|Taupiqueur|génération=7}}
+==== [[Taupiqueur d'Alola]] ====
+{{#invoke:Localisations|pokemon|Taupiqueur d'Alola|génération=7}}
+=== [[Triopikeur]] ===
+{{#invoke:Localisations|pokemon|Triopikeur|génération=7}}
+==== [[Triopikeur d'Alola]] ====
+{{#invoke:Localisations|pokemon|Triopikeur d'Alola|génération=7}}
+=== [[Miaouss]] ===
+{{#invoke:Localisations|pokemon|Miaouss|génération=7}}
+==== [[Miaouss d'Alola]] ====
+{{#invoke:Localisations|pokemon|Miaouss d'Alola|génération=7}}
+=== [[Persian]] ===
+{{#invoke:Localisations|pokemon|Persian|génération=7}}
+==== [[Persian d'Alola]] ====
+{{#invoke:Localisations|pokemon|Persian d'Alola|génération=7}}
+=== [[Psykokwak]] ===
+{{#invoke:Localisations|pokemon|Psykokwak|génération=7}}
+=== [[Akwakwak]] ===
+{{#invoke:Localisations|pokemon|Akwakwak|génération=7}}
+=== [[Férosinge]] ===
+{{#invoke:Localisations|pokemon|Férosinge|génération=7}}
+=== [[Colossinge]] ===
+{{#invoke:Localisations|pokemon|Colossinge|génération=7}}
+=== [[Caninos]] ===
+{{#invoke:Localisations|pokemon|Caninos|génération=7}}
+=== [[Arcanin]] ===
+{{#invoke:Localisations|pokemon|Arcanin|génération=7}}
+=== [[Ptitard]] ===
+{{#invoke:Localisations|pokemon|Ptitard|génération=7}}
+=== [[Têtarte]] ===
+{{#invoke:Localisations|pokemon|Têtarte|génération=7}}
+=== [[Tartard]] ===
+{{#invoke:Localisations|pokemon|Tartard|génération=7}}
+=== [[Abra]] ===
+{{#invoke:Localisations|pokemon|Abra|génération=7}}
+=== [[Kadabra]] ===
+{{#invoke:Localisations|pokemon|Kadabra|génération=7}}
+=== [[Alakazam]] ===
+{{#invoke:Localisations|pokemon|Alakazam|génération=7}}
+=== [[Machoc]] ===
+{{#invoke:Localisations|pokemon|Machoc|génération=7}}
+=== [[Machopeur]] ===
+{{#invoke:Localisations|pokemon|Machopeur|génération=7}}
+=== [[Mackogneur]] ===
+{{#invoke:Localisations|pokemon|Mackogneur|génération=7}}
+=== [[Chétiflor]] ===
+{{#invoke:Localisations|pokemon|Chétiflor|génération=7}}
+=== [[Boustiflor]] ===
+{{#invoke:Localisations|pokemon|Boustiflor|génération=7}}
+=== [[Empiflor]] ===
+{{#invoke:Localisations|pokemon|Empiflor|génération=7}}
+=== [[Tentacool]] ===
+{{#invoke:Localisations|pokemon|Tentacool|génération=7}}
+=== [[Tentacruel]] ===
+{{#invoke:Localisations|pokemon|Tentacruel|génération=7}}
+=== [[Racaillou]] ===
+{{#invoke:Localisations|pokemon|Racaillou|génération=7}}
+==== [[Racaillou d'Alola]] ====
+{{#invoke:Localisations|pokemon|Racaillou d'Alola|génération=7}}
+=== [[Gravalanch]] ===
+{{#invoke:Localisations|pokemon|Gravalanch|génération=7}}
+==== [[Gravalanch d'Alola]] ====
+{{#invoke:Localisations|pokemon|Gravalanch d'Alola|génération=7}}
+=== [[Grolem]] ===
+{{#invoke:Localisations|pokemon|Grolem|génération=7}}
+==== [[Grolem d'Alola]] ====
+{{#invoke:Localisations|pokemon|Grolem d'Alola|génération=7}}
+=== [[Ponyta]] ===
+{{#invoke:Localisations|pokemon|Ponyta|génération=7}}
+=== [[Galopa]] ===
+{{#invoke:Localisations|pokemon|Galopa|génération=7}}
+=== [[Ramoloss]] ===
+{{#invoke:Localisations|pokemon|Ramoloss|génération=7}}
+=== [[Flagadoss]] ===
+{{#invoke:Localisations|pokemon|Flagadoss|génération=7}}
+=== [[Magnéti]] ===
+{{#invoke:Localisations|pokemon|Magnéti|génération=7}}
+=== [[Magnéton]] ===
+{{#invoke:Localisations|pokemon|Magnéton|génération=7}}
+=== [[Canarticho]] ===
+{{#invoke:Localisations|pokemon|Canarticho|génération=7}}
+=== [[Doduo]] ===
+{{#invoke:Localisations|pokemon|Doduo|génération=7}}
+=== [[Dodrio]] ===
+{{#invoke:Localisations|pokemon|Dodrio|génération=7}}
+=== [[Otaria]] ===
+{{#invoke:Localisations|pokemon|Otaria|génération=7}}
+=== [[Lamantine]] ===
+{{#invoke:Localisations|pokemon|Lamantine|génération=7}}
+=== [[Tadmorv]] ===
+{{#invoke:Localisations|pokemon|Tadmorv|génération=7}}
+==== [[Tadmorv d'Alola]] ====
+{{#invoke:Localisations|pokemon|Tadmorv d'Alola|génération=7}}
+=== [[Grotadmorv]] ===
+{{#invoke:Localisations|pokemon|Grotadmorv|génération=7}}
+==== [[Grotadmorv d'Alola]] ====
+{{#invoke:Localisations|pokemon|Grotadmorv d'Alola|génération=7}}
+=== [[Kokiyas]] ===
+{{#invoke:Localisations|pokemon|Kokiyas|génération=7}}
+=== [[Crustabri]] ===
+{{#invoke:Localisations|pokemon|Crustabri|génération=7}}
+=== [[Fantominus]] ===
+{{#invoke:Localisations|pokemon|Fantominus|génération=7}}
+=== [[Spectrum]] ===
+{{#invoke:Localisations|pokemon|Spectrum|génération=7}}
+=== [[Ectoplasma]] ===
+{{#invoke:Localisations|pokemon|Ectoplasma|génération=7}}
+=== [[Onix]] ===
+{{#invoke:Localisations|pokemon|Onix|génération=7}}
+=== [[Soporifik]] ===
+{{#invoke:Localisations|pokemon|Soporifik|génération=7}}
+=== [[Hypnomade]] ===
+{{#invoke:Localisations|pokemon|Hypnomade|génération=7}}
+=== [[Krabby]] ===
+{{#invoke:Localisations|pokemon|Krabby|génération=7}}
+=== [[Krabboss]] ===
+{{#invoke:Localisations|pokemon|Krabboss|génération=7}}
+=== [[Voltorbe]] ===
+{{#invoke:Localisations|pokemon|Voltorbe|génération=7}}
+=== [[Électrode]] ===
+{{#invoke:Localisations|pokemon|Électrode|génération=7}}
+=== [[Noeunoeuf]] ===
+{{#invoke:Localisations|pokemon|Noeunoeuf|génération=7}}
+=== [[Noadkoko]] ===
+{{#invoke:Localisations|pokemon|Noadkoko|génération=7}}
+==== [[Noadkoko d'Alola]] ====
+{{#invoke:Localisations|pokemon|Noadkoko d'Alola|génération=7}}
+=== [[Osselait]] ===
+{{#invoke:Localisations|pokemon|Osselait|génération=7}}
+=== [[Ossatueur]] ===
+{{#invoke:Localisations|pokemon|Ossatueur|génération=7}}
+==== [[Ossatueur d'Alola]] ====
+{{#invoke:Localisations|pokemon|Ossatueur d'Alola|génération=7}}
+=== [[Kicklee]] ===
+{{#invoke:Localisations|pokemon|Kicklee|génération=7}}
+=== [[Tygnon]] ===
+{{#invoke:Localisations|pokemon|Tygnon|génération=7}}
+=== [[Excelangue]] ===
+{{#invoke:Localisations|pokemon|Excelangue|génération=7}}
+=== [[Smogo]] ===
+{{#invoke:Localisations|pokemon|Smogo|génération=7}}
+=== [[Smogogo]] ===
+{{#invoke:Localisations|pokemon|Smogogo|génération=7}}
+=== [[Rhinocorne]] ===
+{{#invoke:Localisations|pokemon|Rhinocorne|génération=7}}
+=== [[Rhinoféros]] ===
+{{#invoke:Localisations|pokemon|Rhinoféros|génération=7}}
+=== [[Leveinard]] ===
+{{#invoke:Localisations|pokemon|Leveinard|génération=7}}
+=== [[Saquedeneu]] ===
+{{#invoke:Localisations|pokemon|Saquedeneu|génération=7}}
+=== [[Kangourex]] ===
+{{#invoke:Localisations|pokemon|Kangourex|génération=7}}
+=== [[Hypotrempe]] ===
+{{#invoke:Localisations|pokemon|Hypotrempe|génération=7}}
+=== [[Hypocéan]] ===
+{{#invoke:Localisations|pokemon|Hypocéan|génération=7}}
+=== [[Poissirène]] ===
+{{#invoke:Localisations|pokemon|Poissirène|génération=7}}
+=== [[Poissoroy]] ===
+{{#invoke:Localisations|pokemon|Poissoroy|génération=7}}
+=== [[Stari]] ===
+{{#invoke:Localisations|pokemon|Stari|génération=7}}
+=== [[Staross]] ===
+{{#invoke:Localisations|pokemon|Staross|génération=7}}
+=== [[M. Mime]] ===
+{{#invoke:Localisations|pokemon|M. Mime|génération=7}}
+=== [[Insécateur]] ===
+{{#invoke:Localisations|pokemon|Insécateur|génération=7}}
+=== [[Lippoutou]] ===
+{{#invoke:Localisations|pokemon|Lippoutou|génération=7}}
+=== [[Élektek]] ===
+{{#invoke:Localisations|pokemon|Élektek|génération=7}}
+=== [[Magmar]] ===
+{{#invoke:Localisations|pokemon|Magmar|génération=7}}
+=== [[Scarabrute]] ===
+{{#invoke:Localisations|pokemon|Scarabrute|génération=7}}
+=== [[Tauros]] ===
+{{#invoke:Localisations|pokemon|Tauros|génération=7}}
+=== [[Magicarpe]] ===
+{{#invoke:Localisations|pokemon|Magicarpe|génération=7}}
+=== [[Léviator]] ===
+{{#invoke:Localisations|pokemon|Léviator|génération=7}}
+=== [[Lokhlass]] ===
+{{#invoke:Localisations|pokemon|Lokhlass|génération=7}}
+=== [[Métamorph]] ===
+{{#invoke:Localisations|pokemon|Métamorph|génération=7}}
+=== [[Évoli]] ===
+{{#invoke:Localisations|pokemon|Évoli|génération=7}}
+=== [[Aquali]] ===
+{{#invoke:Localisations|pokemon|Aquali|génération=7}}
+=== [[Voltali]] ===
+{{#invoke:Localisations|pokemon|Voltali|génération=7}}
+=== [[Pyroli]] ===
+{{#invoke:Localisations|pokemon|Pyroli|génération=7}}
+=== [[Porygon]] ===
+{{#invoke:Localisations|pokemon|Porygon|génération=7}}
+=== [[Amonita]] ===
+{{#invoke:Localisations|pokemon|Amonita|génération=7}}
+=== [[Amonistar]] ===
+{{#invoke:Localisations|pokemon|Amonistar|génération=7}}
+=== [[Kabuto]] ===
+{{#invoke:Localisations|pokemon|Kabuto|génération=7}}
+=== [[Kabutops]] ===
+{{#invoke:Localisations|pokemon|Kabutops|génération=7}}
+=== [[Ptéra]] ===
+{{#invoke:Localisations|pokemon|Ptéra|génération=7}}
+=== [[Ronflex]] ===
+{{#invoke:Localisations|pokemon|Ronflex|génération=7}}
+=== [[Artikodin]] ===
+{{#invoke:Localisations|pokemon|Artikodin|génération=7}}
+=== [[Électhor]] ===
+{{#invoke:Localisations|pokemon|Électhor|génération=7}}
+=== [[Sulfura]] ===
+{{#invoke:Localisations|pokemon|Sulfura|génération=7}}
+=== [[Minidraco]] ===
+{{#invoke:Localisations|pokemon|Minidraco|génération=7}}
+=== [[Draco]] ===
+{{#invoke:Localisations|pokemon|Draco|génération=7}}
+=== [[Dracolosse]] ===
+{{#invoke:Localisations|pokemon|Dracolosse|génération=7}}
+=== [[Mewtwo]] ===
+{{#invoke:Localisations|pokemon|Mewtwo|génération=7}}
+=== [[Mew]] ===
+{{#invoke:Localisations|pokemon|Mew|génération=7}}
+=== [[Germignon]] ===
+{{#invoke:Localisations|pokemon|Germignon|génération=7}}
+=== [[Macronium]] ===
+{{#invoke:Localisations|pokemon|Macronium|génération=7}}
+=== [[Méganium]] ===
+{{#invoke:Localisations|pokemon|Méganium|génération=7}}
+=== [[Héricendre]] ===
+{{#invoke:Localisations|pokemon|Héricendre|génération=7}}
+=== [[Feurisson]] ===
+{{#invoke:Localisations|pokemon|Feurisson|génération=7}}
+=== [[Typhlosion]] ===
+{{#invoke:Localisations|pokemon|Typhlosion|génération=7}}
+=== [[Kaiminus]] ===
+{{#invoke:Localisations|pokemon|Kaiminus|génération=7}}
+=== [[Crocrodil]] ===
+{{#invoke:Localisations|pokemon|Crocrodil|génération=7}}
+=== [[Aligatueur]] ===
+{{#invoke:Localisations|pokemon|Aligatueur|génération=7}}
+=== [[Fouinette]] ===
+{{#invoke:Localisations|pokemon|Fouinette|génération=7}}
+=== [[Fouinar]] ===
+{{#invoke:Localisations|pokemon|Fouinar|génération=7}}
+=== [[Hoothoot]] ===
+{{#invoke:Localisations|pokemon|Hoothoot|génération=7}}
+=== [[Noarfang]] ===
+{{#invoke:Localisations|pokemon|Noarfang|génération=7}}
+=== [[Coxy]] ===
+{{#invoke:Localisations|pokemon|Coxy|génération=7}}
+=== [[Coxyclaque]] ===
+{{#invoke:Localisations|pokemon|Coxyclaque|génération=7}}
+=== [[Mimigal]] ===
+{{#invoke:Localisations|pokemon|Mimigal|génération=7}}
+=== [[Migalos]] ===
+{{#invoke:Localisations|pokemon|Migalos|génération=7}}
+=== [[Nostenfer]] ===
+{{#invoke:Localisations|pokemon|Nostenfer|génération=7}}
+=== [[Loupio]] ===
+{{#invoke:Localisations|pokemon|Loupio|génération=7}}
+=== [[Lanturn]] ===
+{{#invoke:Localisations|pokemon|Lanturn|génération=7}}
+=== [[Pichu]] ===
+{{#invoke:Localisations|pokemon|Pichu|génération=7}}
+=== [[Mélo]] ===
+{{#invoke:Localisations|pokemon|Mélo|génération=7}}
+=== [[Toudoudou]] ===
+{{#invoke:Localisations|pokemon|Toudoudou|génération=7}}
+=== [[Togepi]] ===
+{{#invoke:Localisations|pokemon|Togepi|génération=7}}
+=== [[Togetic]] ===
+{{#invoke:Localisations|pokemon|Togetic|génération=7}}
+=== [[Natu]] ===
+{{#invoke:Localisations|pokemon|Natu|génération=7}}
+=== [[Xatu]] ===
+{{#invoke:Localisations|pokemon|Xatu|génération=7}}
+=== [[Wattouat]] ===
+{{#invoke:Localisations|pokemon|Wattouat|génération=7}}
+=== [[Lainergie]] ===
+{{#invoke:Localisations|pokemon|Lainergie|génération=7}}
+=== [[Pharamp]] ===
+{{#invoke:Localisations|pokemon|Pharamp|génération=7}}
+=== [[Joliflor]] ===
+{{#invoke:Localisations|pokemon|Joliflor|génération=7}}
+=== [[Marill]] ===
+{{#invoke:Localisations|pokemon|Marill|génération=7}}
+=== [[Azumarill]] ===
+{{#invoke:Localisations|pokemon|Azumarill|génération=7}}
+=== [[Simularbre]] ===
+{{#invoke:Localisations|pokemon|Simularbre|génération=7}}
+=== [[Tarpaud]] ===
+{{#invoke:Localisations|pokemon|Tarpaud|génération=7}}
+=== [[Granivol]] ===
+{{#invoke:Localisations|pokemon|Granivol|génération=7}}
+=== [[Floravol]] ===
+{{#invoke:Localisations|pokemon|Floravol|génération=7}}
+=== [[Cotovol]] ===
+{{#invoke:Localisations|pokemon|Cotovol|génération=7}}
+=== [[Capumain]] ===
+{{#invoke:Localisations|pokemon|Capumain|génération=7}}
+=== [[Tournegrin]] ===
+{{#invoke:Localisations|pokemon|Tournegrin|génération=7}}
+=== [[Héliatronc]] ===
+{{#invoke:Localisations|pokemon|Héliatronc|génération=7}}
+=== [[Yanma]] ===
+{{#invoke:Localisations|pokemon|Yanma|génération=7}}
+=== [[Axoloto]] ===
+{{#invoke:Localisations|pokemon|Axoloto|génération=7}}
+=== [[Maraiste]] ===
+{{#invoke:Localisations|pokemon|Maraiste|génération=7}}
+=== [[Mentali]] ===
+{{#invoke:Localisations|pokemon|Mentali|génération=7}}
+=== [[Noctali]] ===
+{{#invoke:Localisations|pokemon|Noctali|génération=7}}
+=== [[Cornèbre]] ===
+{{#invoke:Localisations|pokemon|Cornèbre|génération=7}}
+=== [[Roigada]] ===
+{{#invoke:Localisations|pokemon|Roigada|génération=7}}
+=== [[Feuforêve]] ===
+{{#invoke:Localisations|pokemon|Feuforêve|génération=7}}
+=== [[Zarbi]] ===
+{{#invoke:Localisations|pokemon|Zarbi|génération=7}}
+=== [[Qulbutoké]] ===
+{{#invoke:Localisations|pokemon|Qulbutoké|génération=7}}
+=== [[Girafarig]] ===
+{{#invoke:Localisations|pokemon|Girafarig|génération=7}}
+=== [[Pomdepik]] ===
+{{#invoke:Localisations|pokemon|Pomdepik|génération=7}}
+=== [[Foretress]] ===
+{{#invoke:Localisations|pokemon|Foretress|génération=7}}
+=== [[Insolourdo]] ===
+{{#invoke:Localisations|pokemon|Insolourdo|génération=7}}
+=== [[Scorplane]] ===
+{{#invoke:Localisations|pokemon|Scorplane|génération=7}}
+=== [[Steelix]] ===
+{{#invoke:Localisations|pokemon|Steelix|génération=7}}
+=== [[Snubbull]] ===
+{{#invoke:Localisations|pokemon|Snubbull|génération=7}}
+=== [[Granbull]] ===
+{{#invoke:Localisations|pokemon|Granbull|génération=7}}
+=== [[Qwilfish]] ===
+{{#invoke:Localisations|pokemon|Qwilfish|génération=7}}
+=== [[Cizayox]] ===
+{{#invoke:Localisations|pokemon|Cizayox|génération=7}}
+=== [[Caratroc]] ===
+{{#invoke:Localisations|pokemon|Caratroc|génération=7}}
+=== [[Scarhino]] ===
+{{#invoke:Localisations|pokemon|Scarhino|génération=7}}
+=== [[Farfuret]] ===
+{{#invoke:Localisations|pokemon|Farfuret|génération=7}}
+=== [[Teddiursa]] ===
+{{#invoke:Localisations|pokemon|Teddiursa|génération=7}}
+=== [[Ursaring]] ===
+{{#invoke:Localisations|pokemon|Ursaring|génération=7}}
+=== [[Limagma]] ===
+{{#invoke:Localisations|pokemon|Limagma|génération=7}}
+=== [[Volcaropod]] ===
+{{#invoke:Localisations|pokemon|Volcaropod|génération=7}}
+=== [[Marcacrin]] ===
+{{#invoke:Localisations|pokemon|Marcacrin|génération=7}}
+=== [[Cochignon]] ===
+{{#invoke:Localisations|pokemon|Cochignon|génération=7}}
+=== [[Corayon]] ===
+{{#invoke:Localisations|pokemon|Corayon|génération=7}}
+=== [[Rémoraid]] ===
+{{#invoke:Localisations|pokemon|Rémoraid|génération=7}}
+=== [[Octillery]] ===
+{{#invoke:Localisations|pokemon|Octillery|génération=7}}
+=== [[Cadoizo]] ===
+{{#invoke:Localisations|pokemon|Cadoizo|génération=7}}
+=== [[Démanta]] ===
+{{#invoke:Localisations|pokemon|Démanta|génération=7}}
+=== [[Airmure]] ===
+{{#invoke:Localisations|pokemon|Airmure|génération=7}}
+=== [[Malosse]] ===
+{{#invoke:Localisations|pokemon|Malosse|génération=7}}
+=== [[Démolosse]] ===
+{{#invoke:Localisations|pokemon|Démolosse|génération=7}}
+=== [[Hyporoi]] ===
+{{#invoke:Localisations|pokemon|Hyporoi|génération=7}}
+=== [[Phanpy]] ===
+{{#invoke:Localisations|pokemon|Phanpy|génération=7}}
+=== [[Donphan]] ===
+{{#invoke:Localisations|pokemon|Donphan|génération=7}}
+=== [[Porygon2]] ===
+{{#invoke:Localisations|pokemon|Porygon2|génération=7}}
+=== [[Cerfrousse]] ===
+{{#invoke:Localisations|pokemon|Cerfrousse|génération=7}}
+=== [[Queulorior]] ===
+{{#invoke:Localisations|pokemon|Queulorior|génération=7}}
+=== [[Debugant]] ===
+{{#invoke:Localisations|pokemon|Debugant|génération=7}}
+=== [[Kapoera]] ===
+{{#invoke:Localisations|pokemon|Kapoera|génération=7}}
+=== [[Lippouti]] ===
+{{#invoke:Localisations|pokemon|Lippouti|génération=7}}
+=== [[Élekid]] ===
+{{#invoke:Localisations|pokemon|Élekid|génération=7}}
+=== [[Magby]] ===
+{{#invoke:Localisations|pokemon|Magby|génération=7}}
+=== [[Écrémeuh]] ===
+{{#invoke:Localisations|pokemon|Écrémeuh|génération=7}}
+=== [[Leuphorie]] ===
+{{#invoke:Localisations|pokemon|Leuphorie|génération=7}}
+=== [[Raikou]] ===
+{{#invoke:Localisations|pokemon|Raikou|génération=7}}
+=== [[Entei]] ===
+{{#invoke:Localisations|pokemon|Entei|génération=7}}
+=== [[Suicune]] ===
+{{#invoke:Localisations|pokemon|Suicune|génération=7}}
+=== [[Embrylex]] ===
+{{#invoke:Localisations|pokemon|Embrylex|génération=7}}
+=== [[Ymphect]] ===
+{{#invoke:Localisations|pokemon|Ymphect|génération=7}}
+=== [[Tyranocif]] ===
+{{#invoke:Localisations|pokemon|Tyranocif|génération=7}}
+=== [[Lugia]] ===
+{{#invoke:Localisations|pokemon|Lugia|génération=7}}
+=== [[Ho-Oh]] ===
+{{#invoke:Localisations|pokemon|Ho-Oh|génération=7}}
+=== [[Celebi]] ===
+{{#invoke:Localisations|pokemon|Celebi|génération=7}}
+=== [[Arcko]] ===
+{{#invoke:Localisations|pokemon|Arcko|génération=7}}
+=== [[Massko]] ===
+{{#invoke:Localisations|pokemon|Massko|génération=7}}
+=== [[Jungko]] ===
+{{#invoke:Localisations|pokemon|Jungko|génération=7}}
+=== [[Poussifeu]] ===
+{{#invoke:Localisations|pokemon|Poussifeu|génération=7}}
+=== [[Galifeu]] ===
+{{#invoke:Localisations|pokemon|Galifeu|génération=7}}
+=== [[Braségali]] ===
+{{#invoke:Localisations|pokemon|Braségali|génération=7}}
+=== [[Gobou]] ===
+{{#invoke:Localisations|pokemon|Gobou|génération=7}}
+=== [[Flobio]] ===
+{{#invoke:Localisations|pokemon|Flobio|génération=7}}
+=== [[Laggron]] ===
+{{#invoke:Localisations|pokemon|Laggron|génération=7}}
+=== [[Medhyèna]] ===
+{{#invoke:Localisations|pokemon|Medhyèna|génération=7}}
+=== [[Grahyèna]] ===
+{{#invoke:Localisations|pokemon|Grahyèna|génération=7}}
+=== [[Zigzaton]] ===
+{{#invoke:Localisations|pokemon|Zigzaton|génération=7}}
+=== [[Linéon]] ===
+{{#invoke:Localisations|pokemon|Linéon|génération=7}}
+=== [[Chenipotte]] ===
+{{#invoke:Localisations|pokemon|Chenipotte|génération=7}}
+=== [[Armulys]] ===
+{{#invoke:Localisations|pokemon|Armulys|génération=7}}
+=== [[Charmillon]] ===
+{{#invoke:Localisations|pokemon|Charmillon|génération=7}}
+=== [[Blindalys]] ===
+{{#invoke:Localisations|pokemon|Blindalys|génération=7}}
+=== [[Papinox]] ===
+{{#invoke:Localisations|pokemon|Papinox|génération=7}}
+=== [[Nénupiot]] ===
+{{#invoke:Localisations|pokemon|Nénupiot|génération=7}}
+=== [[Lombre]] ===
+{{#invoke:Localisations|pokemon|Lombre|génération=7}}
+=== [[Ludicolo]] ===
+{{#invoke:Localisations|pokemon|Ludicolo|génération=7}}
+=== [[Grainipiot]] ===
+{{#invoke:Localisations|pokemon|Grainipiot|génération=7}}
+=== [[Pifeuil]] ===
+{{#invoke:Localisations|pokemon|Pifeuil|génération=7}}
+=== [[Tengalice]] ===
+{{#invoke:Localisations|pokemon|Tengalice|génération=7}}
+=== [[Nirondelle]] ===
+{{#invoke:Localisations|pokemon|Nirondelle|génération=7}}
+=== [[Hélédelle]] ===
+{{#invoke:Localisations|pokemon|Hélédelle|génération=7}}
+=== [[Goélise]] ===
+{{#invoke:Localisations|pokemon|Goélise|génération=7}}
+=== [[Bekipan]] ===
+{{#invoke:Localisations|pokemon|Bekipan|génération=7}}
+=== [[Tarsal]] ===
+{{#invoke:Localisations|pokemon|Tarsal|génération=7}}
+=== [[Kirlia]] ===
+{{#invoke:Localisations|pokemon|Kirlia|génération=7}}
+=== [[Gardevoir]] ===
+{{#invoke:Localisations|pokemon|Gardevoir|génération=7}}
+=== [[Arakdo]] ===
+{{#invoke:Localisations|pokemon|Arakdo|génération=7}}
+=== [[Maskadra]] ===
+{{#invoke:Localisations|pokemon|Maskadra|génération=7}}
+=== [[Balignon]] ===
+{{#invoke:Localisations|pokemon|Balignon|génération=7}}
+=== [[Chapignon]] ===
+{{#invoke:Localisations|pokemon|Chapignon|génération=7}}
+=== [[Parecool]] ===
+{{#invoke:Localisations|pokemon|Parecool|génération=7}}
+=== [[Vigoroth]] ===
+{{#invoke:Localisations|pokemon|Vigoroth|génération=7}}
+=== [[Monaflèmit]] ===
+{{#invoke:Localisations|pokemon|Monaflèmit|génération=7}}
+=== [[Ningale]] ===
+{{#invoke:Localisations|pokemon|Ningale|génération=7}}
+=== [[Ninjask]] ===
+{{#invoke:Localisations|pokemon|Ninjask|génération=7}}
+=== [[Munja]] ===
+{{#invoke:Localisations|pokemon|Munja|génération=7}}
+=== [[Chuchmur]] ===
+{{#invoke:Localisations|pokemon|Chuchmur|génération=7}}
+=== [[Ramboum]] ===
+{{#invoke:Localisations|pokemon|Ramboum|génération=7}}
+=== [[Brouhabam]] ===
+{{#invoke:Localisations|pokemon|Brouhabam|génération=7}}
+=== [[Makuhita]] ===
+{{#invoke:Localisations|pokemon|Makuhita|génération=7}}
+=== [[Hariyama]] ===
+{{#invoke:Localisations|pokemon|Hariyama|génération=7}}
+=== [[Azurill]] ===
+{{#invoke:Localisations|pokemon|Azurill|génération=7}}
+=== [[Tarinor]] ===
+{{#invoke:Localisations|pokemon|Tarinor|génération=7}}
+=== [[Skitty]] ===
+{{#invoke:Localisations|pokemon|Skitty|génération=7}}
+=== [[Delcatty]] ===
+{{#invoke:Localisations|pokemon|Delcatty|génération=7}}
+=== [[Ténéfix]] ===
+{{#invoke:Localisations|pokemon|Ténéfix|génération=7}}
+=== [[Mysdibule]] ===
+{{#invoke:Localisations|pokemon|Mysdibule|génération=7}}
+=== [[Galekid]] ===
+{{#invoke:Localisations|pokemon|Galekid|génération=7}}
+=== [[Galegon]] ===
+{{#invoke:Localisations|pokemon|Galegon|génération=7}}
+=== [[Galeking]] ===
+{{#invoke:Localisations|pokemon|Galeking|génération=7}}
+=== [[Méditikka]] ===
+{{#invoke:Localisations|pokemon|Méditikka|génération=7}}
+=== [[Charmina]] ===
+{{#invoke:Localisations|pokemon|Charmina|génération=7}}
+=== [[Dynavolt]] ===
+{{#invoke:Localisations|pokemon|Dynavolt|génération=7}}
+=== [[Élecsprint]] ===
+{{#invoke:Localisations|pokemon|Élecsprint|génération=7}}
+=== [[Posipi]] ===
+{{#invoke:Localisations|pokemon|Posipi|génération=7}}
+=== [[Négapi]] ===
+{{#invoke:Localisations|pokemon|Négapi|génération=7}}
+=== [[Muciole]] ===
+{{#invoke:Localisations|pokemon|Muciole|génération=7}}
+=== [[Lumivole]] ===
+{{#invoke:Localisations|pokemon|Lumivole|génération=7}}
+=== [[Rosélia]] ===
+{{#invoke:Localisations|pokemon|Rosélia|génération=7}}
+=== [[Gloupti]] ===
+{{#invoke:Localisations|pokemon|Gloupti|génération=7}}
+=== [[Avaltout]] ===
+{{#invoke:Localisations|pokemon|Avaltout|génération=7}}
+=== [[Carvanha]] ===
+{{#invoke:Localisations|pokemon|Carvanha|génération=7}}
+=== [[Sharpedo]] ===
+{{#invoke:Localisations|pokemon|Sharpedo|génération=7}}
+=== [[Wailmer]] ===
+{{#invoke:Localisations|pokemon|Wailmer|génération=7}}
+=== [[Wailord]] ===
+{{#invoke:Localisations|pokemon|Wailord|génération=7}}
+=== [[Chamallot]] ===
+{{#invoke:Localisations|pokemon|Chamallot|génération=7}}
+=== [[Camérupt]] ===
+{{#invoke:Localisations|pokemon|Camérupt|génération=7}}
+=== [[Chartor]] ===
+{{#invoke:Localisations|pokemon|Chartor|génération=7}}
+=== [[Spoink]] ===
+{{#invoke:Localisations|pokemon|Spoink|génération=7}}
+=== [[Groret]] ===
+{{#invoke:Localisations|pokemon|Groret|génération=7}}
+=== [[Spinda]] ===
+{{#invoke:Localisations|pokemon|Spinda|génération=7}}
+=== [[Kraknoix]] ===
+{{#invoke:Localisations|pokemon|Kraknoix|génération=7}}
+=== [[Vibraninf]] ===
+{{#invoke:Localisations|pokemon|Vibraninf|génération=7}}
+=== [[Libégon]] ===
+{{#invoke:Localisations|pokemon|Libégon|génération=7}}
+=== [[Cacnea]] ===
+{{#invoke:Localisations|pokemon|Cacnea|génération=7}}
+=== [[Cacturne]] ===
+{{#invoke:Localisations|pokemon|Cacturne|génération=7}}
+=== [[Tylton]] ===
+{{#invoke:Localisations|pokemon|Tylton|génération=7}}
+=== [[Altaria]] ===
+{{#invoke:Localisations|pokemon|Altaria|génération=7}}
+=== [[Mangriff]] ===
+{{#invoke:Localisations|pokemon|Mangriff|génération=7}}
+=== [[Séviper]] ===
+{{#invoke:Localisations|pokemon|Séviper|génération=7}}
+=== [[Séléroc]] ===
+{{#invoke:Localisations|pokemon|Séléroc|génération=7}}
+=== [[Solaroc]] ===
+{{#invoke:Localisations|pokemon|Solaroc|génération=7}}
+=== [[Barloche]] ===
+{{#invoke:Localisations|pokemon|Barloche|génération=7}}
+=== [[Barbicha]] ===
+{{#invoke:Localisations|pokemon|Barbicha|génération=7}}
+=== [[Écrapince]] ===
+{{#invoke:Localisations|pokemon|Écrapince|génération=7}}
+=== [[Colhomard]] ===
+{{#invoke:Localisations|pokemon|Colhomard|génération=7}}
+=== [[Balbuto]] ===
+{{#invoke:Localisations|pokemon|Balbuto|génération=7}}
+=== [[Kaorine]] ===
+{{#invoke:Localisations|pokemon|Kaorine|génération=7}}
+=== [[Lilia]] ===
+{{#invoke:Localisations|pokemon|Lilia|génération=7}}
+=== [[Vacilys]] ===
+{{#invoke:Localisations|pokemon|Vacilys|génération=7}}
+=== [[Anorith]] ===
+{{#invoke:Localisations|pokemon|Anorith|génération=7}}
+=== [[Armaldo]] ===
+{{#invoke:Localisations|pokemon|Armaldo|génération=7}}
+=== [[Barpau]] ===
+{{#invoke:Localisations|pokemon|Barpau|génération=7}}
+=== [[Milobellus]] ===
+{{#invoke:Localisations|pokemon|Milobellus|génération=7}}
+=== [[Morphéo]] ===
+{{#invoke:Localisations|pokemon|Morphéo|génération=7}}
+=== [[Kecleon]] ===
+{{#invoke:Localisations|pokemon|Kecleon|génération=7}}
+=== [[Polichombr]] ===
+{{#invoke:Localisations|pokemon|Polichombr|génération=7}}
+=== [[Branette]] ===
+{{#invoke:Localisations|pokemon|Branette|génération=7}}
+=== [[Skelénox]] ===
+{{#invoke:Localisations|pokemon|Skelénox|génération=7}}
+=== [[Téraclope]] ===
+{{#invoke:Localisations|pokemon|Téraclope|génération=7}}
+=== [[Tropius]] ===
+{{#invoke:Localisations|pokemon|Tropius|génération=7}}
+=== [[Éoko]] ===
+{{#invoke:Localisations|pokemon|Éoko|génération=7}}
+=== [[Absol]] ===
+{{#invoke:Localisations|pokemon|Absol|génération=7}}
+=== [[Okéoké]] ===
+{{#invoke:Localisations|pokemon|Okéoké|génération=7}}
+=== [[Stalgamin]] ===
+{{#invoke:Localisations|pokemon|Stalgamin|génération=7}}
+=== [[Oniglali]] ===
+{{#invoke:Localisations|pokemon|Oniglali|génération=7}}
+=== [[Obalie]] ===
+{{#invoke:Localisations|pokemon|Obalie|génération=7}}
+=== [[Phogleur]] ===
+{{#invoke:Localisations|pokemon|Phogleur|génération=7}}
+=== [[Kaimorse]] ===
+{{#invoke:Localisations|pokemon|Kaimorse|génération=7}}
+=== [[Coquiperl]] ===
+{{#invoke:Localisations|pokemon|Coquiperl|génération=7}}
+=== [[Serpang]] ===
+{{#invoke:Localisations|pokemon|Serpang|génération=7}}
+=== [[Rosabyss]] ===
+{{#invoke:Localisations|pokemon|Rosabyss|génération=7}}
+=== [[Relicanth]] ===
+{{#invoke:Localisations|pokemon|Relicanth|génération=7}}
+=== [[Lovdisc]] ===
+{{#invoke:Localisations|pokemon|Lovdisc|génération=7}}
+=== [[Draby]] ===
+{{#invoke:Localisations|pokemon|Draby|génération=7}}
+=== [[Drackhaus]] ===
+{{#invoke:Localisations|pokemon|Drackhaus|génération=7}}
+=== [[Drattak]] ===
+{{#invoke:Localisations|pokemon|Drattak|génération=7}}
+=== [[Terhal]] ===
+{{#invoke:Localisations|pokemon|Terhal|génération=7}}
+=== [[Métang]] ===
+{{#invoke:Localisations|pokemon|Métang|génération=7}}
+=== [[Métalosse]] ===
+{{#invoke:Localisations|pokemon|Métalosse|génération=7}}
+=== [[Regirock]] ===
+{{#invoke:Localisations|pokemon|Regirock|génération=7}}
+=== [[Regice]] ===
+{{#invoke:Localisations|pokemon|Regice|génération=7}}
+=== [[Registeel]] ===
+{{#invoke:Localisations|pokemon|Registeel|génération=7}}
+=== [[Latias]] ===
+{{#invoke:Localisations|pokemon|Latias|génération=7}}
+=== [[Latios]] ===
+{{#invoke:Localisations|pokemon|Latios|génération=7}}
+=== [[Kyogre]] ===
+{{#invoke:Localisations|pokemon|Kyogre|génération=7}}
+=== [[Groudon]] ===
+{{#invoke:Localisations|pokemon|Groudon|génération=7}}
+=== [[Rayquaza]] ===
+{{#invoke:Localisations|pokemon|Rayquaza|génération=7}}
+=== [[Jirachi]] ===
+{{#invoke:Localisations|pokemon|Jirachi|génération=7}}
+=== [[Deoxys]] ===
+{{#invoke:Localisations|pokemon|Deoxys|génération=7}}
+=== [[Tortipouss]] ===
+{{#invoke:Localisations|pokemon|Tortipouss|génération=7}}
+=== [[Boskara]] ===
+{{#invoke:Localisations|pokemon|Boskara|génération=7}}
+=== [[Torterra]] ===
+{{#invoke:Localisations|pokemon|Torterra|génération=7}}
+=== [[Ouisticram]] ===
+{{#invoke:Localisations|pokemon|Ouisticram|génération=7}}
+=== [[Chimpenfeu]] ===
+{{#invoke:Localisations|pokemon|Chimpenfeu|génération=7}}
+=== [[Simiabraz]] ===
+{{#invoke:Localisations|pokemon|Simiabraz|génération=7}}
+=== [[Tiplouf]] ===
+{{#invoke:Localisations|pokemon|Tiplouf|génération=7}}
+=== [[Prinplouf]] ===
+{{#invoke:Localisations|pokemon|Prinplouf|génération=7}}
+=== [[Pingoléon]] ===
+{{#invoke:Localisations|pokemon|Pingoléon|génération=7}}
+=== [[Étourmi]] ===
+{{#invoke:Localisations|pokemon|Étourmi|génération=7}}
+=== [[Étourvol]] ===
+{{#invoke:Localisations|pokemon|Étourvol|génération=7}}
+=== [[Étouraptor]] ===
+{{#invoke:Localisations|pokemon|Étouraptor|génération=7}}
+=== [[Keunotor]] ===
+{{#invoke:Localisations|pokemon|Keunotor|génération=7}}
+=== [[Castorno]] ===
+{{#invoke:Localisations|pokemon|Castorno|génération=7}}
+=== [[Crikzik]] ===
+{{#invoke:Localisations|pokemon|Crikzik|génération=7}}
+=== [[Mélokrik]] ===
+{{#invoke:Localisations|pokemon|Mélokrik|génération=7}}
+=== [[Lixy]] ===
+{{#invoke:Localisations|pokemon|Lixy|génération=7}}
+=== [[Luxio]] ===
+{{#invoke:Localisations|pokemon|Luxio|génération=7}}
+=== [[Luxray]] ===
+{{#invoke:Localisations|pokemon|Luxray|génération=7}}
+=== [[Rozbouton]] ===
+{{#invoke:Localisations|pokemon|Rozbouton|génération=7}}
+=== [[Roserade]] ===
+{{#invoke:Localisations|pokemon|Roserade|génération=7}}
+=== [[Kranidos]] ===
+{{#invoke:Localisations|pokemon|Kranidos|génération=7}}
+=== [[Charkos]] ===
+{{#invoke:Localisations|pokemon|Charkos|génération=7}}
+=== [[Dinoclier]] ===
+{{#invoke:Localisations|pokemon|Dinoclier|génération=7}}
+=== [[Bastiodon]] ===
+{{#invoke:Localisations|pokemon|Bastiodon|génération=7}}
+=== [[Cheniti]] ===
+{{#invoke:Localisations|pokemon|Cheniti|génération=7}}
+=== [[Cheniselle]] ===
+{{#invoke:Localisations|pokemon|Cheniselle|génération=7}}
+=== [[Papilord]] ===
+{{#invoke:Localisations|pokemon|Papilord|génération=7}}
+=== [[Apitrini]] ===
+{{#invoke:Localisations|pokemon|Apitrini|génération=7}}
+=== [[Apireine]] ===
+{{#invoke:Localisations|pokemon|Apireine|génération=7}}
+=== [[Pachirisu]] ===
+{{#invoke:Localisations|pokemon|Pachirisu|génération=7}}
+=== [[Mustébouée]] ===
+{{#invoke:Localisations|pokemon|Mustébouée|génération=7}}
+=== [[Mustéflott]] ===
+{{#invoke:Localisations|pokemon|Mustéflott|génération=7}}
+=== [[Ceribou]] ===
+{{#invoke:Localisations|pokemon|Ceribou|génération=7}}
+=== [[Ceriflor]] ===
+{{#invoke:Localisations|pokemon|Ceriflor|génération=7}}
+=== [[Sancoki]] ===
+{{#invoke:Localisations|pokemon|Sancoki|génération=7}}
+=== [[Tritosor]] ===
+{{#invoke:Localisations|pokemon|Tritosor|génération=7}}
+=== [[Capidextre]] ===
+{{#invoke:Localisations|pokemon|Capidextre|génération=7}}
+=== [[Baudrive]] ===
+{{#invoke:Localisations|pokemon|Baudrive|génération=7}}
+=== [[Grodrive]] ===
+{{#invoke:Localisations|pokemon|Grodrive|génération=7}}
+=== [[Laporeille]] ===
+{{#invoke:Localisations|pokemon|Laporeille|génération=7}}
+=== [[Lockpin]] ===
+{{#invoke:Localisations|pokemon|Lockpin|génération=7}}
+=== [[Magirêve]] ===
+{{#invoke:Localisations|pokemon|Magirêve|génération=7}}
+=== [[Corboss]] ===
+{{#invoke:Localisations|pokemon|Corboss|génération=7}}
+=== [[Chaglam]] ===
+{{#invoke:Localisations|pokemon|Chaglam|génération=7}}
+=== [[Chaffreux]] ===
+{{#invoke:Localisations|pokemon|Chaffreux|génération=7}}
+=== [[Korillon]] ===
+{{#invoke:Localisations|pokemon|Korillon|génération=7}}
+=== [[Moufouette]] ===
+{{#invoke:Localisations|pokemon|Moufouette|génération=7}}
+=== [[Moufflair]] ===
+{{#invoke:Localisations|pokemon|Moufflair|génération=7}}
+=== [[Archéomire]] ===
+{{#invoke:Localisations|pokemon|Archéomire|génération=7}}
+=== [[Archéodong]] ===
+{{#invoke:Localisations|pokemon|Archéodong|génération=7}}
+=== [[Manzaï]] ===
+{{#invoke:Localisations|pokemon|Manzaï|génération=7}}
+=== [[Mime Jr.]] ===
+{{#invoke:Localisations|pokemon|Mime Jr.|génération=7}}
+=== [[Ptiravi]] ===
+{{#invoke:Localisations|pokemon|Ptiravi|génération=7}}
+=== [[Pijako]] ===
+{{#invoke:Localisations|pokemon|Pijako|génération=7}}
+=== [[Spiritomb]] ===
+{{#invoke:Localisations|pokemon|Spiritomb|génération=7}}
+=== [[Griknot]] ===
+{{#invoke:Localisations|pokemon|Griknot|génération=7}}
+=== [[Carmache]] ===
+{{#invoke:Localisations|pokemon|Carmache|génération=7}}
+=== [[Carchacrok]] ===
+{{#invoke:Localisations|pokemon|Carchacrok|génération=7}}
+=== [[Goinfrex]] ===
+{{#invoke:Localisations|pokemon|Goinfrex|génération=7}}
+=== [[Riolu]] ===
+{{#invoke:Localisations|pokemon|Riolu|génération=7}}
+=== [[Lucario]] ===
+{{#invoke:Localisations|pokemon|Lucario|génération=7}}
+=== [[Hippopotas]] ===
+{{#invoke:Localisations|pokemon|Hippopotas|génération=7}}
+=== [[Hippodocus]] ===
+{{#invoke:Localisations|pokemon|Hippodocus|génération=7}}
+=== [[Rapion]] ===
+{{#invoke:Localisations|pokemon|Rapion|génération=7}}
+=== [[Drascore]] ===
+{{#invoke:Localisations|pokemon|Drascore|génération=7}}
+=== [[Cradopaud]] ===
+{{#invoke:Localisations|pokemon|Cradopaud|génération=7}}
+=== [[Coatox]] ===
+{{#invoke:Localisations|pokemon|Coatox|génération=7}}
+=== [[Vortente]] ===
+{{#invoke:Localisations|pokemon|Vortente|génération=7}}
+=== [[Écayon]] ===
+{{#invoke:Localisations|pokemon|Écayon|génération=7}}
+=== [[Luminéon]] ===
+{{#invoke:Localisations|pokemon|Luminéon|génération=7}}
+=== [[Babimanta]] ===
+{{#invoke:Localisations|pokemon|Babimanta|génération=7}}
+=== [[Blizzi]] ===
+{{#invoke:Localisations|pokemon|Blizzi|génération=7}}
+=== [[Blizzaroi]] ===
+{{#invoke:Localisations|pokemon|Blizzaroi|génération=7}}
+=== [[Dimoret]] ===
+{{#invoke:Localisations|pokemon|Dimoret|génération=7}}
+=== [[Magnézone]] ===
+{{#invoke:Localisations|pokemon|Magnézone|génération=7}}
+=== [[Coudlangue]] ===
+{{#invoke:Localisations|pokemon|Coudlangue|génération=7}}
+=== [[Rhinastoc]] ===
+{{#invoke:Localisations|pokemon|Rhinastoc|génération=7}}
+=== [[Bouldeneu]] ===
+{{#invoke:Localisations|pokemon|Bouldeneu|génération=7}}
+=== [[Élekable]] ===
+{{#invoke:Localisations|pokemon|Élekable|génération=7}}
+=== [[Maganon]] ===
+{{#invoke:Localisations|pokemon|Maganon|génération=7}}
+=== [[Togekiss]] ===
+{{#invoke:Localisations|pokemon|Togekiss|génération=7}}
+=== [[Yanmega]] ===
+{{#invoke:Localisations|pokemon|Yanmega|génération=7}}
+=== [[Phyllali]] ===
+{{#invoke:Localisations|pokemon|Phyllali|génération=7}}
+=== [[Givrali]] ===
+{{#invoke:Localisations|pokemon|Givrali|génération=7}}
+=== [[Scorvol]] ===
+{{#invoke:Localisations|pokemon|Scorvol|génération=7}}
+=== [[Mammochon]] ===
+{{#invoke:Localisations|pokemon|Mammochon|génération=7}}
+=== [[Porygon-Z]] ===
+{{#invoke:Localisations|pokemon|Porygon-Z|génération=7}}
+=== [[Gallame]] ===
+{{#invoke:Localisations|pokemon|Gallame|génération=7}}
+=== [[Tarinorme]] ===
+{{#invoke:Localisations|pokemon|Tarinorme|génération=7}}
+=== [[Noctunoir]] ===
+{{#invoke:Localisations|pokemon|Noctunoir|génération=7}}
+=== [[Momartik]] ===
+{{#invoke:Localisations|pokemon|Momartik|génération=7}}
+=== [[Motisma]] ===
+{{#invoke:Localisations|pokemon|Motisma|génération=7}}
+=== [[Créhelf]] ===
+{{#invoke:Localisations|pokemon|Créhelf|génération=7}}
+=== [[Créfollet]] ===
+{{#invoke:Localisations|pokemon|Créfollet|génération=7}}
+=== [[Créfadet]] ===
+{{#invoke:Localisations|pokemon|Créfadet|génération=7}}
+=== [[Dialga]] ===
+{{#invoke:Localisations|pokemon|Dialga|génération=7}}
+=== [[Palkia]] ===
+{{#invoke:Localisations|pokemon|Palkia|génération=7}}
+=== [[Heatran]] ===
+{{#invoke:Localisations|pokemon|Heatran|génération=7}}
+=== [[Regigigas]] ===
+{{#invoke:Localisations|pokemon|Regigigas|génération=7}}
+=== [[Giratina]] ===
+{{#invoke:Localisations|pokemon|Giratina|génération=7}}
+=== [[Cresselia]] ===
+{{#invoke:Localisations|pokemon|Cresselia|génération=7}}
+=== [[Phione]] ===
+{{#invoke:Localisations|pokemon|Phione|génération=7}}
+=== [[Manaphy]] ===
+{{#invoke:Localisations|pokemon|Manaphy|génération=7}}
+=== [[Darkrai]] ===
+{{#invoke:Localisations|pokemon|Darkrai|génération=7}}
+=== [[Shaymin]] ===
+{{#invoke:Localisations|pokemon|Shaymin|génération=7}}
+=== [[Arceus]] ===
+{{#invoke:Localisations|pokemon|Arceus|génération=7}}
+=== [[Victini]] ===
+{{#invoke:Localisations|pokemon|Victini|génération=7}}
+=== [[Vipélierre]] ===
+{{#invoke:Localisations|pokemon|Vipélierre|génération=7}}
+=== [[Lianaja]] ===
+{{#invoke:Localisations|pokemon|Lianaja|génération=7}}
+=== [[Majaspic]] ===
+{{#invoke:Localisations|pokemon|Majaspic|génération=7}}
+=== [[Gruikui]] ===
+{{#invoke:Localisations|pokemon|Gruikui|génération=7}}
+=== [[Grotichon]] ===
+{{#invoke:Localisations|pokemon|Grotichon|génération=7}}
+=== [[Roitiflam]] ===
+{{#invoke:Localisations|pokemon|Roitiflam|génération=7}}
+=== [[Moustillon]] ===
+{{#invoke:Localisations|pokemon|Moustillon|génération=7}}
+=== [[Mateloutre]] ===
+{{#invoke:Localisations|pokemon|Mateloutre|génération=7}}
+=== [[Clamiral]] ===
+{{#invoke:Localisations|pokemon|Clamiral|génération=7}}
+=== [[Ratentif]] ===
+{{#invoke:Localisations|pokemon|Ratentif|génération=7}}
+=== [[Miradar]] ===
+{{#invoke:Localisations|pokemon|Miradar|génération=7}}
+=== [[Ponchiot]] ===
+{{#invoke:Localisations|pokemon|Ponchiot|génération=7}}
+=== [[Ponchien]] ===
+{{#invoke:Localisations|pokemon|Ponchien|génération=7}}
+=== [[Mastouffe]] ===
+{{#invoke:Localisations|pokemon|Mastouffe|génération=7}}
+=== [[Chacripan]] ===
+{{#invoke:Localisations|pokemon|Chacripan|génération=7}}
+=== [[Léopardus]] ===
+{{#invoke:Localisations|pokemon|Léopardus|génération=7}}
+=== [[Feuillajou]] ===
+{{#invoke:Localisations|pokemon|Feuillajou|génération=7}}
+=== [[Feuiloutan]] ===
+{{#invoke:Localisations|pokemon|Feuiloutan|génération=7}}
+=== [[Flamajou]] ===
+{{#invoke:Localisations|pokemon|Flamajou|génération=7}}
+=== [[Flamoutan]] ===
+{{#invoke:Localisations|pokemon|Flamoutan|génération=7}}
+=== [[Flotajou]] ===
+{{#invoke:Localisations|pokemon|Flotajou|génération=7}}
+=== [[Flotoutan]] ===
+{{#invoke:Localisations|pokemon|Flotoutan|génération=7}}
+=== [[Munna]] ===
+{{#invoke:Localisations|pokemon|Munna|génération=7}}
+=== [[Mushana]] ===
+{{#invoke:Localisations|pokemon|Mushana|génération=7}}
+=== [[Poichigeon]] ===
+{{#invoke:Localisations|pokemon|Poichigeon|génération=7}}
+=== [[Colombeau]] ===
+{{#invoke:Localisations|pokemon|Colombeau|génération=7}}
+=== [[Déflaisan]] ===
+{{#invoke:Localisations|pokemon|Déflaisan|génération=7}}
+=== [[Zébibron]] ===
+{{#invoke:Localisations|pokemon|Zébibron|génération=7}}
+=== [[Zéblitz]] ===
+{{#invoke:Localisations|pokemon|Zéblitz|génération=7}}
+=== [[Nodulithe]] ===
+{{#invoke:Localisations|pokemon|Nodulithe|génération=7}}
+=== [[Géolithe]] ===
+{{#invoke:Localisations|pokemon|Géolithe|génération=7}}
+=== [[Gigalithe]] ===
+{{#invoke:Localisations|pokemon|Gigalithe|génération=7}}
+=== [[Chovsourir]] ===
+{{#invoke:Localisations|pokemon|Chovsourir|génération=7}}
+=== [[Rhinolove]] ===
+{{#invoke:Localisations|pokemon|Rhinolove|génération=7}}
+=== [[Rototaupe]] ===
+{{#invoke:Localisations|pokemon|Rototaupe|génération=7}}
+=== [[Minotaupe]] ===
+{{#invoke:Localisations|pokemon|Minotaupe|génération=7}}
+=== [[Nanméouïe]] ===
+{{#invoke:Localisations|pokemon|Nanméouïe|génération=7}}
+=== [[Charpenti]] ===
+{{#invoke:Localisations|pokemon|Charpenti|génération=7}}
+=== [[Ouvrifier]] ===
+{{#invoke:Localisations|pokemon|Ouvrifier|génération=7}}
+=== [[Bétochef]] ===
+{{#invoke:Localisations|pokemon|Bétochef|génération=7}}
+=== [[Tritonde]] ===
+{{#invoke:Localisations|pokemon|Tritonde|génération=7}}
+=== [[Batracné]] ===
+{{#invoke:Localisations|pokemon|Batracné|génération=7}}
+=== [[Crapustule]] ===
+{{#invoke:Localisations|pokemon|Crapustule|génération=7}}
+=== [[Judokrak]] ===
+{{#invoke:Localisations|pokemon|Judokrak|génération=7}}
+=== [[Karaclée]] ===
+{{#invoke:Localisations|pokemon|Karaclée|génération=7}}
+=== [[Larveyette]] ===
+{{#invoke:Localisations|pokemon|Larveyette|génération=7}}
+=== [[Couverdure]] ===
+{{#invoke:Localisations|pokemon|Couverdure|génération=7}}
+=== [[Manternel]] ===
+{{#invoke:Localisations|pokemon|Manternel|génération=7}}
+=== [[Venipatte]] ===
+{{#invoke:Localisations|pokemon|Venipatte|génération=7}}
+=== [[Scobolide]] ===
+{{#invoke:Localisations|pokemon|Scobolide|génération=7}}
+=== [[Brutapode]] ===
+{{#invoke:Localisations|pokemon|Brutapode|génération=7}}
+=== [[Doudouvet]] ===
+{{#invoke:Localisations|pokemon|Doudouvet|génération=7}}
+=== [[Farfaduvet]] ===
+{{#invoke:Localisations|pokemon|Farfaduvet|génération=7}}
+=== [[Chlorobule]] ===
+{{#invoke:Localisations|pokemon|Chlorobule|génération=7}}
+=== [[Fragilady]] ===
+{{#invoke:Localisations|pokemon|Fragilady|génération=7}}
+=== [[Bargantua]] ===
+{{#invoke:Localisations|pokemon|Bargantua|génération=7}}
+=== [[Mascaïman]] ===
+{{#invoke:Localisations|pokemon|Mascaïman|génération=7}}
+=== [[Escroco]] ===
+{{#invoke:Localisations|pokemon|Escroco|génération=7}}
+=== [[Crocorible]] ===
+{{#invoke:Localisations|pokemon|Crocorible|génération=7}}
+=== [[Darumarond]] ===
+{{#invoke:Localisations|pokemon|Darumarond|génération=7}}
+=== [[Darumacho]] ===
+{{#invoke:Localisations|pokemon|Darumacho|génération=7}}
+=== [[Maracachi]] ===
+{{#invoke:Localisations|pokemon|Maracachi|génération=7}}
+=== [[Crabicoque]] ===
+{{#invoke:Localisations|pokemon|Crabicoque|génération=7}}
+=== [[Crabaraque]] ===
+{{#invoke:Localisations|pokemon|Crabaraque|génération=7}}
+=== [[Baggiguane]] ===
+{{#invoke:Localisations|pokemon|Baggiguane|génération=7}}
+=== [[Baggaïd]] ===
+{{#invoke:Localisations|pokemon|Baggaïd|génération=7}}
+=== [[Cryptéro]] ===
+{{#invoke:Localisations|pokemon|Cryptéro|génération=7}}
+=== [[Tutafeh]] ===
+{{#invoke:Localisations|pokemon|Tutafeh|génération=7}}
+=== [[Tutankafer]] ===
+{{#invoke:Localisations|pokemon|Tutankafer|génération=7}}
+=== [[Carapagos]] ===
+{{#invoke:Localisations|pokemon|Carapagos|génération=7}}
+=== [[Mégapagos]] ===
+{{#invoke:Localisations|pokemon|Mégapagos|génération=7}}
+=== [[Arkéapti]] ===
+{{#invoke:Localisations|pokemon|Arkéapti|génération=7}}
+=== [[Aéroptéryx]] ===
+{{#invoke:Localisations|pokemon|Aéroptéryx|génération=7}}
+=== [[Miamiasme]] ===
+{{#invoke:Localisations|pokemon|Miamiasme|génération=7}}
+=== [[Miasmax]] ===
+{{#invoke:Localisations|pokemon|Miasmax|génération=7}}
+=== [[Zorua]] ===
+{{#invoke:Localisations|pokemon|Zorua|génération=7}}
+=== [[Zoroark]] ===
+{{#invoke:Localisations|pokemon|Zoroark|génération=7}}
+=== [[Chinchidou]] ===
+{{#invoke:Localisations|pokemon|Chinchidou|génération=7}}
+=== [[Pashmilla]] ===
+{{#invoke:Localisations|pokemon|Pashmilla|génération=7}}
+=== [[Scrutella]] ===
+{{#invoke:Localisations|pokemon|Scrutella|génération=7}}
+=== [[Mesmérella]] ===
+{{#invoke:Localisations|pokemon|Mesmérella|génération=7}}
+=== [[Sidérella]] ===
+{{#invoke:Localisations|pokemon|Sidérella|génération=7}}
+=== [[Nucléos]] ===
+{{#invoke:Localisations|pokemon|Nucléos|génération=7}}
+=== [[Méios]] ===
+{{#invoke:Localisations|pokemon|Méios|génération=7}}
+=== [[Symbios]] ===
+{{#invoke:Localisations|pokemon|Symbios|génération=7}}
+=== [[Couaneton]] ===
+{{#invoke:Localisations|pokemon|Couaneton|génération=7}}
+=== [[Lakmécygne]] ===
+{{#invoke:Localisations|pokemon|Lakmécygne|génération=7}}
+=== [[Sorbébé]] ===
+{{#invoke:Localisations|pokemon|Sorbébé|génération=7}}
+=== [[Sorboul]] ===
+{{#invoke:Localisations|pokemon|Sorboul|génération=7}}
+=== [[Sorbouboul]] ===
+{{#invoke:Localisations|pokemon|Sorbouboul|génération=7}}
+=== [[Vivaldaim]] ===
+{{#invoke:Localisations|pokemon|Vivaldaim|génération=7}}
+=== [[Haydaim]] ===
+{{#invoke:Localisations|pokemon|Haydaim|génération=7}}
+=== [[Emolga]] ===
+{{#invoke:Localisations|pokemon|Emolga|génération=7}}
+=== [[Carabing]] ===
+{{#invoke:Localisations|pokemon|Carabing|génération=7}}
+=== [[Lançargot]] ===
+{{#invoke:Localisations|pokemon|Lançargot|génération=7}}
+=== [[Trompignon]] ===
+{{#invoke:Localisations|pokemon|Trompignon|génération=7}}
+=== [[Gaulet]] ===
+{{#invoke:Localisations|pokemon|Gaulet|génération=7}}
+=== [[Viskuse]] ===
+{{#invoke:Localisations|pokemon|Viskuse|génération=7}}
+=== [[Moyade]] ===
+{{#invoke:Localisations|pokemon|Moyade|génération=7}}
+=== [[Mamanbo]] ===
+{{#invoke:Localisations|pokemon|Mamanbo|génération=7}}
+=== [[Statitik]] ===
+{{#invoke:Localisations|pokemon|Statitik|génération=7}}
+=== [[Mygavolt]] ===
+{{#invoke:Localisations|pokemon|Mygavolt|génération=7}}
+=== [[Grindur]] ===
+{{#invoke:Localisations|pokemon|Grindur|génération=7}}
+=== [[Noacier]] ===
+{{#invoke:Localisations|pokemon|Noacier|génération=7}}
+=== [[Tic]] ===
+{{#invoke:Localisations|pokemon|Tic|génération=7}}
+=== [[Clic]] ===
+{{#invoke:Localisations|pokemon|Clic|génération=7}}
+=== [[Cliticlic]] ===
+{{#invoke:Localisations|pokemon|Cliticlic|génération=7}}
+=== [[Anchwatt]] ===
+{{#invoke:Localisations|pokemon|Anchwatt|génération=7}}
+=== [[Lampéroie]] ===
+{{#invoke:Localisations|pokemon|Lampéroie|génération=7}}
+=== [[Ohmassacre]] ===
+{{#invoke:Localisations|pokemon|Ohmassacre|génération=7}}
+=== [[Lewsor]] ===
+{{#invoke:Localisations|pokemon|Lewsor|génération=7}}
+=== [[Neitram]] ===
+{{#invoke:Localisations|pokemon|Neitram|génération=7}}
+=== [[Funécire]] ===
+{{#invoke:Localisations|pokemon|Funécire|génération=7}}
+=== [[Mélancolux]] ===
+{{#invoke:Localisations|pokemon|Mélancolux|génération=7}}
+=== [[Lugulabre]] ===
+{{#invoke:Localisations|pokemon|Lugulabre|génération=7}}
+=== [[Coupenotte]] ===
+{{#invoke:Localisations|pokemon|Coupenotte|génération=7}}
+=== [[Incisache]] ===
+{{#invoke:Localisations|pokemon|Incisache|génération=7}}
+=== [[Tranchodon]] ===
+{{#invoke:Localisations|pokemon|Tranchodon|génération=7}}
+=== [[Polarhume]] ===
+{{#invoke:Localisations|pokemon|Polarhume|génération=7}}
+=== [[Polagriffe]] ===
+{{#invoke:Localisations|pokemon|Polagriffe|génération=7}}
+=== [[Hexagel]] ===
+{{#invoke:Localisations|pokemon|Hexagel|génération=7}}
+=== [[Escargaume]] ===
+{{#invoke:Localisations|pokemon|Escargaume|génération=7}}
+=== [[Limaspeed]] ===
+{{#invoke:Localisations|pokemon|Limaspeed|génération=7}}
+=== [[Limonde]] ===
+{{#invoke:Localisations|pokemon|Limonde|génération=7}}
+=== [[Kungfouine]] ===
+{{#invoke:Localisations|pokemon|Kungfouine|génération=7}}
+=== [[Shaofouine]] ===
+{{#invoke:Localisations|pokemon|Shaofouine|génération=7}}
+=== [[Drakkarmin]] ===
+{{#invoke:Localisations|pokemon|Drakkarmin|génération=7}}
+=== [[Gringolem]] ===
+{{#invoke:Localisations|pokemon|Gringolem|génération=7}}
+=== [[Golemastoc]] ===
+{{#invoke:Localisations|pokemon|Golemastoc|génération=7}}
+=== [[Scalpion]] ===
+{{#invoke:Localisations|pokemon|Scalpion|génération=7}}
+=== [[Scalproie]] ===
+{{#invoke:Localisations|pokemon|Scalproie|génération=7}}
+=== [[Frison]] ===
+{{#invoke:Localisations|pokemon|Frison|génération=7}}
+=== [[Furaiglon]] ===
+{{#invoke:Localisations|pokemon|Furaiglon|génération=7}}
+=== [[Gueriaigle]] ===
+{{#invoke:Localisations|pokemon|Gueriaigle|génération=7}}
+=== [[Vostourno]] ===
+{{#invoke:Localisations|pokemon|Vostourno|génération=7}}
+=== [[Vaututrice]] ===
+{{#invoke:Localisations|pokemon|Vaututrice|génération=7}}
+=== [[Aflamanoir]] ===
+{{#invoke:Localisations|pokemon|Aflamanoir|génération=7}}
+=== [[Fermite]] ===
+{{#invoke:Localisations|pokemon|Fermite|génération=7}}
+=== [[Solochi]] ===
+{{#invoke:Localisations|pokemon|Solochi|génération=7}}
+=== [[Diamat]] ===
+{{#invoke:Localisations|pokemon|Diamat|génération=7}}
+=== [[Trioxhydre]] ===
+{{#invoke:Localisations|pokemon|Trioxhydre|génération=7}}
+=== [[Pyronille]] ===
+{{#invoke:Localisations|pokemon|Pyronille|génération=7}}
+=== [[Pyrax]] ===
+{{#invoke:Localisations|pokemon|Pyrax|génération=7}}
+=== [[Cobaltium]] ===
+{{#invoke:Localisations|pokemon|Cobaltium|génération=7}}
+=== [[Terrakium]] ===
+{{#invoke:Localisations|pokemon|Terrakium|génération=7}}
+=== [[Viridium]] ===
+{{#invoke:Localisations|pokemon|Viridium|génération=7}}
+=== [[Boréas]] ===
+{{#invoke:Localisations|pokemon|Boréas|génération=7}}
+=== [[Fulguris]] ===
+{{#invoke:Localisations|pokemon|Fulguris|génération=7}}
+=== [[Reshiram]] ===
+{{#invoke:Localisations|pokemon|Reshiram|génération=7}}
+=== [[Zekrom]] ===
+{{#invoke:Localisations|pokemon|Zekrom|génération=7}}
+=== [[Démétéros]] ===
+{{#invoke:Localisations|pokemon|Démétéros|génération=7}}
+=== [[Kyurem]] ===
+{{#invoke:Localisations|pokemon|Kyurem|génération=7}}
+=== [[Keldeo]] ===
+{{#invoke:Localisations|pokemon|Keldeo|génération=7}}
+=== [[Meloetta]] ===
+{{#invoke:Localisations|pokemon|Meloetta|génération=7}}
+=== [[Genesect]] ===
+{{#invoke:Localisations|pokemon|Genesect|génération=7}}
+=== [[Marisson]] ===
+{{#invoke:Localisations|pokemon|Marisson|génération=7}}
+=== [[Boguérisse]] ===
+{{#invoke:Localisations|pokemon|Boguérisse|génération=7}}
+=== [[Blindépique]] ===
+{{#invoke:Localisations|pokemon|Blindépique|génération=7}}
+=== [[Feunnec]] ===
+{{#invoke:Localisations|pokemon|Feunnec|génération=7}}
+=== [[Roussil]] ===
+{{#invoke:Localisations|pokemon|Roussil|génération=7}}
+=== [[Goupelin]] ===
+{{#invoke:Localisations|pokemon|Goupelin|génération=7}}
+=== [[Grenousse]] ===
+{{#invoke:Localisations|pokemon|Grenousse|génération=7}}
+=== [[Croâporal]] ===
+{{#invoke:Localisations|pokemon|Croâporal|génération=7}}
+=== [[Amphinobi]] ===
+{{#invoke:Localisations|pokemon|Amphinobi|génération=7}}
+=== [[Sapereau]] ===
+{{#invoke:Localisations|pokemon|Sapereau|génération=7}}
+=== [[Excavarenne]] ===
+{{#invoke:Localisations|pokemon|Excavarenne|génération=7}}
+=== [[Passerouge]] ===
+{{#invoke:Localisations|pokemon|Passerouge|génération=7}}
+=== [[Braisillon]] ===
+{{#invoke:Localisations|pokemon|Braisillon|génération=7}}
+=== [[Flambusard]] ===
+{{#invoke:Localisations|pokemon|Flambusard|génération=7}}
+=== [[Lépidonille]] ===
+{{#invoke:Localisations|pokemon|Lépidonille|génération=7}}
+=== [[Pérégrain]] ===
+{{#invoke:Localisations|pokemon|Pérégrain|génération=7}}
+=== [[Prismillon]] ===
+{{#invoke:Localisations|pokemon|Prismillon|génération=7}}
+=== [[Hélionceau]] ===
+{{#invoke:Localisations|pokemon|Hélionceau|génération=7}}
+=== [[Némélios]] ===
+{{#invoke:Localisations|pokemon|Némélios|génération=7}}
+=== [[Flabébé]] ===
+{{#invoke:Localisations|pokemon|Flabébé|génération=7}}
+=== [[Floette]] ===
+{{#invoke:Localisations|pokemon|Floette|génération=7}}
+=== [[Florges]] ===
+{{#invoke:Localisations|pokemon|Florges|génération=7}}
+=== [[Cabriolaine]] ===
+{{#invoke:Localisations|pokemon|Cabriolaine|génération=7}}
+=== [[Chevroum]] ===
+{{#invoke:Localisations|pokemon|Chevroum|génération=7}}
+=== [[Pandespiègle]] ===
+{{#invoke:Localisations|pokemon|Pandespiègle|génération=7}}
+=== [[Pandarbare]] ===
+{{#invoke:Localisations|pokemon|Pandarbare|génération=7}}
+=== [[Couafarel]] ===
+{{#invoke:Localisations|pokemon|Couafarel|génération=7}}
+=== [[Psystigri]] ===
+{{#invoke:Localisations|pokemon|Psystigri|génération=7}}
+=== [[Mistigrix]] ===
+{{#invoke:Localisations|pokemon|Mistigrix|génération=7}}
+=== [[Monorpale]] ===
+{{#invoke:Localisations|pokemon|Monorpale|génération=7}}
+=== [[Dimoclès]] ===
+{{#invoke:Localisations|pokemon|Dimoclès|génération=7}}
+=== [[Exagide]] ===
+{{#invoke:Localisations|pokemon|Exagide|génération=7}}
+=== [[Fluvetin]] ===
+{{#invoke:Localisations|pokemon|Fluvetin|génération=7}}
+=== [[Cocotine]] ===
+{{#invoke:Localisations|pokemon|Cocotine|génération=7}}
+=== [[Sucroquin]] ===
+{{#invoke:Localisations|pokemon|Sucroquin|génération=7}}
+=== [[Cupcanaille]] ===
+{{#invoke:Localisations|pokemon|Cupcanaille|génération=7}}
+=== [[Sepiatop]] ===
+{{#invoke:Localisations|pokemon|Sepiatop|génération=7}}
+=== [[Sepiatroce]] ===
+{{#invoke:Localisations|pokemon|Sepiatroce|génération=7}}
+=== [[Opermine]] ===
+{{#invoke:Localisations|pokemon|Opermine|génération=7}}
+=== [[Golgopathe]] ===
+{{#invoke:Localisations|pokemon|Golgopathe|génération=7}}
+=== [[Venalgue]] ===
+{{#invoke:Localisations|pokemon|Venalgue|génération=7}}
+=== [[Kravarech]] ===
+{{#invoke:Localisations|pokemon|Kravarech|génération=7}}
+=== [[Flingouste]] ===
+{{#invoke:Localisations|pokemon|Flingouste|génération=7}}
+=== [[Gamblast]] ===
+{{#invoke:Localisations|pokemon|Gamblast|génération=7}}
+=== [[Galvaran]] ===
+{{#invoke:Localisations|pokemon|Galvaran|génération=7}}
+=== [[Iguolta]] ===
+{{#invoke:Localisations|pokemon|Iguolta|génération=7}}
+=== [[Ptyranidur]] ===
+{{#invoke:Localisations|pokemon|Ptyranidur|génération=7}}
+=== [[Rexillius]] ===
+{{#invoke:Localisations|pokemon|Rexillius|génération=7}}
+=== [[Amagara]] ===
+{{#invoke:Localisations|pokemon|Amagara|génération=7}}
+=== [[Dragmara]] ===
+{{#invoke:Localisations|pokemon|Dragmara|génération=7}}
+=== [[Nymphali]] ===
+{{#invoke:Localisations|pokemon|Nymphali|génération=7}}
+=== [[Brutalibré]] ===
+{{#invoke:Localisations|pokemon|Brutalibré|génération=7}}
+=== [[Dedenne]] ===
+{{#invoke:Localisations|pokemon|Dedenne|génération=7}}
+=== [[Strassie]] ===
+{{#invoke:Localisations|pokemon|Strassie|génération=7}}
+=== [[Mucuscule]] ===
+{{#invoke:Localisations|pokemon|Mucuscule|génération=7}}
+=== [[Colimucus]] ===
+{{#invoke:Localisations|pokemon|Colimucus|génération=7}}
+=== [[Muplodocus]] ===
+{{#invoke:Localisations|pokemon|Muplodocus|génération=7}}
+=== [[Trousselin]] ===
+{{#invoke:Localisations|pokemon|Trousselin|génération=7}}
+=== [[Brocélôme]] ===
+{{#invoke:Localisations|pokemon|Brocélôme|génération=7}}
+=== [[Desséliande]] ===
+{{#invoke:Localisations|pokemon|Desséliande|génération=7}}
+=== [[Pitrouille]] ===
+{{#invoke:Localisations|pokemon|Pitrouille|génération=7}}
+=== [[Banshitrouye]] ===
+{{#invoke:Localisations|pokemon|Banshitrouye|génération=7}}
+=== [[Grelaçon]] ===
+{{#invoke:Localisations|pokemon|Grelaçon|génération=7}}
+=== [[Séracrawl]] ===
+{{#invoke:Localisations|pokemon|Séracrawl|génération=7}}
+=== [[Sonistrelle]] ===
+{{#invoke:Localisations|pokemon|Sonistrelle|génération=7}}
+=== [[Bruyverne]] ===
+{{#invoke:Localisations|pokemon|Bruyverne|génération=7}}
+=== [[Xerneas]] ===
+{{#invoke:Localisations|pokemon|Xerneas|génération=7}}
+=== [[Yveltal]] ===
+{{#invoke:Localisations|pokemon|Yveltal|génération=7}}
+=== [[Zygarde]] ===
+{{#invoke:Localisations|pokemon|Zygarde|génération=7}}
+=== [[Diancie]] ===
+{{#invoke:Localisations|pokemon|Diancie|génération=7}}
+=== [[Hoopa]] ===
+{{#invoke:Localisations|pokemon|Hoopa|génération=7}}
+=== [[Volcanion]] ===
+{{#invoke:Localisations|pokemon|Volcanion|génération=7}}
+=== [[Brindibou]] ===
+{{#invoke:Localisations|pokemon|Brindibou|génération=7}}
+=== [[Efflèche]] ===
+{{#invoke:Localisations|pokemon|Efflèche|génération=7}}
+=== [[Archéduc]] ===
+{{#invoke:Localisations|pokemon|Archéduc|génération=7}}
+=== [[Flamiaou]] ===
+{{#invoke:Localisations|pokemon|Flamiaou|génération=7}}
+=== [[Matoufeu]] ===
+{{#invoke:Localisations|pokemon|Matoufeu|génération=7}}
+=== [[Félinferno]] ===
+{{#invoke:Localisations|pokemon|Félinferno|génération=7}}
+=== [[Otaquin]] ===
+{{#invoke:Localisations|pokemon|Otaquin|génération=7}}
+=== [[Otarlette]] ===
+{{#invoke:Localisations|pokemon|Otarlette|génération=7}}
+=== [[Oratoria]] ===
+{{#invoke:Localisations|pokemon|Oratoria|génération=7}}
+=== [[Picassaut]] ===
+{{#invoke:Localisations|pokemon|Picassaut|génération=7}}
+=== [[Piclairon]] ===
+{{#invoke:Localisations|pokemon|Piclairon|génération=7}}
+=== [[Bazoucan]] ===
+{{#invoke:Localisations|pokemon|Bazoucan|génération=7}}
+=== [[Manglouton]] ===
+{{#invoke:Localisations|pokemon|Manglouton|génération=7}}
+=== [[Argouste]] ===
+{{#invoke:Localisations|pokemon|Argouste|génération=7}}
+=== [[Larvibule]] ===
+{{#invoke:Localisations|pokemon|Larvibule|génération=7}}
+=== [[Chrysapile]] ===
+{{#invoke:Localisations|pokemon|Chrysapile|génération=7}}
+=== [[Lucanon]] ===
+{{#invoke:Localisations|pokemon|Lucanon|génération=7}}
+=== [[Crabagarre]] ===
+{{#invoke:Localisations|pokemon|Crabagarre|génération=7}}
+=== [[Crabominable]] ===
+{{#invoke:Localisations|pokemon|Crabominable|génération=7}}
+=== [[Plumeline]] ===
+{{#invoke:Localisations|pokemon|Plumeline|génération=7}}
+=== [[Bombydou]] ===
+{{#invoke:Localisations|pokemon|Bombydou|génération=7}}
+=== [[Rubombelle]] ===
+{{#invoke:Localisations|pokemon|Rubombelle|génération=7}}
+=== [[Rocabot]] ===
+{{#invoke:Localisations|pokemon|Rocabot|génération=7}}
+=== [[Lougaroc]] ===
+{{#invoke:Localisations|pokemon|Lougaroc|génération=7}}
+=== [[Froussardine]] ===
+{{#invoke:Localisations|pokemon|Froussardine|génération=7}}
+=== [[Vorastérie]] ===
+{{#invoke:Localisations|pokemon|Vorastérie|génération=7}}
+=== [[Prédastérie]] ===
+{{#invoke:Localisations|pokemon|Prédastérie|génération=7}}
+=== [[Tiboudet]] ===
+{{#invoke:Localisations|pokemon|Tiboudet|génération=7}}
+=== [[Bourrinos]] ===
+{{#invoke:Localisations|pokemon|Bourrinos|génération=7}}
+=== [[Araqua]] ===
+{{#invoke:Localisations|pokemon|Araqua|génération=7}}
+=== [[Tarenbulle]] ===
+{{#invoke:Localisations|pokemon|Tarenbulle|génération=7}}
+=== [[Mimantis]] ===
+{{#invoke:Localisations|pokemon|Mimantis|génération=7}}
+=== [[Floramantis]] ===
+{{#invoke:Localisations|pokemon|Floramantis|génération=7}}
+=== [[Spododo]] ===
+{{#invoke:Localisations|pokemon|Spododo|génération=7}}
+=== [[Lampignon]] ===
+{{#invoke:Localisations|pokemon|Lampignon|génération=7}}
+=== [[Tritox]] ===
+{{#invoke:Localisations|pokemon|Tritox|génération=7}}
+=== [[Malamandre]] ===
+{{#invoke:Localisations|pokemon|Malamandre|génération=7}}
+=== [[Nounourson]] ===
+{{#invoke:Localisations|pokemon|Nounourson|génération=7}}
+=== [[Chelours]] ===
+{{#invoke:Localisations|pokemon|Chelours|génération=7}}
+=== [[Croquine]] ===
+{{#invoke:Localisations|pokemon|Croquine|génération=7}}
+=== [[Candine]] ===
+{{#invoke:Localisations|pokemon|Candine|génération=7}}
+=== [[Sucreine]] ===
+{{#invoke:Localisations|pokemon|Sucreine|génération=7}}
+=== [[Guérilande]] ===
+{{#invoke:Localisations|pokemon|Guérilande|génération=7}}
+=== [[Gouroutan]] ===
+{{#invoke:Localisations|pokemon|Gouroutan|génération=7}}
+=== [[Quartermac]] ===
+{{#invoke:Localisations|pokemon|Quartermac|génération=7}}
+=== [[Sovkipou]] ===
+{{#invoke:Localisations|pokemon|Sovkipou|génération=7}}
+=== [[Sarmuraï]] ===
+{{#invoke:Localisations|pokemon|Sarmuraï|génération=7}}
+=== [[Bacabouh]] ===
+{{#invoke:Localisations|pokemon|Bacabouh|génération=7}}
+=== [[Trépassable]] ===
+{{#invoke:Localisations|pokemon|Trépassable|génération=7}}
+=== [[Concombaffe]] ===
+{{#invoke:Localisations|pokemon|Concombaffe|génération=7}}
+=== [[Type:0]] ===
+{{#invoke:Localisations|pokemon|Type:0|génération=7}}
+=== [[Silvallié]] ===
+{{#invoke:Localisations|pokemon|Silvallié|génération=7}}
+=== [[Météno]] ===
+{{#invoke:Localisations|pokemon|Météno|génération=7}}
+=== [[Dodoala]] ===
+{{#invoke:Localisations|pokemon|Dodoala|génération=7}}
+=== [[Boumata]] ===
+{{#invoke:Localisations|pokemon|Boumata|génération=7}}
+=== [[Togedemaru]] ===
+{{#invoke:Localisations|pokemon|Togedemaru|génération=7}}
+=== [[Mimiqui]] ===
+{{#invoke:Localisations|pokemon|Mimiqui|génération=7}}
+=== [[Denticrisse]] ===
+{{#invoke:Localisations|pokemon|Denticrisse|génération=7}}
+=== [[Draïeul]] ===
+{{#invoke:Localisations|pokemon|Draïeul|génération=7}}
+=== [[Sinistrail]] ===
+{{#invoke:Localisations|pokemon|Sinistrail|génération=7}}
+=== [[Bébécaille]] ===
+{{#invoke:Localisations|pokemon|Bébécaille|génération=7}}
+=== [[Écaïd]] ===
+{{#invoke:Localisations|pokemon|Écaïd|génération=7}}
+=== [[Ékaïser]] ===
+{{#invoke:Localisations|pokemon|Ékaïser|génération=7}}
+=== [[Tokorico]] ===
+{{#invoke:Localisations|pokemon|Tokorico|génération=7}}
+=== [[Tokopiyon]] ===
+{{#invoke:Localisations|pokemon|Tokopiyon|génération=7}}
+=== [[Tokotoro]] ===
+{{#invoke:Localisations|pokemon|Tokotoro|génération=7}}
+=== [[Tokopisco]] ===
+{{#invoke:Localisations|pokemon|Tokopisco|génération=7}}
+=== [[Cosmog]] ===
+{{#invoke:Localisations|pokemon|Cosmog|génération=7}}
+=== [[Cosmovum]] ===
+{{#invoke:Localisations|pokemon|Cosmovum|génération=7}}
+=== [[Solgaleo]] ===
+{{#invoke:Localisations|pokemon|Solgaleo|génération=7}}
+=== [[Lunala]] ===
+{{#invoke:Localisations|pokemon|Lunala|génération=7}}
+=== [[Zéroïd]] ===
+{{#invoke:Localisations|pokemon|Zéroïd|génération=7}}
+=== [[Mouscoto]] ===
+{{#invoke:Localisations|pokemon|Mouscoto|génération=7}}
+=== [[Cancrelove]] ===
+{{#invoke:Localisations|pokemon|Cancrelove|génération=7}}
+=== [[Câblifère]] ===
+{{#invoke:Localisations|pokemon|Câblifère|génération=7}}
+=== [[Bamboiselle]] ===
+{{#invoke:Localisations|pokemon|Bamboiselle|génération=7}}
+=== [[Katagami]] ===
+{{#invoke:Localisations|pokemon|Katagami|génération=7}}
+=== [[Engloutyran]] ===
+{{#invoke:Localisations|pokemon|Engloutyran|génération=7}}
+=== [[Necrozma]] ===
+{{#invoke:Localisations|pokemon|Necrozma|génération=7}}
+=== [[Magearna]] ===
+{{#invoke:Localisations|pokemon|Magearna|génération=7}}
+=== [[Marshadow]] ===
+{{#invoke:Localisations|pokemon|Marshadow|génération=7}}
+=== [[Vémini]] ===
+{{#invoke:Localisations|pokemon|Vémini|génération=7}}
+=== [[Mandrillon]] ===
+{{#invoke:Localisations|pokemon|Mandrillon|génération=7}}
+=== [[Ama-Ama]] ===
+{{#invoke:Localisations|pokemon|Ama-Ama|génération=7}}
+=== [[Pierroteknik]] ===
+{{#invoke:Localisations|pokemon|Pierroteknik|génération=7}}
+=== [[Zeraora]] ===
+{{#invoke:Localisations|pokemon|Zeraora|génération=7}}
+=== [[Meltan]] ===
+{{#invoke:Localisations|pokemon|Meltan|génération=7}}
+=== [[Melmetal]] ===
+{{#invoke:Localisations|pokemon|Melmetal|génération=7}}
+=== [[Ouistempo]] ===
+{{#invoke:Localisations|pokemon|Ouistempo|génération=7}}
+=== [[Badabouin]] ===
+{{#invoke:Localisations|pokemon|Badabouin|génération=7}}
+=== [[Gorythmic]] ===
+{{#invoke:Localisations|pokemon|Gorythmic|génération=7}}
+=== [[Flambino]] ===
+{{#invoke:Localisations|pokemon|Flambino|génération=7}}
+=== [[Lapyro]] ===
+{{#invoke:Localisations|pokemon|Lapyro|génération=7}}
+=== [[Pyrobut]] ===
+{{#invoke:Localisations|pokemon|Pyrobut|génération=7}}
+=== [[Larméléon]] ===
+{{#invoke:Localisations|pokemon|Larméléon|génération=7}}
+=== [[Arrozard]] ===
+{{#invoke:Localisations|pokemon|Arrozard|génération=7}}
+=== [[Lézargus]] ===
+{{#invoke:Localisations|pokemon|Lézargus|génération=7}}
+=== [[Rongourmand]] ===
+{{#invoke:Localisations|pokemon|Rongourmand|génération=7}}
+=== [[Rongrigou]] ===
+{{#invoke:Localisations|pokemon|Rongrigou|génération=7}}
+=== [[Minisange]] ===
+{{#invoke:Localisations|pokemon|Minisange|génération=7}}
+=== [[Bleuseille]] ===
+{{#invoke:Localisations|pokemon|Bleuseille|génération=7}}
+=== [[Corvaillus]] ===
+{{#invoke:Localisations|pokemon|Corvaillus|génération=7}}
+=== [[Larvadar]] ===
+{{#invoke:Localisations|pokemon|Larvadar|génération=7}}
+=== [[Coléodôme]] ===
+{{#invoke:Localisations|pokemon|Coléodôme|génération=7}}
+=== [[Astronelle]] ===
+{{#invoke:Localisations|pokemon|Astronelle|génération=7}}
+=== [[Goupilou]] ===
+{{#invoke:Localisations|pokemon|Goupilou|génération=7}}
+=== [[Roublenard]] ===
+{{#invoke:Localisations|pokemon|Roublenard|génération=7}}
+=== [[Tournicoton]] ===
+{{#invoke:Localisations|pokemon|Tournicoton|génération=7}}
+=== [[Blancoton]] ===
+{{#invoke:Localisations|pokemon|Blancoton|génération=7}}
+=== [[Moumouton]] ===
+{{#invoke:Localisations|pokemon|Moumouton|génération=7}}
+=== [[Moumouflon]] ===
+{{#invoke:Localisations|pokemon|Moumouflon|génération=7}}
+=== [[Khélocrok]] ===
+{{#invoke:Localisations|pokemon|Khélocrok|génération=7}}
+=== [[Torgamord]] ===
+{{#invoke:Localisations|pokemon|Torgamord|génération=7}}
+=== [[Voltoutou]] ===
+{{#invoke:Localisations|pokemon|Voltoutou|génération=7}}
+=== [[Fulgudog]] ===
+{{#invoke:Localisations|pokemon|Fulgudog|génération=7}}
+=== [[Charbi]] ===
+{{#invoke:Localisations|pokemon|Charbi|génération=7}}
+=== [[Wagomine]] ===
+{{#invoke:Localisations|pokemon|Wagomine|génération=7}}
+=== [[Monthracite]] ===
+{{#invoke:Localisations|pokemon|Monthracite|génération=7}}
+=== [[Verpom]] ===
+{{#invoke:Localisations|pokemon|Verpom|génération=7}}
+=== [[Pomdrapi]] ===
+{{#invoke:Localisations|pokemon|Pomdrapi|génération=7}}
+=== [[Dratatin]] ===
+{{#invoke:Localisations|pokemon|Dratatin|génération=7}}
+=== [[Dunaja]] ===
+{{#invoke:Localisations|pokemon|Dunaja|génération=7}}
+=== [[Dunaconda]] ===
+{{#invoke:Localisations|pokemon|Dunaconda|génération=7}}
+=== [[Nigosier]] ===
+{{#invoke:Localisations|pokemon|Nigosier|génération=7}}
+=== [[Embrochet]] ===
+{{#invoke:Localisations|pokemon|Embrochet|génération=7}}
+=== [[Hastacuda]] ===
+{{#invoke:Localisations|pokemon|Hastacuda|génération=7}}
+=== [[Toxizap]] ===
+{{#invoke:Localisations|pokemon|Toxizap|génération=7}}
+=== [[Salarsen]] ===
+{{#invoke:Localisations|pokemon|Salarsen|génération=7}}
+=== [[Grillepattes]] ===
+{{#invoke:Localisations|pokemon|Grillepattes|génération=7}}
+=== [[Scolocendre]] ===
+{{#invoke:Localisations|pokemon|Scolocendre|génération=7}}
+=== [[Poulpaf]] ===
+{{#invoke:Localisations|pokemon|Poulpaf|génération=7}}
+=== [[Krakos]] ===
+{{#invoke:Localisations|pokemon|Krakos|génération=7}}
+=== [[Théffroi]] ===
+{{#invoke:Localisations|pokemon|Théffroi|génération=7}}
+=== [[Polthégeist]] ===
+{{#invoke:Localisations|pokemon|Polthégeist|génération=7}}
+=== [[Bibichut]] ===
+{{#invoke:Localisations|pokemon|Bibichut|génération=7}}
+=== [[Chapotus]] ===
+{{#invoke:Localisations|pokemon|Chapotus|génération=7}}
+=== [[Sorcilence]] ===
+{{#invoke:Localisations|pokemon|Sorcilence|génération=7}}
+=== [[Grimalin]] ===
+{{#invoke:Localisations|pokemon|Grimalin|génération=7}}
+=== [[Fourbelin]] ===
+{{#invoke:Localisations|pokemon|Fourbelin|génération=7}}
+=== [[Angoliath]] ===
+{{#invoke:Localisations|pokemon|Angoliath|génération=7}}
+=== [[Ixon]] ===
+{{#invoke:Localisations|pokemon|Ixon|génération=7}}
+=== [[Berserkatt]] ===
+{{#invoke:Localisations|pokemon|Berserkatt|génération=7}}
+=== [[Corayôme]] ===
+{{#invoke:Localisations|pokemon|Corayôme|génération=7}}
+=== [[Palarticho]] ===
+{{#invoke:Localisations|pokemon|Palarticho|génération=7}}
+=== [[M. Glaquette]] ===
+{{#invoke:Localisations|pokemon|M. Glaquette|génération=7}}
+=== [[Tutétékri]] ===
+{{#invoke:Localisations|pokemon|Tutétékri|génération=7}}
+=== [[Crèmy]] ===
+{{#invoke:Localisations|pokemon|Crèmy|génération=7}}
+=== [[Charmilly]] ===
+{{#invoke:Localisations|pokemon|Charmilly|génération=7}}
+=== [[Hexadron]] ===
+{{#invoke:Localisations|pokemon|Hexadron|génération=7}}
+=== [[Wattapik]] ===
+{{#invoke:Localisations|pokemon|Wattapik|génération=7}}
+=== [[Frissonille]] ===
+{{#invoke:Localisations|pokemon|Frissonille|génération=7}}
+=== [[Beldeneige]] ===
+{{#invoke:Localisations|pokemon|Beldeneige|génération=7}}
+=== [[Dolman]] ===
+{{#invoke:Localisations|pokemon|Dolman|génération=7}}
+=== [[Bekaglaçon]] ===
+{{#invoke:Localisations|pokemon|Bekaglaçon|génération=7}}
+=== [[Wimessir]] ===
+{{#invoke:Localisations|pokemon|Wimessir|génération=7}}
+=== [[Morpeko]] ===
+{{#invoke:Localisations|pokemon|Morpeko|génération=7}}
+=== [[Charibari]] ===
+{{#invoke:Localisations|pokemon|Charibari|génération=7}}
+=== [[Pachyradjah]] ===
+{{#invoke:Localisations|pokemon|Pachyradjah|génération=7}}
+=== [[Galvagon]] ===
+{{#invoke:Localisations|pokemon|Galvagon|génération=7}}
+=== [[Galvagla]] ===
+{{#invoke:Localisations|pokemon|Galvagla|génération=7}}
+=== [[Hydragon]] ===
+{{#invoke:Localisations|pokemon|Hydragon|génération=7}}
+=== [[Hydragla]] ===
+{{#invoke:Localisations|pokemon|Hydragla|génération=7}}
+=== [[Duralugon]] ===
+{{#invoke:Localisations|pokemon|Duralugon|génération=7}}
+=== [[Fantyrm]] ===
+{{#invoke:Localisations|pokemon|Fantyrm|génération=7}}
+=== [[Dispareptil]] ===
+{{#invoke:Localisations|pokemon|Dispareptil|génération=7}}
+=== [[Lanssorien]] ===
+{{#invoke:Localisations|pokemon|Lanssorien|génération=7}}
+=== [[Zacian]] ===
+{{#invoke:Localisations|pokemon|Zacian|génération=7}}
+=== [[Zamazenta]] ===
+{{#invoke:Localisations|pokemon|Zamazenta|génération=7}}
+=== [[Éthernatos]] ===
+{{#invoke:Localisations|pokemon|Éthernatos|génération=7}}
+=== [[Wushours]] ===
+{{#invoke:Localisations|pokemon|Wushours|génération=7}}
+=== [[Shifours]] ===
+{{#invoke:Localisations|pokemon|Shifours|génération=7}}
+=== [[Zarude]] ===
+{{#invoke:Localisations|pokemon|Zarude|génération=7}}
+=== [[Regieleki]] ===
+{{#invoke:Localisations|pokemon|Regieleki|génération=7}}
+=== [[Regidrago]] ===
+{{#invoke:Localisations|pokemon|Regidrago|génération=7}}
+=== [[Blizzeval]] ===
+{{#invoke:Localisations|pokemon|Blizzeval|génération=7}}
+=== [[Spectreval]] ===
+{{#invoke:Localisations|pokemon|Spectreval|génération=7}}
+=== [[Sylveroy]] ===
+{{#invoke:Localisations|pokemon|Sylveroy|génération=7}}
+=== [[Cerbyllin]] ===
+{{#invoke:Localisations|pokemon|Cerbyllin|génération=7}}
+=== [[Hachécateur]] ===
+{{#invoke:Localisations|pokemon|Hachécateur|génération=7}}
+=== [[Ursaking]] ===
+{{#invoke:Localisations|pokemon|Ursaking|génération=7}}
+=== [[Paragruel]] ===
+{{#invoke:Localisations|pokemon|Paragruel|génération=7}}
+=== [[Farfurex]] ===
+{{#invoke:Localisations|pokemon|Farfurex|génération=7}}
+=== [[Qwilpik]] ===
+{{#invoke:Localisations|pokemon|Qwilpik|génération=7}}
+=== [[Amovénus]] ===
+{{#invoke:Localisations|pokemon|Amovénus|génération=7}}

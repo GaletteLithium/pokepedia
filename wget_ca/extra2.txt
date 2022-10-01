@@ -1,0 +1,13 @@
+852;Clobbopus2;Poulpaf2
+852;Clobbopus1;Poulpaf1
+674;Pancham1;Pandespiègle1
+674;Pancham2;Pandespiègle2
+363;Spheal1;Obalie1
+363;Spheal2;Obalie2
+104;Cubone1;Osselait1
+104;Cubone2;Osselait2
+837;Rolycoly1;Charbi1
+837;Rolycoly2;Charbi2
+835;Yamper1;Voltoutou1
+835;Yamper2;Voltoutou2
+835;Yamper3;Voltoutou3

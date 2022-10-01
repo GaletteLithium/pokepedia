@@ -1,5 +1,6 @@
-mewtwobot/.classpath/
+mewtwobot/.classpath
 mewtwobot/.idea/
 mewtwobot/.metadata/
-mewtwobot/.project/
+mewtwobot/.project
 mewtwobot/robot/
+test/
