@@ -10,10 +10,7 @@ import java.io.InputStreamReader;
 import java.io.StringWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Pattern;
 
 
@@ -45,13 +42,18 @@ public class MewtwoBot {
 	@SuppressWarnings("unused")
 	public void run() throws IOException {
 		
-//		File folderPath = new File("D:\\Poképédia\\Images\\GO\\Bonbons\\");
+//		File folderPath = new File("D:\\Poképédia\\Images\\GO\\Fleurs_de_cerisier\\");
+//		File folderPath = new File("D:\\Poképédia\\Images\\GO\\Nouvelles versions\\");
+		File folderPath = new File("D:\\Poképédia\\Images\\EV\\MiniaturesÉlaguées\\no_metadata\\");
+//		File folderPath = new File("D:\\Telechargements\\JDownloader\\ArtEV\\no_metadata");
+//		File folderPath = new File("D:\\Poképédia\\Images\\EV\\objets\\objetsOrdonnésRenommésFiltrés\\no_metadata");
 		
 //		File folderPath = new File("D:\\Poképédia\\Découpes\\Résultats\\objetsHOME\\");
 
-		File folderPath = new File("D:\\Poképédia\\JCC\\Épée et Bouclier Origine Perdue TG\\");
+//		File folderPath = new File("D:\\Poképédia\\JCC\\Écarlate et Violet\\");
 
 		File listPath = new File("D:\\Poképédia\\JCC\\description_upload.txt");
+//		File listPath = new File("D:\\Poképédia\\Renommages NDEX\\changements.csv");
 		
 //		File listPath = new File("D:\\Poképédia\\Robot\\createSpriteRedirections\\DEPS.txt");
 		
@@ -61,30 +63,40 @@ public class MewtwoBot {
 		
 //		uploadCards(folderPath, listPath, false);
 
-//		uploadFiles(folderPath, "[[Catégorie:Miniature Pokémon (Légendes Pokémon : Arceus)]]", true);
+//		uploadFiles(folderPath, false);
 		
 //		uploadFilesWithDescriptions(folderPath, listPath, ".png", false, true);
 
 //		File folderPath = new File("D:\\Poképédia\\Images\\GO\\Bonbons\\");
 //		uploadCandies(folderPath, false);
 		
-//		uploadItems(folderPath, "Smile", "HOME", false);
+//		uploadItems(folderPath, "EV", "Écarlate et Violet", false);
+//		uploadArtworks(folderPath, "EV", "Écarlate et Violet", true, false);
 		
-//		uploadSprites(folderPath, "Upload Miniatures LPA", "", false, 0, true);
+		uploadSprites(folderPath, "png", "Upload miniatures EV", "", true, false, 0, false);
+//		uploadSprites(folderPath, "ogg", "Upload cris EV", "", false, false, 0, false);
+//		uploadSprites(folderPath, "png", "Upload sprites GO", "PokeMiners", false, true, 0, false);
 		
-//		addDex("Hisui", false, false);
+//		addDex("Paldea", false, false);
 		
 //		deleteDuplicateFiles(false);
 		
+//		API.rename("File:Abo-PGL.png", "File:Abo-CA.png", true, "Renommage test");
 		
-		fullUpdateLocations();
+//		int[] namespaces = {API.NS_FILES};
+//		rename("-PGL.png", "-CA.png", namespaces, "Artwork Pokémon du Pokémon Global Link", null, true, false);
+		
+			
+//		 fullUpdateLocations();
+		
+//		renameNDEX(listPath);
 		
 	}
 	
 	public void fullUpdateLocations() throws IOException {
 		dumpContentFromPages(false);
 		pythonLocDataConverter();
-		uploadLocations(false);
+//		uploadLocations(false);
 		
 	}
 	
@@ -102,8 +114,8 @@ public class MewtwoBot {
 	
 	public void dumpContentFromPages(boolean justOne) throws IOException {
 
-		String[] categoryNames = new String[] {"Lieu de Kanto", "Arène de Kanto", "Lieu des Îles Sevii", "Lieu de Johto", "Arène de Johto", "Lieu de Hoenn", "Arène de Hoenn", "Lieu de Sinnoh", "Arène de Sinnoh", "Cachette de Pokémon", "Lieu d'Unys", "Arène d'Unys", "Lieu de Kalos", "Arène de Kalos", "Lieu d'Alola", "Lieu de Galar", "Arène de Galar", "Antre de Pokémon", "Lieu de Hisui"};
-		String[] moreArticles = new String[] {"Pokémon mouvant", "Monde Distorsion", "Réserve Naturelle", "Pokémon Rubis Oméga et Saphir Alpha : Version démo spéciale", "Expédition Dynamax", "Régiona", "Quête des Taupiqueur d'Alola"};
+		String[] categoryNames = new String[] {"Page avec un module Tableau Pokémon"};
+//		String[] moreArticles = new String[] {"Pokémon mouvant", "Monde Distorsion", "Réserve Naturelle", "Pokémon Rubis Oméga et Saphir Alpha : Version démo spéciale", "Expédition Dynamax", "Quête des Taupiqueur d'Alola"};
 		String path = "D:\\Poképédia\\Robot\\dumps\\locdump\\";
 		List<PageCollection> pageCollections = new ArrayList<>();
 		for(int i=0; i<categoryNames.length; i++) {
@@ -140,10 +152,10 @@ public class MewtwoBot {
 			System.out.println("\n********\nCategory " + categoryNames[counter] + " ok\n********\n");
 			counter++;
 		}
-		for(String article : moreArticles) {
-			Page page = new Page(article);
-			savePage(path, page);
-		}
+//		for(String article : moreArticles) {
+//			Page page = new Page(article);
+//			savePage(path, page);
+//		}
 		System.out.println("\n********\nBonus pages ok\n********\n");
 		
 	}
@@ -193,31 +205,33 @@ public class MewtwoBot {
 		}
 	}
 
-	public void uploadFiles(File folderPath, String categories, boolean justOne) {
+	public void uploadFiles(File folderPath, boolean justOne) {
 		
 		File contents[] = folderPath.listFiles();
 		
 		for(int i=0; i<contents.length; i++) {
 			String contentString	= contents[i].toString();
 			String uploadName		= "Fichier:" + contents[i].getName();
-			uploadName = uploadName.replace("Plume Blanc Réel ", "");
-			String location = uploadName.replaceFirst(" (?<num>[0-9]*) PPk2.png", "").replace("Fichier:", "");
-			String num = uploadName.replace(" PPk2.png", "").replaceAll("[^[0-9 ]*]", "").replace(" ", "");
-			uploadName = uploadName.replaceFirst(" (?<num>[0-9]*) PPk2.png", " Plume Blanc Réel $1 PPk2.png");
+			String pokeName			= contents[i].getName().replaceAll(" \\(.*", "");
+			pokeName = pokeName.replaceAll("-CA[^\n]*.png", "");
+			pokeName = pokeName.replaceAll("Type-0", "Type:0");
+			String categoryName = pokeName;
+			pokeName = pokeName.replaceAll("Zarbi[^\n]*", "Zarbi");
 			
+			// uploadName = uploadName.replace("Type-0", "Type:0");
 
 			String descriptionHeader = "== Description ==\n\n";
-			String description = "Plume Blanc Réel";
-			if (!num.equals("")) {
-				description += " " + num;
-			}
-			description += " du lieu [[" + location + "]] dans {{Jeu|PPk2}}.\n\n" + categories;
+//			String description = "Corporate Art " + Util.de(pokeName) + "[[" + pokeName + "]].\n\n{{Informations Fichier\n"
+//					+ "| Source = [https://www.pidgi.net/wiki/index.php?title=Category:Corporate-style_artwork PidgiWiki]\n"
+//					+ "| Auteur = [[The Pokémon Company]]\n"
+//					+ "}}\n\n[[Catégorie:Corporate Art de Pokémon]]\n[[Catégorie:Image Pokémon représentant " + categoryName + "]]";
+			String description = "Upload Médailles GO";
 			
 			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals(".png")) {
 				boolean uploaded = API.upload(uploadName, contents[i], descriptionHeader + description, description);
 
-				Page filePage = new Page(uploadName);
-				filePage.setContent(descriptionHeader + description, description);
+//				Page filePage = new Page(uploadName);
+//				filePage.setContent(descriptionHeader + description, description);
 				
 				String uploadSituation;
 				if (uploaded) {
@@ -233,6 +247,340 @@ public class MewtwoBot {
 				}
 			}
 		}
+	}
+	
+	@SuppressWarnings({ "unused", "rawtypes" })
+	public void renameNDEX(File listPath) throws IOException {
+		FileReader		fr					= new FileReader(listPath);
+		BufferedReader	br					= new BufferedReader(fr);
+		
+		String			currentLine			= br.readLine();
+		
+		String games = "EV";
+		
+		Map<String, String> NdexpkpToName = new Hashtable<String, String>();
+		Map<String, String> NameToNdexpkp = new Hashtable<String, String>();
+		Map<String, String> NameToNdexzh = new Hashtable<String, String>();
+		Map<String, String> NdexzhToName = new Hashtable<String, String>();
+		
+		String[] currentInfo;
+		
+		currentLine			= br.readLine(); // first line is header
+		while (currentLine != null) {
+			currentInfo = currentLine.split(";");
+			
+			if (currentInfo[0] != null && currentInfo[1] != null && currentInfo[2] != null ) {
+				NdexpkpToName.put(currentInfo[0], currentInfo[1]);
+				NameToNdexpkp.put(currentInfo[1], currentInfo[0]);
+				NameToNdexzh.put(currentInfo[1], currentInfo[2]);
+				NdexzhToName.put(currentInfo[2], currentInfo[1]);
+			}
+			
+			currentLine		= br.readLine();
+		}
+		
+//		System.out.println(NdexpkpToName.get("934"));
+//		System.out.println(NameToNdexzh.get("Olivini"));
+		
+		// PAGES DE MINIATURES + ARTICLES DE POKÉMON
+//		PageCollection miniaturePageCollection = new PageCollection(
+//				new int[] {API.NS_MAIN, API.NS_FILES},
+//				API.FILTER_NONREDIRECTS,
+//				"Miniature Pokémon (Écarlate et Violet)"
+//			);
+//		
+//		Page miniaturePage = miniaturePageCollection.getNextPage();
+//		while (miniaturePage != null) {
+//			String title = miniaturePage.getTitle();
+//			String oldNdex = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9\\?]*)(?<c>[^\\.]*) " + games + "\\.png", "$2");
+//			String form = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*) " + games + "\\.png", "$3");
+//
+//			String name = NdexpkpToName.get(oldNdex);
+//			
+//			if (oldNdex != null && name != null) {
+//				String tempTitle = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9\\?]*)(?<c>[^\\.]*) " + games + "\\.png", "$1" + name + "$3 " + games + ".png");
+//				String generalTitle = title.replace(" " + games + ".png", ".png");
+//				String generalTempTitle = tempTitle.replace(" " + games + ".png", ".png");
+//				String numberTitle = "Pokémon n°" + oldNdex + form;
+//				String numberTempTitle = "Pokémon n°" + name + form;
+//				
+//				String titleWithoutForm = title.replace(form, "");
+//				String tempTitleWithoutForm = tempTitle.replace(form, "");
+//				String generalTitleWithoutForm = titleWithoutForm.replace(" " + games + ".png", ".png");
+//				String generalTempTitleWithoutForm = tempTitleWithoutForm.replace(" " + games + ".png", ".png");
+//				String numberTitleWithoutForm = "Pokémon n°" + oldNdex;
+//				String numberTempTitleWithoutForm = "Pokémon n°" + name;
+//				
+//				
+//				if (!title.equals(tempTitle)) {
+//					 API.rename(title, tempTitle, false, "Renommage temporaire pour changer les numéros nationaux");
+//					System.out.println(title + " -> " + tempTitle);
+//					 API.rename(generalTitle, generalTempTitle, false, "Renommage temporaire pour changer les numéros nationaux");
+//					System.out.println(generalTitle + " -> " + generalTempTitle);
+//					 API.rename(numberTitle, numberTempTitle, false, "Renommage temporaire pour changer les numéros nationaux");
+//					System.out.println(numberTitle + " -> " + numberTempTitle);
+//					if (!form.equals("")) {
+//						 API.rename(titleWithoutForm, tempTitleWithoutForm, false, "Renommage temporaire pour changer les numéros nationaux");
+//						System.out.println(titleWithoutForm + " -> " + tempTitleWithoutForm);
+//						 API.rename(generalTitleWithoutForm, generalTempTitleWithoutForm, false, "Renommage temporaire pour changer les numéros nationaux");
+//						System.out.println(generalTitleWithoutForm + " -> " + generalTempTitleWithoutForm);
+//						 API.rename(numberTitleWithoutForm, numberTempTitleWithoutForm, false, "Renommage temporaire pour changer les numéros nationaux");
+//						System.out.println(numberTitleWithoutForm + " -> " + numberTempTitleWithoutForm);
+//					}
+//					System.out.println("***");
+//				}
+//			}
+//			
+//			miniaturePage = miniaturePageCollection.getNextPage();
+//		}
+//		miniaturePageCollection.rewind();
+//		System.out.println("\n*** REWIND MINIATURES ***\n");
+//		
+//		miniaturePage = miniaturePageCollection.getNextPage();
+//		while (miniaturePage != null) {
+//			String title = miniaturePage.getTitle();
+//			String oldNdex = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*)\\.png", "$2");
+//			String form = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*) " + games + "\\.png", "$3");
+//			String name = NdexpkpToName.get(oldNdex);
+//
+//			if (oldNdex != null && name != null) {
+//				String newNdex = NameToNdexzh.get(name);
+//				
+//				String tempTitle = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*)\\.png", "$1" + name + "$3.png");
+//				String newTitle = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*)\\.png", "$1" + newNdex + "$3.png");
+//				String generalTempTitle = tempTitle.replace(" " + games + ".png", ".png");
+//				String generalNewTitle = newTitle.replace(" " + games + ".png", ".png");
+//				String numberTempTitle = "Pokémon n°" + name + form;
+//				String numberNewTitle = "Pokémon n°" + newNdex + form;
+//
+//				String tempTitleWithoutForm = tempTitle.replace(form, "");
+//				String newTitleWithoutForm = newTitle.replace(form, "");
+//				String generalTempTitleWithoutForm = tempTitleWithoutForm.replace(" " + games + ".png", ".png");
+//				String generalNewTitleWithoutForm = newTitleWithoutForm.replace(" " + games + ".png", ".png");
+//				String numberTempTitleWithoutForm = "Pokémon n°" + name;
+//				String numberNewTitleWithoutForm = "Pokémon n°" + newNdex;
+//				
+//				if (!tempTitle.equals(newTitle)) {
+//					 API.rename(tempTitle, newTitle, false, "Renommage pour changer les numéros nationaux");
+//					System.out.println(tempTitle + " -> " + newTitle);
+//					 API.rename(generalTempTitle, generalNewTitle, false, "Renommage pour changer les numéros nationaux");
+//					System.out.println(generalTempTitle + " -> " + generalNewTitle);
+//					 API.rename(numberTempTitle, numberNewTitle, false, "Renommage pour changer les numéros nationaux");
+//					System.out.println(numberTempTitle + " -> " + numberNewTitle);
+//					
+//					// Changement de destination de redirection de la miniature générale
+//					Page generalNewPage = new Page(generalNewTitle);
+//					String generalNewContents = generalNewPage.getContent();
+//					if (generalNewContents == null) {
+//						System.err.println("Warning: " + generalNewPage.getTitle() + " doesn't exist.");
+//					} else {
+//						generalNewContents.replace(oldNdex, newNdex);
+//					}
+//					
+//					// System.out.println(generalNewContents);
+//					 generalNewPage.setContent(generalNewContents, "Changement de numéros nationaux");
+//					
+//					if (!form.equals("")) {
+//						 API.rename(tempTitleWithoutForm, newTitleWithoutForm, false, "Renommage temporaire pour changer les numéros nationaux");
+//						System.out.println(tempTitleWithoutForm + " -> " + newTitleWithoutForm);
+//						 API.rename(generalTempTitleWithoutForm, generalNewTitleWithoutForm, false, "Renommage temporaire pour changer les numéros nationaux");
+//						System.out.println(generalTempTitleWithoutForm + " -> " + generalNewTitleWithoutForm);
+//						 API.rename(numberTempTitleWithoutForm, numberNewTitleWithoutForm, false, "Renommage temporaire pour changer les numéros nationaux");
+//						System.out.println(numberTempTitleWithoutForm + " -> " + numberNewTitleWithoutForm);
+//
+//						// Changement de destination de redirection
+//						Page generalNewPageWithoutForm = new Page(generalNewTitleWithoutForm);
+//						String generalNewContentsWithoutForm = generalNewPageWithoutForm.getContent();
+//						if (generalNewContents == null) {
+//							System.err.println("Warning: " + generalNewPage.getTitle() + " doesn't exist.");
+//						} else {
+//							generalNewContentsWithoutForm.replace(oldNdex, newNdex);
+//						}
+//						
+//						// System.out.println(generalNewContentsWithoutForm);
+//						 generalNewPageWithoutForm.setContent(generalNewContentsWithoutForm, "Changement de numéros nationaux");
+//					}
+//					System.out.println("***");
+//				}
+//				
+//				// Articles de Pokémon
+//				Page articlePage = new Page(name);
+//				String articleContents = articlePage.getContent();
+//				int newNdexInt = Integer.parseInt(newNdex);
+//				String previousPokemon = NdexzhToName.get(Integer.toString(newNdexInt - 1));
+//				String nextPokemon = NdexzhToName.get(Integer.toString(newNdexInt + 1));
+//				
+//				String newArticleContents = articleContents.replace(oldNdex, newNdex);
+//				newArticleContents = newArticleContents.replaceAll("nomPrécédent=[^\\n]*", "nomPrécédent=" + previousPokemon);
+//				newArticleContents = newArticleContents.replaceAll("nomSuivant=[^\\n]*", "nomSuivant=" + nextPokemon);
+//				
+//				// System.out.println(newArticleContents);
+//				 articlePage.setContent(newArticleContents, "Changement de numéros nationaux");
+//			}
+//			
+//			miniaturePage = miniaturePageCollection.getNextPage();
+//		}
+		
+		
+		// BONUS RÉPARATION	
+		String[] categoryNames = new String[] {"Miniature Pokémon (Écarlate et Violet)"};
+		List<PageCollection> pageCollections = new ArrayList<>();
+//		for(int i=0; i<categoryNames.length; i++) {
+//			
+//			PageCollection pageCollection = new PageCollection(
+//					new int[] {API.NS_MAIN, API.NS_FILES},
+//					API.FILTER_NONREDIRECTS,
+//					categoryNames[i]
+//				);
+//			pageCollections.add(pageCollection);
+//			System.out.println(categoryNames[i] + " category dump ok");
+//		}
+//		
+//		
+//		for(PageCollection pageCollection : pageCollections) {
+//			Page page = pageCollection.getNextPage();
+//			
+//			while (page != null) {
+//				
+//				String title = page.getTitle();
+//				String ndex = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*)\\.png", "$2");
+//				String form = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*) " + games + "\\.png", "$3");
+//				
+//				String titleWithoutForm = title.replace(form, "");
+//				
+//				String generalTitle = title.replace(" EV.png", ".png");
+//				String generalTitleWithoutForm = generalTitle.replace(form, "");
+//				Page pageWithoutForm = new Page(titleWithoutForm);
+//				Page generalPage = new Page(generalTitle);
+//				Page generalPageWithoutForm = new Page(generalTitleWithoutForm);
+//				
+//				
+//				
+//				
+//				if (ndex != null && !ndex.equals("718")) {
+//					String pageWithoutFormContents = pageWithoutForm.getContent();
+//					String generalPageContents = generalPage.getContent();
+//					String generalPageWithoutFormContents = generalPageWithoutForm.getContent();
+//					
+//					System.out.println(ndex);
+//					if (pageWithoutFormContents == null) {
+//						System.err.println("Warning: " + pageWithoutForm.getTitle() + " doesn't exist.");
+//					} else {
+//						// System.out.println(pageContents);
+//						pageWithoutFormContents = pageWithoutFormContents.replaceAll("[0-9]+", ndex);
+//						
+//						if (!pageWithoutFormContents.equals(pageWithoutForm.getContent())) {
+//							System.out.println(pageWithoutFormContents);
+//							pageWithoutForm.setContent(pageWithoutFormContents, "Changement de numéros nationaux");
+//						}
+//						
+//					}
+//					
+//					if (generalPageContents == null) {
+//						System.err.println("Warning: " + pageWithoutForm.getTitle() + " doesn't exist.");
+//					} else {
+//						generalPageContents = generalPageContents.replaceAll("[0-9]+", ndex);
+//						
+//						if (!generalPageContents.equals(generalPage.getContent())) {
+//							System.out.println(generalPageContents);
+//							generalPage.setContent(generalPageContents, "Changement de numéros nationaux");
+//						}
+//					}
+//					
+//					if (generalPageWithoutFormContents == null) {
+//						System.err.println("Warning: " + pageWithoutForm.getTitle() + " doesn't exist.");
+//					} else {
+//						generalPageWithoutFormContents = generalPageWithoutFormContents.replaceAll("[0-9]+", ndex);
+//						
+//						if (!generalPageWithoutFormContents.equals(generalPageWithoutForm.getContent())) {
+//							System.out.println(generalPageWithoutFormContents);
+//							generalPageWithoutForm.setContent(generalPageWithoutFormContents, "Changement de numéros nationaux");
+//						}
+//					}
+//				}
+//				page = pageCollection.getNextPage();
+//			}
+//		}
+//
+//		System.out.println("*** STOP ***");
+//		if (true) {return;}
+
+		// SPRITES, IMAGES DU POKÉDEX ET REDIRECTIONS D'ARTWORK
+		categoryNames = new String[] {"Sprite Pokémon (Écarlate et Violet)", "Sprite Pokémon chromatique (Écarlate et Violet)", "Image du Pokédex (Écarlate et Violet)"};
+		pageCollections = new ArrayList<>();
+		for(int i=0; i<categoryNames.length; i++) {
+			
+			PageCollection pageCollection = new PageCollection(
+					new int[] {API.NS_MAIN, API.NS_FILES},
+					API.FILTER_NONREDIRECTS,
+					categoryNames[i]
+				);
+			pageCollections.add(pageCollection);
+			System.out.println(categoryNames[i] + " category dump ok");
+		}
+		
+		
+		int counter = 0;
+		for(PageCollection pageCollection : pageCollections) {
+			Page spritePage = pageCollection.getNextPage();
+			while (spritePage != null) {
+				String title = spritePage.getTitle();
+				String oldNdex = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9\\?]*)(?<c>[^\\.]*) " + games + "\\.png", "$2");
+				String name = NdexpkpToName.get(oldNdex);
+				
+				if (oldNdex != null && name != null) {
+					String tempTitle = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9\\?]*)(?<c>[^\\.]*) " + games + "\\.png", "$1" + name + "$3 " + games + ".png");
+					
+					
+					if (!title.equals(tempTitle)) {
+						 API.rename(title, tempTitle, false, "Renommage temporaire pour changer les numéros nationaux");
+						System.out.println(title + " -> " + tempTitle);
+					}
+				}
+				
+				spritePage = pageCollection.getNextPage();
+			}
+			pageCollection.rewind();
+			System.out.println("\n*** REWIND " + categoryNames[counter] + " ***\n");
+			
+			spritePage = pageCollection.getNextPage();
+			while (spritePage != null) {
+				String title = spritePage.getTitle();
+				String oldNdex = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*)\\.png", "$2");
+				String name = NdexpkpToName.get(oldNdex);
+
+				if (oldNdex != null && name != null) {
+					String newNdex = NameToNdexzh.get(name);
+					
+					String tempTitle = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*)\\.png", "$1" + name + "$3.png");
+					String newTitle = title.replaceAll("(?<a>[^0-9]*)(?<b>[0-9]*)(?<c>[^\\.]*)\\.png", "$1" + newNdex + "$3.png");
+					
+					if (!tempTitle.equals(newTitle)) {
+						 API.rename(tempTitle, newTitle, false, "Renommage pour changer les numéros nationaux");
+						System.out.println(tempTitle + " -> " + newTitle);
+					}
+					
+					// Changement de redirections pour les redirections d'artwork temporaires
+					if (counter == 2) {
+						Page artworkPage = new Page("Fichier:" + name + ".png");
+						String artworkPageContents = artworkPage.getContent();
+						if (artworkPageContents == null) {
+							System.err.println("Warning: " + artworkPage.getTitle() + " doesn't exist.");
+						} else if (artworkPageContents.contains("Fichier:Pokédex")) {
+							artworkPageContents = artworkPageContents.replace(oldNdex, newNdex);
+							
+							System.out.println(artworkPageContents);
+							artworkPage.setContent(artworkPageContents, "Changement de numéros nationaux");
+						}
+					}
+				}
+				
+				spritePage = pageCollection.getNextPage();
+			}
+			counter++;
+		}
+
+		br.close();
 	}
 	
 	public void uploadCandies(File folderPath, boolean justOne) {
@@ -312,7 +660,7 @@ public class MewtwoBot {
 				// These two lines shouldn't do anything unless the description wasn't set by the upload before.
 				// For instance, if there was already an existing version.
 				Page page = new Page(uploadName);
-//				page.setContent(descriptionHeader + description, description);
+				page.setContent(descriptionHeader + description, description);
 				
 				
 				String uploadSituation;
@@ -331,20 +679,82 @@ public class MewtwoBot {
 		}
 	}
 	
-	public void uploadSprites(File folderPath, String edit_description, String source, boolean rename, int starting_version, boolean justOne) {
+	// gamesLongName : Écarlate et Violet
+	public void uploadArtworks(File folderPath, String gamesShortName, String gamesLongName, boolean generalArtworkRedirection, boolean justOne) {
+		File contents[] = folderPath.listFiles();
+		String descriptionHeader = "== Description ==\n\n";
+				
+		for(int i=0; i<contents.length; i++) {
+			String contentString	= contents[i].toString();
+			String uploadName		= "Fichier:" + contents[i].getName();
+			String uploadNameGame	= uploadName.replace(".png", "-" + gamesShortName + ".png");
+			// System.out.println(uploadName + "\t" + uploadNameGame);
+			
+			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals(".png")) {
+				String pokeName = uploadName.replace("Fichier:", "").replace(".png", "");
+				String form = pokeName.replaceAll("[^\\(]*(?<a> \\(.*)", "$1");
+				// System.out.println(form);
+				if (form.equals(pokeName)) {
+					form = "";
+				}
+				pokeName = pokeName.replaceAll(" \\((?<a>[^\\)]*)\\)", "");
+				
+				
+				String description = "Artwork " + Util.de(pokeName) + "[[" + pokeName + "]]" + form + " pour {{Jeu|" + gamesShortName
+						+ "}}.\n\n{{Informations Fichier\n"
+						+ "| Source = [https://zukan.pokemon.co.jp/ Site du Pokédex japonais]\n"
+						+ "| Auteur = [[The Pokémon Company]]\n"
+						+ "}}\n\n[[Catégorie:Artwork Pokémon " + Util.de(gamesLongName) + gamesLongName + "]]\n"
+						+ "[[Catégorie:Image Pokémon représentant " + pokeName + "]]";
+				
+				boolean uploaded = API.upload(uploadNameGame, contents[i], descriptionHeader + description,
+						description);
+//						"Correction du fichier");
+//						"Suppression des métadonnées");
+				
+				// These two lines shouldn't do anything unless the description wasn't set by the upload before.
+				// For instance, if there was already an existing version.
+				Page page = new Page(uploadNameGame);
+				page.setContent(descriptionHeader + description, description);
+				
+				
+				// Redirection artwork général
+				if (generalArtworkRedirection) {
+					Page redirectionPage = new Page(uploadName);
+					redirectionPage.setContent("#REDIRECTION [[" + uploadNameGame + "]]\n[[Catégorie:Artwork Pokémon]]", "Redirection vers [[" + uploadNameGame + "]]");
+				}
+				
+				
+				String uploadSituation;
+				if (uploaded) {
+					uploadSituation = "ok";
+				} else {
+					uploadSituation = "PAS OK !!!!";
+				}
+				
+				System.out.println(uploadName + " " + uploadSituation);
+			
+				if (justOne) {
+					break;
+				}
+			}
+		}
+	}
+	
+	public void uploadSprites(File folderPath, String extension, String edit_description, String source, boolean createGeneralRedirection, boolean rename, int starting_version, boolean justOne) {
 		File contents[] = folderPath.listFiles();
 		if (!source.equals("")) {
 			source = "|source=" + source;
 		}
 		String description = "== Description ==\n{{#invoke:Description|sprite" + source + "}}";
-		description = "";
+		// description = "";
 		
 		for(int i=0; i<contents.length; i++) {
 			String contentString	= contents[i].toString();
 			String ogUploadName		= "Fichier:" + contents[i].getName();
 			String uploadName		= "Fichier:" + contents[i].getName();
 			System.out.println(uploadName);
-			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals(".png")) {
+			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals("." + extension)) {
 				uploadName = uploadName.replace("interrogation", "?");
 
 				
@@ -353,10 +763,26 @@ public class MewtwoBot {
 				String fileContents = filePage.getContent();
 				int version = starting_version;
 				
-				if (rename) {
+				
+				if (createGeneralRedirection) {
+					
+					String generalRedirectionName = uploadName.replaceFirst(" [^\\s]*\\." + extension, "." + extension);
+					Page generalRedirectionPage = new Page(generalRedirectionName);
+					String generalRedirectionContents = generalRedirectionPage.getContent();
+					
+					if (generalRedirectionContents == null || !(generalRedirectionContents.contains("#REDIRECT"))) {
+						Login.login("Matt.");
+						API.delete(generalRedirectionName, "[Modification par robot] Page supprimée pour permettre une nouvelle redirection");					
+						Login.login("Silvallié");
+					}
+					generalRedirectionPage.setContent("#REDIRECTION [[" + uploadName + "]]\n[[Catégorie:Miniature Pokémon]]",
+							"Redirection vers [[" + uploadName + "]]");
+					
+				}
+				else if (rename) {
 					while (fileContents != null) {
 						version++;
-						uploadName = ogUploadName.replace(".png", "-v" + version + ".png");
+						uploadName = ogUploadName.replace(".png", "-v" + version + "." + extension);
 	
 						filePage = new Page(uploadName);
 						fileContents = filePage.getContent();
@@ -364,14 +790,14 @@ public class MewtwoBot {
 					}
 				}
 				
-//				if (version != 0) {
-//					System.out.println("Renommage "+ogUploadName+" => "+uploadName);
-//					 API.rename(ogUploadName, uploadName, false, "Renommage "+ogUploadName+" => "+uploadName);
-//				}
+				if (version != 0) {
+					System.out.println("Renommage "+ogUploadName+" => "+uploadName);
+					 API.rename(ogUploadName, uploadName, false, "Renommage "+ogUploadName+" => "+uploadName);
+				}
 				
 				
-				System.out.println("Upload "+uploadName);
-				boolean uploaded = API.upload(uploadName, contents[i], description,
+				System.out.println("Upload "+ogUploadName);
+				boolean uploaded = API.upload(ogUploadName, contents[i], description,
 ////						"Correction du fichier");
 						edit_description);
 				filePage.setContent(description, edit_description);
@@ -924,7 +1350,8 @@ public class MewtwoBot {
 	
 	
 	public void addDex(String region, boolean secondary, boolean justOne) {
-		String[][] theList = {{"002", "Efflèche"}, {"004", "Héricendre"}, {"005", "Feurisson"}, {"006", "Typhlosion de Hisui"}, {"007", "Moustillon"}, {"008", "Mateloutre"}, {"009", "Clamiral de Hisui"}, {"010", "Keunotor"}, {"011", "Castorno"}, {"012", "Étourmi"}, {"013", "Étourvol"}, {"014", "Étouraptor"}, {"015", "Lixy"}, {"016", "Luxio"}, {"017", "Luxray"}, {"018", "Chenipotte"}, {"019", "Armulys"}, {"020", "Charmillon"}, {"021", "Blindalys"}, {"022", "Papinox"}, {"023", "Ponyta"}, {"024", "Galopa"}, {"025", "Évoli"}, {"026", "Aquali"}, {"027", "Voltali"}, {"028", "Pyroli"}, {"029", "Mentali"}, {"030", "Noctali"}, {"031", "Phyllali"}, {"032", "Givrali"}, {"033", "Nymphali"}, {"034", "Nosferapti"}, {"035", "Nosferalto"}, {"036", "Nostenfer"}, {"037", "Baudrive"}, {"038", "Grodrive"}, {"039", "Crikzik"}, {"040", "Mélokrik"}, {"041", "Mustébouée"}, {"042", "Mustéflott"}, {"043", "Cheniti"}, {"044", "Cheniselle"}, {"045", "Papilord"}, {"046", "Racaillou"}, {"047", "Gravalanch"}, {"048", "Grolem"}, {"049", "Cerfrousse"}, {"050", "Cerbyllin"}, {"051", "Goinfrex"}, {"052", "Ronflex"}, {"053", "Paras"}, {"054", "Parasect"}, {"055", "Pichu"}, {"056", "Pikachu"}, {"057", "Raichu"}, {"058", "Abra"}, {"059", "Kadabra"}, {"060", "Alakazam"}, {"061", "Ouisticram"}, {"062", "Chimpenfeu"}, {"063", "Simiabraz"}, {"064", "Laporeille"}, {"065", "Lockpin"}, {"066", "Ceribou"}, {"067", "Ceriflor"}, {"068", "Psykokwak"}, {"069", "Akwakwak"}, {"070", "Apitrini"}, {"071", "Apireine"}, {"072", "Insécateur"}, {"073", "Cizayox"}, {"074", "Hachécateur"}, {"075", "Scarhino"}, {"076", "Mime Jr."}, {"077", "M. Mime"}, {"078", "Capumain"}, {"079", "Capidextre"}, {"080", "Magicarpe"}, {"081", "Léviator"}, {"082", "Sancoki"}, {"083", "Tritosor"}, {"084", "Qwilfish de Hisui"}, {"085", "Qwilpik"}, {"086", "Ptiravi"}, {"087", "Leveinard"}, {"088", "Leuphorie"}, {"089", "Rozbouton"}, {"090", "Rosélia"}, {"091", "Roserade"}, {"092", "Vortente"}, {"093", "Chlorobule"}, {"094", "Fragilady de Hisui"}, {"095", "Saquedeneu"}, {"096", "Bouldeneu"}, {"097", "Barloche"}, {"098", "Barbicha"}, {"099", "Cradopaud"}, {"100", "Coatox"}, {"101", "Tarsal"}, {"102", "Kirlia"}, {"103", "Gardevoir"}, {"104", "Gallame"}, {"105", "Yanma"}, {"106", "Yanmega"}, {"107", "Hippopotas"}, {"108", "Hippodocus"}, {"109", "Pachirisu"}, {"110", "Moufouette"}, {"111", "Moufflair"}, {"112", "Teddiursa"}, {"113", "Ursaring"}, {"114", "Ursaking"}, {"115", "Mucuscule"}, {"116", "Colimucus de Hisui"}, {"117", "Muplodocus de Hisui"}, {"118", "Onix"}, {"119", "Steelix"}, {"120", "Rhinocorne"}, {"121", "Rhinoféros"}, {"122", "Rhinastoc"}, {"123", "Manzaï"}, {"124", "Simularbre"}, {"125", "Excelangue"}, {"126", "Coudlangue"}, {"127", "Togepi"}, {"128", "Togetic"}, {"129", "Togekiss"}, {"130", "Tortipouss"}, {"131", "Boskara"}, {"132", "Torterra"}, {"133", "Porygon"}, {"134", "Porygon2"}, {"135", "Porygon-Z"}, {"136", "Fantominus"}, {"137", "Spectrum"}, {"138", "Ectoplasma"}, {"139", "Spiritomb"}, {"140", "Cornèbre"}, {"141", "Corboss"}, {"142", "Zarbi"}, {"143", "Obalie"}, {"144", "Phogleur"}, {"145", "Kaimorse"}, {"146", "Rémoraid"}, {"147", "Octillery"}, {"148", "Rapion"}, {"149", "Drascore"}, {"150", "Caninos de Hisui"}, {"151", "Arcanin de Hisui"}, {"152", "Chaglam"}, {"153", "Chaffreux"}, {"154", "Machoc"}, {"155", "Machopeur"}, {"156", "Mackogneur"}, {"157", "Pijako"}, {"158", "Skelénox"}, {"159", "Téraclope"}, {"160", "Noctunoir"}, {"161", "Tiplouf"}, {"162", "Prinplouf"}, {"163", "Pingoléon"}, {"164", "Babimanta"}, {"165", "Démanta"}, {"166", "Bargantua"}, {"167", "Paragruel"}, {"168", "Goupix"}, {"168", "Goupix d'Alola"}, {"169", "Feunard"}, {"169", "Feunard d'Alola"}, {"170", "Tentacool"}, {"171", "Tentacruel"}, {"172", "Écayon"}, {"173", "Luminéon"}, {"174", "Magby"}, {"175", "Magmar"}, {"176", "Maganon"}, {"177", "Magnéti"}, {"178", "Magnéton"}, {"179", "Magnézone"}, {"180", "Archéomire"}, {"181", "Archéodong"}, {"182", "Élekid"}, {"183", "Élektek"}, {"184", "Élekable"}, {"185", "Scorplane"}, {"186", "Scorvol"}, {"187", "Griknot"}, {"188", "Carmache"}, {"189", "Carchacrok"}, {"190", "Tarinor"}, {"191", "Tarinorme"}, {"192", "Voltorbe de Hisui"}, {"193", "Électrode de Hisui"}, {"194", "Motisma"}, {"195", "Korillon"}, {"196", "Éoko"}, {"197", "Feuforêve"}, {"198", "Magirêve"}, {"199", "Mélo"}, {"200", "Mélofée"}, {"201", "Mélodelfe"}, {"202", "Farfuret"}, {"202", "Farfuret de Hisui"}, {"203", "Farfurex"}, {"204", "Dimoret"}, {"205", "Stalgamin"}, {"206", "Oniglali"}, {"207", "Momartik"}, {"208", "Kranidos"}, {"209", "Charkos"}, {"210", "Dinoclier"}, {"211", "Bastiodon"}, {"212", "Marcacrin"}, {"213", "Cochignon"}, {"214", "Mammochon"}, {"215", "Grelaçon"}, {"216", "Séracrawl de Hisui"}, {"217", "Blizzi"}, {"218", "Blizzaroi"}, {"219", "Zorua de Hisui"}, {"220", "Zoroark de Hisui"}, {"221", "Furaiglon"}, {"222", "Gueriaigle de Hisui"}, {"223", "Riolu"}, {"224", "Lucario"}, {"225", "Créhelf"}, {"226", "Créfollet"}, {"227", "Créfadet"}, {"228", "Heatran"}, {"229", "Regigigas"}, {"230", "Cresselia"}, {"231", "Fulguris"}, {"232", "Boréas"}, {"233", "Démétéros"}, {"234", "Amovénus"}, {"235", "Dialga"}, {"236", "Palkia"}, {"237", "Giratina"}, {"238", "Arceus"}, {"239", "Phione"}, {"240", "Manaphy"}, {"241", "Shaymin"}, {"242", "Darkrai"}};
+		// String[][] theList = {{"002", "Efflèche"}, {"004", "Héricendre"}, {"005", "Feurisson"}, {"006", "Typhlosion de Hisui"}, {"007", "Moustillon"}, {"008", "Mateloutre"}, {"009", "Clamiral de Hisui"}, {"010", "Keunotor"}, {"011", "Castorno"}, {"012", "Étourmi"}, {"013", "Étourvol"}, {"014", "Étouraptor"}, {"015", "Lixy"}, {"016", "Luxio"}, {"017", "Luxray"}, {"018", "Chenipotte"}, {"019", "Armulys"}, {"020", "Charmillon"}, {"021", "Blindalys"}, {"022", "Papinox"}, {"023", "Ponyta"}, {"024", "Galopa"}, {"025", "Évoli"}, {"026", "Aquali"}, {"027", "Voltali"}, {"028", "Pyroli"}, {"029", "Mentali"}, {"030", "Noctali"}, {"031", "Phyllali"}, {"032", "Givrali"}, {"033", "Nymphali"}, {"034", "Nosferapti"}, {"035", "Nosferalto"}, {"036", "Nostenfer"}, {"037", "Baudrive"}, {"038", "Grodrive"}, {"039", "Crikzik"}, {"040", "Mélokrik"}, {"041", "Mustébouée"}, {"042", "Mustéflott"}, {"043", "Cheniti"}, {"044", "Cheniselle"}, {"045", "Papilord"}, {"046", "Racaillou"}, {"047", "Gravalanch"}, {"048", "Grolem"}, {"049", "Cerfrousse"}, {"050", "Cerbyllin"}, {"051", "Goinfrex"}, {"052", "Ronflex"}, {"053", "Paras"}, {"054", "Parasect"}, {"055", "Pichu"}, {"056", "Pikachu"}, {"057", "Raichu"}, {"058", "Abra"}, {"059", "Kadabra"}, {"060", "Alakazam"}, {"061", "Ouisticram"}, {"062", "Chimpenfeu"}, {"063", "Simiabraz"}, {"064", "Laporeille"}, {"065", "Lockpin"}, {"066", "Ceribou"}, {"067", "Ceriflor"}, {"068", "Psykokwak"}, {"069", "Akwakwak"}, {"070", "Apitrini"}, {"071", "Apireine"}, {"072", "Insécateur"}, {"073", "Cizayox"}, {"074", "Hachécateur"}, {"075", "Scarhino"}, {"076", "Mime Jr."}, {"077", "M. Mime"}, {"078", "Capumain"}, {"079", "Capidextre"}, {"080", "Magicarpe"}, {"081", "Léviator"}, {"082", "Sancoki"}, {"083", "Tritosor"}, {"084", "Qwilfish de Hisui"}, {"085", "Qwilpik"}, {"086", "Ptiravi"}, {"087", "Leveinard"}, {"088", "Leuphorie"}, {"089", "Rozbouton"}, {"090", "Rosélia"}, {"091", "Roserade"}, {"092", "Vortente"}, {"093", "Chlorobule"}, {"094", "Fragilady de Hisui"}, {"095", "Saquedeneu"}, {"096", "Bouldeneu"}, {"097", "Barloche"}, {"098", "Barbicha"}, {"099", "Cradopaud"}, {"100", "Coatox"}, {"101", "Tarsal"}, {"102", "Kirlia"}, {"103", "Gardevoir"}, {"104", "Gallame"}, {"105", "Yanma"}, {"106", "Yanmega"}, {"107", "Hippopotas"}, {"108", "Hippodocus"}, {"109", "Pachirisu"}, {"110", "Moufouette"}, {"111", "Moufflair"}, {"112", "Teddiursa"}, {"113", "Ursaring"}, {"114", "Ursaking"}, {"115", "Mucuscule"}, {"116", "Colimucus de Hisui"}, {"117", "Muplodocus de Hisui"}, {"118", "Onix"}, {"119", "Steelix"}, {"120", "Rhinocorne"}, {"121", "Rhinoféros"}, {"122", "Rhinastoc"}, {"123", "Manzaï"}, {"124", "Simularbre"}, {"125", "Excelangue"}, {"126", "Coudlangue"}, {"127", "Togepi"}, {"128", "Togetic"}, {"129", "Togekiss"}, {"130", "Tortipouss"}, {"131", "Boskara"}, {"132", "Torterra"}, {"133", "Porygon"}, {"134", "Porygon2"}, {"135", "Porygon-Z"}, {"136", "Fantominus"}, {"137", "Spectrum"}, {"138", "Ectoplasma"}, {"139", "Spiritomb"}, {"140", "Cornèbre"}, {"141", "Corboss"}, {"142", "Zarbi"}, {"143", "Obalie"}, {"144", "Phogleur"}, {"145", "Kaimorse"}, {"146", "Rémoraid"}, {"147", "Octillery"}, {"148", "Rapion"}, {"149", "Drascore"}, {"150", "Caninos de Hisui"}, {"151", "Arcanin de Hisui"}, {"152", "Chaglam"}, {"153", "Chaffreux"}, {"154", "Machoc"}, {"155", "Machopeur"}, {"156", "Mackogneur"}, {"157", "Pijako"}, {"158", "Skelénox"}, {"159", "Téraclope"}, {"160", "Noctunoir"}, {"161", "Tiplouf"}, {"162", "Prinplouf"}, {"163", "Pingoléon"}, {"164", "Babimanta"}, {"165", "Démanta"}, {"166", "Bargantua"}, {"167", "Paragruel"}, {"168", "Goupix"}, {"168", "Goupix d'Alola"}, {"169", "Feunard"}, {"169", "Feunard d'Alola"}, {"170", "Tentacool"}, {"171", "Tentacruel"}, {"172", "Écayon"}, {"173", "Luminéon"}, {"174", "Magby"}, {"175", "Magmar"}, {"176", "Maganon"}, {"177", "Magnéti"}, {"178", "Magnéton"}, {"179", "Magnézone"}, {"180", "Archéomire"}, {"181", "Archéodong"}, {"182", "Élekid"}, {"183", "Élektek"}, {"184", "Élekable"}, {"185", "Scorplane"}, {"186", "Scorvol"}, {"187", "Griknot"}, {"188", "Carmache"}, {"189", "Carchacrok"}, {"190", "Tarinor"}, {"191", "Tarinorme"}, {"192", "Voltorbe de Hisui"}, {"193", "Électrode de Hisui"}, {"194", "Motisma"}, {"195", "Korillon"}, {"196", "Éoko"}, {"197", "Feuforêve"}, {"198", "Magirêve"}, {"199", "Mélo"}, {"200", "Mélofée"}, {"201", "Mélodelfe"}, {"202", "Farfuret"}, {"202", "Farfuret de Hisui"}, {"203", "Farfurex"}, {"204", "Dimoret"}, {"205", "Stalgamin"}, {"206", "Oniglali"}, {"207", "Momartik"}, {"208", "Kranidos"}, {"209", "Charkos"}, {"210", "Dinoclier"}, {"211", "Bastiodon"}, {"212", "Marcacrin"}, {"213", "Cochignon"}, {"214", "Mammochon"}, {"215", "Grelaçon"}, {"216", "Séracrawl de Hisui"}, {"217", "Blizzi"}, {"218", "Blizzaroi"}, {"219", "Zorua de Hisui"}, {"220", "Zoroark de Hisui"}, {"221", "Furaiglon"}, {"222", "Gueriaigle de Hisui"}, {"223", "Riolu"}, {"224", "Lucario"}, {"225", "Créhelf"}, {"226", "Créfollet"}, {"227", "Créfadet"}, {"228", "Heatran"}, {"229", "Regigigas"}, {"230", "Cresselia"}, {"231", "Fulguris"}, {"232", "Boréas"}, {"233", "Démétéros"}, {"234", "Amovénus"}, {"235", "Dialga"}, {"236", "Palkia"}, {"237", "Giratina"}, {"238", "Arceus"}, {"239", "Phione"}, {"240", "Manaphy"}, {"241", "Shaymin"}, {"242", "Darkrai"}};
+		String[][] theList = {{"1", "Poussacha"}, {"2", "Matourgeon"}, {"3", "Miascarade"}, {"4", "Chochodile"}, {"5", "Crocogril"}, {"6", "Flâmigator"}, {"7", "Coiffeton"}, {"8", "Canarbello"}, {"9", "Palmaval"}, {"10", "Gourmelet"}, {"11", "Fragroin"}, {"12", "Tissenboule"}, {"13", "Filentrappe"}, {"14", "Lilliterelle"}, {"15", "Gambex"}, {"16", "Granivol"}, {"17", "Floravol"}, {"18", "Cotovol"}, {"19", "Passerouge"}, {"20", "Braisillon"}, {"21", "Flambusard"}, {"22", "Pohm"}, {"23", "Pohmotte"}, {"24", "Pohmarmotte"}, {"25", "Malosse"}, {"26", "Démolosse"}, {"27", "Manglouton"}, {"28", "Argouste"}, {"29", "Rongourmand"}, {"30", "Rongrigou"}, {"31", "Tournegrin"}, {"32", "Héliatronc"}, {"33", "Crikzik"}, {"34", "Mélokrik"}, {"35", "Lépidonille"}, {"36", "Pérégrain"}, {"37", "Prismillon"}, {"38", "Apitrini"}, {"39", "Apireine"}, {"40", "Minisange"}, {"41", "Bleuseille"}, {"42", "Corvaillus"}, {"43", "Ptiravi"}, {"44", "Leveinard"}, {"45", "Leuphorie"}, {"46", "Azurill"}, {"47", "Marill"}, {"48", "Azumarill"}, {"49", "Arakdo"}, {"50", "Maskadra"}, {"51", "Mustébouée"}, {"52", "Mustéflott"}, {"53", "Axoloto"}, {"54", "Terraiste"}, {"55", "Psykokwak"}, {"56", "Akwakwak"}, {"57", "Khélocrok"}, {"58", "Torgamord"}, {"59", "Toudoudou"}, {"60", "Rondoudou"}, {"61", "Grodoudou"}, {"62", "Tarsal"}, {"63", "Kirlia"}, {"64", "Gardevoir"}, {"65", "Gallame"}, {"66", "Soporifik"}, {"67", "Hypnomade"}, {"68", "Fantominus"}, {"69", "Spectrum"}, {"70", "Ectoplasma"}, {"71", "Compagnol"}, {"72", "Famignol"}, {"73", "Pichu"}, {"74", "Pikachu"}, {"75", "Raichu"}, {"76", "Pâtachiot"}, {"77", "Briochien"}, {"78", "Parecool"}, {"79", "Vigoroth"}, {"80", "Monaflèmit"}, {"81", "Croquine"}, {"82", "Candine"}, {"83", "Sucreine"}, {"84", "Olivini"}, {"85", "Olivado"}, {"86", "Arboliva"}, {"87", "Manzaï"}, {"88", "Simularbre"}, {"89", "Rocabot"}, {"90", "Lougaroc"}, {"91", "Charbi"}, {"92", "Wagomine"}, {"93", "Monthracite"}, {"94", "Lixy"}, {"95", "Luxio"}, {"96", "Luxray"}, {"97", "Étourmi"}, {"98", "Étourvol"}, {"99", "Étouraptor"}, {"100", "Plumeline"}, {"101", "Wattouat"}, {"102", "Lainergie"}, {"103", "Pharamp"}, {"104", "Chlorobule"}, {"105", "Fragilady"}, {"106", "Balignon"}, {"107", "Chapignon"}, {"108", "Verpom"}, {"109", "Pomdrapi"}, {"110", "Dratatin"}, {"111", "Spoink"}, {"112", "Groret"}, {"113", "Tapatoès"}, {"114", "Feuforêve"}, {"115", "Magirêve"}, {"116", "Makuhita"}, {"117", "Hariyama"}, {"118", "Crabagarre"}, {"119", "Crabominable"}, {"120", "Tritox"}, {"121", "Malamandre"}, {"122", "Phanpy"}, {"123", "Donphan"}, {"124", "Charibari"}, {"125", "Pachyradjah"}, {"126", "Griknot"}, {"127", "Carmache"}, {"128", "Carchacrok"}, {"129", "Selutin"}, {"130", "Amassel"}, {"131", "Gigansel"}, {"132", "Goélise"}, {"133", "Bekipan"}, {"134", "Magicarpe"}, {"135", "Léviator"}, {"136", "Embrochet"}, {"137", "Hastacuda"}, {"138", "Bargantua"}, {"139", "Gloupti"}, {"140", "Avaltout"}, {"141", "Miaouss"}, {"142", "Persian"}, {"143", "Baudrive"}, {"144", "Grodrive"}, {"145", "Flabébé"}, {"146", "Floette"}, {"147", "Florges"}, {"148", "Taupiqueur"}, {"149", "Triopikeur"}, {"150", "Chartor"}, {"151", "Chamallot"}, {"152", "Camérupt"}, {"153", "Archéomire"}, {"154", "Archéodong"}, {"155", "Coupenotte"}, {"156", "Incisache"}, {"157", "Tranchodon"}, {"158", "Férosinge"}, {"159", "Colossinge"}, {"160", "Courrousinge"}, {"161", "Méditikka"}, {"162", "Charmina"}, {"163", "Riolu"}, {"164", "Lucario"}, {"165", "Charbambin"}, {"166", "Carmadura"}, {"167", "Malvalame"}, {"168", "Barloche"}, {"169", "Barbicha"}, {"170", "Têtampoule"}, {"171", "Ampibidou"}, {"172", "Mucuscule"}, {"173", "Colimucus"}, {"174", "Muplodocus"}, {"175", "Cradopaud"}, {"176", "Coatox"}, {"177", "Zapétrel"}, {"178", "Fulgulairo"}, {"179", "Évoli"}, {"180", "Aquali"}, {"181", "Voltali"}, {"182", "Pyroli"}, {"183", "Mentali"}, {"184", "Noctali"}, {"185", "Phyllali"}, {"186", "Givrali"}, {"187", "Nymphali"}, {"188", "Insolourdo"}, {"189", "Deusolourdo"}, {"190", "Vivaldaim"}, {"191", "Haydaim"}, {"192", "Girafarig"}, {"193", "Farigiraf"}, {"194", "Tadmorv"}, {"195", "Grotadmorv"}, {"196", "Grondogue"}, {"197", "Dogrino"}, {"198", "Toxizap"}, {"199", "Salarsen"}, {"200", "Dedenne"}, {"201", "Pachirisu"}, {"202", "Gribouraigne"}, {"203", "Tag-Tag"}, {"204", "Cerfrousse"}, {"205", "Trompignon"}, {"206", "Gaulet"}, {"207", "Voltorbe"}, {"208", "Électrode"}, {"209", "Magnéti"}, {"210", "Magnéton"}, {"211", "Magnézone"}, {"212", "Métamorph"}, {"213", "Caninos"}, {"214", "Arcanin"}, {"215", "Teddiursa"}, {"216", "Ursaring"}, {"217", "Mangriff"}, {"218", "Séviper"}, {"219", "Tylton"}, {"220", "Altaria"}, {"221", "Cabriolaine"}, {"222", "Chevroum"}, {"223", "Tauros"}, {"224", "Hélionceau"}, {"225", "Némélios"}, {"226", "Moufouette"}, {"227", "Moufflair"}, {"228", "Zorua"}, {"229", "Zoroark"}, {"230", "Farfuret"}, {"231", "Dimoret"}, {"232", "Cornèbre"}, {"233", "Corboss"}, {"234", "Scrutella"}, {"235", "Mesmérella"}, {"236", "Sidérella"}, {"237", "Théffroi"}, {"238", "Polthégeist"}, {"239", "Mimiqui"}, {"240", "Trousselin"}, {"241", "Wimessir"}, {"242", "Virovent"}, {"243", "Virevorreur"}, {"244", "Terracool"}, {"245", "Terracruel"}, {"246", "Tropius"}, {"247", "Mimantis"}, {"248", "Floramantis"}, {"249", "Craparoi"}, {"250", "Pimito"}, {"251", "Scovilain"}, {"252", "Cacnea"}, {"253", "Cacturne"}, {"254", "Léboulérou"}, {"255", "Bérasca"}, {"256", "Mimitoss"}, {"257", "Aéromite"}, {"258", "Pomdepik"}, {"259", "Foretress"}, {"260", "Insécateur"}, {"261", "Cizayox"}, {"262", "Scarhino"}, {"263", "Flotillon"}, {"264", "Cléopsytra"}, {"265", "Hippopotas"}, {"266", "Hippodocus"}, {"267", "Mascaïman"}, {"268", "Escroco"}, {"269", "Crocorible"}, {"270", "Dunaja"}, {"271", "Dunaconda"}, {"272", "Tiboudet"}, {"273", "Bourrinos"}, {"274", "Pyronille"}, {"275", "Pyrax"}, {"276", "Draby"}, {"277", "Drackhaus"}, {"278", "Drattak"}, {"279", "Forgerette"}, {"280", "Forgella"}, {"281", "Forgelina"}, {"282", "Bibichut"}, {"283", "Chapotus"}, {"284", "Sorcilence"}, {"285", "Grimalin"}, {"286", "Fourbelin"}, {"287", "Angoliath"}, {"288", "Taupikeau"}, {"289", "Triopikeau"}, {"290", "Lestombaile"}, {"291", "Dofin"}, {"292", "Superdofin"}, {"293", "Vrombi"}, {"294", "Vrombotor"}, {"295", "Motorizard"}, {"296", "Ferdeter"}, {"297", "Ténéfix"}, {"298", "Polichombr"}, {"299", "Branette"}, {"300", "Hexadron"}, {"301", "Brutalibré"}, {"302", "Spiritomb"}, {"303", "Sonistrelle"}, {"304", "Bruyverne"}, {"305", "Fantyrm"}, {"306", "Dispareptil"}, {"307", "Lanssorien"}, {"308", "Germéclat"}, {"309", "Floréclat"}, {"310", "Motisma"}, {"311", "Toutombe"}, {"312", "Tomberro"}, {"313", "Gouroutan"}, {"314", "Quartermac"}, {"315", "Dodoala"}, {"316", "Embrylex"}, {"317", "Ymphect"}, {"318", "Tyranocif"}, {"319", "Dolman"}, {"320", "Bekaglaçon"}, {"321", "Wattapik"}, {"322", "Bacabouh"}, {"323", "Trépassable"}, {"324", "Ramoloss"}, {"325", "Flagadoss"}, {"326", "Roigada"}, {"327", "Sancoki"}, {"328", "Tritosor"}, {"329", "Kokiyas"}, {"330", "Crustabri"}, {"331", "Qwilfish"}, {"332", "Lovdisc"}, {"333", "Écayon"}, {"334", "Luminéon"}, {"335", "Denticrisse"}, {"336", "Mamanbo"}, {"337", "Venalgue"}, {"338", "Kravarech"}, {"339", "Flingouste"}, {"340", "Gamblast"}, {"341", "Anchwatt"}, {"342", "Lampéroie"}, {"343", "Ohmassacre"}, {"344", "Vorastérie"}, {"345", "Prédastérie"}, {"346", "Flamenroule"}, {"347", "Minidraco"}, {"348", "Draco"}, {"349", "Dracolosse"}, {"350", "Frissonille"}, {"351", "Beldeneige"}, {"352", "Blizzi"}, {"353", "Blizzaroi"}, {"354", "Cadoizo"}, {"355", "Polarhume"}, {"356", "Polagriffe"}, {"357", "Stalgamin"}, {"358", "Oniglali"}, {"359", "Momartik"}, {"360", "Hexagel"}, {"361", "Piétacé"}, {"362", "Balbalèze"}, {"363", "Grelaçon"}, {"364", "Séracrawl"}, {"365", "Furaiglon"}, {"366", "Gueriaigle"}, {"367", "Scalpion"}, {"368", "Scalproie"}, {"369", "Scalpereur"}, {"370", "Solochi"}, {"371", "Diamat"}, {"372", "Trioxhydre"}, {"373", "Délestin"}, {"374", "Oyacata"}, {"375", "Nigirigon"}, {"376", "Fort-Ivoire"}, {"377", "Hurle-Queue"}, {"378", "Fongus-Furie"}, {"379", "Flotte-Mèche"}, {"380", "Rampe-Ailes"}, {"381", "Pelage-Sablé"}, {"382", "Roue-de-Fer"}, {"383", "Hotte-de-Fer"}, {"384", "Paume-de-Fer"}, {"385", "Têtes-de-Fer"}, {"386", "Mite-de-Fer"}, {"387", "Épine-de-Fer"}, {"388", "Frigodo"}, {"389", "Cryodo"}, {"390", "Glaivodo"}, {"391", "Mordudor"}, {"392", "Gromago"}, {"393", "Chongjian"}, {"394", "Baojian"}, {"395", "Dinglu"}, {"396", "Yuyu"}, {"397", "Rugit-Lune"}, {"398", "Garde-de-Fer"}, {"399", "Koraidon"}, {"400", "Miraidon"}};
 		for (String[] couple : theList) {
 			String num = couple[0];
 			String pokeName = couple[1];
@@ -934,8 +1361,15 @@ public class MewtwoBot {
 			String contents = pokePage.getContent();
 			String patternSearch;
 			String patternSetBeginning;
+			String patternSetEnding = "\n";
 			
-			if (secondary) {
+			contents = contents.replace("Paldea/1", "Paldea/300");
+			
+			if (contents.matches("[^µ]*" + region + "/[0-9]+[^µ]*")) {
+				patternSearch = region + "/[0-9]+\n";
+				patternSetBeginning = "";
+			}
+			else if (secondary) {
 				if (!contents.contains("dex-secondaires"))  {
 					patternSearch = "(?<name>\\|[ ]*dex[ ]*=[^\n]*)\n";
 					patternSetBeginning = "$1//";
@@ -958,7 +1392,7 @@ public class MewtwoBot {
 			}
 			Pattern p = Pattern.compile(patternSearch, Pattern.DOTALL | Pattern.CASE_INSENSITIVE);
 			
-			String newContents = p.matcher(contents).replaceAll(patternSetBeginning + region + "/" + num + "\n");
+			String newContents = p.matcher(contents).replaceAll(patternSetBeginning + region + "/" + num + patternSetEnding);
 			
 //			System.out.println(newContents);
 			pokePage.setContent(newContents, "Ajout du numéro de Pokédex de la région " + Util.de(region) + region);
@@ -1060,7 +1494,7 @@ public class MewtwoBot {
 	 **/
 	public void renameTrainerSprites(String[] from, String[] to, int[] nameSpaces, String categoryName, String firstPageName, boolean keepRedirect, boolean justOne) {
 		PageCollection pageCollection = new PageCollection(
-				nameSpaces!=null?nameSpaces:new int[]{API.NS_MAIN},
+			nameSpaces!=null?nameSpaces:new int[]{API.NS_FILES},
 						API.FILTER_NONREDIRECTS,
 						categoryName
 				);
@@ -1093,7 +1527,7 @@ public class MewtwoBot {
 				if(!newPageName.equals(pageName)) {
 					System.out.println("FOUND in page ["+page.getTitle()+"]");
 					text = page.getContent(false);
-					if(Util.count(text, "[Cc]at[ée]gor[iy]e?\\s*:\\s*[Ss]prite personnage") + Util.count(text, "[Cc]at[ée]gor[iy]e?\\s*:\\s*[Mm]iniature personnage") > 1) {
+					if(Util.count(text, "[Cc]at[ée]gor[iy]e?\\s*:\\s*[Aa]rtwork Pokémon du Pokémon Global Link") > 1) {
 						System.err.println("\tCannot save : multiple categories for ["+page.getTitle()+"]");
 					} else {
 						API.rename(pageName, newPageName, keepRedirect, "Renommage "+pageName+" => "+newPageName);
@@ -1153,6 +1587,7 @@ public class MewtwoBot {
 				if(!newPageName.equals(pageName)) {
 					System.out.println("FOUND in page ["+page.getTitle()+"]");
 					API.rename(pageName, newPageName, keepRedirect, "Renommage "+pageName+" => "+newPageName);
+					System.out.println(pageName + " " + newPageName);
 					System.out.println("\tSaved");
 					if(justOne) {
 						break;

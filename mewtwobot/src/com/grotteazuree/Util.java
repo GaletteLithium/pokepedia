@@ -28,8 +28,8 @@ public class Util {
 	public static String de(String str) {
 		String name = str.toLowerCase();
 		String[] vowels = {"a", "à", "e", "é", "è", "ê", "ë", "i", "î", "ï", "o", "ô", "ö", "u", "û", "ü", "y"};
-		String[] de = {"hachécateur", "hariyama", "haydaim", "heatran", "héricendre", "ho-oh", "hoopa", "hoothoot", "ouistempo", "ouisticram", "yanma", "yanmega"};
-		String[] d = {"hastacuda", "hélédelle", "héliatronc", "herbizarre", "hexadron", "hexagel", "hippodocus", "hippopotas", "hydragla", "hydragon", "hypnomade", "hypocéan", "hyporoi", "hypotrempe", "ymphect", "yveltal"};
+		String[] de = {"hachécateur", "hariyama", "haydaim", "heatran", "héricendre", "ho-oh", "hoopa", "hoothoot", "hotte-de-fer", "hurle-queue", "ouistempo", "ouisticram", "yanma", "yanmega", "yuyu"};
+		String[] d = {"hastacuda", "hélédelle", "héliatronc", "hélionceau", "herbizarre", "hexadron", "hexagel", "hippodocus", "hippopotas", "hydragla", "hydragon", "hypnomade", "hypocéan", "hyporoi", "hypotrempe", "ymphect", "yveltal"};
 		
 		for (String i : de) {
 			if (name.equals(i)) {

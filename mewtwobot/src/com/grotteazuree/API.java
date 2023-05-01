@@ -481,7 +481,7 @@ public class API {
 	public static boolean upload(String filename, File file, String text, String comment) {
 		boolean success = true;
 		
-		if(getToken(API.TYPE_CSRF)) {
+		if(getToken(TYPE_CSRF)) {
 			Hashtable<String, String> parameters = new Hashtable<String, String>();
 			parameters.put("action", "upload");
 			parameters.put("filename", filename);
@@ -505,8 +505,8 @@ public class API {
 	 */
 	public static boolean send(String title, String content, String summary) {
 		boolean success = false;
-		//if(getToken(title, API.TYPE_EDIT)) {
-		if(getToken(API.TYPE_CSRF)) {
+//		if(getToken(title, TYPE_EDIT)) {
+		if(getToken(TYPE_CSRF)) {
 			Hashtable<String, String> parameters = new Hashtable<String, String>();
 			parameters.put("action", "edit");
 			parameters.put("title", title);
@@ -517,7 +517,7 @@ public class API {
 			parameters.put("bot", "true");
 			parameters.put("token", token);
 			
-			Document document = API.post(parameters);
+			Document document = post(parameters);
 			Element root = (Element) document.getElementsByTagName("api").item(0);
 			NodeList nodeList = root.getElementsByTagName("error");
 			if(nodeList.getLength()>0) {
@@ -549,7 +549,7 @@ public class API {
 	public static boolean rename(String from, String to, boolean keepRedirect, String reason) {
 		boolean success = false;
 		
-		if(getToken(from, TYPE_MOVE)) {
+		if(getToken(TYPE_CSRF)) {
 			Hashtable<String, String> parameters = new Hashtable<String, String>();
 			parameters.put("action", "move");
 			parameters.put("from", from);
@@ -603,7 +603,7 @@ public class API {
 	public static boolean delete(String title, String reason) {
 		boolean success = false;
 		
-		if(getToken(title, TYPE_DELETE)) {
+		if(getToken(TYPE_CSRF)) {
 			Hashtable<String, String> parameters = new Hashtable<String, String>();
 			parameters.put("action", "delete");
 			parameters.put("title", title);
