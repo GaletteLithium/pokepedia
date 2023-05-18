@@ -67,9 +67,9 @@ while c.find('<td class="pkmn">', i + 5) != -1:
 			game_name = c[game_beginning:game_end]
 			match game_name:
 				case "Scarlet":
-					notes_list.append("Exclusif à Écarlate")
+					notes_list.append("Exclusif à Écarlate.")
 				case "Violet":
-					notes_list.append("Exclusif à Violet")
+					notes_list.append("Exclusif à Violet.")
 				case other:
 					notes_list.append("")
 
