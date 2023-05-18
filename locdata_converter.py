@@ -67,7 +67,8 @@ except OSError as e:
 
 print("Parsing locations...")
 
-for filename in os.listdir(foldername):
+filenames = sorted(os.listdir(foldername))
+for filename in filenames:
 	file = open(foldername + filename, "r", encoding="utf-8")
 
 	location = filename[:-4] 	#get rid of the '.txt'
@@ -140,6 +141,25 @@ for filename in os.listdir(foldername):
 
 			elif "{{#invoke:Tableau Pokémon|antre" in line:
 				game = "EB"
+				started_raid = True
+				zone = None
+				savepath = get_savepath(game)
+
+				if not savepath is None:
+					if not game in seen_games:
+						seen_games.add(game)
+
+						savefile = open(savepath, "a", encoding="utf-8") #use "a" mode to append text
+						savefile.write("return {\n")
+						savefile.close()
+					else:
+						ans = ",\n"
+
+
+				ans = ans + '\t["' + location + '"] = {\n'
+
+			elif "{{#invoke:Tableau Pokémon|teracristal" in line:
+				game = "EV"
 				started_raid = True
 				zone = None
 				savepath = get_savepath(game)
