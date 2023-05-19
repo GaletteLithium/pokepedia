@@ -1,9 +1,16 @@
 import glob
 import os
+import sys
 import re
 from pyuca import Collator
 
-os.chdir("D:/Poképédia/Robot")
+root_path = "D:/Poképédia/Robot"
+if len(sys.argv) >= 1:
+	root_path = sys.argv[1]
+
+print("Python root_path ["+root_path+"]")
+
+os.chdir(root_path)
 
 c = Collator()
 
@@ -67,7 +74,7 @@ except OSError as e:
 
 print("Parsing locations...")
 
-filenames = sorted(os.listdir(foldername))
+filenames = sorted(os.listdir(foldername), key=str.casefold)
 for filename in filenames:
 	file = open(foldername + filename, "r", encoding="utf-8")
 
