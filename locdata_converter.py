@@ -5,7 +5,7 @@ import re
 from pyuca import Collator
 
 root_path = "D:/Poképédia/Robot"
-if len(sys.argv) >= 1:
+if len(sys.argv) > 1:
 	root_path = sys.argv[1]
 
 print("Python root_path ["+root_path+"]")
@@ -192,9 +192,8 @@ for filename in filenames:
 			special_info = re.search(r"taux-journée\([^\(]*\)", line)
 			if not special_info is None:
 				special_info = special_info.group()
-				line = line.replace(special_info, "")
 				special_value = special_info[:-1].replace("taux-journée(", "")
-				line += "taux-matin(" + special_value + ") taux-jour(" + special_value + ")"
+				line = line.replace(special_info, "taux-matin(" + special_value + ") taux-jour(" + special_value + ")")
 
 			l = line.split("/")
 			pokemon = l[0].strip() #erasing an eventual last space at the end
