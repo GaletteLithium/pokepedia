@@ -378,7 +378,7 @@ else:
 	print(warnings)
 
 # Initial directory cleaning
-if False:
+if True:
 	directory = "dumps/locdump/"
 	try:
 		if not os.path.exists(directory):
