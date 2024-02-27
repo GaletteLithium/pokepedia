@@ -35,7 +35,8 @@ game_to_game_long = {
 	"HGSS":			"Pokémon Or HeartGold et Argent SoulSilver",
 	"Pt":			"Pokémon Platine",
 	"NB":			"Pokémon Noir et Blanc",
-	"NB2":			"Pokémon Noir 2 et Blanc 2",
+	"N2B2":			"Pokémon Noir 2 et Blanc 2",
+	"NB2":			"Pokémon Noir 2 et Blanc 2",	# deprecated
 	"XY":			"Pokémon X et Y",
 	# "Démo-ROSA":	"Pokémon Rubis Oméga et Saphir Alpha _ Version démo spéciale",
 	"ROSA":			"Pokémon Rubis Oméga et Saphir Alpha",
@@ -45,7 +46,8 @@ game_to_game_long = {
 	"EB":			"Pokémon Épée et Bouclier",
 	"DEPS":			"Pokémon Diamant Étincelant et Perle Scintillante",
 	"LPA":			"Légendes Pokémon _ Arceus",
-	"EV":			"Pokémon Écarlate et Violet"
+	"EV":			"Pokémon Écarlate et Violet",
+	"LPZA":			"Légendes Pokémon _ Z-A",
 }
 
 def get_savepath(game):
