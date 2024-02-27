@@ -11,18 +11,24 @@ import java.io.StringWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
+import java.util.regex.MatchResult;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 
 
 public class MewtwoBot {
 	/**
 	 * @param args
 	 * @throws IOException 
+	 * @throws InterruptedException 
 	 */
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		System.out.println("start");
 
 		Login.login("Silvallié"); // à commenter
+//		Login.login("Matt."); // à commenter
 		// API.login(username, password);
 		
 		//sync();
@@ -40,28 +46,34 @@ public class MewtwoBot {
 	
 	
 	@SuppressWarnings("unused")
-	public void run() throws IOException {
+	public void run() throws IOException, InterruptedException {
 		
-//		File folderPath = new File("D:\\Poképédia\\Images\\GO\\Fleurs_de_cerisier\\");
-//		File folderPath = new File("D:\\Poképédia\\Images\\GO\\Nouvelles versions\\");
-		File folderPath = new File("D:\\Poképédia\\Images\\EV\\MiniaturesÉlaguées\\no_metadata\\");
-//		File folderPath = new File("D:\\Telechargements\\JDownloader\\ArtEV\\no_metadata");
+//		File folderPath = new File("D:\\Poképédia\\Images\\RFVF\\ObjetsE\\");
+//		File folderPath = new File("D:\\Poképédia\\Images\\HOME\\Pokémon Renders v3 - Copie\\no_metadata\\");
+//		File folderPath = new File("D:\\Poképédia\\Images\\XY\\Vêtements\\");
+//		File folderPath = new File("D:\\Poképédia\\Images\\EV\\Sprites EV DI chromatiques\\no_metadata\\");
+//		File folderPath = new File("D:\\Poképédia\\Découpes\\Résultats\\Localisations Paldea\\no_metadata\\");
+//		File folderPath = new File("D:\\Poképédia\\Images\\EB\\Capacités\\Capacités EB\\Capacités EB Ludghe");
 //		File folderPath = new File("D:\\Poképédia\\Images\\EV\\objets\\objetsOrdonnésRenommésFiltrés\\no_metadata");
+//		File folderPath = new File("D:\\Poképédia\\Images\\Miniatures objets 1G 9G\\Miniatures objets (6G)\\Objets_XY_ROSA\\ROSA\\Inutilisés\\5G");
 		
 //		File folderPath = new File("D:\\Poképédia\\Découpes\\Résultats\\objetsHOME\\");
-
-//		File folderPath = new File("D:\\Poképédia\\JCC\\Écarlate et Violet\\");
+//
+		File folderPath = new File("D:\\Poképédia\\JCC\\Promo SV\\");
 
 		File listPath = new File("D:\\Poképédia\\JCC\\description_upload.txt");
+//		File listPath = new File("D:\\Poképédia\\Images\\EV\\CT\\VignettesCT.csv");
 //		File listPath = new File("D:\\Poképédia\\Renommages NDEX\\changements.csv");
-		
+//		File listPath = new File("D:\\Poképédia\\Robot\\deletion_list.txt");
 //		File listPath = new File("D:\\Poképédia\\Robot\\createSpriteRedirections\\DEPS.txt");
 		
 //		createSpriteRedirections(listPath, "DEPS", "EB", "Diamant Étincelant et Perle Scintillante", false);
 		 
-//		uploadAttacks(folderPath, "LPA", "Légendes Pokémon : Arceus", true, false);
+//		uploadAttacks(folderPath, "EB", "Épée et Bouclier", true, true, false);
 		
 //		uploadCards(folderPath, listPath, false);
+		
+//		uploadCT(folderPath, listPath, "EV", "Écarlate et Violet", false);
 
 //		uploadFiles(folderPath, false);
 		
@@ -70,24 +82,37 @@ public class MewtwoBot {
 //		File folderPath = new File("D:\\Poképédia\\Images\\GO\\Bonbons\\");
 //		uploadCandies(folderPath, false);
 		
-//		uploadItems(folderPath, "EV", "Écarlate et Violet", false);
-//		uploadArtworks(folderPath, "EV", "Écarlate et Violet", true, false);
+//		eraseCategory("Miniature d'objet (Rubis et Saphir)", false);
+//		eraseFiles(listPath, false);
 		
-		uploadSprites(folderPath, "png", "Upload miniatures EV", "", true, false, 0, false);
+//		uploadItems(folderPath, false);
+////		uploadArtworks(folderPath, "EV", "Écarlate et Violet", true, false);
+//		
+//		uploadSprites(folderPath, "png", "Upload miniatures EV Le Disque Indigo", "", true, false, 0, false);
+//		uploadSprites(folderPath, "png", "Upload empreintes LGPE", "Guide officiel japonais", false, false, 0, false);
 //		uploadSprites(folderPath, "ogg", "Upload cris EV", "", false, false, 0, false);
 //		uploadSprites(folderPath, "png", "Upload sprites GO", "PokeMiners", false, true, 0, false);
+//		uploadSprites(folderPath, "png", "Upload Pokédex EV Le Masque Turquoise", "", false, false, 0, false);
+//		uploadSprites(folderPath, "png", "Upload sprites chromatiques EV Le Disque Indigo", "Serebii", false, false, 0, false);
 		
-//		addDex("Paldea", false, false);
+//		addDex("Myrtille", false, false);
 		
 //		deleteDuplicateFiles(false);
 		
-//		API.rename("File:Abo-PGL.png", "File:Abo-CA.png", true, "Renommage test");
+//		int[] namespaces = new int[] {6};
+//		rename("SV SV", "SV ", namespaces, "Scan de carte de Promo SV", null, false, false);
+//		API.rename("Fichier:Carte Promo SV SV001.png", "Fichier:Carte Promo SV SV001.png", false, "Test");
 		
 //		int[] namespaces = {API.NS_FILES};
 //		rename("-PGL.png", "-CA.png", namespaces, "Artwork Pokémon du Pokémon Global Link", null, true, false);
 		
+//		deployModuleRepresentationsAnterieures(true, false);
+		
+		postMissingAttackImagesTable("D:\\Poképédia\\Robot\\dumps\\tabledump.txt", true);
+		
+//		updateCycles("D:\\Poképédia\\Robot\\cycles_list.txt", 1040, false);
 			
-//		 fullUpdateLocations();
+//		fullUpdateLocations();
 		
 //		renameNDEX(listPath);
 		
@@ -96,7 +121,7 @@ public class MewtwoBot {
 	public void fullUpdateLocations() throws IOException {
 		dumpContentFromPages(false);
 		pythonLocDataConverter();
-//		uploadLocations(false);
+		uploadLocations(false);
 		
 	}
 	
@@ -212,11 +237,11 @@ public class MewtwoBot {
 		for(int i=0; i<contents.length; i++) {
 			String contentString	= contents[i].toString();
 			String uploadName		= "Fichier:" + contents[i].getName();
-			String pokeName			= contents[i].getName().replaceAll(" \\(.*", "");
-			pokeName = pokeName.replaceAll("-CA[^\n]*.png", "");
-			pokeName = pokeName.replaceAll("Type-0", "Type:0");
-			String categoryName = pokeName;
-			pokeName = pokeName.replaceAll("Zarbi[^\n]*", "Zarbi");
+//			String pokeName			= contents[i].getName().replaceAll(" \\(.*", "");
+//			pokeName = pokeName.replaceAll("-CA[^\n]*.png", "");
+//			pokeName = pokeName.replaceAll("Type-0", "Type:0");
+//			String categoryName = pokeName;
+//			pokeName = pokeName.replaceAll("Zarbi[^\n]*", "Zarbi");
 			
 			// uploadName = uploadName.replace("Type-0", "Type:0");
 
@@ -225,7 +250,10 @@ public class MewtwoBot {
 //					+ "| Source = [https://www.pidgi.net/wiki/index.php?title=Category:Corporate-style_artwork PidgiWiki]\n"
 //					+ "| Auteur = [[The Pokémon Company]]\n"
 //					+ "}}\n\n[[Catégorie:Corporate Art de Pokémon]]\n[[Catégorie:Image Pokémon représentant " + categoryName + "]]";
-			String description = "Upload Médailles GO";
+			String description = "Détourage des localisations EV";
+//			String description = "Sprite du vêtement " + uploadName.replace("Fichier:Sprite ", "").replace(" XY.png", "")
+//					+ " dans {{Jeu|XY}}.\n\n[[Catégorie:Sprite de vêtement (X et Y)]]";
+//			description = description.replace("♂", "(masculin)").replace("♀", "(féminin)");
 			
 			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals(".png")) {
 				boolean uploaded = API.upload(uploadName, contents[i], descriptionHeader + description, description);
@@ -632,8 +660,7 @@ public class MewtwoBot {
 		}
 	}
 	
-	public void uploadItems(File folderPath, String gamesShortName, String gamesLongName, boolean justOne) {
-		
+	public void uploadItems(File folderPath, boolean justOne) {
 		File contents[] = folderPath.listFiles();
 		String descriptionHeader = "== Description ==\n\n";
 				
@@ -642,18 +669,102 @@ public class MewtwoBot {
 			String uploadName		= "Fichier:" + contents[i].getName();
 			
 			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals(".png")) {
+				// Computing the games names from the item title
+				String[] uploadNameSplit = uploadName.split(" ");
+				String gamesShortName = uploadNameSplit[uploadNameSplit.length - 1];
+				gamesShortName = gamesShortName.substring(0, gamesShortName.length()-4);
+				String gamesLongName = Util.gamesShortToGamesLong(gamesShortName);
+				
 				String itemName = uploadName.replace("Fichier:Miniature ", "").replace(" " + gamesShortName + ".png", "");
-				if (itemName.substring(0, 2).equals("CT") || itemName.substring(0, 2).equals("CS")) {
-					String ctcs = itemName.substring(0, 2);
-					String type = itemName.substring(3);
-					itemName = ctcs + "]] [[" + type + " (type)|" + type;
+				String suffixItemName = "";
+				String suffixItemName2 = "";
+				
+				// Reworking the item name if needed
+				if (itemName.contains(" (tenu)")) {
+					itemName = itemName.replace(" (tenu)", "");
+					suffixItemName2 = suffixItemName2 + " (tenu)";
+				}
+				if (itemName.contains(" (inutilisé)")) {
+					itemName = itemName.replace(" (inutilisé)", "");
+					suffixItemName2 = suffixItemName2 + " (inutilisé)";
 				}
 				
-				String description = "Miniature de l'objet [[" + itemName + "]] dans {{Jeu|" + gamesShortName
-						+ "}}.\n\n[[Catégorie:Miniature d'objet (" + gamesLongName + ")]]";
+				if (itemName.substring(0, 2).equals("CT") || itemName.substring(0, 2).equals("CS") || itemName.substring(0, 2).equals("DT")) {
+					String ctcsdt = itemName.substring(0, 2);
+					String type = itemName.substring(3);
+					itemName = ctcsdt + "]] [[" + type + " (type)|" + type;
+				}
+				
+//				if (!itemName.contains("Œ")) {
+//					continue;
+//				}
+
+				
+				// Items that have special links
+				if (itemName.length() > 15 && itemName.substring(0, 15).equals("Lettre Végétale")) {
+					String letter = itemName.substring(0, 15);
+					String pokemon = itemName.substring(15);
+					itemName = letter;
+					suffixItemName = suffixItemName + pokemon;
+				}
+				if (itemName.length() > 14 && itemName.substring(0, 14).equals("Malle Penderie")) {
+					String malle = itemName.substring(0, 14);
+					String color = itemName.substring(14);
+					itemName = malle;
+					suffixItemName = suffixItemName + color;
+				}
+				if (itemName.length() > 12 && itemName.substring(0, 12).equals("Moticyclette")) {
+					String bike = itemName.substring(0, 12);
+					String color = itemName.substring(12);
+					itemName = bike;
+					suffixItemName = suffixItemName + color;
+				}
+				if (itemName.length() > 10 && itemName.substring(0, 10).equals("Bicyclette")) {
+					String bike = itemName.substring(0, 10);
+					String color = itemName.substring(10);
+					itemName = bike;
+					suffixItemName = suffixItemName + color;
+				}
+				if (itemName.length() > 7 && itemName.substring(0, 7).equals("Holokit")) {
+					String holokit = itemName.substring(0, 7);
+					String color = itemName.substring(7);
+					itemName = holokit;
+					suffixItemName = suffixItemName + color;
+				}
+				if (itemName.length() > 9 && itemName.substring(0, 9).equals("Météorite")) {
+					String meteorite = itemName.substring(0, 9);
+					String color = itemName.substring(9);
+					itemName = meteorite;
+					suffixItemName = suffixItemName + color;
+				}
+				if (itemName.length() > 5 && itemName.substring(0, 5).equals("Vokit")) {
+					String vokit = itemName.substring(0, 5);
+					String color = itemName.substring(5);
+					itemName = vokit;
+					suffixItemName = suffixItemName + color;
+				}
+				if (itemName.equals("Œuf (objet)")) {
+					itemName = "Œuf";
+				}
+				
+				// Homonymies
+				String itemNameHomonymy = Util.addHomonymy(itemName, gamesShortName);
+				if (!itemName.equals(itemNameHomonymy)) {
+					itemName = itemNameHomonymy + "|" + itemName;
+				}
+				String itemLink = "[[" + itemName + "]]";
+				
+				// Computing the description of the file
+				String description = "Miniature de l'objet " + itemLink + suffixItemName + suffixItemName2 + " dans {{Jeu|" + gamesShortName + "}}."
+						+ "\n\n{{Informations Fichier\n"
+						+ "| Source = Extraction réalisée par {{Ut|SombrAbsol}}.\n"
+						+ "| Auteur = " + Util.gamesShortToEditor(gamesShortName) + "\n"
+						+ "}}"
+						+ "\n\n[[Catégorie:Miniature d'objet (" + gamesLongName + ")]]";
 				
 				boolean uploaded = API.upload("Fichier:" + contents[i].getName(), contents[i], descriptionHeader + description,
 						description);
+				
 //						"Correction du fichier");
 //						"Suppression des métadonnées");
 				
@@ -662,7 +773,7 @@ public class MewtwoBot {
 				Page page = new Page(uploadName);
 				page.setContent(descriptionHeader + description, description);
 				
-				
+//				boolean uploaded = false;
 				String uploadSituation;
 				if (uploaded) {
 					uploadSituation = "ok";
@@ -671,6 +782,7 @@ public class MewtwoBot {
 				}
 				
 				System.out.println(uploadName + " " + uploadSituation);
+//				System.out.println(description);
 			
 				if (justOne) {
 					break;
@@ -743,6 +855,7 @@ public class MewtwoBot {
 	
 	public void uploadSprites(File folderPath, String extension, String edit_description, String source, boolean createGeneralRedirection, boolean rename, int starting_version, boolean justOne) {
 		File contents[] = folderPath.listFiles();
+		boolean eraseRedirectsAnyway = true;
 		if (!source.equals("")) {
 			source = "|source=" + source;
 		}
@@ -794,16 +907,18 @@ public class MewtwoBot {
 					System.out.println("Renommage "+ogUploadName+" => "+uploadName);
 					 API.rename(ogUploadName, uploadName, false, "Renommage "+ogUploadName+" => "+uploadName);
 				}
-				
-				
-				System.out.println("Upload "+ogUploadName);
-				boolean uploaded = API.upload(ogUploadName, contents[i], description,
-////						"Correction du fichier");
-						edit_description);
-				filePage.setContent(description, edit_description);
-				
-				if (justOne) {
-					break;
+				// to erase
+				if (eraseRedirectsAnyway || !fileContents.contains("#REDIRECT")) {
+					
+					System.out.println("Upload "+ogUploadName);
+					boolean uploaded = API.upload(ogUploadName, contents[i], description,
+	////						"Correction du fichier");
+							edit_description);
+					// filePage.setContent(description, edit_description);
+					
+					if (justOne) {
+						break;
+					}
 				}
 			}
 		}
@@ -1135,7 +1250,9 @@ public class MewtwoBot {
 				}
 				currentLine		= br.readLine();
 				
-
+//				if (i<180) {
+//					continue;
+//				}
 				boolean uploaded = API.upload("Fichier:" + contents[i].getName(), contents[i],
 						descriptionHeader + description, description);
 				String uploadSituation;
@@ -1162,13 +1279,68 @@ public class MewtwoBot {
 		br.close();
 	}
 	
-	public void uploadAttacks(File folderPath, String gameShortName, String gameLongName, boolean upload, boolean justOne) throws IOException {		
+	public void uploadCT(File folderPath, File listPath, String gamesShort, String games, boolean justOne) throws IOException {
+		FileReader		fr					= new FileReader(listPath);
+		BufferedReader	br					= new BufferedReader(fr);
+		
 		String			delimiter			= ";";
+		String			currentLine			= br.readLine();
+		String			descriptionHeader	= "== Description ==\n";
+		
+
+		while (currentLine != null) {
+			String[] currentLineSplit = currentLine.split(";");
+			String name = currentLineSplit[0];
+			
+			if (!name.equals("")) {
+				String CTNumber			= name.split(" ")[1];
+				String uploadName		= "Fichier:" + name;
+				String description		= "Vignette de la [[" + CTNumber + "]] dans {{Jeu|" + gamesShort + "}}.\n\n"
+						+ "[[Catégorie:Vignette de CT (" + games + ")]]";
+				for(int i=1;i<currentLineSplit.length;i++) {
+					description += "\n[[Catégorie:Image Pokémon représentant " + currentLineSplit[i] + "]]";
+				}
+				
+				System.out.println(folderPath);
+				System.out.println(folderPath+ "\\" + name);
+				File file = new File(folderPath + "\\" + name);
+				
+				boolean uploaded = API.upload("Fichier:" + name, file,
+						descriptionHeader + description, description);
+				String uploadSituation;
+				if (uploaded)
+					uploadSituation = "ok";
+				else
+					uploadSituation = "PAS OK !!!!";
+				System.out.println(description);
+
+				// These two lines shouldn't do anything unless the description wasn't set by the upload before.
+				// For instance, if there was already an existing version.
+				Page page = new Page(uploadName);
+				page.setContent(descriptionHeader + description, description);
+				
+				System.out.println(uploadName + " " + uploadSituation);
+				
+
+				if (justOne) {
+					break;
+				}
+			}
+
+			currentLine = br.readLine();
+		}
+		
+		br.close();
+	}
+	
+	public void uploadAttacks(File folderPath, String gameShortName, String gameLongName, boolean addToPage, boolean upload, boolean justOne) throws IOException {		
+		String			delimiter			= "$";
 		String			description 		= "";
 		String			descriptionHeader	= "== Description ==\n";
 		
 
 		File contents[] = folderPath.listFiles();
+		boolean skip = true;
 
 		for(int i=0; i<contents.length; i++) {
 			description				= "";
@@ -1177,8 +1349,11 @@ public class MewtwoBot {
 			
 			if (fileName.substring(fileName.length()-4,fileName.length()).equals(".mp4")) {
 				String nameList	= fileName.substring(0,fileName.length()-4);
+				nameList = nameList.replace("_", "'");
+				nameList = nameList.replace("$", "&");
+				nameList = nameList.replace(" " + gameShortName + "&", "&");
 				
-				String[] listNames = nameList.split(delimiter);
+				String[] listNames = nameList.split("&");
 				
 				String attackName = listNames[0];
 				String uploadName = "Fichier:" + attackName + " " + gameShortName + ".mp4";
@@ -1189,9 +1364,26 @@ public class MewtwoBot {
 					attackPrecision = " (" + attackLinkThenPrecision[1];
 				}
 				
+				if (skip && !attackLink.equals("Recyclage")) {
+					continue;
+				} else {
+					skip = false;
+				}
+				
+				// homonymies
+				Page attackPage = new Page(attackLink);
+				String attackPageContents = attackPage.getContent();
+				if (attackPageContents.contains("{{homonymie}}") || attackPageContents.contains("{{Homonymie}}")) {
+					attackLink = attackLink + " (capacité)|" + attackLink;
+				}
+				
 				description += "Animation de la [[capacité]] [[" + attackLink + "]]" + attackPrecision
 							+ " dans {{Jeu|" + gameShortName + "}}.\n\n"
-							+ "[[Catégorie:Image de capacité de " + gameLongName + "]]";
+							+ "{{Informations Fichier\n"
+							+ "| Source = Capture d'écran par {{Ut|Ludghe}}.\n"
+							+ "| Auteur = [[GAME FREAK (studio de développement)|GAME FREAK]]\n"
+							+ "}}\n\n"
+							+ "[[Catégorie:Image de capacité de Pokémon " + gameLongName + "]]";
 				
 				for(int j=1; j<listNames.length; j++) {
 					description += "\n[[Catégorie:Image Pokémon représentant " + listNames[j] + "]]";
@@ -1208,14 +1400,50 @@ public class MewtwoBot {
 						uploadSituation = "ok";
 					else
 						uploadSituation = "PAS OK !!!!";
-					System.out.println(description);
+//					System.out.println(description);
 	
 					// These two lines shouldn't do anything unless the description wasn't set by the upload before.
 					// For instance, if there was already an existing version.
-//					Page page = new Page(uploadName);
-//					page.setContent(descriptionHeader + description, description);
+					Page page = new Page(uploadName);
+					page.setContent(descriptionHeader + description, description);
 					
 					System.out.println(uploadName + " " + uploadSituation);
+				}
+				
+				if (addToPage) {
+					attackPage = new Page(attackLink.replaceAll("\\|[^\n]*", ""));
+					String attackPageContentsOrigins = attackPage.getContent();
+
+//					Pattern p = Pattern.compile("(?<a>{{#invoke:Représentations antérieures[^}]*)}}");
+//					
+//					boolean firstGame = true;
+//					Stream<MatchResult> strings = p.matcher(attackPageContents).results();
+//					
+//					for (MatchResult m : (Iterable<MatchResult>) () -> strings.iterator()) {
+//						
+//						String game = attackPageContents.subSequence(m.start() + 1, attackPageContents.indexOf(".", m.start())).toString();
+//						if (firstGame) {
+//							firstGame = false;
+//						} else {
+//							attackPageContents = attackPageContents + "/";
+//						}
+//						gamesString = gamesString + game;
+//					}
+//					attackPageContents.replaceFirst(attackPrecision, attackPageContents)
+					
+					attackPageContents = attackPageContentsOrigins.replaceFirst("(?<a>\\{\\{#invoke:Représentations antérieures[^\\n]*)\\}\\}", "$1/EB}}");
+					attackPageContents = attackPageContents.replace("LPA/EB", "EB/LPA");
+					attackPageContents = attackPageContents.replace("DEPS/EB", "EB/DEPS");
+					attackPageContents = attackPageContents.replace("EB/EB", "EB");
+//					System.out.println(attackPageContents);
+					
+					attackPage.setContent(attackPageContents, "Ajout de la capacité " + gameShortName + " aux représentations antérieures");
+					
+					if (attackPageContentsOrigins.equals(attackPageContents)) {
+						System.out.println("\n --- Page was unchanged.");
+					} else {
+						System.out.println("\n --- Added the image to the page!");
+					}
 				}
 				
 
@@ -1348,10 +1576,340 @@ public class MewtwoBot {
 		}
 	}
 	
+	public String generateRow(String attackTitle, boolean useGenerationToAttackDict) {
+		String[][] groupedGamesForAttacks = {{"RBJ", "RV", "RB", "J"}, {"OAC", "OA", "C", "O", "A"},
+				{"RS", "RFVF", "E", "RSE"},	{"Colo"}, {"DP", "HGSS", "Pt", "DPP"}, {"NB", "NB2", "N2B2"}, {"ROSA", "XY"},
+				{"USUL", "SL"}, {"LGPE"}, {"EB"}, {"DEPS"}, {"LPA"}, {"EV"}};
+		int[] generationsGamesForAttacks = {1, 2, 3, 3, 4, 5, 6, 7, 7, 8, 8, 8, 9};
+		
+		String[][][] exclusiveAttacks = {
+			{{"LPA"}, {"Hurle-Temps (Originelle)", "Jugement (Acier)", "Jugement (Combat)", "Jugement (Dragon)", "Jugement (Eau)", "Jugement (Électrik)", "Jugement (Fée)","Jugement (Feu)", "Jugement (Glace)", "Jugement (Insecte)", "Jugement (Normal)", "Jugement (Plante)", "Jugement (Poison)", "Jugement (Psy)", "Jugement (Roche)", "Jugement (Sol)", "Jugement (Spectre)", "Jugement (Ténèbres)", "Jugement (Vol)", "Revenant (Originelle)", "Spatio-Rift (Originelle)", "Typhon Fulgurant (Totémique)", "Typhon Hivernal (Totémique)", "Typhon Passionné (Totémique)", "Typhon Pyrosable (Totémique)"}}
+		};
+		
+		String ans = "";
+		
+		String attackLink = attackTitle;
+		String attackName = attackLink.replace(" (capacité)", "");
+		
+		// Erase the precisions from the links, except when it's "(capacité)"
+		if (attackLink.equals(attackName)) {
+			attackLink = attackLink.replaceFirst("(?<a>[^\\(]*) \\((?<b>[^\\)]*)\\)", "$1");
+		}		
+		
+		String precision = attackName.replaceFirst("(?<a>[^\\(]*)\\((?<b>[^\\)]*)\\)", "$2");
+		if (!precision.equals("") && !precision.equals(attackName)) {
+			precision = " (" + precision + ")";
+		} else {
+			precision = "";
+		}
+		attackName = attackName.replaceFirst(" \\((?<a>[^\\)]*)\\)", "");
+		String extension = ".gif";
+		if (attackLink.equals(attackName)) {
+			ans = ans + "\n|-\n| [[" + attackName + "]]<br><small>" + precision + "</small>";
+		} else {
+			ans = ans + "\n|-\n| [[" + attackLink + "|" + attackName + "]]<br><small>" + precision + "</small>";
+		}
+		
+		ans = ans + "\n| ";
+		int generationAttack = 0;
+		
+		if (useGenerationToAttackDict) {
+			generationAttack = PokeData.getGenerationAttack(attackLink);
+			ans = ans + Integer.toString(generationAttack);
+		} else {
+			ans = ans + "{{subst:#show:" + attackLink + "|?Génération de la capacité}}";
+		}
+		
+		
+		for(int i=0; i<groupedGamesForAttacks.length; i++) {
+			if (useGenerationToAttackDict && generationsGamesForAttacks[i] < generationAttack) {
+				ans = ans + "\n| —";
+			} else {
+				String[] games = groupedGamesForAttacks[i];
+				boolean found = false;
+				boolean unavailableFromAll = true;
+				String foundFile = "";
+				if (i == 3) { // Colo
+					extension = ".mp4";
+				}
+				if (i == 4 || i == 5) { // G4-G5
+					extension = ".gif";
+				}
+				if (i >= 6) {
+					extension = ".mp4";
+				}
+				
+				// Searching in all the pairs of games
+				for(int j=0; j<games.length; j++) {
+					String currentGame = games[j];
+					
+					boolean unavailable = false;
+					
+					// is the attack unavailable in this game?
+					String[] unavailableAttacksForGame = PokeData.getUnavailableAttacks(currentGame);
+					for (int k=0; k < unavailableAttacksForGame.length; k++) {
+						if (attackName.equals(unavailableAttacksForGame[k])) {
+							unavailable = true;
+							break;
+						}
+					}
+					
+
+					// is the attack exclusive to another game?
+					if (!unavailable) {
+						boolean isExclusiveToThisGame = false;
+						for (String[][] exclusiveAttacksCell : exclusiveAttacks) {
+							if (unavailable) { break; }
+							for (String exclusiveAttack : exclusiveAttacksCell[1]) {
+								if (attackTitle.equals(exclusiveAttack)) {
+									for (String exclusiveGame : exclusiveAttacksCell[0]) {
+										// is exclusive to this game
+										if (currentGame.equals(exclusiveGame)) {
+											// the attack is exclusive to this game
+											isExclusiveToThisGame = true;
+											unavailable = false;
+											break;
+										} else {
+											// the attack is exclusive to another game
+											if (!isExclusiveToThisGame) {
+												unavailable = true;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					
+					if (!unavailable) {
+						unavailableFromAll = false;
+						
+						String pageName = "Fichier:" + attackName + precision + " " + currentGame + extension;
+//						System.out.println("\nChecking...");
+//						System.out.println(pageName);
+						Page page = new Page(pageName);
+						if (page.getContent() != null) {
+							found = true;
+							foundFile = page.getTitle();
+							break;
+						}	
+					}
+				}
+				
+				if (unavailableFromAll) {
+					ans = ans + "\n| —";
+				} else if (found) {
+					ans = ans + "\n| [[:" + foundFile + "|ok]]";
+				} else {
+					ans = ans + "\n| [[Fichier:Nocheck.png]]";
+				}
+			}
+		}
+		
+		ans = ans.replace("<br><small></small>", "");
+		ans = ans.replace("<small> (", "<small>(");
+		
+		return ans;
+//		if (attackName.equals("Abattage")) {
+//			break;
+//		};
+	};
+	
+	public void postMissingAttackImagesTable(String path, boolean useGenerationToAttackDict) throws IOException, InterruptedException {
+
+		Page page = new Page("Utilisateur:Matt./Tableau des images de capacités");
+		
+		if (useGenerationToAttackDict) {
+			String contents = generateMissingAttackImagesTable(path, useGenerationToAttackDict);
+			
+			System.out.println("Table created!");
+			
+			page.setContent(contents, "Mise à jour du tableau");
+			
+			System.out.println("Done!");
+		} else {
+			FileReader fr = new FileReader(path);
+			BufferedReader br = new BufferedReader(fr);
+			String currentLine = br.readLine();
+			String firstStep = currentLine;
+			
+			
+			while (!currentLine.equals("|}")) {
+				currentLine	= br.readLine();
+				firstStep = firstStep + "\n" + currentLine;
+			}
+			
+			// Rewriting the contents after subst has taken effect
+			Path saveFilePath = Path.of(path);
+			Files.writeString(saveFilePath, page.getContent());
+			
+			// Second step
+			String secondStep = smoothMissingAttackImagesTable(path);
+			page.setContent(secondStep, "Seconde étape de mise à jour du tableau");
+			System.out.println("Second step done!");
+		}		
+	}
+	
+	public String generateMissingAttackImagesTable(String path, boolean useGenerationToAttackDict) throws IOException, InterruptedException {
+
+		PageCollection pageCollection = new PageCollection(
+				new int[] {API.NS_MAIN},
+				API.FILTER_NONREDIRECTS,
+				"Capacité"
+			);
+		
+		String[] attacksToDelete = {"Aéro-Lames", "Faucheuse", "Kokiyarme", "Malédiction", "Aéro Noir", "Ardeur Noire", "Assaut Noir", "Bélier Noir", "Blocage Noir", "Brume Noire", "Charge Noire", "Chute Noire", "Ciel Noir", "Éclair Noir", "Folie Noire", "Froid Noir", "Onde Noire", "Percée Noire", "Rage Noire", "Retour Noir", "Souffle Noir", "Typhon Noir"};
+		String[] attacksToAdd = {"Aire d'Eau (combinée à Aire de Feu)", "Aire d'Eau (combinée à Aire d'Herbe)", "Aire de Feu (combinée à Aire d'Eau)", "Aire de Feu (combinée à Aire d'Herbe)", "Aire d'Herbe (combinée à Aire d'Eau)", "Aire d'Herbe (combinée à Aire de Feu)", "Ball'Météo (Soleil)", "Ball'Météo (Pluie)", "Ball'Météo (Grêle)", "Ball'Météo (Tempête de sable)", "Bombe au Sirop (chromatique)", "Champlification (Champ Brumeux)", "Champlification (Champ Électrifié)", "Champlification (Champ Herbu)", "Champlification (Champ Psychique)", "Éclair Croix (boostée)", "Flamme Croix (boostée)", "Hurle-Temps (Originelle)", "Jugement (Acier)", "Jugement (Combat)", "Jugement (Dragon)", "Jugement (Eau)", "Jugement (Électrik)", "Jugement (Fée)","Jugement (Feu)", "Jugement (Glace)", "Jugement (Insecte)", "Jugement (Plante)", "Jugement (Poison)", "Jugement (Psy)", "Jugement (Roche)", "Jugement (Sol)", "Jugement (Spectre)", "Jugement (Ténèbres)", "Jugement (Vol)", "Kokiyarme (physique)", "Kokiyarme (spéciale)", "Laser Hasard (sérieux)", "Malédiction (Spectre)", "Malédiction (non-Spectre)", "Massue Liane (Eau)", "Massue Liane (Feu)", "Massue Liane (Roche)", "Monte-Tension (Champ Électrifié)",  "Plat du Jour (Affalée)", "Plat du Jour (Courbée)", "Plat du Jour (Raide)", "Revenant (Originelle)", "Spatio-Rift (Originelle)", "Taurogne (Paldea Aquatique)", "Taurogne (Paldea Combative)", "Taurogne (Paldea Flamboyante)", "Techno-Buster (Eau)", "Techno-Buster (Électrik)", "Techno-Buster (Feu)", "Techno-Buster (Glace)", "Téra Explosion (Acier)", "Téra Explosion (Combat)", "Téra Explosion (Dragon)", "Téra Explosion (Eau)", "Téra Explosion (Électrik)", "Téra Explosion (Fée)","Téra Explosion (Feu)", "Téra Explosion (Glace)", "Téra Explosion (Insecte)", "Téra Explosion (Normal)", "Téra Explosion (Plante)", "Téra Explosion (Poison)", "Téra Explosion (Psy)", "Téra Explosion (Roche)", "Téra Explosion (Sol)", "Téra Explosion (Spectre)", "Téra Explosion (Stellaire)", "Téra Explosion (Ténèbres)", "Téra Explosion (Vol)", "Typhon Fulgurant (Totémique)", "Typhon Hivernal (Totémique)", "Typhon Passionné (Totémique)", "Typhon Pyrosable (Totémique)"};
+		String ans = "";
+		
+		
+		Page attackPage = pageCollection.getNextPage();
+		
+		for (int i=1; i<9; i++) {
+			attackPage = pageCollection.getNextPage();
+		}
+		
+//		while (!attackPage.getTitle().equals("Jugement")) {
+//			attackPage = pageCollection.getNextPage();
+//		}
+		
+		while (attackPage != null) {
+			try {
+				String attackTitle = attackPage.getTitle();
+				boolean isToSkip = false;
+				for (String attackToDelete : attacksToDelete) {
+					if (attackTitle.equals(attackToDelete)) {
+						isToSkip = true;
+						break;
+					}
+				}
+				if (!isToSkip) {			
+					String row = generateRow(attackTitle, useGenerationToAttackDict);
+					System.out.print(row);
+					ans = ans + row;
+				}
+				attackPage = pageCollection.getNextPage();
+			} catch (Exception e) {
+				System.err.println("Error. Retrying in 10 s.");
+				TimeUnit.SECONDS.sleep(10);
+			}
+		}
+		for (String bonusAttack : attacksToAdd) {
+			String row = generateRow(bonusAttack, useGenerationToAttackDict);
+			System.out.print(row);
+			ans = ans + row;
+		}
+		
+		System.out.println("\n\n\nok");
+		
+		Path saveFilePath = Path.of(path);
+		
+		ans = "{{Utilisateur:Matt./Bandeau}}\n"
+				+ "\n"
+				+ "Voici un tableau qui résume quelles images de capacités manquent sur le wiki. Il n'est pas automatiquement à jour, donc pensez à vérifier la dernière date d'édition de cette page.\n"
+				+ "\n"
+				+ "Pour une meilleure utilisation, il est préférable de trier le tableau par nom puis par génération d'apparition.\n"
+				+ "\n"
+				+ "== Tableau des images de capacités ==\n"
+				+ "\n"
+				+ "{| class=\"tableaustandard centre sortable entetefixe\"\n"
+				+ "! Capacité\n"
+				+ "! Génération<br>d'apparition\n"
+				+ "! width=\"50px\" | G1\n"
+				+ "! width=\"50px\" | G2\n"
+				+ "! width=\"50px\" | G3\n"
+				+ "! width=\"50px\" | {{Abréviation|Colo}}\n"
+				+ "! width=\"50px\" | G4\n"
+				+ "! width=\"50px\" | G5\n"
+				+ "! width=\"50px\" | G6\n"
+				+ "! width=\"50px\" | {{Abréviation|SL}}<br>{{Abréviation|USUL}}\n"
+				+ "! width=\"50px\" | {{Abréviation|LGPE}}\n"
+				+ "! width=\"50px\" | {{Abréviation|EB}}\n"
+				+ "! width=\"50px\" | {{Abréviation|DEPS}}\n"
+				+ "! width=\"50px\" | {{Abréviation|LPA}}\n"
+				+ "! width=\"50px\" | {{Abréviation|EV}}"
+				+ ans + "\n|}";
+		
+		Files.writeString(saveFilePath, ans);
+		
+		return ans;
+		
+	}
+	
+	public String smoothMissingAttackImagesTable(String path) throws IOException {
+
+		FileReader fr = new FileReader(path);
+		BufferedReader br = new BufferedReader(fr);
+		String currentLine = br.readLine();
+		String fileText = currentLine;
+
+		
+		while (!currentLine.equals("|}")) {
+			currentLine	= br.readLine();
+			fileText = fileText + "\n" + currentLine;
+		}
+		
+		// Request -> Text
+		// [[:Première génération|Première génération]] -> Première génération
+		fileText = fileText.replaceAll("\\| \\[\\[[^\\]]*\\]\\] \\(\\[\\[:[^\\|]*\\|(?<a>[^\\]]*)\\]\\]\\)", "| $1");
+		
+		// Text -> Number
+		fileText = fileText.replace("Première génération", "1");
+		fileText = fileText.replace("Deuxième génération", "2");
+		fileText = fileText.replace("Troisième génération", "3");
+		fileText = fileText.replace("Quatrième génération", "4");
+		fileText = fileText.replace("Cinquième génération", "5");
+		fileText = fileText.replace("Sixième génération", "6");
+		fileText = fileText.replace("Septième génération", "7");
+		fileText = fileText.replace("Huitième génération", "8");
+		fileText = fileText.replace("Neuvième génération", "9");
+		
+		// Replacing nochecks with bars when not available because of anachronism
+		String nocheckLine = "\n| [[Fichier:Nocheck.png]]";
+		String blankLine = "\n| —";
+		for (int i = 2; i < 4; i++) {
+			fileText = fileText.replace("| " + Integer.toString(i) + nocheckLine.repeat(i-1),
+					"| " + Integer.toString(i) + blankLine.repeat(i-1));
+		}
+		// Shift due to Colo
+		for (int i = 4; i < 8; i++) {
+			fileText = fileText.replace("| " + Integer.toString(i) + nocheckLine.repeat(i),
+					"| " + Integer.toString(i) + blankLine.repeat(i));
+		}
+		fileText = fileText.replace("| 8" + nocheckLine.repeat(9), "| 8" + blankLine.repeat(9));
+		fileText = fileText.replace("| 9" + nocheckLine.repeat(12), "| 9" + blankLine.repeat(12));
+		
+		System.out.println("Done general replacing! Removing specific attacks...");
+		
+		// Removing specific attacks not present in games
+		String anythingCellRegexp = "\n\\| [^\n]*";
+		String nocheckCellRegexp = "\n\\| \\[\\[Fichier:Nocheck\\.png\\]\\]";
+		String[] unfullGames = new String[] {"USUL", "LGPE", "EB", "DEPS", "LPA", "EV"};
+		for (int i = 0; i < unfullGames.length; i++) {
+			String[] absentAttacks = PokeData.getUnavailableAttacks(unfullGames[i]);
+			System.out.println("=== " + unfullGames[i] + " ===");
+			for (int j = 0; j < absentAttacks.length; j++) {
+				String absentAttack = absentAttacks[j];
+				fileText = fileText.replaceFirst("(?<a>[^\n]*" + absentAttack +
+						"[^\n]*)(?<b>" + anythingCellRegexp.repeat(8 + i) + ")" + nocheckCellRegexp, "$1$2" + blankLine);
+				System.out.println(absentAttack);
+			}
+		}
+		
+
+		Path saveFilePath = Path.of(path);
+		
+		Files.writeString(saveFilePath, fileText);
+		
+		System.out.println("Done smoothing!");
+		
+		return fileText;
+	}
+	
 	
 	public void addDex(String region, boolean secondary, boolean justOne) {
 		// String[][] theList = {{"002", "Efflèche"}, {"004", "Héricendre"}, {"005", "Feurisson"}, {"006", "Typhlosion de Hisui"}, {"007", "Moustillon"}, {"008", "Mateloutre"}, {"009", "Clamiral de Hisui"}, {"010", "Keunotor"}, {"011", "Castorno"}, {"012", "Étourmi"}, {"013", "Étourvol"}, {"014", "Étouraptor"}, {"015", "Lixy"}, {"016", "Luxio"}, {"017", "Luxray"}, {"018", "Chenipotte"}, {"019", "Armulys"}, {"020", "Charmillon"}, {"021", "Blindalys"}, {"022", "Papinox"}, {"023", "Ponyta"}, {"024", "Galopa"}, {"025", "Évoli"}, {"026", "Aquali"}, {"027", "Voltali"}, {"028", "Pyroli"}, {"029", "Mentali"}, {"030", "Noctali"}, {"031", "Phyllali"}, {"032", "Givrali"}, {"033", "Nymphali"}, {"034", "Nosferapti"}, {"035", "Nosferalto"}, {"036", "Nostenfer"}, {"037", "Baudrive"}, {"038", "Grodrive"}, {"039", "Crikzik"}, {"040", "Mélokrik"}, {"041", "Mustébouée"}, {"042", "Mustéflott"}, {"043", "Cheniti"}, {"044", "Cheniselle"}, {"045", "Papilord"}, {"046", "Racaillou"}, {"047", "Gravalanch"}, {"048", "Grolem"}, {"049", "Cerfrousse"}, {"050", "Cerbyllin"}, {"051", "Goinfrex"}, {"052", "Ronflex"}, {"053", "Paras"}, {"054", "Parasect"}, {"055", "Pichu"}, {"056", "Pikachu"}, {"057", "Raichu"}, {"058", "Abra"}, {"059", "Kadabra"}, {"060", "Alakazam"}, {"061", "Ouisticram"}, {"062", "Chimpenfeu"}, {"063", "Simiabraz"}, {"064", "Laporeille"}, {"065", "Lockpin"}, {"066", "Ceribou"}, {"067", "Ceriflor"}, {"068", "Psykokwak"}, {"069", "Akwakwak"}, {"070", "Apitrini"}, {"071", "Apireine"}, {"072", "Insécateur"}, {"073", "Cizayox"}, {"074", "Hachécateur"}, {"075", "Scarhino"}, {"076", "Mime Jr."}, {"077", "M. Mime"}, {"078", "Capumain"}, {"079", "Capidextre"}, {"080", "Magicarpe"}, {"081", "Léviator"}, {"082", "Sancoki"}, {"083", "Tritosor"}, {"084", "Qwilfish de Hisui"}, {"085", "Qwilpik"}, {"086", "Ptiravi"}, {"087", "Leveinard"}, {"088", "Leuphorie"}, {"089", "Rozbouton"}, {"090", "Rosélia"}, {"091", "Roserade"}, {"092", "Vortente"}, {"093", "Chlorobule"}, {"094", "Fragilady de Hisui"}, {"095", "Saquedeneu"}, {"096", "Bouldeneu"}, {"097", "Barloche"}, {"098", "Barbicha"}, {"099", "Cradopaud"}, {"100", "Coatox"}, {"101", "Tarsal"}, {"102", "Kirlia"}, {"103", "Gardevoir"}, {"104", "Gallame"}, {"105", "Yanma"}, {"106", "Yanmega"}, {"107", "Hippopotas"}, {"108", "Hippodocus"}, {"109", "Pachirisu"}, {"110", "Moufouette"}, {"111", "Moufflair"}, {"112", "Teddiursa"}, {"113", "Ursaring"}, {"114", "Ursaking"}, {"115", "Mucuscule"}, {"116", "Colimucus de Hisui"}, {"117", "Muplodocus de Hisui"}, {"118", "Onix"}, {"119", "Steelix"}, {"120", "Rhinocorne"}, {"121", "Rhinoféros"}, {"122", "Rhinastoc"}, {"123", "Manzaï"}, {"124", "Simularbre"}, {"125", "Excelangue"}, {"126", "Coudlangue"}, {"127", "Togepi"}, {"128", "Togetic"}, {"129", "Togekiss"}, {"130", "Tortipouss"}, {"131", "Boskara"}, {"132", "Torterra"}, {"133", "Porygon"}, {"134", "Porygon2"}, {"135", "Porygon-Z"}, {"136", "Fantominus"}, {"137", "Spectrum"}, {"138", "Ectoplasma"}, {"139", "Spiritomb"}, {"140", "Cornèbre"}, {"141", "Corboss"}, {"142", "Zarbi"}, {"143", "Obalie"}, {"144", "Phogleur"}, {"145", "Kaimorse"}, {"146", "Rémoraid"}, {"147", "Octillery"}, {"148", "Rapion"}, {"149", "Drascore"}, {"150", "Caninos de Hisui"}, {"151", "Arcanin de Hisui"}, {"152", "Chaglam"}, {"153", "Chaffreux"}, {"154", "Machoc"}, {"155", "Machopeur"}, {"156", "Mackogneur"}, {"157", "Pijako"}, {"158", "Skelénox"}, {"159", "Téraclope"}, {"160", "Noctunoir"}, {"161", "Tiplouf"}, {"162", "Prinplouf"}, {"163", "Pingoléon"}, {"164", "Babimanta"}, {"165", "Démanta"}, {"166", "Bargantua"}, {"167", "Paragruel"}, {"168", "Goupix"}, {"168", "Goupix d'Alola"}, {"169", "Feunard"}, {"169", "Feunard d'Alola"}, {"170", "Tentacool"}, {"171", "Tentacruel"}, {"172", "Écayon"}, {"173", "Luminéon"}, {"174", "Magby"}, {"175", "Magmar"}, {"176", "Maganon"}, {"177", "Magnéti"}, {"178", "Magnéton"}, {"179", "Magnézone"}, {"180", "Archéomire"}, {"181", "Archéodong"}, {"182", "Élekid"}, {"183", "Élektek"}, {"184", "Élekable"}, {"185", "Scorplane"}, {"186", "Scorvol"}, {"187", "Griknot"}, {"188", "Carmache"}, {"189", "Carchacrok"}, {"190", "Tarinor"}, {"191", "Tarinorme"}, {"192", "Voltorbe de Hisui"}, {"193", "Électrode de Hisui"}, {"194", "Motisma"}, {"195", "Korillon"}, {"196", "Éoko"}, {"197", "Feuforêve"}, {"198", "Magirêve"}, {"199", "Mélo"}, {"200", "Mélofée"}, {"201", "Mélodelfe"}, {"202", "Farfuret"}, {"202", "Farfuret de Hisui"}, {"203", "Farfurex"}, {"204", "Dimoret"}, {"205", "Stalgamin"}, {"206", "Oniglali"}, {"207", "Momartik"}, {"208", "Kranidos"}, {"209", "Charkos"}, {"210", "Dinoclier"}, {"211", "Bastiodon"}, {"212", "Marcacrin"}, {"213", "Cochignon"}, {"214", "Mammochon"}, {"215", "Grelaçon"}, {"216", "Séracrawl de Hisui"}, {"217", "Blizzi"}, {"218", "Blizzaroi"}, {"219", "Zorua de Hisui"}, {"220", "Zoroark de Hisui"}, {"221", "Furaiglon"}, {"222", "Gueriaigle de Hisui"}, {"223", "Riolu"}, {"224", "Lucario"}, {"225", "Créhelf"}, {"226", "Créfollet"}, {"227", "Créfadet"}, {"228", "Heatran"}, {"229", "Regigigas"}, {"230", "Cresselia"}, {"231", "Fulguris"}, {"232", "Boréas"}, {"233", "Démétéros"}, {"234", "Amovénus"}, {"235", "Dialga"}, {"236", "Palkia"}, {"237", "Giratina"}, {"238", "Arceus"}, {"239", "Phione"}, {"240", "Manaphy"}, {"241", "Shaymin"}, {"242", "Darkrai"}};
-		String[][] theList = {{"1", "Poussacha"}, {"2", "Matourgeon"}, {"3", "Miascarade"}, {"4", "Chochodile"}, {"5", "Crocogril"}, {"6", "Flâmigator"}, {"7", "Coiffeton"}, {"8", "Canarbello"}, {"9", "Palmaval"}, {"10", "Gourmelet"}, {"11", "Fragroin"}, {"12", "Tissenboule"}, {"13", "Filentrappe"}, {"14", "Lilliterelle"}, {"15", "Gambex"}, {"16", "Granivol"}, {"17", "Floravol"}, {"18", "Cotovol"}, {"19", "Passerouge"}, {"20", "Braisillon"}, {"21", "Flambusard"}, {"22", "Pohm"}, {"23", "Pohmotte"}, {"24", "Pohmarmotte"}, {"25", "Malosse"}, {"26", "Démolosse"}, {"27", "Manglouton"}, {"28", "Argouste"}, {"29", "Rongourmand"}, {"30", "Rongrigou"}, {"31", "Tournegrin"}, {"32", "Héliatronc"}, {"33", "Crikzik"}, {"34", "Mélokrik"}, {"35", "Lépidonille"}, {"36", "Pérégrain"}, {"37", "Prismillon"}, {"38", "Apitrini"}, {"39", "Apireine"}, {"40", "Minisange"}, {"41", "Bleuseille"}, {"42", "Corvaillus"}, {"43", "Ptiravi"}, {"44", "Leveinard"}, {"45", "Leuphorie"}, {"46", "Azurill"}, {"47", "Marill"}, {"48", "Azumarill"}, {"49", "Arakdo"}, {"50", "Maskadra"}, {"51", "Mustébouée"}, {"52", "Mustéflott"}, {"53", "Axoloto"}, {"54", "Terraiste"}, {"55", "Psykokwak"}, {"56", "Akwakwak"}, {"57", "Khélocrok"}, {"58", "Torgamord"}, {"59", "Toudoudou"}, {"60", "Rondoudou"}, {"61", "Grodoudou"}, {"62", "Tarsal"}, {"63", "Kirlia"}, {"64", "Gardevoir"}, {"65", "Gallame"}, {"66", "Soporifik"}, {"67", "Hypnomade"}, {"68", "Fantominus"}, {"69", "Spectrum"}, {"70", "Ectoplasma"}, {"71", "Compagnol"}, {"72", "Famignol"}, {"73", "Pichu"}, {"74", "Pikachu"}, {"75", "Raichu"}, {"76", "Pâtachiot"}, {"77", "Briochien"}, {"78", "Parecool"}, {"79", "Vigoroth"}, {"80", "Monaflèmit"}, {"81", "Croquine"}, {"82", "Candine"}, {"83", "Sucreine"}, {"84", "Olivini"}, {"85", "Olivado"}, {"86", "Arboliva"}, {"87", "Manzaï"}, {"88", "Simularbre"}, {"89", "Rocabot"}, {"90", "Lougaroc"}, {"91", "Charbi"}, {"92", "Wagomine"}, {"93", "Monthracite"}, {"94", "Lixy"}, {"95", "Luxio"}, {"96", "Luxray"}, {"97", "Étourmi"}, {"98", "Étourvol"}, {"99", "Étouraptor"}, {"100", "Plumeline"}, {"101", "Wattouat"}, {"102", "Lainergie"}, {"103", "Pharamp"}, {"104", "Chlorobule"}, {"105", "Fragilady"}, {"106", "Balignon"}, {"107", "Chapignon"}, {"108", "Verpom"}, {"109", "Pomdrapi"}, {"110", "Dratatin"}, {"111", "Spoink"}, {"112", "Groret"}, {"113", "Tapatoès"}, {"114", "Feuforêve"}, {"115", "Magirêve"}, {"116", "Makuhita"}, {"117", "Hariyama"}, {"118", "Crabagarre"}, {"119", "Crabominable"}, {"120", "Tritox"}, {"121", "Malamandre"}, {"122", "Phanpy"}, {"123", "Donphan"}, {"124", "Charibari"}, {"125", "Pachyradjah"}, {"126", "Griknot"}, {"127", "Carmache"}, {"128", "Carchacrok"}, {"129", "Selutin"}, {"130", "Amassel"}, {"131", "Gigansel"}, {"132", "Goélise"}, {"133", "Bekipan"}, {"134", "Magicarpe"}, {"135", "Léviator"}, {"136", "Embrochet"}, {"137", "Hastacuda"}, {"138", "Bargantua"}, {"139", "Gloupti"}, {"140", "Avaltout"}, {"141", "Miaouss"}, {"142", "Persian"}, {"143", "Baudrive"}, {"144", "Grodrive"}, {"145", "Flabébé"}, {"146", "Floette"}, {"147", "Florges"}, {"148", "Taupiqueur"}, {"149", "Triopikeur"}, {"150", "Chartor"}, {"151", "Chamallot"}, {"152", "Camérupt"}, {"153", "Archéomire"}, {"154", "Archéodong"}, {"155", "Coupenotte"}, {"156", "Incisache"}, {"157", "Tranchodon"}, {"158", "Férosinge"}, {"159", "Colossinge"}, {"160", "Courrousinge"}, {"161", "Méditikka"}, {"162", "Charmina"}, {"163", "Riolu"}, {"164", "Lucario"}, {"165", "Charbambin"}, {"166", "Carmadura"}, {"167", "Malvalame"}, {"168", "Barloche"}, {"169", "Barbicha"}, {"170", "Têtampoule"}, {"171", "Ampibidou"}, {"172", "Mucuscule"}, {"173", "Colimucus"}, {"174", "Muplodocus"}, {"175", "Cradopaud"}, {"176", "Coatox"}, {"177", "Zapétrel"}, {"178", "Fulgulairo"}, {"179", "Évoli"}, {"180", "Aquali"}, {"181", "Voltali"}, {"182", "Pyroli"}, {"183", "Mentali"}, {"184", "Noctali"}, {"185", "Phyllali"}, {"186", "Givrali"}, {"187", "Nymphali"}, {"188", "Insolourdo"}, {"189", "Deusolourdo"}, {"190", "Vivaldaim"}, {"191", "Haydaim"}, {"192", "Girafarig"}, {"193", "Farigiraf"}, {"194", "Tadmorv"}, {"195", "Grotadmorv"}, {"196", "Grondogue"}, {"197", "Dogrino"}, {"198", "Toxizap"}, {"199", "Salarsen"}, {"200", "Dedenne"}, {"201", "Pachirisu"}, {"202", "Gribouraigne"}, {"203", "Tag-Tag"}, {"204", "Cerfrousse"}, {"205", "Trompignon"}, {"206", "Gaulet"}, {"207", "Voltorbe"}, {"208", "Électrode"}, {"209", "Magnéti"}, {"210", "Magnéton"}, {"211", "Magnézone"}, {"212", "Métamorph"}, {"213", "Caninos"}, {"214", "Arcanin"}, {"215", "Teddiursa"}, {"216", "Ursaring"}, {"217", "Mangriff"}, {"218", "Séviper"}, {"219", "Tylton"}, {"220", "Altaria"}, {"221", "Cabriolaine"}, {"222", "Chevroum"}, {"223", "Tauros"}, {"224", "Hélionceau"}, {"225", "Némélios"}, {"226", "Moufouette"}, {"227", "Moufflair"}, {"228", "Zorua"}, {"229", "Zoroark"}, {"230", "Farfuret"}, {"231", "Dimoret"}, {"232", "Cornèbre"}, {"233", "Corboss"}, {"234", "Scrutella"}, {"235", "Mesmérella"}, {"236", "Sidérella"}, {"237", "Théffroi"}, {"238", "Polthégeist"}, {"239", "Mimiqui"}, {"240", "Trousselin"}, {"241", "Wimessir"}, {"242", "Virovent"}, {"243", "Virevorreur"}, {"244", "Terracool"}, {"245", "Terracruel"}, {"246", "Tropius"}, {"247", "Mimantis"}, {"248", "Floramantis"}, {"249", "Craparoi"}, {"250", "Pimito"}, {"251", "Scovilain"}, {"252", "Cacnea"}, {"253", "Cacturne"}, {"254", "Léboulérou"}, {"255", "Bérasca"}, {"256", "Mimitoss"}, {"257", "Aéromite"}, {"258", "Pomdepik"}, {"259", "Foretress"}, {"260", "Insécateur"}, {"261", "Cizayox"}, {"262", "Scarhino"}, {"263", "Flotillon"}, {"264", "Cléopsytra"}, {"265", "Hippopotas"}, {"266", "Hippodocus"}, {"267", "Mascaïman"}, {"268", "Escroco"}, {"269", "Crocorible"}, {"270", "Dunaja"}, {"271", "Dunaconda"}, {"272", "Tiboudet"}, {"273", "Bourrinos"}, {"274", "Pyronille"}, {"275", "Pyrax"}, {"276", "Draby"}, {"277", "Drackhaus"}, {"278", "Drattak"}, {"279", "Forgerette"}, {"280", "Forgella"}, {"281", "Forgelina"}, {"282", "Bibichut"}, {"283", "Chapotus"}, {"284", "Sorcilence"}, {"285", "Grimalin"}, {"286", "Fourbelin"}, {"287", "Angoliath"}, {"288", "Taupikeau"}, {"289", "Triopikeau"}, {"290", "Lestombaile"}, {"291", "Dofin"}, {"292", "Superdofin"}, {"293", "Vrombi"}, {"294", "Vrombotor"}, {"295", "Motorizard"}, {"296", "Ferdeter"}, {"297", "Ténéfix"}, {"298", "Polichombr"}, {"299", "Branette"}, {"300", "Hexadron"}, {"301", "Brutalibré"}, {"302", "Spiritomb"}, {"303", "Sonistrelle"}, {"304", "Bruyverne"}, {"305", "Fantyrm"}, {"306", "Dispareptil"}, {"307", "Lanssorien"}, {"308", "Germéclat"}, {"309", "Floréclat"}, {"310", "Motisma"}, {"311", "Toutombe"}, {"312", "Tomberro"}, {"313", "Gouroutan"}, {"314", "Quartermac"}, {"315", "Dodoala"}, {"316", "Embrylex"}, {"317", "Ymphect"}, {"318", "Tyranocif"}, {"319", "Dolman"}, {"320", "Bekaglaçon"}, {"321", "Wattapik"}, {"322", "Bacabouh"}, {"323", "Trépassable"}, {"324", "Ramoloss"}, {"325", "Flagadoss"}, {"326", "Roigada"}, {"327", "Sancoki"}, {"328", "Tritosor"}, {"329", "Kokiyas"}, {"330", "Crustabri"}, {"331", "Qwilfish"}, {"332", "Lovdisc"}, {"333", "Écayon"}, {"334", "Luminéon"}, {"335", "Denticrisse"}, {"336", "Mamanbo"}, {"337", "Venalgue"}, {"338", "Kravarech"}, {"339", "Flingouste"}, {"340", "Gamblast"}, {"341", "Anchwatt"}, {"342", "Lampéroie"}, {"343", "Ohmassacre"}, {"344", "Vorastérie"}, {"345", "Prédastérie"}, {"346", "Flamenroule"}, {"347", "Minidraco"}, {"348", "Draco"}, {"349", "Dracolosse"}, {"350", "Frissonille"}, {"351", "Beldeneige"}, {"352", "Blizzi"}, {"353", "Blizzaroi"}, {"354", "Cadoizo"}, {"355", "Polarhume"}, {"356", "Polagriffe"}, {"357", "Stalgamin"}, {"358", "Oniglali"}, {"359", "Momartik"}, {"360", "Hexagel"}, {"361", "Piétacé"}, {"362", "Balbalèze"}, {"363", "Grelaçon"}, {"364", "Séracrawl"}, {"365", "Furaiglon"}, {"366", "Gueriaigle"}, {"367", "Scalpion"}, {"368", "Scalproie"}, {"369", "Scalpereur"}, {"370", "Solochi"}, {"371", "Diamat"}, {"372", "Trioxhydre"}, {"373", "Délestin"}, {"374", "Oyacata"}, {"375", "Nigirigon"}, {"376", "Fort-Ivoire"}, {"377", "Hurle-Queue"}, {"378", "Fongus-Furie"}, {"379", "Flotte-Mèche"}, {"380", "Rampe-Ailes"}, {"381", "Pelage-Sablé"}, {"382", "Roue-de-Fer"}, {"383", "Hotte-de-Fer"}, {"384", "Paume-de-Fer"}, {"385", "Têtes-de-Fer"}, {"386", "Mite-de-Fer"}, {"387", "Épine-de-Fer"}, {"388", "Frigodo"}, {"389", "Cryodo"}, {"390", "Glaivodo"}, {"391", "Mordudor"}, {"392", "Gromago"}, {"393", "Chongjian"}, {"394", "Baojian"}, {"395", "Dinglu"}, {"396", "Yuyu"}, {"397", "Rugit-Lune"}, {"398", "Garde-de-Fer"}, {"399", "Koraidon"}, {"400", "Miraidon"}};
+		String[][] theList = {{"2", "Dodrio"}, {"3", "Noeunoeuf"}, {"4", "Noadkoko"}, {"4", "Noadkoko d'Alola"}, {"5", "Rhinocorne"}, {"6", "Rhinoféros"}, {"7", "Rhinastoc"}, {"8", "Mimitoss"}, {"9", "Aéromite"}, {"10", "Élekid"}, {"11", "Élektek"}, {"12", "Élekable"}, {"13", "Magby"}, {"14", "Magmar"}, {"15", "Maganon"}, {"16", "Ptiravi"}, {"17", "Leveinard"}, {"18", "Leuphorie"}, {"19", "Insécateur"}, {"20", "Cizayox"}, {"21", "Hachécateur"}, {"22", "Tauros"}, {"23", "Zébibron"}, {"24", "Zéblitz"}, {"25", "Girafarig"}, {"26", "Farigiraf"}, {"27", "Mascaïman"}, {"28", "Escroco"}, {"29", "Crocorible"}, {"30", "Léboulérou"}, {"31", "Bérasca"}, {"32", "Furaiglon"}, {"33", "Gueriaigle"}, {"34", "Vostourno"}, {"35", "Vaututrice"}, {"36", "Hélionceau"}, {"37", "Némélios"}, {"38", "Vivaldaim"}, {"39", "Haydaim"}, {"40", "Queulorior"}, {"41", "Motisma"}, {"42", "Crèmy"}, {"43", "Charmilly"}, {"44", "Kraknoix"}, {"45", "Vibraninf"}, {"46", "Libégon"}, {"47", "Picassaut"}, {"48", "Piclairon"}, {"49", "Bazoucan"}, {"50", "Tentacool"}, {"51", "Tentacruel"}, {"52", "Hypotrempe"}, {"53", "Hypocéan"}, {"54", "Hyporoi"}, {"55", "Denticrisse"}, {"56", "Doudouvet"}, {"57", "Farfaduvet"}, {"58", "Guérilande"}, {"59", "Parecool"}, {"60", "Vigoroth"}, {"61", "Monaflèmit"}, {"62", "Mystherbe"}, {"63", "Ortide"}, {"64", "Rafflesia"}, {"65", "Joliflor"}, {"66", "Taupiqueur d'Alola"}, {"67", "Triopikeur d'Alola"}, {"68", "Tadmorv d'Alola"}, {"69", "Grotadmorv d'Alola"}, {"70", "Mangriff"}, {"71", "Séviper"}, {"72", "Crabagarre"}, {"73", "Crabominable"}, {"74", "Plumeline"}, {"75", "Ramoloss de Galar"}, {"76", "Flagadoss de Galar"}, {"77", "Roigada de Galar"}, {"78", "Loupio"}, {"79", "Lanturn"}, {"80", "Sepiatop"}, {"81", "Sepiatroce"}, {"82", "Lovdisc"}, {"83", "Écayon"}, {"84", "Luminéon"}, {"85", "Mamanbo"}, {"86", "Chartor"}, {"87", "Passerouge"}, {"88", "Braisillon"}, {"89", "Flambusard"}, {"90", "Araqua"}, {"91", "Tarenbulle"}, {"92", "Debugant"}, {"93", "Kicklee"}, {"94", "Tygnon"}, {"95", "Kapoera"}, {"96", "Racaillou d'Alola"}, {"97", "Gravalanch d'Alola"}, {"98", "Grolem d'Alola"}, {"99", "Rototaupe"}, {"100", "Minotaupe"}, {"101", "Scrutella"}, {"102", "Mesmérella"}, {"103", "Sidérella"}, {"104", "Psystigri"}, {"105", "Mistigrix"}, {"106", "Météno"}, {"107", "Kranidos"}, {"108", "Charkos"}, {"109", "Dinoclier"}, {"110", "Bastiodon"}, {"111", "Chinchidou"}, {"112", "Pashmilla"}, {"113", "Airmure"}, {"114", "Tylton"}, {"115", "Altaria"}, {"116", "Magnéti"}, {"117", "Magnéton"}, {"118", "Magnézone"}, {"119", "Posipi"}, {"120", "Négapi"}, {"121", "Baggiguane"}, {"122", "Baggaïd"}, {"123", "Gringolem"}, {"124", "Golemastoc"}, {"125", "Chamallot"}, {"126", "Camérupt"}, {"127", "Théffroi"}, {"128", "Polthégeist"}, {"129", "Porygon"}, {"130", "Porygon2"}, {"131", "Porygon-Z"}, {"132", "Statitik"}, {"133", "Mygavolt"}, {"134", "Anchwatt"}, {"135", "Lampéroie"}, {"136", "Ohmassacre"}, {"137", "Terhal"}, {"138", "Métang"}, {"139", "Métalosse"}, {"140", "Coupenotte"}, {"141", "Incisache"}, {"142", "Tranchodon"}, {"143", "Otaria"}, {"144", "Lamantine"}, {"145", "Lokhlass"}, {"146", "Qwilfish de Hisui"}, {"147", "Qwilpik"}, {"148", "Nucléos"}, {"149", "Méios"}, {"150", "Symbios"}, {"151", "Snubbull"}, {"152", "Granbull"}, {"153", "Polarhume"}, {"154", "Polagriffe"}, {"155", "Sabelette d'Alola"}, {"156", "Sablaireau d'Alola"}, {"157", "Goupix d'Alola"}, {"158", "Feunard d'Alola"}, {"159", "Blizzi"}, {"160", "Blizzaroi"}, {"161", "Duralugon"}, {"162", "Pondralugon"}, {"163", "Pomdorochi"}, {"164", "Bulbizarre"}, {"165", "Herbizarre"}, {"166", "Florizarre"}, {"167", "Salamèche"}, {"168", "Reptincel"}, {"169", "Dracaufeu"}, {"170", "Carapuce"}, {"171", "Carabaffe"}, {"172", "Tortank"}, {"173", "Germignon"}, {"174", "Macronium"}, {"175", "Méganium"}, {"176", "Héricendre"}, {"177", "Feurisson"}, {"178", "Typhlosion"}, {"179", "Kaiminus"}, {"180", "Crocrodil"}, {"181", "Aligatueur"}, {"182", "Arcko"}, {"183", "Massko"}, {"184", "Jungko"}, {"185", "Poussifeu"}, {"186", "Galifeu"}, {"187", "Braségali"}, {"188", "Gobou"}, {"189", "Flobio"}, {"190", "Laggron"}, {"191", "Tortipouss"}, {"192", "Boskara"}, {"193", "Torterra"}, {"194", "Ouisticram"}, {"195", "Chimpenfeu"}, {"196", "Simiabraz"}, {"197", "Tiplouf"}, {"198", "Prinplouf"}, {"199", "Pingoléon"}, {"200", "Vipélierre"}, {"201", "Lianaja"}, {"202", "Majaspic"}, {"203", "Gruikui"}, {"204", "Grotichon"}, {"205", "Roitiflam"}, {"206", "Moustillon"}, {"207", "Mateloutre"}, {"208", "Clamiral"}, {"209", "Marisson"}, {"210", "Boguérisse"}, {"211", "Blindépique"}, {"212", "Feunnec"}, {"213", "Roussil"}, {"214", "Goupelin"}, {"215", "Grenousse"}, {"216", "Croâporal"}, {"217", "Amphinobi"}, {"218", "Brindibou"}, {"219", "Efflèche"}, {"220", "Archéduc"}, {"221", "Flamiaou"}, {"222", "Matoufeu"}, {"223", "Félinferno"}, {"224", "Otaquin"}, {"225", "Otarlette"}, {"226", "Oratoria"}, {"227", "Ouistempo"}, {"228", "Badabouin"}, {"229", "Gorythmic"}, {"230", "Flambino"}, {"231", "Lapyro"}, {"232", "Pyrobut"}, {"233", "Larméléon"}, {"234", "Arrozard"}, {"235", "Lézargus"}, {"236", "Feu-Perçant"}, {"237", "Ire-Foudre"}, {"238", "Chef-de-Fer"}, {"239", "Roc-de-Fer"}, {"240", "Terapagos"}, {"241", "Serpente-Eau"}, {"242", "Vert-de-Fer"}};
 		for (String[] couple : theList) {
 			String num = couple[0];
 			String pokeName = couple[1];
@@ -1362,8 +1920,6 @@ public class MewtwoBot {
 			String patternSearch;
 			String patternSetBeginning;
 			String patternSetEnding = "\n";
-			
-			contents = contents.replace("Paldea/1", "Paldea/300");
 			
 			if (contents.matches("[^µ]*" + region + "/[0-9]+[^µ]*")) {
 				patternSearch = region + "/[0-9]+\n";
@@ -1395,13 +1951,73 @@ public class MewtwoBot {
 			String newContents = p.matcher(contents).replaceAll(patternSetBeginning + region + "/" + num + patternSetEnding);
 			
 //			System.out.println(newContents);
-			pokePage.setContent(newContents, "Ajout du numéro de Pokédex de la région " + Util.de(region) + region);
+//			String deLaRegionDe = "de la région " + Util.de(region);
+			String deLaRegionDe = "";
+			pokePage.setContent(newContents, "Ajout du numéro de Pokédex " + deLaRegionDe + region);
 			
 			if (justOne) {
 				break;
 			}
 		}
 	}
+	
+	/**
+	 * Remplace les "oeufpas" d'une liste de Pokémon donnée dans un fichier texte par le nombre de Cycles associés
+	 * @param path : chemin d'accès vers le fichier texte
+	 * @param resume : Permets de reprendre à partir d'une certaine ligne du fichier si le programme à été interrompu en cours de route (0 pour commencer du début)
+	 * @param justOne : true pour s'arrêter après le premier remplament réussi. Evite de casser plein de pages durant les tests.
+	 * @throws IOException
+	 */
+public void updateCycles(String path, int startPage, boolean justOne) throws IOException {
+    FileReader fr = new FileReader(path);
+    BufferedReader br = new BufferedReader(fr);
+    //ArrayList plutôt que String[] afin que ça marche peu importe le nombre de lignes du fichier
+    ArrayList<String[]> tab = new ArrayList<>();
+
+    String line = br.readLine();
+    //Ici on saute le nombre de lignes voulues
+    for(int i = 0; i < startPage; i++) {
+        line = br.readLine();
+    }
+
+    //Remplissage du tableau, chaque ligne contient le nom du Pokémon suivi de son nombre de cycles
+    while (line != null) {
+        tab.add(line.split(","));
+        line = br.readLine();
+    }
+
+    for(String[] couple : tab) {
+        String pokeName = couple[0];
+        String cycles = couple[1];
+        if (cycles.equals(" ")) {
+        	cycles = "";
+        }
+        String editString = "Infobox : changement du nombre de pas en nombre de cycles pour le paramètre éclosion";
+
+        Page pokePage = new Page(pokeName);
+        String content = pokePage.getContent();
+        // Recherche la ligne dans l'infobox contenant les oeufpas, et la remplace par le nouveau paramètre eclosion
+        String newContent = content.replaceFirst("oeufpas=\\d*\n", "éclosion="+cycles+"\n");
+
+        // Dans le cas ou ni "oeufpas" ni "éclosion" ne sont déjà présent
+        if(content.equals(newContent) && !content.contains("éclosion=")) {
+            //décomposition pour obtenir un String dont le début se trouve déjà dans l'infobox
+            String[] separation = content.split("#invoke:Infobox Pokémon");
+            String nouveau = separation[1].replaceFirst("}}\n", "| éclosion="+cycles+"\n}}\n");
+            // Recomposition
+            newContent = separation[0] + "#invoke:Infobox Pokémon" + nouveau;
+            editString = "Infobox : ajout du nombre de cycles pour le paramètre éclosion";
+        }
+
+        pokePage.setContent(newContent, editString);
+        System.out.println(pokeName + " ok");
+
+        if (justOne) {
+            System.out.println(newContent);
+            break;
+        }
+    }
+}
 	
 	/**
 	 * Méthode de remplacement specifique objets et monnaue PDM 
@@ -1587,7 +2203,7 @@ public class MewtwoBot {
 				if(!newPageName.equals(pageName)) {
 					System.out.println("FOUND in page ["+page.getTitle()+"]");
 					API.rename(pageName, newPageName, keepRedirect, "Renommage "+pageName+" => "+newPageName);
-					System.out.println(pageName + " " + newPageName);
+					System.out.println(pageName + " => " + newPageName);
 					System.out.println("\tSaved");
 					if(justOne) {
 						break;
@@ -1659,6 +2275,124 @@ public class MewtwoBot {
 			page = pageCollection.getNextPage();
 			counter++;
 		}
+	}
+	
+	public void eraseCategory(String category, boolean justOne) {
+			
+		PageCollection pageCollection = new PageCollection(
+				new int[] {API.NS_FILES},
+				API.FILTER_NONREDIRECTS,
+				category
+			);
+		Page page = pageCollection.getNextPage();
+		while (page != null) {
+			String title = page.getTitle();
+			API.delete(title, "[Modif auto] Suppression des fichiers de [[Catégorie:" + category + "]]");
+			
+			System.out.println("Deleted " + title);
+			
+			
+			page = pageCollection.getNextPage();
+			
+			if (justOne) {
+				page = null;
+			}
+		}
+	}
+	
+	public void eraseFiles(File listPath, boolean justOne) throws IOException {
+		FileReader		fr						= new FileReader(listPath);
+		BufferedReader	br						= new BufferedReader(fr);
+
+		String			currentLine				= "currentLine";
+
+		
+		while (!currentLine.equals("")) {
+			currentLine				= br.readLine();
+				
+//			Page page = new Page(currentLine);
+//			if (page.getContent() != null) {
+//				System.out.println(currentRedirectionPage + " was already written.");
+//				continue;
+//			}
+			API.delete(currentLine, "[Modif auto] Suppression automatique de fichiers");
+			
+			System.out.println("Deleted " + currentLine);
+
+			if (justOne) {
+				break;
+			}
+		}
+		
+		br.close();
+	}
+	
+	@SuppressWarnings("null")
+	public void deployModuleRepresentationsAnterieures(boolean realUpload, boolean justOne) {
+		int[] nameSpaces = new int[]{API.NS_MAIN};
+		PageCollection pageCollection = new PageCollection(
+						nameSpaces,
+						API.FILTER_NONREDIRECTS,
+						"Capacité"
+				);
+		
+		Page page = pageCollection.getNextPage();
+		for (int i = 0; i < 7; i++) {
+			page = pageCollection.getNextPage();
+		}
+		
+		String text;
+		while (page != null) {
+			System.out.println(page.getTitle());
+			
+			text = page.getContent();
+			int sectionBegin = text.indexOf("== Représentations antérieures ==");
+			
+			if (sectionBegin != -1) {
+				String section = text.substring(sectionBegin, text.indexOf("==", sectionBegin + 40));
+				if (!section.contains("{|")) {
+					page = pageCollection.getNextPage();
+					continue;
+				}
+
+				Pattern p = Pattern.compile(" (?<a>[^ ]*)\\.");
+				String newSection = "== Représentations antérieures ==\n{{#invoke:Représentations antérieures|capacite|";
+				String gamesString = "";
+				
+				boolean firstGame = true;
+				Stream<MatchResult> strings = p.matcher(section).results();
+				
+				for (MatchResult m : (Iterable<MatchResult>) () -> strings.iterator()) {
+					String game = section.subSequence(m.start() + 1, section.indexOf(".", m.start())).toString();
+					if (firstGame) {
+						firstGame = false;
+					} else {
+						gamesString = gamesString + "/";
+					}
+					gamesString = gamesString + game;
+				}
+				
+				newSection = newSection + gamesString + "}}\n\n";
+
+				String newText = text.replace(section, newSection);
+				
+				if (realUpload) {
+					page.setContent(newText, "/* Représentations antérieures */ Déploiement du module Représentations antérieures : " + gamesString);
+				} else {
+					System.out.println(newText);
+				}
+				
+				if (justOne) {
+					break;
+				}
+
+				page = pageCollection.getNextPage();
+			} else {
+				page = pageCollection.getNextPage();
+			}
+			
+		}
+
 	}
 
 	/**

@@ -65,7 +65,7 @@ public class Page {
 	 * @return le contenu textuel de la page
 	 */
 	public String getContent() {
-		return getContent(true);
+		return getContent(false);
 	}
 	
 	/**
@@ -149,7 +149,7 @@ public class Page {
 										System.err.println("missing rev node in the response");
 									}
 								} else {
-									System.err.println("missing revisions node in the response");
+//									 System.err.println("missing revisions node in the response");
 								}
 							} else {
 								System.err.println("missing page node in the response");
