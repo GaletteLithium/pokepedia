@@ -21,6 +21,7 @@ if "Tera Raid Battles - " in c:
 	global_difficulty_beginning = findp(c, "- ", findp(c, "Tera Raid Battles - ")) + 2
 	global_difficulty_end = findp(c, " Star", global_difficulty_beginning)
 	global_difficulty = c[global_difficulty_beginning:global_difficulty_end]
+else: global_difficulty = input("Global difficulty? ")
 
 poke_list = []
 notes_list = []
@@ -34,6 +35,8 @@ items_list = []
 items_quantity_list = []
 items_bracket_list = []
 
+max_pokemon_per_line = 4
+
 while c.find('<td class="pkmn">', i + 5) != -1:
 	i = findp(c, '<td class="pkmn">', i)
 
@@ -42,7 +45,7 @@ while c.find('<td class="pkmn">', i + 5) != -1:
 	while findp(c, '<td class="pkmn">', i + 5) < findp(c, '<td>', i + 5):
 		nb_poke_line += 1
 		i = findp(c, tr + '<td class="pkmn">', i + 5)
-		if nb_poke_line > 6:
+		if nb_poke_line > max_pokemon_per_line:
 			raise IndexError
 		tr = ''
 		poke_beginning = findp(c, ">", i + 22) + 1
@@ -67,9 +70,9 @@ while c.find('<td class="pkmn">', i + 5) != -1:
 			game_name = c[game_beginning:game_end]
 			match game_name:
 				case "Scarlet":
-					notes_list.append("Exclusif à Écarlate.")
+					notes_list.append("Exclusif Ec.")
 				case "Violet":
-					notes_list.append("Exclusif à Violet.")
+					notes_list.append("Exclusif Vi.")
 				case other:
 					notes_list.append("")
 
@@ -218,6 +221,8 @@ while c.find('<td class="pkmn">', i + 5) != -1:
 										item_brackets.append("invités")
 									case "Host":
 										item_brackets.append("hôte")
+									case "Once":
+										item_brackets.append("unique")
 									case other:
 										item_brackets.append(next_bracket.replace(".", ","))
 							case other:
@@ -249,8 +254,8 @@ while c.find('<td class="pkmn">', i + 5) != -1:
 # print("Item Brackets:", items_bracket_list)
 
 
-ans_pokemon = "{{#invoke:TestMatt|teracristal|localisations=non|"
-ans_items = "{{#invoke:TestMatt|objet|"
+ans_pokemon = "{{#invoke:Tableau Pokémon|teracristal|"
+ans_items = "{{#invoke:Tableau Objet|teracristal|"
 
 # poke_list = []
 # notes_list = []
@@ -332,6 +337,6 @@ ans_items += "\n}}"
 # print(ans_items)
 
 with open('output.txt', 'w+') as fw:
-	fw.write(ans_pokemon + "\n\n\n" + ans_items)
+	fw.write(ans_pokemon + "\n\n== Récompenses ==\n\n" + ans_items + "\n\n{{Cristaux de raid}}")
 
 print("Done!")

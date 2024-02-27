@@ -898,5 +898,7 @@ MOVE_DICT = {
 	"Wicked Torque": "Crash Obscur",
 	"Noxious Torque": "Crash Toxique",
 	"Combat Torque": "Crash Musclé",
-	"Crash Magique": "Magical Torque"
+	"Crash Magique": "Magical Torque",
+	"Syrup Bomb": "Bombe au Sirop",
+	"Matcha Gotcha": "Mortier Matcha"
 }
