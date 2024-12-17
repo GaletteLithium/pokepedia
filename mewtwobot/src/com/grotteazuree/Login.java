@@ -7,6 +7,11 @@ public class Login {
 	
 	public static String getPassword(String username) {
 		switch (username) {
+			case "Silvallié":
+					return "Multigénome773";
+				case "Matt.":
+					return "jpmpd8hmptlj";
 		}
+		return "";
 	}
 }

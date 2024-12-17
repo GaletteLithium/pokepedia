@@ -21,7 +21,7 @@ warnings = ""
 
 game_to_game_long = {
 	"RV":			"Pokémon Rouge et Vert",
-	"B-JP":			"Pokémon Bleu (Japon)",
+	"B-jp":			"Pokémon Bleu (Japon)",
 	"RB":			"Pokémon Rouge et Bleu",
 	"J":			"Pokémon Jaune",
 	"O":			"Pokémon Or",
@@ -36,7 +36,6 @@ game_to_game_long = {
 	"Pt":			"Pokémon Platine",
 	"NB":			"Pokémon Noir et Blanc",
 	"N2B2":			"Pokémon Noir 2 et Blanc 2",
-	"NB2":			"Pokémon Noir 2 et Blanc 2",	# deprecated
 	"XY":			"Pokémon X et Y",
 	# "Démo-ROSA":	"Pokémon Rubis Oméga et Saphir Alpha _ Version démo spéciale",
 	"ROSA":			"Pokémon Rubis Oméga et Saphir Alpha",
@@ -48,6 +47,13 @@ game_to_game_long = {
 	"LPA":			"Légendes Pokémon _ Arceus",
 	"EV":			"Pokémon Écarlate et Violet",
 	"LPZA":			"Légendes Pokémon _ Z-A",
+
+	"PDMRB":		"Pokémon Donjon Mystère _ Équipe de Secours Rouge et Bleue",
+	"PDMTO":		"Pokémon Donjon Mystère _ Explorateurs du Temps et de l'Ombre",
+	"PDMC":			"Pokémon Donjon Mystère _ Explorateurs du Ciel",
+	"PDMPI":		"Pokémon Donjon Mystère _ les portes de l'infini",
+	"PMDM":			"Pokémon Méga Donjon Mystère",
+	"PDMDX":		"Pokémon Donjon Mystère _ Équipe de Secours DX"
 }
 
 def get_savepath(game):

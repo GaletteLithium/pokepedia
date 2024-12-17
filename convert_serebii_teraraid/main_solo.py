@@ -37,6 +37,8 @@ teratype_list = []
 ability_list = []
 moves_list = []
 add_moves_list = []
+second_week_only_list = []
+level_list = []
 
 items_list = []
 items_quantity_list = []
@@ -59,6 +61,13 @@ while c.find('<td class="pkmn"', i + 5) != -1:
 	current_note = ""
 
 	# print(poke_nom)
+
+	## Niveau
+	i = findp(c, '<b>Level</b>', i + 1)
+	level_beginning = findp(c, "Lv.", i + 1) + 4
+	level_end = findp(c, '<', level_beginning)
+	current_level = c[level_beginning:level_end]
+	level_list.append(current_level)
 
 	## Talent
 	ability_current_list = []
@@ -227,7 +236,17 @@ while c.find('<td class="pkmn"', i + 5) != -1:
 				difficulty_number += 1 # Bad encoding of the ☆ character
 		difficulty_list.append(str(difficulty_number))
 
-	# print(difficulty_list)
+	## Notes
+	current_second_week_only_status = ""
+	if findp(c, '<b>Notes', i) < findp(c, '<td class="pkmn"', i):
+		i = c.find('<b>Notes', i + 1) - 1
+		if findp(c, '<b>Notes', i + 1) <= findp(c, '<a ', i + 1):
+			i = findp(c, '<b>Notes', i + 1)
+			notes_beginning = findp(c, '>', i + 10) + 3
+			notes_end = findp(c, '</', notes_beginning)
+			notes = c[notes_beginning:notes_end]
+			if "run only" in notes:
+				current_second_week_only_status = "N'apparaît qu'en deuxième période."
 
 
 
@@ -244,10 +263,14 @@ while c.find('<td class="pkmn"', i + 5) != -1:
 			match game_name:
 				case "Scarlet":
 					current_exclusive_status = "Exclusif Ec."
+				case "br>Scarlet":
+					current_exclusive_status = "Exclusif Ec."
 				case "Violet":
 					current_exclusive_status = "Exclusif Vi."
+				case "br>Violet":
+					current_exclusive_status = "Exclusif Vi."
 				case other:
-					print("Warning: Game flagged but not found.")
+					print("Warning: Game flagged as '{}' but not found.".format(game_name))
 
 	# print(current_exclusive_status)
 		
@@ -321,7 +344,7 @@ while c.find('<td class="pkmn"', i + 5) != -1:
 	# print(items_quantity_list)
 	# print(items_bracket_list)
 
-	current_note = current_exclusive_status + " " + current_mark + " " + current_catchable_status + " " + current_shiny_status
+	current_note = current_exclusive_status + " " + current_mark + " " + current_catchable_status + " " + current_shiny_status + " " + current_second_week_only_status
 	current_note = re.sub(" +", " ", current_note)
 	notes_list.append(current_note.strip())
 
@@ -386,6 +409,7 @@ for j in range(len(poke_list)):
 	if ability_list[j] != "":
 		line += " talent-caché(" + ability_list[j] + ")"
 	line += " difficulté(" + difficulty_list[j] + ")"
+	line += " niveau(" + level_list[j] + ")"
 	if moves_list[j] != [] or add_moves_list[j] != []:
 		line += " capacités("
 		first_move = True

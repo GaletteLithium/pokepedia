@@ -478,6 +478,7 @@ public class API {
 	 * @param comment resumé de modification
 	 * @return true si l'upload a réussi, false sinon
 	 */
+	@SuppressWarnings("unused")
 	public static boolean upload(String filename, File file, String text, String comment) {
 		boolean success = true;
 		
@@ -546,6 +547,7 @@ public class API {
 	 * @param reason raison du renommage
 	 * @return true si le renommage a réussi, false sinon
 	 */
+	@SuppressWarnings("unused")
 	public static boolean rename(String from, String to, boolean keepRedirect, String reason) {
 		boolean success = false;
 		

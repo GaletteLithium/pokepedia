@@ -1,10 +1,11 @@
 convert_serebii_terarid/__pycache__/
 convert_serebii_teraraid/output.text
 convert_serebii_teraraid/page.html
+dumps/
 mewtwobot/.classpath
 mewtwobot/.idea/
 mewtwobot/.metadata/
 mewtwobot/.project
 mewtwobot/robot/
-mewtwobot/src/com/grotteazuree/Login.java
+mewtwobot/src/com/grotteazuree/Login*
 test/

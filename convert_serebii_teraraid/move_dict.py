@@ -900,5 +900,6 @@ MOVE_DICT = {
 	"Combat Torque": "Crash Musclé",
 	"Crash Magique": "Magical Torque",
 	"Syrup Bomb": "Bombe au Sirop",
-	"Matcha Gotcha": "Mortier Matcha"
+	"Matcha Gotcha": "Mortier Matcha",
+	"Supercell Slam": "Volt Assaut",
 }

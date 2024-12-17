@@ -1,0 +1,1167 @@
+== Liste des cartes ==
+
+{| class="tableaustandard sortable centre"
+! Numéro
+! Nom de la [[Carte Pokémon|carte]]
+! Type
+! Disponible en<br>français ?
+! Provenance
+|-
+| SV001
+| [[Poussacha (Promo SV 001)|Poussacha]]
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Collection Paldea Poussacha]]
+|-
+| SV002
+| [[Chochodile (Promo SV 002)|Chochodile]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection Paldea Chochodile]]
+|-
+| SV003
+| [[Coiffeton (Promo SV 003)|Coiffeton]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collection Paldea Coiffeton]]
+|-
+| SV004
+| [[Mimiqui-ex (Promo SV 004)|Mimiqui]]{{Symbole JCC|ex}}
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Coffret Mimiqui-ex|Coffret Mimiqui]]{{Symbole JCC|ex}}
+|-
+| SV005
+| [[Palmaval (Promo SV 005)|Palmaval]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet]]
+|-
+| SV006
+| [[Pohmarmotte (Promo SV 006)|Pohmarmotte]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet]]
+|-
+| SV007
+| [[Brutalibré (Promo SV 007)|Brutalibré]]
+| {{type|combat|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet]]
+|-
+| SV008
+| [[Vrombotor (Promo SV 008)|Vrombotor]]
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet]]
+|-
+| SV009
+| [[Filentrappe (Promo SV 009)|Filentrappe]]
+| {{type|plante|jcc}}
+| class="standard" data-sort-value="✓" | [[JCC Pokémon Live|JCCL]]
+| [[Checklane Blister EV01 Spidops]]
+|-
+| SV010
+| [[Cléopsytra (Promo SV 010)|Cléopsytra]]
+| {{type|psy|jcc}}
+| class="standard" data-sort-value="✓" | [[JCC Pokémon Live|JCCL]]
+| [[Checklane Blister EV01 Espathra]]
+|-
+| SV011
+| [[Arcanin (Promo SV 011)|Arcanin]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV01 Arcanin]]
+|-
+| SV012
+| [[Oyacata (Promo SV 012)|Oyacata]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV01 Oyacata]]
+|-
+| SV013
+| [[Miraidon (Promo SV 013)|Miraidon]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet]] (version Miraidon)
+|-
+| SV014
+| [[Koraidon (Promo SV 014)|Koraidon]]
+| {{type|combat|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet]] (version Koraidon)
+|-
+| SV015
+| [[Lainergie (Promo SV 015)|Lainergie]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Pharamp-ex (deck)|Pharamp]]{{Symbole JCC|ex}}
+|-
+| SV016
+| [[Pharamp-ex (Promo SV 016)|Pharamp]]{{Symbole JCC|ex}}
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Pharamp-ex (deck)|Pharamp]]{{Symbole JCC|ex}}
+|-
+| SV017
+| [[Lucario-ex (Promo SV 017)|Lucario]]{{Symbole JCC|ex}}
+| {{type|combat|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Lucario-ex (deck)|Lucario]]{{Symbole JCC|ex}}
+|-
+| SV018
+| [[Motorizard-ex (Promo SV 018)|Motorizard]]{{Symbole JCC|ex}}
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Coffret Motorizard-ex|Coffret Motorizard]]{{Symbole JCC|ex}}
+|-
+| SV019
+| [[Glaivodo (Promo SV 019)|Glaivodo]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet Évolutions à Paldea]]
+|-
+| SV020
+| [[Forgelina (Promo SV 020)|Forgelina]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet Évolutions à Paldea]]
+|-
+| SV021
+| [[Cornèbre (Promo SV 021)|Cornèbre]]
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet Évolutions à Paldea]]
+|-
+| SV022
+| [[Bekipan (Promo SV 022)|Bekipan]]
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet Évolutions à Paldea]]
+|-
+| SV023
+| [[Olivini (Promo SV 023)|Olivini]]
+| {{type|plante|jcc}}
+| class="faiblesse" | ✗
+| [[Checklane Blister EV02 Smoliv]]
+|-
+| SV024
+| [[Caninos (Promo SV 024)|Caninos]]
+| {{type|feu|jcc}}
+| class="faiblesse" | ✗
+| [[Checklane Blister EV02 Growlithe]]
+|-
+| SV025
+| [[Forgerette (Promo SV 025)|Forgerette]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV02 Forgerette]]
+|-
+| SV026
+| [[Vrombi (Promo SV 026)|Vrombi]]
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV02 Vrombi]]
+|-
+| SV027
+| [[Pikachu (Promo SV 027)|Pikachu]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet Évolutions à Paldea]]
+|-
+| SV028
+| [[Miraidon-ex (Promo SV 028)|Miraidon]]{{Symbole JCC|ex}}
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Boîte Légendes de Paldea Miraidon-ex|Boîte Légendes de Paldea Miraidon]]{{Symbole JCC|ex}}
+|-
+| SV029
+| [[Koraidon-ex (Promo SV 029)|Koraidon]]{{Symbole JCC|ex}}
+| {{type|combat|jcc}}
+| class="résistance" | ✓
+| [[Boîte Légendes de Paldea Koraidon-ex|Boîte Légendes de Paldea Koraidon]]{{Symbole JCC|ex}}
+|-
+| SV030
+| [[Baojian-ex (Promo SV 030)|Baojian]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Baojian-ex (deck)|Baojian]]{{Symbole JCC|ex}}
+|-
+| SV031
+| [[Forgelina-ex (Promo SV 031)|Forgelina]]{{Symbole JCC|ex}}
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Forgelina-ex (deck)|Forgelina]]{{Symbole JCC|ex}}
+|-
+| SV032
+| [[Courrousinge-ex (Promo SV 032)|Courrousinge]]{{Symbole JCC|ex}}
+| {{type|combat|jcc}}
+| class="résistance" | ✓
+| [[Coffret Courrousinge-ex|Coffret Courrousinge]]{{Symbole JCC|ex}}
+|-
+| SV033
+| [[Miascarade-ex (Promo SV 033)|Miascarade]]{{Symbole JCC|ex}}
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Boîte Partenaires de Paldea Miascarade-ex|Boîte Partenaires de Paldea Miascarade]]{{Symbole JCC|ex}}
+|-
+| SV034
+| [[Flâmigator-ex (Promo SV 034)|Flâmigator]]{{Symbole JCC|ex}}
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Boîte Partenaires de Paldea Flâmigator-ex|Boîte Partenaires de Paldea Flâmigator]]{{Symbole JCC|ex}}
+|-
+| SV035
+| [[Palmaval-ex (Promo SV 035)|Palmaval]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîte Partenaires de Paldea Palmaval-ex|Boîte Partenaires de Paldea Palmaval]]{{Symbole JCC|ex}}
+|-
+| SV036
+| [[Superdofin (Promo SV 036)|Superdofin]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Flammes Obsidiennes]]
+|-
+| SV037
+| [[Mélo (Promo SV 037)|Mélo]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Flammes Obsidiennes]]
+|-
+| SV038
+| [[Togekiss (Promo SV 038)|Togekiss]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Flammes Obsidiennes]]
+|-
+| SV039
+| [[Mysdibule (Promo SV 039)|Mysdibule]]
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Flammes Obsidiennes]]
+|-
+| SV040
+| [[Pohm (Promo SV 040)|Pohm]]
+| {{type|électrique|jcc}}
+| class="standard" data-sort-value="✓" | [[JCC Pokémon Live|JCCL]]
+| [[Checklane Blister EV03 Pawmi]]
+|-
+| SV041
+| [[Axoloto de Paldea (Promo SV 041)|Axoloto <small>de Paldea</small>]]
+| {{type|obscurité|jcc}}
+| class="standard" data-sort-value="✓" | [[JCC Pokémon Live|JCCL]]
+| [[Checklane Blister EV03 Paldean Wooper]]
+|-
+| SV042
+| [[Tomberro (Promo SV 042)|Tomberro]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV03 Tomberro]]
+|-
+| SV043
+| [[Évoli (Promo SV 043)|Évoli]]
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV03 Évoli]]
+|-
+| SV044
+| [[Salamèche (Promo SV 044)|Salamèche]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d’élite Écarlate et Violet – Flammes Obsidiennes]]
+|-
+| SV045
+| [[Hôtel « Au paradis des Pokémon » (Promo SV 045)|Hôtel « Au paradis des Pokémon »]]
+| [[Carte Stade|Stade]]
+| class="résistance" | ✓
+| Récompense des [[Championnats du Monde 2023]]
+|-
+| SV046
+| [[Bulbizarre (Promo SV 046)|Bulbizarre]]
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Collection poster Écarlate et Violet – 151]]
+|-
+| SV047
+| [[Salamèche (Promo SV 047)|Salamèche]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection poster Écarlate et Violet – 151]]
+|-
+| SV048
+| [[Carapuce (Promo SV 048)|Carapuce]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collection poster Écarlate et Violet – 151]]
+|-
+| SV049
+| [[Électhor-ex (Promo SV 049)|Électhor]]{{Symbole JCC|ex}}
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Collection Électhor-ex Écarlate et Violet – 151|Coffret Collection Électhor]]{{Symbole JCC|ex}} Écarlate et Violet – 151
+|-
+| SV050
+| [[Alakazam-ex (Promo SV 050)|Alakazam]]{{Symbole JCC|ex}}
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Collection Alakazam-ex Écarlate et Violet – 151|Coffret Collection Alakazam]]{{Symbole JCC|ex}} Écarlate et Violet – 151
+|-
+| SV051
+| [[Ronflex (Promo SV 051)|Ronflex]]
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet – 151]]
+|-
+| SV052
+| [[Mewtwo (Promo SV 052)|Mewtwo]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Collection Ultra-Premium Écarlate et Violet – 151]]
+|-
+| SV053
+| [[Mew-ex (Promo SV 053)|Mew]]{{Symbole JCC|ex}}
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Collection Ultra-Premium Écarlate et Violet – 151]]
+|-
+| SV054
+| [[Amphinobi-ex (Promo SV 054)|Amphinobi]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Amphinobi-ex (deck)|Amphinobi]]{{Symbole JCC|ex}}
+|-
+| SV055
+| [[Kangourex-ex (Promo SV 055)|Kangourex]]{{Symbole JCC|ex}}
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Kangourex-ex (deck)|Kangourex]]{{Symbole JCC|ex}}
+|-
+| SV056
+| [[Dracaufeu-ex (Promo SV 056)|Dracaufeu]]{{Symbole JCC|ex Téracristal}}
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Dracaufeu-ex|Collection Premium Dracaufeu]]{{Symbole JCC|ex}}
+|-
+| SV057
+| [[Yuyu (Promo SV 057)|Yuyu]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Faille Paradoxe]]
+|-
+| SV058
+| [[Hotte-de-Fer (Promo SV 058)|Hotte-de-Fer]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Faille Paradoxe]]
+|-
+| SV059
+| [[Xatu (Promo SV 059)|Xatu]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Faille Paradoxe]]
+|-
+| SV060
+| [[Exagide (Promo SV 060)|Exagide]]
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Faille Paradoxe]]
+|-
+| SV061
+| [[Pomdepik (Promo SV 061)|Pomdepik]]
+| {{type|plante|jcc}}
+| class="standard" data-sort-value="✓" | [[JCC Pokémon Live|JCCL]]
+| [[Checklane Blister EV04 Pineco]]
+|-
+| SV062
+| [[Théffroi (Promo SV 062)|Théffroi]]
+| {{type|psy|jcc}}
+| class="standard" data-sort-value="✓" | [[JCC Pokémon Live|JCCL]]
+| [[Checklane Blister EV04 Sinistea]]
+|-
+| SV063
+| [[Balbalèze (Promo SV 063)|Balbalèze]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV04 Balbalèze]]
+|-
+| SV064
+| [[Cryodo (Promo SV 064)|Cryodo]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV04 Cryodo]]
+|-
+| SV065
+| [[Hurle-Queue (Promo SV 065)|Hurle-Queue]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet – Faille Paradoxe]]
+|-
+| SV066
+| [[Hotte-de-Fer (Promo SV 066)|Hotte-de-Fer]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet – Faille Paradoxe]]
+|-
+| SV067
+| [[Rugit-Lune-ex (Promo SV 067)|Rugit-Lune]]{{Symbole JCC|ex}}
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Coffret Rugit-Lune-ex|Coffret Rugit-Lune]]{{Symbole JCC|ex}}
+|-
+| SV068
+| [[Garde-de-Fer-ex (Promo SV 068)|Garde-de-Fer]]{{Symbole JCC|ex}}
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Coffret Garde-de-Fer-ex|Coffret Garde-de-Fer]]{{Symbole JCC|ex}}
+|-
+| SV069
+| [[Pâtachiot (Promo SV 069)|Pâtachiot]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Collection autocollant réajustable Écarlate et Violet Destinées de Paldea - Pâtachiot]]
+|-
+| SV070
+| [[Toutombe (Promo SV 070)|Toutombe]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Collection autocollant réajustable Écarlate et Violet Destinées de Paldea - Toutombe]]
+|-
+| SV071
+| [[Grondogue (Promo SV 071)|Grondogue]]
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Collection autocollant réajustable Écarlate et Violet Destinées de Paldea - Grondogue]]
+|-
+| SV072
+| [[Fort-Ivoire-ex (Promo SV 072)|Fort-Ivoire]]{{Symbole JCC|ex}}
+| {{type|combat|jcc}}
+| class="résistance" | ✓
+| [[Boîte Écarlate et Violet - Destinées de Paldea Fort-Ivoire-ex|Boîte Écarlate et Violet - Destinées de Paldea Fort-Ivoire]]{{Symbole JCC|ex}}
+|-
+| SV073
+| [[Roue-de-Fer-ex (Promo SV 073)|Roue-de-Fer]]{{Symbole JCC|ex}}
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Boîte Écarlate et Violet - Destinées de Paldea Roue-de-Fer-ex|Boîte Écarlate et Violet - Destinées de Paldea Roue-de-Fer]]{{Symbole JCC|ex}}
+|-
+| SV074
+| [[Dracaufeu-ex (Promo SV 074)|Dracaufeu]]{{Symbole JCC|ex Téracristal}}
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Boîte Écarlate et Violet - Destinées de Paldea Dracaufeu-ex|Boîte Écarlate et Violet - Destinées de Paldea Dracaufeu]]{{Symbole JCC|ex Téracristal}}
+|-
+| SV075
+| [[Mimiqui (Promo SV 075)|Mimiqui]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet - Destinées de Paldea]]
+|-
+| SV076
+| [[Poussacha (Promo SV 076)|Poussacha]]
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Miascarade-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Miascarade]]{{Symbole JCC|ex}}
+|-
+| SV077
+| [[Matourgeon (Promo SV 077)|Matourgeon]]
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Miascarade-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Miascarade]]{{Symbole JCC|ex}}
+|-
+| SV078
+| [[Miascarade-ex (Promo SV 078)|Miascarade]]{{Symbole JCC|ex}}
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Miascarade-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Miascarade]]{{Symbole JCC|ex}}
+|-
+| SV079
+| [[Chochodile (Promo SV 079)|Chochodile]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Flâmigator-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Flâmigator]]{{Symbole JCC|ex}}
+|-
+| SV080
+| [[Crocogril (Promo SV 080)|Crocogril]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Flâmigator-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Flâmigator]]{{Symbole JCC|ex}}
+|-
+| SV081
+| [[Flâmigator-ex (Promo SV 081)|Flâmigator]]{{Symbole JCC|ex}}
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Flâmigator-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Flâmigator]]{{Symbole JCC|ex}}
+|-
+| SV082
+| [[Coiffeton (Promo SV 082)|Coiffeton]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Palmaval-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Palmaval]]{{Symbole JCC|ex}}
+|-
+| SV083
+| [[Canarbello (Promo SV 083)|Canarbello]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Palmaval-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Palmaval]]{{Symbole JCC|ex}}
+|-
+| SV084
+| [[Palmaval-ex (Promo SV 084)|Palmaval]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Écarlate et Violet Destinées de Paldea - Palmaval-ex|Collection Premium Écarlate et Violet Destinées de Paldea - Palmaval]]{{Symbole JCC|ex}}
+|-
+| SV085
+| [[Pikachu with Grey Felt Hat (Promo SV 085)|Pikachu with Grey Felt Hat]]
+| {{type|électrique|jcc}}
+| class="faiblesse" | ✗
+| Distribution au Musée Van Gogh d'Amsterdam<br>Distribution en magasin spécialisé néerlandais
+|-
+| SV086
+| [[Dogrino-ex (Promo SV 086)|Dogrino]]{{Symbole JCC|ex}}
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dogrino-ex|Coffret Dogrino]]{{Symbole JCC|ex}}
+|-
+| SV087
+| [[Poussacha-ex (Promo SV 087)|Poussacha]]{{Symbole JCC|ex}}
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Coffre Aventure à Paldea]]
+|-
+| SV088
+| [[Pikachu (Promo SV 088)|Pikachu]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Coffre Aventure à Paldea]]
+|-
+| SV089
+| [[Aligatueur (Promo SV 089)|Aligatueur]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Forces Temporelles]]
+|-
+| SV090
+| [[Métang (Promo SV 090)|Métang]]
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Forces Temporelles]]
+|-
+| SV091
+| [[Koraidon (Promo SV 091)|Koraidon]]
+| {{type|dragon|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Forces Temporelles]]
+|-
+| SV092
+| [[Miraidon (Promo SV 092)|Miraidon]]
+| {{type|dragon|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Forces Temporelles]]
+|-
+| SV093
+| [[Carvanha (Promo SV 093)|Carvanha]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+|
+|-
+| SV094
+| [[Ampibidou (Promo SV 094)|Ampibidou]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+|
+|-
+| SV095
+| [[Mélo (Promo SV 095)|Mélo]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV05 Mélo]]
+|-
+| SV096
+| [[Motorizard (Promo SV 096)|Motorizard]]
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV05 Motorizard]]
+|-
+| SV097
+| [[Flotte-Mèche (Promo SV 097)|Flotte-Mèche]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet – Forces Temporelles]]
+|-
+| SV098
+| [[Épine-de-Fer (Promo SV 098)|Épine-de-Fer]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet – Forces Temporelles]]
+|-
+| SV099
+| [[Gribouraigne (Promo SV 099)|Gribouraigne]]
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Coffret Tag-Tag-ex|Coffret Tag-Tag]]{{Symbole JCC|ex}}
+|-
+| SV100
+| [[Tag-Tag-ex (Promo SV 100)|Tag-Tag]]{{Symbole JCC|ex}}
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Coffret Tag-Tag-ex|Coffret Tag-Tag]]{{Symbole JCC|ex}}
+|-
+| SV101
+| [[Pikachu (Promo SV 101)|Pikachu]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| Offerte lors de tournois locaux du JCC en novembre 2024
+|-
+| SV102
+| [[Oddish (Promo SV 102)|Oddish]]
+| {{type|plante|jcc}}
+| class="faiblesse" | ✗
+| Offerte dans des kits marketing destinés à promouvoir la sortie de [[Écarlate et Violet Faille Paradoxe|EV Faille Paradoxe]]
+|-
+| SV103
+| [[Démolosse-ex (Promo SV 103)|Démolosse]]{{Symbole JCC|ex}}
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Démolosse-ex (deck)|Démolosse]]{{Symbole JCC|ex}}
+|-
+| SV104
+| [[Melmetal-ex (Promo SV 104)|Melmetal]]{{Symbole JCC|ex}}
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Deck Combat-ex]] [[Melmetal-ex (deck)|Melmetal]]{{Symbole JCC|ex}}
+|-
+| SV105
+| [[Carmadura-ex (Promo SV 105)|Carmadura]]{{Symbole JCC|ex}}
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV106
+| [[Pikachu-ex (Promo SV 106)|Pikachu]]{{Symbole JCC|ex}}
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV107
+| [[Wattouat (Promo SV 107)|Wattouat]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV108
+| [[Lainergie (Promo SV 108)|Lainergie]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV109
+| [[Pharamp (Promo SV 109)|Pharamp]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV110
+| [[Darkrai-ex (Promo SV 110)|Darkrai]]{{Symbole JCC|ex}}
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV111
+| [[Scalpion (Promo SV 111)|Scalpion]]
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV112
+| [[Scalproie (Promo SV 112)|Scalproie]]
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV113
+| [[Scalpereur (Promo SV 113)|Scalpereur]]
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV114
+| [[Fan de Pique-Nique (Promo SV 114)|Fan de Pique-Nique]]
+| [[Carte Supporter|Supporter]]
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Mascarade Crépusculaire]]<br>[[Académie de Combat (2024)]]
+|-
+| SV115
+| [[Badabouin (Promo SV 115)|Badabouin]]
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Mascarade Crépusculaire]]
+|-
+| SV116
+| [[Simiabraz (Promo SV 116)|Simiabraz]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Mascarade Crépusculaire]]
+|-
+| SV117
+| [[Momartik (Promo SV 117)|Momartik]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Mascarade Crépusculaire]]
+|-
+| SV118
+| [[Nigirigon (Promo SV 118)|Nigirigon]]
+| {{type|dragon|jcc}}
+| class="résistance" | ✓
+| [[Boîtier Stratégies et Combats Écarlate et Violet – Mascarade Crépusculaire]]
+|-
+| SV119
+| [[Toxizap (Promo SV 119)|Toxizap]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+|
+|-
+| SV120
+| [[Ymphect (Promo SV 120)|Ymphect]]
+| {{type|combat|jcc}}
+| class="résistance" | ✓
+|
+|-
+| SV121
+| [[Vrombotor (Promo SV 121)|Vrombotor]]
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV06 Vrombotor]]
+|-
+| SV122
+| [[Ronflex (Promo SV 122)|Ronflex]]
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV06 Ronflex]]
+|-
+| SV123
+| [[Ogerpon Masque Turquoise (Promo SV 123)|Ogerpon <small>Masque Turquoise</small>]]
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+|
+|-
+| SV124
+| [[Mashynn (Promo SV 124)|Mashynn]]
+| [[Carte Supporter|Supporter]]
+| class="résistance" | ✓
+|
+|-
+| SV125
+| [[Carmadura-ex (Promo SV 125)|Carmadura]]{{Symbole JCC|ex}}
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection Premium Carmadura-ex|Collection Premium Carmadura]]{{Symbole JCC|ex}}
+|-
+| SV126
+| [[Superdofin-ex (Promo SV 126)|Superdofin]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Coffret Superdofin-ex|Coffret Superdofin]]{{Symbole JCC|ex}}
+|-
+| SV127
+| [[Serpente-Eau-ex (Promo SV 127)|Serpente-Eau]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Boîte Choc Paradoxe Serpente-Eau-ex|Boîte Choc Paradoxe Serpente-Eau]]{{Symbole JCC|ex}}
+|-
+| SV128
+| [[Vert-de-Fer-ex (Promo SV 128)|Vert-de-Fer]]{{Symbole JCC|ex}}
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| [[Boîte Choc Paradoxe Vert-de-Fer-ex|Boîte Choc Paradoxe Vert-de-Fer]]{{Symbole JCC|ex}}
+|-
+| SV129
+| [[Pêchaminus (Promo SV 129)|Pêchaminus]]
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet Fable Nébuleuse]]
+|-
+| SV130
+| [[Scalpereur (Promo SV 130)|Scalpereur]]
+| {{type|métal|jcc}}
+| class="résistance" | ✓
+| [[Collection Illustration Écarlate et Violet Fable Nébuleuse]]
+|-
+| SV131
+| [[Hyporoi-ex (Promo SV 131)|Hyporoi]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collections Illustration spéciale Écarlate et Violet Fable Nébuleuse|Collection Illustration spéciale Écarlate et Violet Fable Nébuleuse - Hyporoi]]{{Symbole JCC|ex}}
+|-
+| SV132
+| [[Amphinobi-ex (Promo SV 132)|Amphinobi]]{{Symbole JCC|ex}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collections Illustration spéciale Écarlate et Violet Fable Nébuleuse|Collection Illustration spéciale Écarlate et Violet Fable Nébuleuse - Amphinobi]]{{Symbole JCC|ex}}
+|-
+| SV133
+| [[Coxyclaque (Promo SV 133)|Coxyclaque]]
+| {{type|plante|jcc}}
+|
+|
+|-
+| SV134
+| [[Crabominable (Promo SV 134)|Crabominable]]
+| {{type|eau|jcc}}
+|
+|
+|-
+| SV135
+| [[Grodrive (Promo SV 135)|Grodrive]]
+| {{type|psy|jcc}}
+|
+|
+|-
+| SV136
+| [[Frison (Promo SV 136)|Frison]]
+| {{type|incolore|jcc}}
+|
+|
+|-
+| SV137
+| [[Hypotrempe (Promo SV 137)|Hypotrempe]]
+| {{type|eau|jcc}}
+|
+|
+|-
+| SV138
+| [[Porygon2 (Promo SV 138)|Porygon2]]
+| {{type|incolore|jcc}}
+|
+|
+|-
+| SV139
+| [[Latias (Promo SV 139)|Latias]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV07 Latias]]
+|-
+| SV140
+| [[Forgelina (Promo SV 140)|Forgelina]]
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV07 Forgelina]]
+|-
+| SV141
+| [[Noarfang (Promo SV 141)|Noarfang]]
+| {{type|incolore|jcc}}
+|
+|
+|-
+| SV142
+| [[Victini-ex (Promo SV 142)|Victini]]{{Symbole JCC|ex}}
+| {{type|feu|jcc}}
+|
+|
+|-
+| SV143
+| [[Miraidon-ex (Promo SV 143)|Miraidon]]{{Symbole JCC|ex}}
+| {{type|électrique|jcc}}
+|
+|
+|-
+| SV144
+| [[Feu-Perçant-ex (Promo SV 144)|Feu-Perçant]]{{Symbole JCC|ex}}
+| {{type|feu|jcc}}
+|
+| [[Boîte Destinée Paradoxe Feu-Perçant-ex|Boîte Destinée Paradoxe Feu-Perçant]]{{Symbole JCC|ex}}
+|-
+| SV145
+| [[Ire-Foudre-ex (Promo SV 145)|Ire-Foudre]]{{Symbole JCC|ex}}
+| {{type|dragon|jcc}}
+|
+| [[Boîte Destinée Paradoxe Ire-Foudre-ex|Boîte Destinée Paradoxe Ire-Foudre]]{{Symbole JCC|ex}}
+|-
+| SV146
+| [[Chef-de-Fer-ex (Promo SV 146)|Chef-de-Fer]]{{Symbole JCC|ex}}
+| {{type|psy|jcc}}
+|
+| [[Boîte Destinée Paradoxe Chef-de-Fer-ex|Boîte Destinée Paradoxe Chef-de-Fer]]{{Symbole JCC|ex}}
+|-
+| SV147
+| [[Roc-de-Fer-ex (Promo SV 147)|Roc-de-Fer]]{{Symbole JCC|ex}}
+| {{type|combat|jcc}}
+|
+| [[Boîte Destinée Paradoxe Roc-de-Fer-ex|Boîte Destinée Paradoxe Roc-de-Fer]]{{Symbole JCC|ex}}
+|-
+| SV148
+| [[Miraidon (Promo SV 148)|Miraidon]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Académie de Combat (2024)]]
+|-
+| SV149
+| [[Pêchaminus (Promo SV 149)|Pêchaminus]]
+| {{type|obscurité|jcc}}
+| class="résistance" | ✓
+| [[Blister de trois boosters avec carte promo Écarlate et Violet Fable Nébuleuse]]
+|-
+| SV150
+| [[Hôtel « Au paradis des Pokémon » (Promo SV 150)|Hôtel « Au paradis des Pokémon »]]
+| [[Carte Stade|Stade]]
+| class="résistance" | ✓
+| Récompense des [[Championnats du Monde 2024]]
+|-
+| SV151
+| [[Feu-Perçant (Promo SV 151)|Feu-Perçant]]
+| {{type|feu|jcc}}
+|
+|
+|-
+| SV152
+| [[Baojian (Promo SV 152)|Baojian]]
+| {{type|eau|jcc}}
+|
+|
+|-
+| SV153
+| [[Magnéton (Promo SV 153)|Magnéton]]
+| {{type|électrique|jcc}}
+|
+|
+|-
+| SV154
+| [[Wimessir (Promo SV 154)|Wimessir]]
+| {{type|psy|jcc}}
+|
+|
+|-
+| SV155
+| [[Axoloto (Promo SV 155)|Axoloto]]
+| {{type|eau|jcc}}
+|
+|
+|-
+| SV156
+| [[Maraiste (Promo SV 156)|Maraiste]]
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV08 Maraiste]]
+|-
+| SV157
+| [[Électhor (Promo SV 157)|Électhor]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Tripack EV08 Électhor]]
+|-
+| SV158
+| [[Pachirisu (Promo SV 158)|Pachirisu]]
+| {{type|électrique|jcc}}
+|
+|
+|-
+| SV159
+| [[Magnéton (Promo SV 159)|Magnéton]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| [[Coffret Dresseur d'élite Écarlate et Violet Étincelles Déferlantes]]
+|-
+| SV160
+| [[Tapatoès-ex (Promo SV 160)|Tapatoès]]{{Symbole JCC|ex}}
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Nécessaire du Dresseur (2024)]]
+|-
+| SV161
+| [[Dracaufeu-ex (Promo SV 161)|Dracaufeu]]{{Symbole JCC|ex}}
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection Super-Premium Dracaufeu-ex|Collection Super-Premium Dracaufeu]]{{Symbole JCC|ex}}
+|-
+| SV162
+| [[Tomberro-ex (Promo SV 162)|Tomberro]]{{Symbole JCC|ex}}
+| {{type|psy|jcc}}
+| class="résistance" | ✓
+| [[Coffret Tomberro-ex|Coffret Tomberro]]{{Symbole JCC|ex}}
+|-
+| SV163
+| [[Pyrobut-ex (Promo SV 163)|Pyrobut]]{{Symbole JCC|ex Téracristal}}
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| [[Collection Ultra-Premium Terapagos-ex|Collection Ultra-Premium Terapagos]]{{Symbole JCC|ex Téracristal}}
+|-
+| SV164
+| [[Lokhlass-ex (Promo SV 164)|Lokhlass]]{{Symbole JCC|ex Téracristal}}
+| {{type|eau|jcc}}
+| class="résistance" | ✓
+| [[Collection Ultra-Premium Terapagos-ex|Collection Ultra-Premium Terapagos]]{{Symbole JCC|ex Téracristal}}
+|-
+| SV165
+| [[Terapagos-ex (Promo SV 165)|Terapagos]]{{Symbole JCC|ex Téracristal}}
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| [[Collection Ultra-Premium Terapagos-ex|Collection Ultra-Premium Terapagos]]{{Symbole JCC|ex Téracristal}}
+|-
+| SV166
+| [[Ogerpon Masque Turquoise-ex (Promo SV 166)|Ogerpon <small>Masque Turquoise</small>]]{{Symbole JCC|ex Téracristal}}
+| {{type|plante|jcc}}
+|
+|
+|-
+| SV167
+| [[Pyroli (Promo SV 167)|Pyroli]]
+| {{type|feu|jcc}}
+|
+|
+|-
+| SV168
+| [[Aquali (Promo SV 168)|Aquali]]
+| {{type|eau|jcc}}
+|
+|
+|-
+| SV169
+| [[Voltali (Promo SV 169)|Voltali]]
+| {{type|électrique|jcc}}
+|
+|
+|-
+| SV170
+| [[Phyllali (Promo SV 170)|Phyllali]]
+| {{type|plante|jcc}}
+|
+|
+|-
+| SV171
+| [[Givrali (Promo SV 171)|Givrali]]
+| {{type|eau|jcc}}
+|
+|
+|-
+| SV172
+| [[Nymphali (Promo SV 172)|Nymphali]]
+| {{type|psy|jcc}}
+|
+|
+|-
+| SV173
+| [[Évoli (Promo SV 173)|Évoli]]
+| {{type|incolore|jcc}}
+|
+|
+|-
+| SV174
+|
+|
+|
+|
+|-
+| SV175
+|
+|
+|
+|
+|-
+| SV176
+|
+|
+|
+|
+|-
+| SV177
+| [[Ursaking Lune Vermeille-ex (Promo SV 177)|Ursaking <small>Lune Vermeille</small>]]{{Symbole JCC|ex}}
+| {{type|incolore|jcc}}
+|
+|
+|-
+| SV178
+|
+|
+|
+|
+|-
+| SV179
+|
+|
+|
+|
+|-
+| SV180
+|
+|
+|
+|
+|-
+| SV181
+|
+|
+|
+|
+|-
+| SV182
+|
+|
+|
+|
+|-
+| SV183
+|
+|
+|
+|
+|-
+| SV184
+|
+|
+|
+|
+|-
+| SV185
+|
+|
+|
+|
+|-
+| SV186
+|
+|
+|
+|
+|-
+| SV187
+|
+|
+|
+|
+|-
+| SV188
+|
+|
+|
+|
+|-
+| SV189
+|
+|
+|
+|
+|-
+| SV190
+| [[Pikachu (Promo SV 190)|Pikachu]]
+| {{type|électrique|jcc}}
+| class="résistance" | ✓
+| Offerte lors d'événements locaux du 12 au 18 août 2024
+|-
+| SV191
+| [[Poussacha (Promo SV 191)|Poussacha]]
+| {{type|plante|jcc}}
+| class="résistance" | ✓
+| Offerte en cadeau lors d'achats dans les magasins participants (15 novembre 2024 au 14 décembre 2024)<ref name="horizons">[https://www.pokemon.com/fr/actus-pokemon/obtenez-des-cartes-promo-la-serie-pokemon-les-horizons-du-jcc-pokemon-comme-cadeaux-contre-achats Obtenez des cartes promo La série : Pokémon, les horizons du JCC Pokémon comme cadeaux contre achats.] '''(fr)'''</ref>
+|-
+| SV192
+| [[Chochodile (Promo SV 192)|Chochodile]]
+| {{type|feu|jcc}}
+| class="résistance" | ✓
+| Offerte en cadeau lors d'achats dans les magasins participants (15 décembre 2024 au 14 janvier 2025)<ref name="horizons"/>
+|-
+| —
+| [[Terapagos et ses Amis (Promo SV)|Terapagos et ses Amis]]
+| {{type|incolore|jcc}}
+| class="résistance" | ✓
+| Offerte en cadeau lors d'achats dans les magasins participants (15 janvier 2025 au 14 février 2025)<ref name="horizons"/>
+|}

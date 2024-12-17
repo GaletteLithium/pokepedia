@@ -1,0 +1,5 @@
+{
+    "files.autoGuessEncoding": true,
+    "java.project.encoding": "setDefault",
+    "files.encoding": "utf8bom"
+}
