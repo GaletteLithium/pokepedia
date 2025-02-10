@@ -1,0 +1,2397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="6.3.1.1">
+  <Project>custom</Project>
+  <LanguageCode>fr</LanguageCode>
+  <CustomProject>www.pokepedia.fr/</CustomProject>
+  <Protocol>https://</Protocol>
+  <LoginDomain />
+  <List>
+    <ListSource>Modèle:Liste des cartes d'un illustrateur</ListSource>
+    <SelectedProvider>WhatTranscludesPageListProvider</SelectedProvider>
+    <ArticleList />
+  </List>
+  <FindAndReplace>
+    <Enabled>true</Enabled>
+    <IgnoreSomeText>false</IgnoreSomeText>
+    <IgnoreMoreText>false</IgnoreMoreText>
+    <AppendSummary>true</AppendSummary>
+    <Replacements>
+      <Replacement>
+        <Find>\t</Find>
+        <Replace> </Replace>
+        <Comment>tabulations</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> </Find>
+        <Replace> </Replace>
+        <Comment>espaces insécables (2)</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> </Find>
+        <Replace> </Replace>
+        <Comment>espaces insécables</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>n°(?&lt;a&gt;[^ ]*)</Find>
+        <Replace>n° $1</Replace>
+        <Comment>n°</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Courrier\ n°\ </Find>
+        <Replace>Courrier n°</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\ ,</Find>
+        <Replace>,</Replace>
+        <Comment>virgules</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>,(?&lt;a&gt;[^ 0-9,])</Find>
+        <Replace>, $1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(Sous-sol|Étage), s</Find>
+        <Replace>$1,s</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[^\n \{!\?\.]+)(:|;|!|\?)</Find>
+        <Replace>$2 $1</Replace>
+        <Comment>ponctuation espacée</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(:|;|!|\?)(?&lt;a&gt;'*)(?&lt;b&gt;[^\n !\?\.])</Find>
+        <Replace>$1 $2$3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(:|;|!|\?|\.)\[</Find>
+        <Replace>$1 [</Replace>
+        <Comment>[...]</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> (?&lt;a&gt;['"]*)\n</Find>
+        <Replace>$1\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>true</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline Singleline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[(?&lt;a&gt;[^:\|\]]*)(| ):(| )</Find>
+        <Replace>[[$3$1:$2</Replace>
+        <Comment>Fichier: et interwiki</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>true</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(\||\n)\| (-|–)(\||\n)</Find>
+        <Replace>$1| —$3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(\||\n)\| (-|–)(\||\n)</Find>
+        <Replace>$1| —$3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\(–\)</Find>
+        <Replace>(-)</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>=(=+) *([^\=]*[^\= \n]+) *=(=+)</Find>
+        <Replace>=$1 $2 =$3</Replace>
+        <Comment>Espacement section et tableaux</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\n(\||!)([^-\+\} \n]+)</Find>
+        <Replace>\n$1 $2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\n(\||!) ([^\|\{\[\n]*[^\|\{\[\n ]+) *\| *([^\n\| ]+)</Find>
+        <Replace>\n$1 $2 | $3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[Talent\#Talent\ caché\|Talent\ caché]]</Find>
+        <Replace>[[talent caché]]</Replace>
+        <Comment>Talent caché</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>/\[\[Talent\ caché]]</Find>
+        <Replace>/[[talent caché]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\(\[\[Talent\ caché]]\)</Find>
+        <Replace>([[talent caché]])</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>/ taux\(-\)\n</Find>
+        <Replace>/\n</Replace>
+        <Comment>Réparations</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>►(?&lt;char&gt;[^ &lt;])</Find>
+        <Replace>► $1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>]►</Find>
+        <Replace>] ►</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Dresseur(|\]\])ss+</Find>
+        <Replace>Dresseur$1s</Replace>
+        <Comment>Dresseur</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>classe de [[Dresseur]]( |\|)</Find>
+        <Replace>classe de [[Dresseur]]s$1</Replace>
+        <Comment>le caractère supplémentaire sert à ne pas transformer « Dresseurs » en « Dresseurss »</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>classe de Dresseur( |\|)</Find>
+        <Replace>classe de Dresseurs$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseuse\ aérienne</Find>
+        <Replace>Dresseuse Aérienne</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseurs\ aériens</Find>
+        <Replace>Dresseurs Aériens</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseuses\ aériennes</Find>
+        <Replace>Dresseuses Aériennes</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseur</Find>
+        <Replace>Dresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseur\ aérien</Find>
+        <Replace>Dresseur Aérien</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Dresseur-origine</Find>
+        <Replace>dresseur-origine</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>TopDresseur</Find>
+        <Replace>Topdresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\|nDresseur</Find>
+        <Replace>|ndresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseuse</Find>
+        <Replace>Dresseuse</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>liste-Dresseurs</Find>
+        <Replace>liste-dresseurs</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\|\ Dresseurs=</Find>
+        <Replace>| dresseurs=</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> nDresseur</Find>
+        <Replace> ndresseur</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>TopDresseuse</Find>
+        <Replace>Topdresseuse</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>typeDresseur</Find>
+        <Replace>typedresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Pokéball</Find>
+        <Replace>Poké Ball</Replace>
+        <Comment>Poké Ball</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[a-z]*)es (?&lt;b&gt;[^ \n\&lt;]*) Ball(\.| )</Find>
+        <Replace>$2es $3 Balls$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[(?&lt;a&gt;[^ \n]*) Balls(?&lt;b&gt;[^\]]*)\|</Find>
+        <Replace>[[$1 Ball$2|</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Donneur(s|) de Capacités</Find>
+        <Replace>donneur$1 de capacités</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>== (|\[\[)donneur</Find>
+        <Replace>== $1Donneur</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;space&gt;( |&lt;br[ /]*&gt;))\(Sauvage</Find>
+        <Replace>$1(sauvage</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;space&gt;( |\&lt;br[ /]*\&gt;))\(\[\[(?&lt;link&gt;[^|]*)\|Sauvage</Find>
+        <Replace>$1([[$3|sauvage</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>([aA])rbre(|s) à baie([^s])</Find>
+        <Replace>$1rbre$2 à Baies$3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>baie(s|)(?&lt;a&gt;[^a-z])</Find>
+        <Replace>Baie$1$2</Replace>
+        <Comment>Baie</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(Image|Miniat) Baie</Find>
+        <Replace>$1 baie</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>noigrume</Find>
+        <Replace>Noigrume</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>/ +\n</Find>
+        <Replace>/ taux(-)\n</Replace>
+        <Comment>taux</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>/(?&lt;a&gt;[^\n]*)/ taux\(-\)\n</Find>
+        <Replace>/$1/\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;br\s*(|/\s*)&gt;&lt;br\s*(|/\s*)&gt;•</Find>
+        <Replace>\n*</Replace>
+        <Comment>\n, &lt;br&gt;</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;br\s*(|/\s*)&gt;(•|\*)</Find>
+        <Replace>\n*</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(\.|。)\s*(&lt;/small&gt;|)(&lt;/span&gt;|)(|&lt;/ref&gt;)(|\)|）)\s*(|&lt;small&gt;)&lt;br[\s\&lt;br/\&gt;]*&gt;[ \n]*(&lt;small&gt;|)(&lt;span [^\n\&gt;]*&gt;|)('''|)([^(&lt;'\n])</Find>
+        <Replace>$1$2$3$4$5\n\n$6$7$8$9$10</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>&lt;br[\s\&lt;br/\&gt;]*&gt;\n+(\||!)</Find>
+        <Replace>\n$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\s*\&lt;br\s*(|/\s*)&gt;[ \n]*</Find>
+        <Replace>\n\n</Replace>
+        <Comment>à désactiver !!! sauf citations</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>([^\|]) *(\&lt;br\s*(|/\s*)&gt;) *</Find>
+        <Replace>$1$2</Replace>
+        <Comment>" &lt;br&gt; "</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\r\n\r\n\|-</Find>
+        <Replace>\n|-</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\(jp\)</Find>
+        <Replace>(ja)</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>d-rec(| )=(| )0</Find>
+        <Replace>d-rec$1=</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>’(?&lt;a&gt;[^ s])</Find>
+        <Replace>'$1</Replace>
+        <Comment>apostrophes</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;\[\[de:[^\]]*)'(?&lt;b&gt;[^\]]*\]\])</Find>
+        <Replace>$1’$2</Replace>
+        <Comment>apostrophe allemande</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\{\{sup\|er}}</Find>
+        <Replace>&lt;sup&gt;er&lt;/sup&gt;</Replace>
+        <Comment>exposants ordinaux</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\{\{sup\|ème}}</Find>
+        <Replace>&lt;sup&gt;e&lt;/sup&gt;</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>1er</Find>
+        <Replace>1&lt;sup&gt;er&lt;/sup&gt;</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>1(|è)re</Find>
+        <Replace>1&lt;sup&gt;re&lt;/sup&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[0-9]+)(e|eme|ème) </Find>
+        <Replace>$2&lt;sup&gt;e&lt;/sup&gt; </Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[0-9]+)&lt;sup&gt;(e|eme|ème)&lt;/sup&gt;</Find>
+        <Replace>$2&lt;sup&gt;e&lt;/sup&gt;</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>1&lt;sup&gt;ère&lt;/sup&gt;</Find>
+        <Replace>1&lt;sup&gt;re&lt;/sup&gt;</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>3&lt;sup&gt;e&lt;/sup&gt;\ extension</Find>
+        <Replace>3e extension</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>10&lt;sup&gt;e&lt;/sup&gt;\ Anniversaire</Find>
+        <Replace>10ème Anniversaire</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>20&lt;sup&gt;e&lt;/sup&gt;\ Anniversaire</Find>
+        <Replace>20ème Anniversaire</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\#Sortie\ du\ 8&lt;sup&gt;e&lt;/sup&gt;\ film</Find>
+        <Replace>#Sortie du 8e film</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[Bug\ du\ 7&lt;sup&gt;e&lt;/sup&gt;\ Étage]]</Find>
+        <Replace>[[Bug du 7ème Étage]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>pokégroupe</Find>
+        <Replace>Pokégroupe</Replace>
+        <Comment>Pokégroupe</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>pokédex</Find>
+        <Replace>Pokédex</Replace>
+        <Comment>Pokédex</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Pokédex=</Find>
+        <Replace>pokédex=</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(p|P)ok(e|é)mon(s|)(?&lt;a&gt;[ \)\]])</Find>
+        <Replace>Pokémon$4</Replace>
+        <Comment>Pokémon (espace à la fin contre les url)</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>lieu-Pokémon</Find>
+        <Replace>lieu-pokémon</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;==+)(?&lt;b&gt;[^=]*Pokémon)(?&lt;c&gt;==+)</Find>
+        <Replace>$1 $2 $3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\|\ Pokémon\ =</Find>
+        <Replace>| pokémon =</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;nomromaji=[^\n]*)Pokémon</Find>
+        <Replace>$1Pokemon</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>centre(s|) Pokémon</Find>
+        <Replace>Centre$1 Pokémon</Replace>
+        <Comment>Centre Pokémon</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>boutique(s|) Pokémon</Find>
+        <Replace>Boutique$1 Pokémon</Replace>
+        <Comment>Boutique Pokémon</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\ pension\ </Find>
+        <Replace> Pension </Replace>
+        <Comment>(!) Pension</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[pension</Find>
+        <Replace>[[Pension</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>route(s|) (?&lt;a&gt;[0-9]+)</Find>
+        <Replace>Route$1 $2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>route(s|) \[\[(?&lt;a&gt;Route [0-9]+)</Find>
+        <Replace>Route$1 [[$2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>chena(l|ux) (?&lt;a&gt;[0-9]+)</Find>
+        <Replace>Chena$1 $2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>chena(l|ux) \[\[(?&lt;a&gt;Chenal [0-9]+)</Find>
+        <Replace>Chena$1 [[$2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>badge</Find>
+        <Replace>Badge</Replace>
+        <Comment>Badge</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>-Badge</Find>
+        <Replace>-badge</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>fulguro-badge</Find>
+        <Replace>Fulguro-Badge</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\n\|(?&lt;a&gt; *)Badge(?&lt;b&gt;[^\n]*)</Find>
+        <Replace>\n|$1badge$2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>arène</Find>
+        <Replace>Arène</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>champion</Find>
+        <Replace>Champion</Replace>
+        <Comment>Champion</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Champion(|-)(?&lt;a&gt;[0-9]*)(| )\=(?&lt;b&gt;[^=])</Find>
+        <Replace>champion$1$3$2=$4</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>type-personnage=champion</Find>
+        <Replace>type-personnage=Champion</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[^\|\=] )Championnat</Find>
+        <Replace>$1championnat</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>championnat\ extrême</Find>
+        <Replace>Championnat Extrême</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Champion(|ne)(s|)(| humain) (de course|de natation|de karaté|de kick-boxing|poids)</Find>
+        <Replace>champion$1$2$3 $4</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>maître\ extrême</Find>
+        <Replace>Maître Extrême</Replace>
+        <Comment>Maître</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>maîtres\ extrêmes</Find>
+        <Replace>Maîtres Extrêmes</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>maître\ de\ l'air</Find>
+        <Replace>Maître de l'Air</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>maître\ des\ pièges</Find>
+        <Replace>Maître des Pièges</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>maître</Find>
+        <Replace>Maître</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> (ses|leurs) (?&lt;a&gt;(|[^ \.,]* ))Maîtres</Find>
+        <Replace> $1 $2maîtres</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> (son|leur) (?&lt;a&gt;(|[^ \.,]* ))Maître</Find>
+        <Replace> $1 $2maître</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> (sa|leur) (?&lt;a&gt;(|[^ \.,]* ))Maîtresse</Find>
+        <Replace> $1 $2maîtresse</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[\ ]*[a-z]) ('*)Maître(s|) des capacités</Find>
+        <Replace>$3 $1maître$2 des capacités</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Challenge\ des\ Maîtres</Find>
+        <Replace>Challenge des maîtres</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Maître(s|) (du temps|de l'espace|du monde|de la lumière|de l'eau|de la foudre|des plantes|du quiz|terrestre|nageur|d'armes|du kung-fu|dans l'art|de l'attaque|de groupe|en)</Find>
+        <Replace>maître$1 $2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Maître-nageur</Find>
+        <Replace>maître-nageur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>maître\ pêcheur</Find>
+        <Replace>Maître Pêcheur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[Maître\ Pêcheur]]</Find>
+        <Replace>Maître Pêcheur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[a-zA-Z]+)Maître</Find>
+        <Replace>$1maître</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Maître\ de\ la\ Zone</Find>
+        <Replace>maître de la zone</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>sbire</Find>
+        <Replace>Sbire</Replace>
+        <Comment>Sbire</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>ligue</Find>
+        <Replace>Ligue</Replace>
+        <Comment>Ligue</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Ligue=</Find>
+        <Replace>ligue=</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>-Ligue</Find>
+        <Replace>-ligue</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>d'Hoenn</Find>
+        <Replace>de Hoenn</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>d'\[\[Hoenn]]</Find>
+        <Replace>de [[Hoenn]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>d'Hisui</Find>
+        <Replace>de Hisui</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>d'\[\[Hisui]]</Find>
+        <Replace>de [[Hisui]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(\.|,)(?&lt;b&gt;&lt;ref&gt;[^\n]*&lt;/ref&gt;)</Find>
+        <Replace>$2$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\&gt;\.\.+\n</Find>
+        <Replace>&gt;.\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>œuf</Find>
+        <Replace>Œuf</Replace>
+        <Comment>Œuf</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>NŒufnŒuf</Find>
+        <Replace>Nœufnœuf</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Sus\ aux\ Œufs\ !</Find>
+        <Replace>Sus aux œufs !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>pots\ Œuf</Find>
+        <Replace>pots œuf</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[^ \['#])(Œuf|Arène)</Find>
+        <Replace>$2$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>raids\ Téracristaux</Find>
+        <Replace>raids Téracristal</Replace>
+        <Comment>Raid</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Raid(s|) (Dynamax|Téracristal)</Find>
+        <Replace>raid$1 $2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[raid(?&lt;a&gt;[^\]]*\|)</Find>
+        <Replace>[[Raid$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\n\*(| )(|\[\[)raid</Find>
+        <Replace>\n*$1$2Raid</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>== (|\[\[)raid</Find>
+        <Replace>== $1Raid</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>article\ principal\|raid</Find>
+        <Replace>article principal|Raid</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>combat(s|) (solo|simple)(s|)</Find>
+        <Replace>Combat$1 Solo</Replace>
+        <Comment>Combat Solo</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(Match|Combat)(|e)(s|) (|en )Double(s|)</Find>
+        <Replace>Combat$3 Duo</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>combat(s|) duo(\]\]|)(s|)</Find>
+        <Replace>Combat$1 Duo$2</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(Match|Combat)(e|)(s|) (|en )Triple(s|)</Find>
+        <Replace>Combat$3 Trio</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>combat(s|) (triple|trio)(\]\]|)(s|)</Find>
+        <Replace>Combat$1 Trio$3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Duo\ ou\ triple</Find>
+        <Replace>Duo ou Trio</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[Combat\ Duo\|double]]</Find>
+        <Replace>[[Combat Duo|Duo]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[Combat\ Duo\|doubles]]</Find>
+        <Replace>[[Combat Duo|Duo]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[Combat\ Trio\|triple]]</Find>
+        <Replace>[[Combat Trio|Trio]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[Combat\ Trio\|triples]]</Find>
+        <Replace>[[Combat Trio|Trio]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>lors\ de\ \[\[match\ Pokémon\|matchs]]\ \[\[Combat\ Duo\|doubles]]\ ou\ \[\[Combat\ Trio\|Trio]]</Find>
+        <Replace>lors d'un [[Combat Duo]] ou [[Combat Trio|Trio]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[match\ Pokémon\|combats]]\ \[\[Combat\ Duo\|double]]</Find>
+        <Replace>[[Combat Duo|Combats Duo]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Duo]]\ ou\ triple</Find>
+        <Replace>Duo]] ou Trio</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>combat\ duo\ ou\ trio</Find>
+        <Replace>Combat Duo ou Trio</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>combat(s|) rotatif</Find>
+        <Replace>Combat$1 Rotatif</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>combat\(s\|\)\ multi\(s\|\)</Find>
+        <Replace>Combat$1 Multi</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\[\[match\ Pokémon\|combat]]\ \[\[Combat\ Duo\|double]]</Find>
+        <Replace>[[Combat Duo]]</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Évènement\ Combat\ Solo</Find>
+        <Replace>Évènement combat Solo</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[0-9\?]+) *(x|×) *(?&lt;b&gt;[0-9\?]+)</Find>
+        <Replace>$2 × $3</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\(x\s*(?&lt;a&gt;[0-9]+)</Find>
+        <Replace>(×$1</Replace>
+        <Comment>×</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[^\|\\p\}a-z])x\s*(?&lt;b&gt;[0-9]+)</Find>
+        <Replace>$1×$2</Replace>
+        <Comment>à désac qd auto</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>taille(?&lt;a&gt; *)=(?&lt;b&gt; *)×</Find>
+        <Replace>taille$1=$2x</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Cri\ 6\ ×</Find>
+        <Replace>Cri 6 x</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Fichier:(Aqua-Radeau|Broyage|Brûlure|Charge|Coupe|Force Psy|Jet d'Eau|Recharge|Survoltage) ×</Find>
+        <Replace>Fichier:$1 x</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[0-9]+) × (?&lt;b&gt;[0-9]+)px</Find>
+        <Replace>$1x$2px</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\(\?&lt;a&gt;v=\[\^\ ]\*\)×</Find>
+        <Replace>$1x</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\.C3\.A2</Find>
+        <Replace>â</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\.C3\.A9</Find>
+        <Replace>é</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\.C3\.89</Find>
+        <Replace>É</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\.C3\.A8</Find>
+        <Replace>è</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\.28</Find>
+        <Replace>(</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\.29</Find>
+        <Replace>)</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[^a-z])(le|du|au|les|des) Joueur</Find>
+        <Replace>$2$1 joueur</Replace>
+        <Comment>Joueur</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[^a-z])(le|du|au|les|des) \[\[Joueur\]\]</Find>
+        <Replace>$2$1 [[joueur]]</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[^\|]) +\]\]\n</Find>
+        <Replace>$1]]\n</Replace>
+        <Comment>espaces à la fin des liens</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>  +</Find>
+        <Replace> </Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\n\n\n+</Find>
+        <Replace>\n\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find> +\n</Find>
+        <Replace>\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Le\ Badge\ décisif</Find>
+        <Replace>Le badge décisif</Replace>
+        <Comment>titres d'épisodes relous</Comment>
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>1&lt;sup&gt;re&lt;/sup&gt;\ partie</Find>
+        <Replace>1ère partie</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;[0-9]+)&lt;sup&gt;e&lt;/sup&gt; partie</Find>
+        <Replace>$1ème partie</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Avant-match\{\{Infobulle\|\*\|4&lt;sup&gt;e&lt;/sup&gt;\ génération}}</Find>
+        <Replace>Avant-match{{Sup|HGSS}}</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Le\ septième\ Badge\ !</Find>
+        <Replace>Le septième badge !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>L'Arène\ Team\ Rocket</Find>
+        <Replace>L'arène Team Rocket</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Rencontre\ pour\ un\ Badge</Find>
+        <Replace>Rencontre pour un badge</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Le\ Champion\ des\ devinettes</Find>
+        <Replace>Le champion des devinettes</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Sacha\ à\ l'Arène\ Charbourg</Find>
+        <Replace>Sacha à l'arène Charbourg</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Une\ Championne\ en\ proie\ au\ doute\ !</Find>
+        <Replace>Une championne en proie au doute !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Pour\ une\ poignée\ de\ Poké\ Balls</Find>
+        <Replace>Pour une poignée de Pokéballs</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Le\ Badge\ bleu\ du\ courage</Find>
+        <Replace>Le badge bleu du courage</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Deux\ Championnes\ à\ l'entraînement\ !</Find>
+        <Replace>Deux championnes à l'entraînement !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Champion\ de\ la\ forêt</Find>
+        <Replace>champion de la forêt</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Aurore\ se\ jette\ dans\ l'Arène</Find>
+        <Replace>Aurore se jette dans l'arène</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Une\ adorable\ Dresseuse\ !</Find>
+        <Replace>Une adorable dresseuse !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Le\ chemin\ qui\ conduit\ à\ la\ Ligue\ Pokémon</Find>
+        <Replace>Le chemin qui conduit à la ligue Pokémon</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>L'Arène\ surprise</Find>
+        <Replace>L'arène surprise</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Sans\ Maître,\ ni\ loi</Find>
+        <Replace>Sans maître, ni loi</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Iris\ contre\ Sandra\ !\ La\ voie\ pour\ devenir\ Maître\ dragon\ !</Find>
+        <Replace>Iris contre Sandra ! La voie pour devenir maître dragon !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>La\ voie\ du\ Maître\ dragon\ !</Find>
+        <Replace>La voie du maître dragon !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Le\ chemin\ qui\ conduit\ à\ la\ Ligue\ Pokémon</Find>
+        <Replace>Le chemin qui conduit à la ligue Pokémon</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>Multiline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Triple\ Champions,\ menaces\ en\ équipes\ !</Find>
+        <Replace>Triple champions, menaces en équipes !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Triple\ Champion,\ menaces\ en\ équipes\ !</Find>
+        <Replace>Triple champions, menaces en équipes !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Une\ Ligue\ d'exception\ !</Find>
+        <Replace>Une ligue d'exception !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Combat\ Duo\ et\ double\ Chenipotte\ !</Find>
+        <Replace>Combat double et double Chenipotte !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Un\ Combat\ Duo\ très\ inspiré\ !</Find>
+        <Replace>Un combat en double très inspiré !</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;==+ *\[\[Talent\]\]s *==+\n[^=]*) ;</Find>
+        <Replace>$1.</Replace>
+        <Comment>listes à points</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline Singleline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>=== \[\[Huitième génération\]\] ===(?&lt;a&gt;\n+)(|''[^\n]*\n+)(?&lt;b&gt;\{\{#invoke:Localisations\|[^\n]*génération=)8(?&lt;c&gt;[^\n]*\}\}[^=]*)</Find>
+        <Replace>=== [[Huitième génération]] ===$2$1$3 8$4=== [[Neuvième génération]] ===$2$3 9$4</Replace>
+        <Comment>ajout tableaux de loc</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline Singleline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>génération=\ </Find>
+        <Replace>génération=</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;génération=9[^\n]*) / [^/\|]*forme\(Gigamax[^/\}]*</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline Singleline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\|ids=[^\(/\n]*(\||\})</Find>
+        <Replace>$1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;a&gt;=== \[\[Neuvième génération\]\] ===\n+\{\{#invoke:Localisations[^\n]*\n+)=== \[\[Neuvième génération\]\] ===\n+\{\{#invoke:Localisations[^\n]*\n+</Find>
+        <Replace>$1</Replace>
+        <Comment>fin ajout tableaux de loc</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>false</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase Multiline Singleline</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>/\ /</Find>
+        <Replace>/  /</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>PT</Find>
+        <Replace>Pt</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+    </Replacements>
+    <AdvancedReps>
+      <IRule xsi:type="Rule">
+        <enabled_>true</enabled_>
+        <Children />
+        <Name>Rule</Name>
+        <ruletype_>OnWholePage</ruletype_>
+        <replace_ />
+        <with_ />
+        <ifContains_ />
+        <ifNotContains_ />
+        <regex_>false</regex_>
+        <ifIsRegex_>false</ifIsRegex_>
+        <numoftimes_>1</numoftimes_>
+        <ifRegexOptions_>None</ifRegexOptions_>
+        <regexOptions_>None</regexOptions_>
+      </IRule>
+    </AdvancedReps>
+    <SubstTemplates />
+    <IncludeComments>false</IncludeComments>
+    <ExpandRecursively>true</ExpandRecursively>
+    <IgnoreUnformatted>false</IgnoreUnformatted>
+  </FindAndReplace>
+  <Editprefs>
+    <GeneralFixes>true</GeneralFixes>
+    <Tagger>false</Tagger>
+    <Unicodify>true</Unicodify>
+    <Recategorisation>0</Recategorisation>
+    <NewCategory />
+    <NewCategory2 />
+    <ReImage>0</ReImage>
+    <ImageFind />
+    <Replace />
+    <SkipIfNoCatChange>false</SkipIfNoCatChange>
+    <RemoveSortKey>false</RemoveSortKey>
+    <SkipIfNoImgChange>false</SkipIfNoImgChange>
+    <AppendText>false</AppendText>
+    <AppendTextMetaDataSort>false</AppendTextMetaDataSort>
+    <Append>true</Append>
+    <Text />
+    <Newlines>2</Newlines>
+    <AutoDelay>0</AutoDelay>
+    <BotMaxEdits>0</BotMaxEdits>
+    <SupressTag>false</SupressTag>
+    <RegexTypoFix>false</RegexTypoFix>
+  </Editprefs>
+  <General>
+    <AutoSaveEdit>
+      <Enabled>false</Enabled>
+      <SavePeriod>30</SavePeriod>
+      <SaveFile />
+    </AutoSaveEdit>
+    <SelectedSummary>Forme et style</SelectedSummary>
+    <Summaries>
+      <string>clean up</string>
+      <string>re-categorisation per [[WP:CFD|CFD]]</string>
+      <string>clean up and re-categorisation per [[WP:CFD|CFD]]</string>
+      <string>removing category per [[WP:CFD|CFD]]</string>
+      <string>[[Wikipedia:Template substitution|subst:'ing]]</string>
+      <string>[[Wikipedia:WikiProject Stub sorting|stub sorting]]</string>
+      <string>[[WP:AWB/T|Typo fixing]]</string>
+      <string>bad link repair</string>
+      <string>Fixing [[Wikipedia:Disambiguation pages with links|links to disambiguation pages]]</string>
+      <string>Unicodifying</string>
+      <string>Forme et style</string>
+      <string>Forme et style : remplacement de « vient de » en « pourrait venir de » dans les paragraphes d'étymologie non référencés</string>
+      <string>Ajout d'un paramètre empêchant la page d'apparaître dans la compilation des données de localisation</string>
+      <string>Correction de la liste à points de la section Talents</string>
+      <string>Uniformisation du style des listes à points</string>
+      <string>Forme et style : liste à points de la section Talents</string>
+      <string>Module Localisations</string>
+      <string>Localisations neuvième génération</string>
+      <string>Taille des miniatures d'objets</string>
+      <string>Fusion du modèle Jeu* avec le modèle Jeu</string>
+    </Summaries>
+    <PasteMore>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </PasteMore>
+    <FindText>Joueur</FindText>
+    <FindRegex>false</FindRegex>
+    <FindCaseSensitive>true</FindCaseSensitive>
+    <WordWrap>true</WordWrap>
+    <ToolBarEnabled>false</ToolBarEnabled>
+    <BypassRedirect>false</BypassRedirect>
+    <AutoSaveSettings>false</AutoSaveSettings>
+    <noSectionEditSummary>false</noSectionEditSummary>
+    <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
+    <restrictOrphanTagging>true</restrictOrphanTagging>
+    <noMOSComplianceFixes>false</noMOSComplianceFixes>
+    <syntaxHighlightEditBox>false</syntaxHighlightEditBox>
+    <highlightAllFind>false</highlightAllFind>
+    <PreParseMode>false</PreParseMode>
+    <NoAutoChanges>false</NoAutoChanges>
+    <OnLoadAction>0</OnLoadAction>
+    <DiffInBotMode>false</DiffInBotMode>
+    <Minor>true</Minor>
+    <AddToWatchlist>2</AddToWatchlist>
+    <TimerEnabled>false</TimerEnabled>
+    <SortListAlphabetically>false</SortListAlphabetically>
+    <AddIgnoredToLog>false</AddIgnoredToLog>
+    <EditToolbarEnabled>true</EditToolbarEnabled>
+    <filterNonMainSpace>false</filterNonMainSpace>
+    <AutoFilterDuplicates>false</AutoFilterDuplicates>
+    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
+    <TextBoxSize>10</TextBoxSize>
+    <TextBoxFont>Courier New</TextBoxFont>
+    <LowThreadPriority>false</LowThreadPriority>
+    <Beep>false</Beep>
+    <Flash>true</Flash>
+    <Minimize>false</Minimize>
+    <LockSummary>false</LockSummary>
+    <SaveArticleList>true</SaveArticleList>
+    <SuppressUsingAWB>true</SuppressUsingAWB>
+    <AddUsingAWBToActionSummaries>false</AddUsingAWBToActionSummaries>
+    <IgnoreNoBots>false</IgnoreNoBots>
+    <ClearPageListOnProjectChange>false</ClearPageListOnProjectChange>
+    <SortInterWikiOrder>true</SortInterWikiOrder>
+    <ReplaceReferenceTags>true</ReplaceReferenceTags>
+    <LoggingEnabled>true</LoggingEnabled>
+    <AlertPreferences>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>9</int>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>16</int>
+      <int>17</int>
+      <int>18</int>
+      <int>19</int>
+      <int>20</int>
+      <int>21</int>
+      <int>22</int>
+    </AlertPreferences>
+  </General>
+  <SkipOptions>
+    <SkipNonexistent>true</SkipNonexistent>
+    <Skipexistent>false</Skipexistent>
+    <SkipDontCare>false</SkipDontCare>
+    <SkipWhenNoChanges>false</SkipWhenNoChanges>
+    <SkipSpamFilterBlocked>false</SkipSpamFilterBlocked>
+    <SkipInuse>false</SkipInuse>
+    <SkipWhenOnlyWhitespaceChanged>false</SkipWhenOnlyWhitespaceChanged>
+    <SkipOnlyGeneralFixChanges>true</SkipOnlyGeneralFixChanges>
+    <SkipOnlyMinorGeneralFixChanges>false</SkipOnlyMinorGeneralFixChanges>
+    <SkipOnlyCosmetic>false</SkipOnlyCosmetic>
+    <SkipOnlyCasingChanged>false</SkipOnlyCasingChanged>
+    <SkipIfRedirect>false</SkipIfRedirect>
+    <SkipIfNoAlerts>false</SkipIfNoAlerts>
+    <SkipDoes>false</SkipDoes>
+    <SkipDoesText />
+    <SkipDoesRegex>false</SkipDoesRegex>
+    <SkipDoesCaseSensitive>false</SkipDoesCaseSensitive>
+    <SkipDoesAfterProcessing>false</SkipDoesAfterProcessing>
+    <SkipDoesNot>false</SkipDoesNot>
+    <SkipDoesNotText />
+    <SkipDoesNotRegex>false</SkipDoesNotRegex>
+    <SkipDoesNotCaseSensitive>false</SkipDoesNotCaseSensitive>
+    <SkipDoesNotAfterProcessing>false</SkipDoesNotAfterProcessing>
+    <SkipNoFindAndReplace>true</SkipNoFindAndReplace>
+    <SkipMinorFindAndReplace>false</SkipMinorFindAndReplace>
+    <SkipNoRegexTypoFix>false</SkipNoRegexTypoFix>
+    <SkipNoDisambiguation>false</SkipNoDisambiguation>
+    <SkipNoLinksOnPage>false</SkipNoLinksOnPage>
+    <GeneralSkipList />
+  </SkipOptions>
+  <Module>
+    <Enabled>false</Enabled>
+    <Language>C# 4.0</Language>
+    <Code>        public string ProcessArticle(string ArticleText, string ArticleTitle, int wikiNamespace, out string Summary, out bool Skip)
+        {
+            Skip = false;
+            Summary = "test";
+            ArticleText = "test \r\n\r\n" + ArticleText;
+            return ArticleText;
+        }</Code>
+  </Module>
+  <ExternalProgram>
+    <Enabled>false</Enabled>
+    <Skip>false</Skip>
+    <Program />
+    <Parameters />
+    <PassAsFile>true</PassAsFile>
+    <OutputFile />
+  </ExternalProgram>
+  <Disambiguation>
+    <Enabled>false</Enabled>
+    <Link />
+    <Variants />
+    <ContextChars>20</ContextChars>
+  </Disambiguation>
+  <Special>
+    <namespaceValues />
+    <remDupes>true</remDupes>
+    <sortAZ>false</sortAZ>
+    <filterTitlesThatContain>true</filterTitlesThatContain>
+    <filterTitlesThatContainText>/Citations</filterTitlesThatContainText>
+    <filterTitlesThatDontContain>false</filterTitlesThatDontContain>
+    <filterTitlesThatDontContainText>Antre</filterTitlesThatDontContainText>
+    <areRegex>false</areRegex>
+    <opType>0</opType>
+    <remove />
+  </Special>
+  <Tool>
+    <ListComparerUseCurrentArticleList>0</ListComparerUseCurrentArticleList>
+    <ListSplitterUseCurrentArticleList>0</ListSplitterUseCurrentArticleList>
+    <DatabaseScannerUseCurrentArticleList>0</DatabaseScannerUseCurrentArticleList>
+  </Tool>
+  <Plugin />
+</AutoWikiBrowserPreferences>

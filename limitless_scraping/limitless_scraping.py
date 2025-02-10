@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import re
 import requests
+import pokemon_ndex
 
 # Bug log:
 # - Technical Machines have swapped attacks and no Attack section
@@ -95,6 +96,7 @@ link_dict_list = [
 		r"cartes Récompense": "[[Carte Récompense|cartes Récompense]]"
 	},
 	{r"Confus": "[[Confusion (JCC)|Confus]]"},
+	{r"Contrôle Pokémon": "[[Contrôle Pokémon]]"},
 	{r"deck": "[[deck]]"},
 	{
 		r"défausse": "[[défausse]]",
@@ -120,12 +122,17 @@ link_dict_list = [
 	},
 	{r"Paralysé": "[[Paralysie (JCC)|Paralysé]]"},
 	{r"pièce": "[[Jeton (JCC)|pièce]]"},
-	{r"pile de défausse": "[[pile de défausse]]"},
-	{r"Pokémon Actif": "[[Pokémon Actif]]"},
+	{
+		r"Pokémon Actif": "[[Pokémon Actif]]",
+		r"Actif": "[[Pokémon Actif|Actif]]"
+	},
 	{r"Pokémon de base": "[[Pokémon de base]]"},
 	{r"Pokémon Défenseur": "[[Pokémon Défenseur]]"},
 	{r"Pokémon-ex": "[[Pokémon-ex]]"},
 	{r"Pokémon-V": "[[Pokémon-V]]"},
+	{r"Pokémon-VMAX": "[[Pokémon-VMAX]]"},
+	{r"Pokémon-VSTAR": "[[Pokémon-VSTAR]]"},
+	{r"Pokémon-V-UNION": "[[Pokémon-V-UNION]]"},
 	{r"Poste Actif": "[[Poste Actif]]"},
 	{r"Résistance": "[[Résistance (JCC)|Résistance]]"},
 	{r"retraite": "[[retraite]]"},
@@ -136,11 +143,11 @@ link_dict_list = [
 	},
 	{r"talent": " [[Talent (JCC)|talent]]"},
 	{r" type": " [[Type (JCC)|type]]"},
-	{"Ultra-Chimère": " [[Ultra-Chimère (JCC)|Ultra-Chimère]]"},
+	{r"Ultra-Chimère": " [[Ultra-Chimère (JCC)|Ultra-Chimère]]"},
 ]
 
 additional_rules = {
-	"Stade": "Vous nep ouvez jouer qu'une [[carte Stade]] pendant votre tour. Placez-la à côté du [[Poste Actif]] et défaussez-la si un autre Stade entre en jeu. Un Stade de même nom de peut pas être joué.",
+	"Stade": "Vous ne pouvez jouer qu'une [[carte Stade]] pendant votre tour. Placez-la à côté du [[Poste Actif]] et défaussez-la si un autre Stade entre en jeu. Un Stade de même nom de peut pas être joué.",
 	"Supporter": "Vous ne pouvez jouer qu'une seule [[carte Supporter]] pendant votre tour.",
 	"Objet": "Vous pouvez jouer autant de [[Carte Objet|cartes Objet]] que vous le voulez pendant votre tour.",
 	"Outil Pokémon": "Vous pouvez attacher un [[Outil Pokémon]] à autant de Pokémon que vous le voulez pendant votre tour. Vous ne pouvez attacher qu'un Outil Pokémon à chaque Pokémon, et il reste attaché.",
@@ -163,7 +170,7 @@ def handle_attack_description(attack_info):
 	# Énergies dans le texte
 	print(attack_info)
 	for energy in ["C", "D", "F", "G", "L", "M", "N", "P", "R", "W", "Y"]:
-		print(f"[{energy}]", f"[{energy}]" in attack_info)
+		# print(f"[{energy}]", f"[{energy}]" in attack_info)
 		attack_info = attack_info.replace(f"[{energy}]", " {{type|" + translation_dict[energy].lower() + "|jcci}} ")
 
 	return attack_info
@@ -264,6 +271,13 @@ def generate_wikicode(content, card_info):
 			category2 = "VSTAR"
 			additional_info += "\n* [[Pokémon-VSTAR]]."
 
+		if "{{Symbole JCC|V-UNION}}" in display_name:
+			real_name = display_name.replace("{{Symbole JCC|V-UNION}}", "")
+			card_type_intro = "[[Carte Pokémon|carte]] [[Pokémon-V-UNION]]"
+			pokemon_description_paragraph = ""
+			category2 = "V-UNION"
+			additional_info += "\n* [[Pokémon-V-UNION]]."
+
 		if "{{Symbole JCC|ex}}" in display_name or "{{Symbole JCC|ex JCCP}}" in display_name:
 			real_name = display_name.replace("{{Symbole JCC|ex}}", "").replace("{{Symbole JCC|ex JCCP}}", "")
 			category2 = "ex"
@@ -275,7 +289,7 @@ def generate_wikicode(content, card_info):
 			category3 = "Téracristal"
 			additional_info += "\n* [[Pokémon-ex]]."
 
-		special_pokemon_names = ["Morphéo", "Ursaking", "Ogerpon"]
+		special_pokemon_names = ["Morphéo", "Motisma", "Ursaking", "Ogerpon"]
 		for special_pokemon_name in special_pokemon_names:
 			if special_pokemon_name in display_name:
 				real_name = special_pokemon_name
@@ -474,7 +488,7 @@ def generate_wikicode(content, card_info):
 
 		# Computing which formulation comes first
 		for key, item in link_dict.items():
-			pattern = re.compile(r"(\| description[0-9]?=[^\n]*?)" + key)
+			pattern = re.compile(r"(\| description[0-9]?=[^=]*?)" + key)
 
 			pattern_search = pattern.search(faculty_paragraph)
 
@@ -592,6 +606,11 @@ def generate_wikicode(content, card_info):
 			text_box = text_box.replace("| retraite=", f"| faiblesse={weakness}\n| retraite=")
 		if not resistance is None:
 			text_box = text_box.replace("| retraite=", f"| resist={resistance}\n| retraite=")
+
+		try:
+			card_info["ndex"] = pokemon_ndex.pokemon_fr.index(pokemon_name) + 1
+		except ValueError:
+			print("Pokémon not found:", pokemon_name, "({})".format(card_number))
 
 
 	# Structure de carte Dresseur ou Énergie
@@ -716,6 +735,7 @@ def get_card_info_list(expansion, is_promo):
 			"expansion": expansion,
 			"number": card_number,
 			"max_number": max_card_number,
+			"ndex": None,
 			"link": card_link,
 			"page": card_page,
 			"name": card_name,
@@ -787,18 +807,18 @@ def get_html_content(url):
 
 
 # Définitions
-expansion = "Promo SV"
-english_expansion = "SVP Promo"
+expansion = "Écarlate et Violet Évolutions Prismatiques"
+english_expansion = "Prismatic Evolutions"
 expansion_page = None
-abreviation = "SVP"
+abreviation = "PRE"
 is_promo = "Promo" in expansion
 card_info_list = get_card_info_list(expansion, is_promo)
 
 
 # Boucle
-# r = range(0, len(card_info_list))
+# r = range(1, len(card_info_list) + 1)
 # r = range(150, 165)
-r = [166, 177]
+r = [58,160]
 r = [p - 1 for p in r]
 
 for i in r:
@@ -854,7 +874,7 @@ else:
 	grouping_lists = []
 	for i in r:
 		card_info = card_info_list[i]
-		name = card_info["name"]
+		name = card_info["name"].replace("<small>", "").replace("</small>", "")
 		expansion = card_info["expansion"]
 		card_number = card_info["number"]
 
@@ -881,8 +901,8 @@ else:
 	# Adding the evolution sentences to each group
 	for grouping_list in grouping_lists:
 		number_other_cards = len(grouping_list) - 1
-		grouping_list.sort(key = lambda x : (x["evolution_stage"], x["number"]))
-		# print([c["name"] for c in grouping_list])
+		grouping_list.sort(key = lambda x : (x["evolution_stage"], x["ndex"], x["number"],))
+		print([c["name"] for c in grouping_list])
 
 		for card in grouping_list:
 			if len(grouping_list) == 1:
@@ -961,6 +981,7 @@ for i in r:
 	page = card["page"].replace(":", "$")
 	text_box = card["text_box"].replace(" ", " ")
 	text_box = re.sub(r"  +", " ", text_box)
+	text_box = text_box.replace("- {{type", "-{{type")
 
 	file = open(f"{expansion}/{page}.txt".replace(":", "-"), "w+", encoding="utf-8")
 	file.write(text_box)

@@ -63,8 +63,8 @@ public class MewtwoBot {
 		
 //		File folderPath = new File("D:\\Poképédia\\Découpes\\Résultats\\objetsHOME\\");
 //
-		File folderPath = new File("D:\\Poképédia\\JCC\\Collection McDonald's 2024\\");
-//		File folderPath = new File("D:\\Poképédia\\Robot\\limitless_scraping\\Promo SV\\");
+		File folderPath = new File("D:\\Poképédia\\JCC\\Extensions\\Promo-A\\");
+//		File folderPath = new File("D:\\Poképédia\\Robot\\limitless_scraping\\Écarlate et Violet Évolutions Prismatiques\\");
 
 		File listPath = new File("D:\\Poképédia\\JCC\\description_upload.txt");
 //		File listPath = new File("D:\\Poképédia\\Images\\EV\\CT\\VignettesCT.csv");
@@ -86,8 +86,11 @@ public class MewtwoBot {
 		
 //		uploadArtworksWithDescription("D:\\Poképédia\\Images\\CM\\Artworks ReMix\\", false);
 		
+//		Login.login("Matt.");
+//		API.delete("Fichier:Carte Pop Series 5 1.png");
+		
 //		uploadCards(folderPath, listPath, true);
-		uploadCards(folderPath, listPath, false);
+//		uploadCards(folderPath, listPath, false);
 		
 //		uploadCT(folderPath, listPath, "EV", "Écarlate et Violet", false);
 
@@ -115,8 +118,10 @@ public class MewtwoBot {
 		
 //		deleteDuplicateFiles(false);
 		
-//		int[] namespaces = new int[] {6};
-//		rename("NB2", "N2B2", namespaces, "Sprite Pokémon chromatique (Noir 2 et Blanc 2)", null, false, false);
+		int[] namespaces = new int[] {6};
+//		rename("Icône", "Portrait", namespaces, "Icône Pokémon chromatique (Café ReMix)", null, true, false);
+//		rename("Icône", "Portrait", namespaces, "Ancienne version d'icône Pokémon (Café ReMix)", null, true, false);
+//		rename("Icône", "Portrait", namespaces, "Ancienne version d'icône Pokémon chromatique (Café ReMix)", null, true, false);
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Rubis et Saphir)", "Fichier:Miniature 0313 RS.gif", false, false);
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Rouge Feu et Vert Feuille)", null, false, false);
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Émeraude)", null, false, false);
@@ -124,8 +129,9 @@ public class MewtwoBot {
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Platine)", null, false, false);
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Noir et Blanc)", null, false, false);
 //		rename("RBJ", "J", namespaces, "Image de capacité de Pokémon Jaune", null, true, false);
-		
 
+//		createRedirections("δ", "Delta", namespaces, "Carte Pokémon ☆", null, false);
+		
 //		API.rename("Fichier:Carte Promo SV SV001.png", "Fichier:Carte Promo SV SV001.png", false, "Test");
 //		
 		String[] pageList = {"Fichier:Bonbon Armure L.png", "Fichier:Bonbon Armure M.png", "Fichier:Bonbon Armure S.png", "Fichier:Bonbon Bleu LGPE.png", "Fichier:Bonbon Esprit L.png", "Fichier:Bonbon Esprit M.png", "Fichier:Bonbon Esprit S.png", "Fichier:Bonbon Force L.png", "Fichier:Bonbon Force M.png", "Fichier:Bonbon Force S.png", "Fichier:Bonbon Jaune LGPE.png", "Fichier:Bonbon Machoc LGPE.png", "Fichier:Bonbon Marron LGPE.png", "Fichier:Bonbon Mélofée LGPE.png", "Fichier:Bonbon Mental L.png", "Fichier:Bonbon Mental M.png", "Fichier:Bonbon Mental S.png", "Fichier:Bonbon Otaria LGPE.png", "Fichier:Bonbon Ronflex LGPE.png", "Fichier:Bonbon Salamèche LGPE.png", "Fichier:Bonbon Santé L.png", "Fichier:Bonbon Santé M.png", "Fichier:Bonbon Santé S.png", "Fichier:Bonbon Sprint L.png", "Fichier:Bonbon Sprint M.png", "Fichier:Bonbon Sprint S.png", "Fichier:Bonbon Vert LGPE.png", "Fichier:Bonbon Violet LGPE.png", "Fichier:Bonbon Amonita LGPE.png", "Fichier:Bonbon Artikodin LGPE.png", "Fichier:Bonbon Carapuce LGPE.png", "Fichier:Bonbon Hypotrempe LGPE.png", "Fichier:Bonbon Kokiyas LGPE.png", "Fichier:Bonbon Lokhlass LGPE.png", "Fichier:Bonbon Minidraco LGPE.png", "Fichier:Bonbon Mystherbe LGPE.png", "Fichier:Bonbon Ptitard LGPE.png", "Fichier:Bonbon Saquedeneu LGPE.png", "Fichier:Bonbon Tentacool LGPE.png", "Fichier:Bonbon Abra LGPE.png", "Fichier:Bonbon Chétiflor LGPE.png", "Fichier:Bonbon Férosinge LGPE.png", "Fichier:Bonbon Miaouss LGPE.png", "Fichier:Bonbon Pikachu LGPE.png", "Fichier:Bonbon Ponyta LGPE.png", "Fichier:Bonbon Psykokwak LGPE.png", "Fichier:Bonbon Sabelette LGPE.png", "Fichier:Bonbon Soporifik LGPE.png", "Fichier:Bonbon Stari LGPE.png", "Fichier:Bonbon Électhor LGPE.png", "Fichier:Bonbon Élektek LGPE.png", "Fichier:Bonbon Magnéti LGPE.png", "Fichier:Bonbon Meltan LGPE.png", "Fichier:Bonbon Onix LGPE.png", "Fichier:Bonbon Ptéra LGPE.png", "Fichier:Bonbon Racaillou LGPE.png", "Fichier:Bonbon Rhinocorne LGPE.png", "Fichier:Bonbon Aspicot LGPE.png", "Fichier:Bonbon Canarticho LGPE.png", "Fichier:Bonbon Doduo LGPE.png", "Fichier:Bonbon Kabuto LGPE.png", "Fichier:Bonbon Kangourex LGPE.png", "Fichier:Bonbon Kicklee LGPE.png", "Fichier:Bonbon Osselait LGPE.png", "Fichier:Bonbon Piafabec LGPE.png", "Fichier:Bonbon Roucool LGPE.png", "Fichier:Bonbon Scarabrute LGPE.png", "Fichier:Bonbon Taupiqueur LGPE.png", "Fichier:Bonbon Tauros LGPE.png", "Fichier:Bonbon Tygnon LGPE.png", "Fichier:Bonbon Évoli LGPE.png", "Fichier:Bonbon Excelangue LGPE.png", "Fichier:Bonbon Leveinard LGPE.png", "Fichier:Bonbon M. Mime LGPE.png", "Fichier:Bonbon Mew LGPE.png", "Fichier:Bonbon Métamorph LGPE.png", "Fichier:Bonbon Noeunoeuf LGPE.png", "Fichier:Bonbon Ramoloss LGPE.png", "Fichier:Bonbon Rondoudou LGPE.png", "Fichier:Bonbon Nidoran♀ LGPE.png", "Fichier:Bonbon Poissirène LGPE.png", "Fichier:Bonbon Caninos LGPE.png", "Fichier:Bonbon Goupix LGPE.png", "Fichier:Bonbon Krabby LGPE.png", "Fichier:Bonbon Magicarpe LGPE.png", "Fichier:Bonbon Magmar LGPE.png", "Fichier:Bonbon Paras LGPE.png", "Fichier:Bonbon Porygon LGPE.png", "Fichier:Bonbon Sulfura LGPE.png", "Fichier:Bonbon Voltorbe LGPE.png", "Fichier:Bonbon Bulbizarre LGPE.png", "Fichier:Bonbon Chenipan LGPE.png", "Fichier:Bonbon Insécateur LGPE.png", "Fichier:Bonbon Abo LGPE.png", "Fichier:Bonbon Fantominus LGPE.png", "Fichier:Bonbon Lippoutou LGPE.png", "Fichier:Bonbon Mewtwo LGPE.png", "Fichier:Bonbon Mimitoss LGPE.png", "Fichier:Bonbon Nidoran♂ LGPE.png", "Fichier:Bonbon Nosferapti LGPE.png", "Fichier:Bonbon Rattata LGPE.png", "Fichier:Bonbon Smogo LGPE.png", "Fichier:Bonbon Tadmorv LGPE.png"};
@@ -157,11 +163,11 @@ public class MewtwoBot {
 //		refactor("Shifours (Mille Poings)-EB.png", "Shifours (Style Mille Poings)-EB.png", listPath);
 //		addCategory();
 		
-//		uploadCardArticles(folderPath, false);
+//		uploadCardArticles(folderPath, true, false);
 //		addCardTopics(null, false);
 //		addRequestTables(null, false);
 //		addFormattedNames(null, false);
-//		addSecondaryTopics(null, true, false);
+		addSecondaryTopics(null, true, false);
 		
 //		String[] titles = {};
 //		addSecondaryTopicsSections(titles, true);
@@ -1408,7 +1414,7 @@ public class MewtwoBot {
 	}
 	
 	
-	public void uploadCardArticles(File folderPath, boolean justOne) throws IOException {
+	public void uploadCardArticles(File folderPath, boolean skipExistingArticles, boolean justOne) throws IOException {
 		File contents[] = folderPath.listFiles();
 		
 		for(int i=0; i<contents.length; i++) {
@@ -1421,7 +1427,7 @@ public class MewtwoBot {
 				Page page = new Page(uploadName);
 				String pageContents = page.getContent();
 				
-				if (pageContents == null || pageContents == "") {
+				if (!skipExistingArticles || pageContents == null || pageContents == "") {
 
 					String fileContents = new String(Files.readAllBytes(Paths.get(folderPath + "\\" + fileName)), StandardCharsets.UTF_8);
 							
@@ -2524,18 +2530,18 @@ public class MewtwoBot {
 				
 				newPageName = pageName.replaceAll(from, to);
 				
-				newPageName = newPageName.replaceAll("Cap ecran ", "");
-				newPageName = newPageName.replaceAll("Cap écran ", "");
-				newPageName = newPageName.replaceAll("ossatueur", "Ossatueur");
-				newPageName = newPageName.replaceAll("xatu", "Xatu");
-				newPageName = newPageName.replaceAll("trempee", "Trempée");
-				newPageName = newPageName.replaceAll("céleste", "Céleste");
-				newPageName = newPageName.replaceAll("leveinard", "Leveinard");
-				newPageName = newPageName.replaceAll("littorale", "Littorale");
-				if (newPageName.contains("localisation")) {
-					newPageName = newPageName.replace(" localisation", "");
-					newPageName = newPageName.replace("Fichier:", "Fichier:Localisation ");
-				}
+//				newPageName = newPageName.replaceAll("Cap ecran ", "");
+//				newPageName = newPageName.replaceAll("Cap écran ", "");
+//				newPageName = newPageName.replaceAll("ossatueur", "Ossatueur");
+//				newPageName = newPageName.replaceAll("xatu", "Xatu");
+//				newPageName = newPageName.replaceAll("trempee", "Trempée");
+//				newPageName = newPageName.replaceAll("céleste", "Céleste");
+//				newPageName = newPageName.replaceAll("leveinard", "Leveinard");
+//				newPageName = newPageName.replaceAll("littorale", "Littorale");
+//				if (newPageName.contains("localisation")) {
+//					newPageName = newPageName.replace(" localisation", "");
+//					newPageName = newPageName.replace("Fichier:", "Fichier:Localisation ");
+//				}
 				
 				if(!newPageName.equals(pageName)) {
 					System.out.println("FOUND in page ["+page.getTitle()+"]");
@@ -2547,7 +2553,7 @@ public class MewtwoBot {
 					if(justOne) {
 						break;
 					}
-					TimeUnit.SECONDS.sleep(0);
+					TimeUnit.MILLISECONDS.sleep(5000);
 				}
 			} catch (Exception e) {
 				System.err.println("error with ["+page.getTitle()+"] : ["+e.getMessage()+"]");
@@ -2559,6 +2565,75 @@ public class MewtwoBot {
 		return allUploadedAtFirst;
 	}
 	
+	public boolean createRedirections(String from, String to, int[] nameSpaces, String categoryName, String firstPageName, boolean justOne) {
+		boolean allUploadedAtFirst = true;
+		PageCollection pageCollection = new PageCollection(
+				nameSpaces!=null?nameSpaces:new int[]{API.NS_MAIN},
+						API.FILTER_NONREDIRECTS,
+						categoryName
+				);
+		Page page = pageCollection.getNextPage();
+		int counter = 0;
+
+		if(firstPageName!=null) {
+			System.out.println("Jumping to ["+firstPageName+"]...");
+			do {
+				page = pageCollection.getNextPage();
+			} while(!page.getTitle().equals(firstPageName));
+		}
+
+		String pageName;
+		String redirectionName;
+		while(page != null) {
+//			if (!page.getTitle().equals("Fichier:Antre de la Cascade localisation PMDM.png")) {
+//				page = pageCollection.getNextPage();
+//				counter++;
+//				continue;
+//			}
+			if(counter >= 100) {
+				System.out.println(page.getTitle());
+				counter = 0;
+			}
+
+			try {
+				pageName = page.getTitle();
+				
+				redirectionName = pageName.replaceAll(from, to);
+				
+				redirectionName = redirectionName.replace("☆", "Étoile");
+				
+				if(!redirectionName.equals(pageName)) {
+					Page redirectionPage = new Page(redirectionName);
+					String redirectionContents = redirectionPage.getContent();
+					
+					if (redirectionContents != null) {
+						page = pageCollection.getNextPage();
+						counter++;
+						continue;
+					}
+					
+					
+					redirectionPage.setContent("#REDIRECTION [[" + pageName + "]]",
+							"Création d'une redirection vers [[" + pageName + "]]");
+					System.out.println(redirectionName + " => " + pageName);
+					System.out.println("\tSaved");
+					allUploadedAtFirst = false;
+					
+					if(justOne) {
+						break;
+					}
+					TimeUnit.MILLISECONDS.sleep(300);
+				}
+			} catch (Exception e) {
+				System.err.println("error with ["+page.getTitle()+"] : ["+e.getMessage()+"]");
+				e.printStackTrace();
+			}
+			page = pageCollection.getNextPage();
+			counter++;
+		}
+		return allUploadedAtFirst;
+	}
+
 	public void addCategory() {
 		String category = "[[Catégorie:Artwork Pokémon]]";
 		String[] list = {};
@@ -3839,9 +3914,11 @@ public class MewtwoBot {
 			"Golemastoc (Noir & Blanc Explosion Plasma 46)",
 			"Pokémon Center (Promo Wizards 40)",
 			"Roseille (Écarlate et Violet Mascarade Crépusculaire 145)",
+			"Roseille (Écarlate et Violet Évolutions Prismatiques 103)",
 			"Rosélia (Noir & Blanc Dragons Exaltés 13)",
 			"Sapereau (XY Vigueur Spectrale 87)",
 			"Tarinor (Écarlate et Violet Mascarade Crépusculaire 101)",
+			"Tranchodon (Noir & Blanc Explosion Plasma 69)",
 			"Tylton (Noir & Blanc Dragons Exaltés 104)",
 			"コイキングごっこピカチュウ (XYプロモカード 150)",
 			"ギャラドスごっこピカチュウ (XYプロモカード 151)",
@@ -3913,10 +3990,9 @@ public class MewtwoBot {
 			
 	//		justOne = true;
 			Page page = pageCollection.getNextPage();
-			page = pageCollection.getNextPage();
 			String title = page.getTitle();
 			
-//			startingFrom = "Shehroz (Destinées Radieuses 071)";
+//			startingFrom = "Jessie et James (Destinées Occultes 68)";
 			
 			if (startingFrom != null) {
 				while (!startingFrom.equals(title)) {
@@ -3949,8 +4025,11 @@ public class MewtwoBot {
 			    
 				for (String line : contentsSplit) {
 					String keyFound = null;
+					
+					// Removing lines with forbidden expressions
 					for (String key : keys) {
-						if (line.contains(key) && !line.contains("immersion")) {
+						if (line.contains(key) && !line.contains("immersion")
+								&& !line.contains(" que dans ")) {
 							keyFound = key;
 							break;
 						}
@@ -3999,15 +4078,12 @@ public class MewtwoBot {
 						        }
 					        }
 
-							if (topic.contains("#")) {
-								topic = topic.substring(0, topic.indexOf("#"));
-							}
 					        if (topic.equals("Miaouss (Team Rocket)")) {
 						        if (!foundTopics.contains("Miaouss")) {
 						        	foundTopics.add("Miaouss");
 						        }
 					        }
-					        if (topic.equals("Terapagos (dessin animé)")) {
+					        if (topic.equals("Terapagos/Pokémon, la série")) {
 						        if (!foundTopics.contains("Terapagos")) {
 						        	foundTopics.add("Terapagos");
 						        }
@@ -4023,46 +4099,50 @@ public class MewtwoBot {
 						        	foundTopics.add("Pikachu");
 						        }
 					        }
-					    }
-					    
-					    pattern = Pattern.compile("\\{\\{jv\\|[^\\}]*\\}\\}");
-					    matcher = pattern.matcher(linkLine);
-					    while (matcher.find()) {
-					        String topic = matcher.group();
-					        topic = topic.replace("{{jv|", "").replace("}}", "") + " (jeux vidéo)";
-					        topic = topic.substring(0, 1).toUpperCase() + topic.substring(1);
-	//				        System.out.println(topic);
-					        if (!foundTopics.contains(topic)) {
-					        	foundTopics.add(topic);
-					        }
-					        
-	//				        System.out.println(topic);
-					        // Lorsque "Staross d'Ondine" est un sujet, on ajoute "Staross" et "Staross d'Ondine"
-					        String[] particles = {" de ", " d'"};
-					        for (String particle : particles) {
-						        String[] topicSplit = topic.split(particle);
-						        String[] regions = {"Alola", "Galar", "Hisui", "Paldea"};
-						        if (topicSplit.length > 1) {
-						        	boolean isRegion = false;
-						        	for (String region : regions) {
-						        		if (topicSplit[1].equals(region)) {
-						        			isRegion = true;
-						        			break;
-						        		}
-						        	}
-						        	if (!isRegion) {
-						        		for (String pokemon : PokeData.pokemon) {
-						        			if (topicSplit[0].equals(pokemon)) {
-										        if (!foundTopics.contains(topicSplit[0])) {
-										        	foundTopics.add(topicSplit[0]);
-										        }
-										        break;
-						        			}
-						        		}
-						        	}
+					        // Pour les éléments de Pokémon, la série
+					        if (topic.contains("/")) {
+					        	String mainTopic = topic.replaceAll("/.*", "");
+						        if (!foundTopics.contains(mainTopic)) {
+						        	foundTopics.add(mainTopic);
 						        }
 					        }
 					    }
+					    
+					    pattern = Pattern.compile("\\{\\{ps\\|[^\\}]*\\}\\}");
+					    matcher = pattern.matcher(linkLine);
+					    while (matcher.find()) {
+					        String topic = matcher.group();
+					        topic = topic.replace("{{ps|", "").replace("}}", "");
+					        
+//					        System.out.println(topic);
+					        if (topic.equals("Pierre")) {
+					        	topic += " (Kanto)";
+					        } else if (topic.equals("Flora")) {
+					        	topic += " (Hoenn)";
+					        } else if (topic.equals("Aurore")) {
+					        	topic += " (Hoenn)";
+					        } else if (topic.equals("Bianca") || topic.equals("Iris")) {
+					        	topic += " (Unys)";
+					        }
+					        String bonusTopic = topic;
+					        topic += "/Pokémon, la série";
+					        if (topic.equals("Max/Pokémon, la série")) {
+					        	topic = "Max (frère de Flora)";
+					        	bonusTopic = null;
+					        }
+					        
+					        if (!foundTopics.contains(topic)) {
+					        	foundTopics.add(topic);
+					        }
+					        // Si {{ps|Ondine}} est ajoutée, on ajoute aussi Ondine
+					        if (bonusTopic != null && !foundTopics.contains(bonusTopic)) {
+					        	foundTopics.add(bonusTopic);
+					        }
+					        
+//					        System.out.println(topic);
+					    }
+					    
+//					    System.out.println(foundTopics);
 					    
 					    for (var topic : foundTopics) {
 							String iString = "";
@@ -4072,13 +4152,19 @@ public class MewtwoBot {
 							if (topic.toLowerCase().contains("wp:")) {
 								continue;
 							}
-							topic = topic.replace("dessin animé", "jeux vidéo");
 							
 							// Gestion des redirections
 							Page topicPage = new Page(topic);
 							String topicContents = topicPage.getContent();
 							if (topicContents.contains("#REDIRECT")) {
 								topic = topicContents.replaceAll("#REDIRECT[^\n]*\\[\\[([^\n]*)\\]\\][^£]*", "$1");
+							}
+							
+							if (topic.contains("#")) {
+								topic = topic.replaceAll("#.*", "");
+								if (foundTopics.contains(topic)) {
+									continue;
+								}
 							}
 							
 							// Ligue Pokémon d'Unys
@@ -4101,7 +4187,7 @@ public class MewtwoBot {
 						    	topicsString = topicsString + "| sujetsecondaire" + iString + "=" + topic + "\n";
 						    	topicNumber = topicNumber + 1;
 						    	
-						    	// Ajout à la liste complète des sujets
+						    	// Ajout à la liste complète des sujets secondaires
 							    if (generateCompleteTopicList && !completeTopicList.contains(topic)) {
 							    	completeTopicList.add(topic);
 							    }
@@ -4194,12 +4280,22 @@ public class MewtwoBot {
 	}
 
 	public void addSecondaryTopicsSections(String[] titles, boolean justOne) {
-//		titles = new String[]{};
+		// Terms with custom secondary topics sections, not to be touched
+		String[] exclusionList = new String[]{"Ancient Ruins",
+				"Éventail Houleux", "Rouleau Tourbillons Mille Poings", "Rouleau Acerbe Poing Final", "Urne de Vitalité", "Corne Résonnante", "Lanterne Accueillante", "Échange Croisé", "Récepteur Croisé", "Pastille Puissance"};
 		
 		for (String title : titles) {
-			if (title.contains("Ancient Ruins")) {
+			boolean isExcluded = false;
+			for (String exclusionItem : exclusionList) {
+				if (title.contains(exclusionItem)) {
+					isExcluded = true;
+					break;
+				}
+			}
+			if (isExcluded) {
 				continue;
 			}
+			
 			
 //			System.out.println(title);
 			
@@ -4217,7 +4313,7 @@ public class MewtwoBot {
 			String introRegularCase = intro;
 			if (contents.contains("'''")) {
 				String introContents = contents.substring(0, contents.indexOf("== ")).replace("[[", "").replace("]]", "");
-				intro = introContents.replaceFirst("[^£]*?\n+([^\\*']*'?'''[^']*'?[^']*'''),? [^£]*", "$1");
+				intro = introContents.replaceFirst("[^£]*\n+([^\\*']*'?'''[^']*'?[^']*'''),? [^£]*", "$1");
 //				System.out.println(intro);
 				
 				if (intro.length() > 60) {

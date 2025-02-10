@@ -1,0 +1,3929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoWikiBrowserPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xml:space="preserve" Version="6.2.1.0">
+  <Project>custom</Project>
+  <LanguageCode>fr</LanguageCode>
+  <CustomProject>www.pokepedia.fr/</CustomProject>
+  <Protocol>https://</Protocol>
+  <LoginDomain />
+  <List>
+    <ListSource>panthéon des dresseurs</ListSource>
+    <SelectedProvider>WhatLinksHereListProvider</SelectedProvider>
+    <ArticleList>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP051</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pyroli 4 (Platine Rivaux Émergeants 60)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Thème Pokémon (Attrapez-les tous !)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Poké Enfant</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL019</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mitsuhiro Arita</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mentali 4 (Platine Rivaux Émergeants 18)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Scarhino 4 (Platine Rivaux Émergeants 24)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lougaroc de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bastiodon GL (Platine Rivaux Émergeants 2)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rozbouton (Diamant &amp; Perle 43)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cizayox 4 (Platine Rivaux Émergeants 48)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL146</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Roucarnage/Génération 3</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY031</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Michael (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Colombeau (Épée et Bouclier Clash des Rebelles 144)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 216</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pingoléon FB (Platine Vainqueurs Suprêmes 27)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Coatox G (Platine 40)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ectoplasma GL (Platine Rivaux Émergeants 40)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP267</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Terrence</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Musée des Sciences d'Argenta</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocabot (Soleil et Lune Gardiens Ascendants 73)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Solane</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tour de Combat (Quatrième génération)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY022</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>HS Déchaînement</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Glacia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>LV030</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tyson (Hoenn)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG034</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Téléport/Génération 4</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Elecsprint G (Platine Vainqueurs Suprêmes 66)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Coudlangue C (Platine Vainqueurs Suprêmes 30)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon, le film : Les secrets de la jungle</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Corrifey</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chrono-Lien</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Shigeki Morimoto</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY048</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>M. Mime 4 (Platine Rivaux Émergeants 28)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chenal 105</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 39 (Pocket Monsters Special X•Y)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Repaire Team Flare</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grotadmorv de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kirlia (Soleil et Lune Éclipse Cosmique 81)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alexia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Caninos (Noir &amp; Blanc Destinées Futures 10)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Liste des médailles de Pokémon GO</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>タケシのミズゴロウ (ADV-P Promotional 038)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Médium</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Miaouss d'Alola de Matori</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ruinemaniac</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL066</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 90 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Laboratoire de Cramois'Île</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP202</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kirlia (Destinées Occultes SV35)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kaiminus (Majesté des Dragons 22)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Drascore 4 (Platine Rivaux Émergeants 17)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB007</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gardevoir (Soleil et Lune Tonnerre Perdu 141)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Téléport/Génération 6</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Draco-Queue</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 13 (Kalos)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>リオンのアリアドス (Theater Limited VS Pack 001)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Colhomard G (Platine Vainqueurs Suprêmes 23)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL141</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cadoizo (Promo Étoile Rouge S15 09)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB137</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tour des Îles</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Palkia G (Platine 12)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Amiibo</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bluno</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Zone bonus</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Le Crésus</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Regigigas FB (Platine Vainqueurs Suprêmes 9)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Keunotor (Diamant &amp; Perle 70)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Musicien</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Box : Rubis et Saphir</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Aragon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Caverne Fondmer</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rune</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grotte Taupiqueur</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Maraiste GL (Platine Rivaux Émergeants 76)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Willy</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pandarbare (Soleil et Lune Gardiens Ascendants 82)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP035</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Allegra</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Palarticho de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mentali/Génération 3</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mélis</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Muplodocus (XY Étincelles 74)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Palais de N</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 18 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EX Fantômes Holon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG010</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Le plus grand Maître Pokémon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP004</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rosso</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Janette Ossec</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 38 (Pocket Monsters Special X•Y)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mustéflott GL (Platine Rivaux Émergeants 4)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Darkrai G (Platine Rivaux Émergeants 3)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Esquive</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>La porte du royaume mystérieux 3</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EX Tempête de sable</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Otarlette (Soleil et Lune Tonnerre Perdu 66)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Nageur</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG146</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Verde</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Hito</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tour de Combat (Huitième génération)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Simiabraz 4 (Platine Rivaux Émergeants 43)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Wimessir (Destinées Radieuses 056)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AC06</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>ハルカのアチャモ (ADV-P Promotional 037)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP034</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gardevoir (Noir &amp; Blanc Destinées Futures 57)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Demolosse G (Platine 50)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Armand</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP147</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 41 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rhinastoc 4 (Platine Rivaux Émergeants 32)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Étoile dresseur</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Verchamps</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Jeune Couple</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 217</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grotte Verdoyante</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Vortente G (Promo DP 42)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue Pokémon (Alola)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Muplodocus/Génération 6</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Electrode G (Platine Rivaux Émergeants 39)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Port Amarrée</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arthur (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bug de la pierre</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Léviator d'Ondine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dracolosse d'Iris</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP092</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Félinferno (Légendes Brillantes 17)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Apireine 4 (Platine Rivaux Émergeants 35)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 18 (Kalos)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kirlia (Platine 51)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>LV033</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY116</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>バトラーのキルリア (ADV-P Promotional 039)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bois Clémenti</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tour Cendrée (HS Indomptable 71)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Zoltan</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Métro de Combat</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Papinox de Jessie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Leviator G (Platine 30)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 25 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alexis (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gym Challenge</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Frida (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dracaufeu G (Platine Vainqueurs Suprêmes 20)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Collection avec pin's La Voie du Maître Arène de Corrifey</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP090</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 150 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Fillette de Conte</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Super Smash Bros.</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Professeur Euphorbe (jeux vidéo)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cizayox de Goh</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène d'Algatia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG101</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon, le film : Je te choisis !</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Elaine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mustébouée de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Joueur (classe de dresseurs)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Scorvol 4 (Platine Rivaux Émergeants 62)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chenal 230</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Championship Arena (Promo Nintendo 028)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sylla</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Golemastoc de Goh</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Application Pokémon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB010</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Darumacho de Goh</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Demolosse 4 (Platine Rivaux Émergeants 65)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Les Héros Pokémon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Doublonville</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue d'Unys</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Barbicha 4 (Platine Rivaux Émergeants 54)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Silvallié (Promo SM 64)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arrozard de Goh</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bulbizarre de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène d'Irisia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 9 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Surfeur</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 11 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB083</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Brasegali FB (Platine Vainqueurs Suprêmes 2)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mélodelfe d'Elsa-Mina</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène d'Écorcia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP178</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Randonneur</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ludwig</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grolem 4 (Platine Rivaux Émergeants 23)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chaffreux G (Platine 88)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dracologue</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Embargo/Génération 5</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Fan de Moto</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>LV026</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Célesta (dessin animé)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Voilaroc</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rue du Dôme Royal</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Raichu GL (Platine Rivaux Émergeants 31)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gardevoir (Noir &amp; Blanc Trésors Légendaires RC10)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Samaragd</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Malasada</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY119</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL001</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP105</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL083</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Vermilava</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Steelix GL (Platine Rivaux Émergeants 51)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB085</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Axel</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Momartik GL (Platine Rivaux Émergeants 6)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Archéodong 4 (Platine Rivaux Émergeants 16)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sœur Parasol</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pont Ferroviaire</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gardevoir (Noir &amp; Blanc Explorateurs Obscurs 109)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Jungko de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Papeloa</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mackogneur GL (Platine Rivaux Émergeants 46)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG129</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 1 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG080</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Togetic d'Ondine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rongrigou de Goh</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Yanmega 4 (Platine Rivaux Émergeants 37)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dimoret G (Platine 17)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Thème Pokémon (Mewtwo Mix)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY140</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>サトシのキモリ (ADV-P Promotional 036)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mystimaniac</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Combattante</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Virgile</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Florent (Rhode)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 215</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Milobellus C (Platine Vainqueurs Suprêmes 35)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sanpei</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chevroum/Génération 6</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 204</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Motisma-Dex de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB035</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Carchacrok C (Platine Vainqueurs Suprêmes 60)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP156</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue Pokémon (Sinnoh)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ancolie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL134</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Charkos GL (Platine Rivaux Émergeants 11)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Promo (TCG)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP090</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>PNJ</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Zone de Combat (Quatrième génération)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Roitiflam de Bianca</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tortipouss GL (Platine Rivaux Émergeants 85)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Combat Rapide/Double/Très fort</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Flocombe</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Muplodocus (XY Vigueur Spectrale 77)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Caverne Gelée (Kalos)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chase</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon : Lucario et le Mystère de Mew</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Palace de Combat</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Triathlète</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Xavier</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Challenge Pokémon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Thyméo</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Céladopole</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP028</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arcanin G (Platine Vainqueurs Suprêmes 15)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Camerupt G (Platine Vainqueurs Suprêmes 19)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY129</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lucario GL (Platine Rivaux Émergeants 8)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Roserade GL (Platine Rivaux Émergeants 12)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ho-Oh Brillant (Promo SM 70)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Clarisse</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pandespiègle de Serena</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Embargo/Génération 6</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Brice (Hoenn)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Richard Splendide</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Deck</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kasoucarpe</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Désert Délassant</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB140</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 154 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Nous sommes la Team Rocket (TCG2)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 159 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dracéna</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG143</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mimiqui de Margie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Quête des Taupiqueur d'Alola</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Flex</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dracaufeu de Bleu</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chevroum (Soleil et Lune Invasion Carmin 11)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 29</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>HeartGold SoulSilver (JCC)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP092</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Psykokwak d'Ondine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Magirêve GL (Platine Rivaux Émergeants 10)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Cimetronelle</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY034</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG109</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alouette</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Momorph</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Safrania</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Nostenfert G (Platine 47)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Diplôme</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Amos</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>PO01</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alba Minçalor</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sullivan</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Hippodocus 4 (Platine Rivaux Émergeants 42)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 21 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Flambusard de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Banc (JCC)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Christy</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>PG04</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Jakylla</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alakazam 4 (Platine Rivaux Émergeants 38)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Damien (Conseil 4)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP078</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Papilusion FB (Platine Vainqueurs Suprêmes 17)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Elekable FB (Platine Vainqueurs Suprêmes 4)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Nanette</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Koichi</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Muplodocus (Soleil et Lune Gardiens Ascendants 96)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Team Yell</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Phare</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP163</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grotte Granite</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Amaillide</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ranch d'Amaillide</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>ジムバッジ (XYプロモカード)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL065</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Boletta</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP040</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Takim</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY021</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Diamant &amp; Perle (JCC)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Combat Rapide/Simple/Très fort</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Expedition</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rayquaza C (Platine Vainqueurs Suprêmes 8)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Miasmax (Soleil et Lune Gardiens Ascendants 51a)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL048</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Félinferno (Soleil et Lune Alliance Infaillible 29)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Déflaisan (Noir &amp; Blanc Pouvoirs Émergents 82)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 110</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Topdresseurs</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Petashi</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Verchamps</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>LV025</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ariane</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Carmin sur Mer</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Laboratoire Pokémon du Professeur Chen</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rivamar</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gafar</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cissy</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP075</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grahyena (Diamant &amp; Perle Éveil des Légendes 66)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Foretress G (Platine Rivaux Émergeants 61)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Markus Stadter</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Guitariste</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Narcisse</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Michael (Rhode)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Liste des Duos de Pokémon Masters EX/Duos Attaquants</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP018</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL136</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Combat Pokémon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dahlia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Félinferno (Soleil et Lune 26)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Rosalia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Delcatty/Génération 4</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP140</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Centre Spatial d'Algatia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Etouraptor FB (Platine Vainqueurs Suprêmes 11)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kaiminus/Génération 5</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tcheren</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Liste des bugs de la sixième génération</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG166</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Nymphali de Serena</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cary</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP200</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pont Yoneuve</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kunz</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AC07</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Macronium de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Emolga d'Iris</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Anis</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Plaine de Poni</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lily (Kalos)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Roger</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP029</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Torterra de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Archipel Orange</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 34 (Pocket Monsters Special X•Y)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bruyverne de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ramasse Ball</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>La Voie du Maître</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pillard</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Employé</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chenal 226</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Guido</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Roserade C (Platine Vainqueurs Suprêmes 40)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 12 (Alola)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue de Hoenn</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Séviper de Jessie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 7 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Skyridge</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Île Mandarine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chenal 20 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Anita</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 22 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Carte Promo (TCG2)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 6 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG096</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mélodie (film 2)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Horace (Johto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gallame 4 (Platine Rivaux Émergeants 20)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>HS Indomptable</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Admin Ombre</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Château Enfoui</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bianca (jeux vidéo)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Diamant &amp; Perle Trésors Mystérieux</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 24 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène d'Atalanopolis</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Reptile de Combat</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP086</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 31 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Simon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène d'Azuria</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Scorvol de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Diamant &amp; Perle Duels au sommet</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 80 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Luke</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Double Danger</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pénélope</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gallame 4 NIV.X (Platine Rivaux Émergeants 106)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Richard</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Conway</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 1 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mademoiselle</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP027</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kirlia (Diamant &amp; Perle Merveilles Secrètes 53)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mammochon GL (Platine Rivaux Émergeants 27)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dakim</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY096</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pika</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cyclone/Génération 6</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY059</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Joliberges</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tarak (dessin animé)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB064</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Moufflair G (Platine 94)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Glossaire du jeu de cartes à collectionner Pokémon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mont Lanakila</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Diamant &amp; Perle Éveil des Légendes</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon : La destinée de Deoxys</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachute Foudroyante</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Collectionneur</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Motismart</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Vaguelone</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Vamper</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Blue (dessin animé)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>X - x</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Artus</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Aquaria</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ryū Tendō</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Côte Reculée d'Akala</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Scottie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dimoret d'Argent</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG091</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue Pokémon (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Julie (épisode 346)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sakura</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Île Liberté</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY044</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ranch Pokémon du Grand L</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 65 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB126</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Spectra</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pilier Céleste</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Labo P2</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Centre commercial d'Ekaeka</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Horizon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Flusselles</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 5 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Parmanie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Promo Wizards</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY029</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Moltres ex (EX Team Rocket Returns 100)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Jeu de Cartes à Collectionner</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cadeau Mystère</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon : Le film</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Shū</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY027</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Corayon d'Ondine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Platine (JCC)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 214</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP080</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon (Bibliothèque Verte)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG062</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Noir 2 et Blanc 2 (court-métrage)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Zapdos G (Platinum Arceus 12)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu &amp; Pichu</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Repaire Rocket</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Motard</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Frégate Plasma</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mélanie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP269</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP057</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB081</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Crocorible de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY036</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 221</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Attaque (JCC)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Cramois'Île</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tome 4 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Planque Aqua</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Sneasel ex (EX Team Rocket Returns 103)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Absol G NIV.X (Platine Vainqueurs Suprêmes 141)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP168</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon : Les origines</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chenal 109</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cyclone/Génération 4</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Beedrill G (Platinum Arceus 53)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pouic</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Brindibou de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG164</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Flora (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Porygon-Z G (Platinum Arceus 26)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AC03</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Surnom</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG035</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Nix</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bettie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 16 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Flori</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Braségali de Flora</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alakazam 4 NIV.X (Platine Rivaux Émergeants 103)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gamin</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Nounousse</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lavandia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP040</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Caninos/Génération 5</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ninjask/Génération 6</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sophora</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Laboratoire Fret</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Snorlax ex (EX Team Rocket Returns 104)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Juliette (jeux vidéo)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Vestiges du Rêve</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route Victoire (Hoenn)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>. ëê8ô y'ô</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Archéodong G (Platine 41)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Simiabraz 4 NIV.X (Platine Rivaux Émergeants 108)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chasseuse Pokémon J</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Volume 1 (Pokémon Black and White)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 15 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Phénacit</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sbire de la Team Magma</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Poké Fève</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lula</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Absol G (Platine Vainqueurs Suprêmes 1)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Articuno ex (EX Team Rocket Returns 96)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>PCGプロモカード</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 14 (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Mewtwo ex (EX Team Rocket Returns 99)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cyclone/Génération 5</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Boutique (Pokémon GO)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pyramide de Combat</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Stari d'Ondine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gardevoir (Diamant &amp; Perle Merveilles Secrètes 7)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 2 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pile de défausse</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alizée</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arbre Creux Blanc</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Hitoshi</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kenny (Hoenn)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB114</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Majesté des Dragons</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Roxanne</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Luxray GL NIV.X (Platine Rivaux Émergeants 109)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Gratte-Ciel Noir</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Scout</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Meowth (EX Team Rocket Returns 46)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène d'Acajou</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Prairie de Poni</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu de Sacha (Promo SM 111)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY018</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Antoine (Tournoi Don)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 60 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Team Rocket Strategy Guide</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL006</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rayquaza C NIV.X (Platine Vainqueurs Suprêmes 146)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 22 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu de Sacha (Promo SM 112)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grodrive FB (Platine Vainqueurs Suprêmes 3)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP103</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Brasegali FB NIV.X (Platine Vainqueurs Suprêmes 142)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Made Simple!</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Forêt d'Empoigne</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kenzo (Johto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dracolosse de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Michel (Sinnoh)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Fire Red: Rocket Edition</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 15 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL115</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kirlia/Génération 6</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP069</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL128</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rival</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP014</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ogoesse</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 16 (Alola)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Juan</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chenal 19 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Platinum Arceus</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Brutalibré de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 4 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>École des Dresseurs</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Évoli de Chloé</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP030</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Calista (Hoenn)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP020</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu de Sacha (Promo SM 113)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dojo de la Maîtrise</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cornélius</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Samantha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Terry (Conseil 4)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 9 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>PLAYプロモカード</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Blue (jeux vidéo)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL047</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alva</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bâtiment de Vestigion de la Team Galaxie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Passe Éon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Trait Antique</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Marion</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Noa</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chemin Ardent</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP056</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Aura</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon sauvage</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Vesper</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kaiminus/Génération 3</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Sucreine de Barbara</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 13 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Observatoire</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu de Sacha (Promo SM 108)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Katie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pyrite</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Terminal Mondial</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chutes Tohjo</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cyane</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP044</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Annette</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Wobbuffet (EX Team Rocket Returns 47)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Coffret Mode</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Magirêve GL NIV.X (Platine Rivaux Émergeants 110)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Salamèche/Génération 1</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grotte Revêche</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Manoir Chelou</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP089</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP166</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Stade de Winscor</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Baie Dorée</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu de Sacha (Promo SM 114)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Méga-Pokémon</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Shipping</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Niko</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP225</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu de Sacha (Promo SM 110)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue de Kalos</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Symbole</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Urup</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG103</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG055</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mon plus grand rêve</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Petit</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dôme de Combat</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tournoi Donamite</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kaiminus/Génération 4</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mustéflott GL NIV.X (Platine Rivaux Émergeants 104)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Rouge et Vert (Bêta)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grand Antre Dynamax</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>ポケモンカード★VS</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pierre Sinnoh</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Yvonne</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pikachu de Sacha (Promo SM 109)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 101 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Émilie (Rhode)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Forrester Franklin</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB031</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Scizor ex (EX Team Rocket Returns 101)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cornil</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mimiqui de Jessie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Suicune ex (EX Team Rocket Returns 105)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Totor</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Amphinobi de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène d'Ébènelle</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bêtes légendaires (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 20 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>L'Appel des Légendes</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Scott</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dracaufeu G NIV.X (Platine Vainqueurs Suprêmes 143)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lino</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cassandra (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Cherche VS</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY025</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mandrillon-GX (Promo SM 125)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lance</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Déflaisan de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Revanche</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue Pokémon (Kalos)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Scyther ex (EX Team Rocket Returns 102)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Minotaupe d'Iris</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mont Bataille</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Boîte Lentilles</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Etouraptor FB NIV.X (Platine Vainqueurs Suprêmes 147)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arbre de Combat</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>PO02</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Épée et Bouclier Évolution Céleste</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Elekable FB NIV.X (Platine Vainqueurs Suprêmes 144)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 10 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mentali de Rouge</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 7 (Unys)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ligue d'Alola</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Académie de Combat</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Clémenti-Ville</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 209</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP216</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL042</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Trio des Ombres</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Président du Fan Club Pokémon (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Poké Place Oasis</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bracelet Z</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY038</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Poncho (épisode 341)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Forêt Vestigion</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Planque Magma</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 10 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Armando</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY092</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémaniac</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Silver (jeux vidéo)/Citations</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon World Tournament (dessin animé)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Miaouss (Team Rocket)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 32 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Agatha (Conseil 4)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Entei ex (EX Team Rocket Returns 97)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Xander</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 104</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Johto</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route Victoire (Kalos)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Kirlia (POP Series 7 8)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP189</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB001</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bicyclette</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bastien (Champion)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG024</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Eudes</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Natural Harmonia Gropius</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tableau des valeurs décimales et hexadécimales dans la première génération</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 18 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Heylink</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG175</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Zapdos ex (EX Team Rocket Returns 106)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 15 (Alola)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alamos</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY064</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Adrien</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mitsumi</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Rocket's Hitmonchan ex (EX Team Rocket Returns 98)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 110 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Paradis Æther</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Teck (Rhode)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grotte Sombre</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Œuf bugué</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB057</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL102</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>NB090</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Couronneige</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Kids : Festival hivernal</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Noir &amp; Blanc Explorateurs Obscurs</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ball</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Blondine</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Terry (épisode 419)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon 4Ever - Celebi, la voix de la forêt</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Antoine (Tournoi Donamite)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Dialga G NIV.X (Platine 122)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mémorial</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Champ de Baies (Alola)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pyrobut de Goh</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mérouville</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Elio</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Guer. Ombre</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Amaro</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Victor (Galar)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Grotte Argentée</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Maître Hamm</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 222</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chaz (Hoenn)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Ross</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Jules</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 39 (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chapitre 37 (Pocket Monsters Special X•Y)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Percila</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>SL144</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Purification (procédé)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Damien (Conseil 4)/Citations</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Winscor</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Les champions de Johto</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>LV037</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Carchacrok C NIV.X (Platine Vainqueurs Suprêmes 145)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>L'Océane</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Poké Place Roche</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pierre Rochard</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>HS Triomphe</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Reggie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Team Rocket (trio)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lプロモカード</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Frédo</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Jumelles</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Diamant &amp; Perle Merveilles Secrètes</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Darius</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Tranchodon d'Iris</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Manoir de l'Étrange</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Base Secrète</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY091</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>XY024</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP133</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route 8 (Kanto)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Professeur Chen (Pocket Monsters Special)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Poké Place Grotte</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokéfan</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Keanu</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Palkia G NIV.X (Platine 125)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lem (jeux vidéo)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Selene</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP073</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>AG052</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Intello</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Volume 19 (Pokémon Adventures)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Site Météore</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Red (dessin animé)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Voltoutou de Chloé</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>EP134</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Route Victoire (Sinnoh)</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Chammal</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Lévy &amp; Tatia</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Bouledisco</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Alanna</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>DP002</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arène de Jadielle</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Félinferno de Sacha</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Arbok de Jessie</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Mélokrik</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Troisième génération</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Pokémon Colosseum</Name>
+      </Article>
+      <Article NameSpaceKey="0">
+        <PreProcessed>false</PreProcessed>
+        <Name>Carte Dresseur (jeux vidéo)</Name>
+      </Article>
+    </ArticleList>
+  </List>
+  <FindAndReplace>
+    <Enabled>true</Enabled>
+    <IgnoreSomeText>false</IgnoreSomeText>
+    <IgnoreMoreText>false</IgnoreMoreText>
+    <AppendSummary>true</AppendSummary>
+    <Replacements>
+      <Replacement>
+        <Find>►(?&lt;char&gt;[^ ])</Find>
+        <Replace>► $1</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>]►</Find>
+        <Replace>] ►</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseur\ aérien</Find>
+        <Replace>Dresseur Aérien</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseurs\ aériens</Find>
+        <Replace>Dresseurs Aériens</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseuse\ aérienne</Find>
+        <Replace>Dresseuse Aérienne</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseuses\ aériennes</Find>
+        <Replace>Dresseuses Aériennes</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseur</Find>
+        <Replace>Dresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>dresseuse</Find>
+        <Replace>Dresseuse</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>classe\ de\ \[\[Dresseur]]\ </Find>
+        <Replace>classe de [[Dresseur]]s </Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>classe\ de\ Dresseur\ </Find>
+        <Replace>classe de Dresseurs </Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>classe\ de\ \[\[Dresseur]]\)</Find>
+        <Replace>classe de [[Dresseur]]s)</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>classe\ de\ Dresseur\)</Find>
+        <Replace>classe de Dresseurs)</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>Dresseur-origine</Find>
+        <Replace>dresseur-origine</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\{\{Infobox\ Pokémon\ de\ Dresseur</Find>
+        <Replace>{{Infobox Pokémon de dresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>TopDresseur</Find>
+        <Replace>Topdresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>TopDresseuse</Find>
+        <Replace>Topdresseuse</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\ nDresseur</Find>
+        <Replace> ndresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\|nDresseur</Find>
+        <Replace>|ndresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>typeDresseur</Find>
+        <Replace>typedresseur</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\|\ Dresseurs=</Find>
+        <Replace>| dresseurs=</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;space&gt;( |&lt;br[ /]*&gt;))\(Sauvage</Find>
+        <Replace>$1(sauvage</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;space&gt;( |&lt;br[ /]*&gt;))\(Sauvages</Find>
+        <Replace>$1(sauvages</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;space&gt;( |\&lt;br[ /]*\&gt;))\(\[\[(?&lt;link&gt;[^|]*)\|Sauvage</Find>
+        <Replace>$1([[$3|sauvage</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>(?&lt;space&gt;( |\&lt;br[ /]*\&gt;))\(\[\[(?&lt;link&gt;[^|]*)\|Sauvages</Find>
+        <Replace>$1([[$3|sauvages</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+    </Replacements>
+    <AdvancedReps>
+      <IRule xsi:type="Rule">
+        <enabled_>true</enabled_>
+        <Name>Rule</Name>
+        <ruletype_>OnWholePage</ruletype_>
+        <replace_ />
+        <with_ />
+        <ifContains_ />
+        <ifNotContains_ />
+        <regex_>false</regex_>
+        <ifIsRegex_>false</ifIsRegex_>
+        <numoftimes_>1</numoftimes_>
+        <ifRegexOptions_>None</ifRegexOptions_>
+        <regexOptions_>None</regexOptions_>
+      </IRule>
+    </AdvancedReps>
+    <SubstTemplates />
+    <IncludeComments>false</IncludeComments>
+    <ExpandRecursively>true</ExpandRecursively>
+    <IgnoreUnformatted>false</IgnoreUnformatted>
+  </FindAndReplace>
+  <Editprefs>
+    <GeneralFixes>true</GeneralFixes>
+    <Tagger>false</Tagger>
+    <Unicodify>true</Unicodify>
+    <Recategorisation>0</Recategorisation>
+    <NewCategory />
+    <NewCategory2 />
+    <ReImage>0</ReImage>
+    <ImageFind />
+    <Replace />
+    <SkipIfNoCatChange>false</SkipIfNoCatChange>
+    <RemoveSortKey>false</RemoveSortKey>
+    <SkipIfNoImgChange>false</SkipIfNoImgChange>
+    <AppendText>false</AppendText>
+    <AppendTextMetaDataSort>false</AppendTextMetaDataSort>
+    <Append>true</Append>
+    <Text />
+    <Newlines>2</Newlines>
+    <AutoDelay>0</AutoDelay>
+    <BotMaxEdits>0</BotMaxEdits>
+    <SupressTag>false</SupressTag>
+    <RegexTypoFix>false</RegexTypoFix>
+  </Editprefs>
+  <General>
+    <AutoSaveEdit>
+      <Enabled>false</Enabled>
+      <SavePeriod>30</SavePeriod>
+      <SaveFile />
+    </AutoSaveEdit>
+    <SelectedSummary />
+    <Summaries>
+      <string>clean up</string>
+      <string>re-categorisation per [[WP:CFD|CFD]]</string>
+      <string>clean up and re-categorisation per [[WP:CFD|CFD]]</string>
+      <string>removing category per [[WP:CFD|CFD]]</string>
+      <string>[[Wikipedia:Template substitution|subst:'ing]]</string>
+      <string>[[Wikipedia:WikiProject Stub sorting|stub sorting]]</string>
+      <string>[[WP:AWB/T|Typo fixing]]</string>
+      <string>bad link repair</string>
+      <string>Fixing [[Wikipedia:Disambiguation pages with links|links to disambiguation pages]]</string>
+      <string>Unicodifying</string>
+    </Summaries>
+    <PasteMore>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </PasteMore>
+    <FindText />
+    <FindRegex>false</FindRegex>
+    <FindCaseSensitive>false</FindCaseSensitive>
+    <WordWrap>true</WordWrap>
+    <ToolBarEnabled>false</ToolBarEnabled>
+    <BypassRedirect>true</BypassRedirect>
+    <AutoSaveSettings>false</AutoSaveSettings>
+    <noSectionEditSummary>false</noSectionEditSummary>
+    <restrictDefaultsortAddition>true</restrictDefaultsortAddition>
+    <restrictOrphanTagging>true</restrictOrphanTagging>
+    <noMOSComplianceFixes>false</noMOSComplianceFixes>
+    <syntaxHighlightEditBox>false</syntaxHighlightEditBox>
+    <highlightAllFind>false</highlightAllFind>
+    <PreParseMode>false</PreParseMode>
+    <NoAutoChanges>false</NoAutoChanges>
+    <OnLoadAction>0</OnLoadAction>
+    <DiffInBotMode>false</DiffInBotMode>
+    <Minor>true</Minor>
+    <AddToWatchlist>2</AddToWatchlist>
+    <TimerEnabled>false</TimerEnabled>
+    <SortListAlphabetically>false</SortListAlphabetically>
+    <AddIgnoredToLog>false</AddIgnoredToLog>
+    <EditToolbarEnabled>true</EditToolbarEnabled>
+    <filterNonMainSpace>false</filterNonMainSpace>
+    <AutoFilterDuplicates>false</AutoFilterDuplicates>
+    <FocusAtEndOfEditBox>false</FocusAtEndOfEditBox>
+    <scrollToUnbalancedBrackets>false</scrollToUnbalancedBrackets>
+    <TextBoxSize>10</TextBoxSize>
+    <TextBoxFont>Courier New</TextBoxFont>
+    <LowThreadPriority>false</LowThreadPriority>
+    <Beep>false</Beep>
+    <Flash>true</Flash>
+    <Minimize>false</Minimize>
+    <LockSummary>false</LockSummary>
+    <SaveArticleList>true</SaveArticleList>
+    <SuppressUsingAWB>true</SuppressUsingAWB>
+    <AddUsingAWBToActionSummaries>false</AddUsingAWBToActionSummaries>
+    <IgnoreNoBots>false</IgnoreNoBots>
+    <ClearPageListOnProjectChange>false</ClearPageListOnProjectChange>
+    <SortInterWikiOrder>true</SortInterWikiOrder>
+    <ReplaceReferenceTags>true</ReplaceReferenceTags>
+    <LoggingEnabled>true</LoggingEnabled>
+    <AlertPreferences>
+      <int>1</int>
+      <int>2</int>
+      <int>3</int>
+      <int>4</int>
+      <int>5</int>
+      <int>6</int>
+      <int>7</int>
+      <int>8</int>
+      <int>9</int>
+      <int>10</int>
+      <int>11</int>
+      <int>12</int>
+      <int>13</int>
+      <int>14</int>
+      <int>15</int>
+      <int>16</int>
+      <int>17</int>
+      <int>18</int>
+      <int>19</int>
+      <int>20</int>
+      <int>21</int>
+      <int>22</int>
+    </AlertPreferences>
+  </General>
+  <SkipOptions>
+    <SkipNonexistent>true</SkipNonexistent>
+    <Skipexistent>false</Skipexistent>
+    <SkipDontCare>false</SkipDontCare>
+    <SkipWhenNoChanges>false</SkipWhenNoChanges>
+    <SkipSpamFilterBlocked>false</SkipSpamFilterBlocked>
+    <SkipInuse>false</SkipInuse>
+    <SkipWhenOnlyWhitespaceChanged>false</SkipWhenOnlyWhitespaceChanged>
+    <SkipOnlyGeneralFixChanges>true</SkipOnlyGeneralFixChanges>
+    <SkipOnlyMinorGeneralFixChanges>false</SkipOnlyMinorGeneralFixChanges>
+    <SkipOnlyCosmetic>false</SkipOnlyCosmetic>
+    <SkipOnlyCasingChanged>false</SkipOnlyCasingChanged>
+    <SkipIfRedirect>false</SkipIfRedirect>
+    <SkipIfNoAlerts>false</SkipIfNoAlerts>
+    <SkipDoes>false</SkipDoes>
+    <SkipDoesText />
+    <SkipDoesRegex>false</SkipDoesRegex>
+    <SkipDoesCaseSensitive>false</SkipDoesCaseSensitive>
+    <SkipDoesAfterProcessing>false</SkipDoesAfterProcessing>
+    <SkipDoesNot>false</SkipDoesNot>
+    <SkipDoesNotText />
+    <SkipDoesNotRegex>false</SkipDoesNotRegex>
+    <SkipDoesNotCaseSensitive>false</SkipDoesNotCaseSensitive>
+    <SkipDoesNotAfterProcessing>false</SkipDoesNotAfterProcessing>
+    <SkipNoFindAndReplace>true</SkipNoFindAndReplace>
+    <SkipMinorFindAndReplace>false</SkipMinorFindAndReplace>
+    <SkipNoRegexTypoFix>false</SkipNoRegexTypoFix>
+    <SkipNoDisambiguation>false</SkipNoDisambiguation>
+    <SkipNoLinksOnPage>false</SkipNoLinksOnPage>
+    <GeneralSkipList />
+  </SkipOptions>
+  <Module>
+    <Enabled>false</Enabled>
+    <Language>C# 3.5</Language>
+    <Code>        public string ProcessArticle(string ArticleText, string ArticleTitle, int wikiNamespace, out string Summary, out bool Skip)
+        {
+            Skip = false;
+            Summary = "test";
+            ArticleText = "test \r\n\r\n" + ArticleText;
+            return ArticleText;
+        }</Code>
+  </Module>
+  <ExternalProgram>
+    <Enabled>false</Enabled>
+    <Skip>false</Skip>
+    <Program />
+    <Parameters />
+    <PassAsFile>true</PassAsFile>
+    <OutputFile />
+  </ExternalProgram>
+  <Disambiguation>
+    <Enabled>false</Enabled>
+    <Link />
+    <Variants />
+    <ContextChars>20</ContextChars>
+  </Disambiguation>
+  <Special>
+    <namespaceValues />
+    <remDupes>true</remDupes>
+    <sortAZ>true</sortAZ>
+    <filterTitlesThatContain>false</filterTitlesThatContain>
+    <filterTitlesThatContainText />
+    <filterTitlesThatDontContain>true</filterTitlesThatDontContain>
+    <filterTitlesThatDontContainText>Antre</filterTitlesThatDontContainText>
+    <areRegex>false</areRegex>
+    <opType>0</opType>
+    <remove />
+  </Special>
+  <Tool>
+    <ListComparerUseCurrentArticleList>0</ListComparerUseCurrentArticleList>
+    <ListSplitterUseCurrentArticleList>0</ListSplitterUseCurrentArticleList>
+    <DatabaseScannerUseCurrentArticleList>0</DatabaseScannerUseCurrentArticleList>
+  </Tool>
+  <Plugin />
+</AutoWikiBrowserPreferences>
