@@ -313,6 +313,8 @@ public class Util {
 				return "Lets' Go, Évoli";
 			case "LGPE":
 				return "Let's Go, Pikachu et Let's Go, Évoli";
+			case "HOME":
+				return "HOME";
 			case "Ep":
 				return "Épée";
 			case "Bo":

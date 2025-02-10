@@ -2410,6 +2410,6 @@ ITEM_DICT = {
 	"Scarlet Book": "Livre Écarlate",
 	"Violet Book": "Livre Violet",
 	"Briar's Book": "Livre de Bria",
-
-
+	"TM214": "CT Poison, CT214, Cradovague",
+	"TM222": "CT Dragon, CT222, Abattage",
 }
