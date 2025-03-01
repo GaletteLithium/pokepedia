@@ -55,6 +55,21 @@ public class Util {
 		return "de ";
 	}
 	
+	public static String[] getLinks(String str) {
+		List<String> results = new ArrayList<String>();
+		
+		Pattern pattern = Pattern.compile("\\[\\[([^\\]\\|]*)(\\|[^\\]]*|)\\]\\]");
+	    Matcher matcher = pattern.matcher(str);
+	    while (matcher.find()) {
+	        String match = matcher.group();
+	        match = match.replaceAll("\\[\\[([^\\]\\|]*)(\\|[^\\]]*|)\\]\\]", "$1");
+	        match = match.substring(0, 1).toUpperCase() + match.substring(1);
+	        results.add(match);
+	    }
+	    
+	    return results.toArray(new String[0]);
+	}
+	
 	public static String gamesShortToRegion(String gamesShort) {
 		if (gamesShort.equals("RB") || gamesShort.equals("RV") || gamesShort.equals("J") || gamesShort.equals("RFVF") || gamesShort.equals("LGPE")) {
 			return "Kanto";
