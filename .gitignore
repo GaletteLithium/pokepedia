@@ -1,9 +1,13 @@
 */__pycache__/
+*/*/__pycache__/
 convert_serebii_teraraid/output.txt
 convert_serebii_teraraid/page.html
 dumps/
 JCC/Extensions
 JCC/*.txt
+JCC/limitless_scraping/card_list.txt
+JCC/limitless_scraping/page.html
+JCC/limitless_scraping/Extensions/
 mewtwobot/.classpath
 mewtwobot/.idea/
 mewtwobot/.metadata/
@@ -11,9 +15,6 @@ mewtwobot/.project
 mewtwobot/.vscode/
 mewtwobot/bin/
 mewtwobot/src/com/grotteazuree/Login.java
-limitless_scraping/card_list.txt
-limitless_scraping/page.html
-limitless_scraping/Extensions/
 test/
 card_article.txt
 card_article_sav.txt
