@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import re
 import requests
-import pokemon_ndex
 
 # Bug log:
 # - Technical Machines have swapped attacks and no Attack section
@@ -67,6 +66,7 @@ link_dict_list = [
 		r"carte Énergie": "[[carte Énergie]]",
 		r"cartes Énergie": "[[Carte Énergie|cartes Énergie]]",
 		r"Énergie de base": "[[Énergie de base]]",
+		r"Énergie spéciale": "[[Énergie spéciale]]",
 		r"Énergie" : "[[Énergie]]"
 	},
 	{
@@ -79,7 +79,9 @@ link_dict_list = [
 	},
 	{
 		r"carte Outil Pokémon": "[[carte Outil Pokémon]]",
-		r"cartes Outil Pokémon": "[[Carte Outil Pokémon|cartes Outil Pokémon]]"
+		r"cartes Outil Pokémon": "[[Carte Outil Pokémon|cartes Outil Pokémon]]",
+		r"Outil Pokémon": "[[Outil Pokémon]]",
+		r"Outils Pokémon": "[[Outil Pokémon|Outils Pokémon]]"
 	},
 	{
 		r"carte Stade": "[[carte Stade]]",
@@ -121,7 +123,7 @@ link_dict_list = [
 		r"marqueurs de dégâts": "[[marqueur de dégâts|marqueurs de dégâts]]"
 	},
 	{r"Paralysé": "[[Paralysie (JCC)|Paralysé]]"},
-	{r"pièce": "[[Jeton (JCC)|pièce]]"},
+	{r"pièce": "[[Pièce (JCC)|pièce]]"},
 	{
 		r"Pokémon Actif": "[[Pokémon Actif]]",
 		r"Actif": "[[Pokémon Actif|Actif]]"
@@ -146,14 +148,6 @@ link_dict_list = [
 	{r"Ultra-Chimère": " [[Ultra-Chimère (JCC)|Ultra-Chimère]]"},
 ]
 
-additional_rules = {
-	"Stade": "Vous ne pouvez jouer qu'une [[carte Stade]] pendant votre tour. Placez-la à côté du [[Poste Actif]] et défaussez-la si un autre Stade entre en jeu. Un Stade de même nom de peut pas être joué.",
-	"Supporter": "Vous ne pouvez jouer qu'une seule [[carte Supporter]] pendant votre tour.",
-	"Objet": "Vous pouvez jouer autant de [[Carte Objet|cartes Objet]] que vous le voulez pendant votre tour.",
-	"Outil Pokémon": "Vous pouvez attacher un [[Outil Pokémon]] à autant de Pokémon que vous le voulez pendant votre tour. Vous ne pouvez attacher qu'un Outil Pokémon à chaque Pokémon, et il reste attaché.",
-	"HIGH-TECH": "Vous ne pouvez avoir qu'une [[carte HIGH-TECH]] dans votre deck."
-}
-
 
 def handle_attack_description(attack_info):
 	# Sauts de ligne
@@ -168,7 +162,7 @@ def handle_attack_description(attack_info):
 	attack_info	= re.sub(r"<[^>]*>", "", attack_info).strip()
 
 	# Énergies dans le texte
-	print(attack_info)
+	# print(attack_info)
 	for energy in ["C", "D", "F", "G", "L", "M", "N", "P", "R", "W", "Y"]:
 		# print(f"[{energy}]", f"[{energy}]" in attack_info)
 		attack_info = attack_info.replace(f"[{energy}]", " {{type|" + translation_dict[energy].lower() + "|jcci}} ")
@@ -189,33 +183,6 @@ def generate_wikicode(content, card_info):
 	if re.search(r"\{\{Symbole JCC\|([^\}]*)\}\}", display_name):
 		symbol = re.search(r"\{\{Symbole JCC\|([^\}]*)\}\}", display_name).group(1)
 
-	# Ruban JCC
-	ribbon_text = "{{Ruban Carte JCC\n| extension=" + expansion
-	if not expansion_page is None:
-		ribbon_text += "\n| extension-page=" + expansion_page
-
-	previous_card_info = card_info["previous_card"]
-	previous_card_ribbon_text = ""
-	if not previous_card_info is None:
-		previous_card_number = previous_card_info["number"]
-		previous_card_name = previous_card_info["name"]
-		previous_card_article_name = previous_card_info["article_name"]
-		ribbon_text += f"\n| carteprécédente={previous_card_article_name}\n| pageprécédente={previous_card_name} ({expansion} {previous_card_number})"
-		if previous_card_info["symbol"] != "":
-			ribbon_text += "\n| imagecarteprécédente=" + previous_card_info["symbol"]
-
-	next_card_info = card_info["next_card"]
-	next_card_ribbon_text = ""
-	if not next_card_info is None:
-		next_card_number = next_card_info["number"]
-		next_card_name = next_card_info["name"]
-		next_card_article_name = next_card_info["article_name"]
-		ribbon_text += f"\n| cartesuivante={next_card_article_name}\n| pagesuivante={next_card_name} ({expansion} {next_card_number})"
-		if next_card_info["symbol"] != "":
-			ribbon_text += "\n| imagecartesuivante=" + next_card_info["symbol"]
-
-	ribbon_text += "\n}}"
-
 
 	soup = BeautifulSoup(html_content, 'html.parser')
 	text_box = soup.find('div', class_='card-text')
@@ -226,7 +193,6 @@ def generate_wikicode(content, card_info):
 	category = soup.find('p', class_='card-text-type').get_text().split(' - ')[0].strip()
 	category = translation_dict[category]
 
-	card_type_intro = "carte"
 	additional_info = ""
 
 	category2 = None
@@ -240,75 +206,75 @@ def generate_wikicode(content, card_info):
 		except IndexError:
 			()
 
-	real_name = None
-	pokemon_name = name.replace("-ex", "")
+	real_name = display_name
 	evolution_stage = None
 	evolves_from = None
+	evolves_from_artwork = None
+	trainer = None
 
 	# Gestion de la phrase d'intro, notamment avec le type de carte et la sous-évolution du Pokémon
 	if category == "Pokémon":
-		card_type_intro = "[[carte Pokémon]]"
-		pokemon_description_paragraph = "\n\n== Description du Pokémon =="
+		pokemon_description_paragraph = "\n\n<!-- Description -->\n| description={{?}}\n| description-jeu={{?}}"
 
 		if "{{Symbole JCC|V}}" in display_name:
 			real_name = display_name.replace("{{Symbole JCC|V}}", "")
-			card_type_intro = "[[Carte Pokémon|carte]] [[Pokémon-V]]"
 			pokemon_description_paragraph = ""
 			category2 = "V"
-			additional_info += "\n* [[Pokémon-V]]."
 
 		if "{{Symbole JCC|VMAX}}" in display_name:
 			real_name = display_name.replace("{{Symbole JCC|VMAX}}", "")
-			card_type_intro = "[[Carte Pokémon|carte]] [[Pokémon-VMAX]]"
 			pokemon_description_paragraph = ""
 			category2 = "VMAX"
-			additional_info += "\n* [[Pokémon-VMAX]]."
 
 		if "{{Symbole JCC|VSTAR}}" in display_name:
 			real_name = display_name.replace("{{Symbole JCC|VSTAR}}", "")
-			card_type_intro = "[[Carte Pokémon|carte]] [[Pokémon-VSTAR]]"
 			pokemon_description_paragraph = ""
 			category2 = "VSTAR"
-			additional_info += "\n* [[Pokémon-VSTAR]]."
 
 		if "{{Symbole JCC|V-UNION}}" in display_name:
 			real_name = display_name.replace("{{Symbole JCC|V-UNION}}", "")
-			card_type_intro = "[[Carte Pokémon|carte]] [[Pokémon-V-UNION]]"
 			pokemon_description_paragraph = ""
 			category2 = "V-UNION"
-			additional_info += "\n* [[Pokémon-V-UNION]]."
 
 		if "{{Symbole JCC|ex}}" in display_name or "{{Symbole JCC|ex JCCP}}" in display_name:
 			real_name = display_name.replace("{{Symbole JCC|ex}}", "").replace("{{Symbole JCC|ex JCCP}}", "")
 			category2 = "ex"
-			additional_info += "\n* [[Pokémon-ex]]."
 
 		if "{{Symbole JCC|ex Téracristal}}" in display_name:
 			real_name = display_name.replace("{{Symbole JCC|ex Téracristal}}", "")
 			category2 = "ex"
 			category3 = "Téracristal"
-			additional_info += "\n* [[Pokémon-ex]]."
 
 		special_pokemon_names = ["Morphéo", "Motisma", "Ursaking", "Ogerpon"]
 		for special_pokemon_name in special_pokemon_names:
 			if special_pokemon_name in display_name:
 				real_name = special_pokemon_name
-				pokemon_name = special_pokemon_name
 
-		if not real_name is None:
-			real_name = real_name.replace("<small>", "").replace("</small>", "")
+		for region_suffix in ["d'Alola", "de Galar", "de Hisui", "de Paldea"]:
+			real_name = real_name.replace("<small>" + region_suffix + "</small>", region_suffix)
+
+		has_trainer = re.search(r"[^\n]* <small>(de |d')([^<]*)</small>", real_name)
+		if has_trainer:
+			trainer_particle = has_trainer.group(1)
+			trainer = has_trainer.group(2)
+			if category2 is None:
+				category2 = "Dresseur"
+			elif category3 is None:
+				category3 = "Dresseur"
+			else:
+				print("ERREUR pas de catégorie suffisante")
+		real_name = re.sub(r" <small>d(e |')[^<]*</small>", "", real_name)
+
+		if real_name == display_name:
+			real_name = None
+		# print(real_name)
 
 		if category2 == "ex":
-			card_type_intro = "[[Carte Pokémon|carte]] [[Pokémon-ex]]"
 			pokemon_description_paragraph = ""
-			if category3 == "Téracristal":
-				card_type_intro = "[[Carte Pokémon|carte]] [[Pokémon-ex Téracristal]]"
 
 		type = soup.find('p', class_='card-text-title').get_text().split(' - ')[1].strip()
 		type = translation_dict[type].lower()
 		hp = soup.find('p', class_='card-text-title').get_text().split(' - ')[2].replace("HP", "").strip()
-
-		evolve_sentence = ""
 
 		evolution_stage = soup.find('p', class_='card-text-type').get_text().split(' - ')[1].strip()
 		evolution_stage = translation_dict[evolution_stage]
@@ -318,34 +284,26 @@ def generate_wikicode(content, card_info):
 			soup_evolves_from = BeautifulSoup(str(evolves_from), 'html.parser')
 			evolves_from = soup_evolves_from.find('a').get_text(strip=True).replace("’", "'")
 
-			evolve_sentence = f" Elle doit être posée sur un {{{{Requête JCC|[[Nom de carte formaté::{evolves_from}]]|texte={evolves_from}|jeu={game}}}}} pour pouvoir être jouée."
+			if not trainer is None:
+				evolves_from_artwork = evolves_from + ".png"
+				evolves_from += " " + trainer_particle + trainer
+
+			# evolve_sentence = f" Elle doit être posée sur un {{{{Requête JCC|[[Nom de carte formaté::{evolves_from}]]|texte={evolves_from}|jeu={game}}}}} pour pouvoir être jouée."
 
 
 	elif category == "Dresseur":
-		card_type_intro = "[[Carte Dresseur (JCC)|carte Dresseur]]"
-
-		if category2 in ["Objet", "Outil Pokémon", "Stade", "Supporter"]:
-			card_type_intro = "[[Carte Dresseur (JCC)|carte]] [[Carte {0}|{0}]]".format(category2)
-
 		if "high-tech" in rarity.lower():
 			category3 = "HIGH-TECH"
-			card_type_intro += " [[Carte HIGH-TECH|HIGH-TECH]]"
 
-		if "Capsule Technique" in name:
+		if "Capsule Technique" in name or "Machine Technique" in name:
 			category3 = "Machine Technique"
 
 	elif category == "Énergie":
-		card_type_intro = "[[carte Énergie]]"
-
-		if category2 == "Spéciale":
-			card_type_intro = "[[carte Énergie spéciale]]"
-
 		if "high-tech" in rarity.lower():
 			if category2 is None:
 				category2 = "HIGH-TECH"
 			else:
 				category3 = "HIGH-TECH"
-			card_type_intro += " [[Carte HIGH-TECH|HIGH-TECH]]"
 
 
 
@@ -438,7 +396,6 @@ def generate_wikicode(content, card_info):
 
 	# Abilities
 	if len(abilities) >= 1:
-		faculty_paragraph += f"=== {abilities_title} ===\n\n{{{{Infobox Faculté (JCC)"
 		for ability_number in range(len(abilities)):
 			ability = abilities[ability_number]
 			ability_n = ""
@@ -448,14 +405,10 @@ def generate_wikicode(content, card_info):
 			ability_name = ability["name"]
 			ability_effect = ability["effect"]
 
-			faculty_paragraph += f"\n| faculté{ability_n}=Talent\n| nom{ability_n}={ability_name}\n| description{ability_n}={ability_effect}"
-		faculty_paragraph += f"\n}}}}\n\n"
+			faculty_paragraph += f"\n| talent{ability_n}-nom={ability_name}\n| talent{ability_n}-description={ability_effect}"
 
 	# Attacks
 	if len(attacks) >= 1:
-		if not attacks_title is None:
-			faculty_paragraph += f"=== {attacks_title} ===\n"
-		faculty_paragraph += f"\n{{{{Infobox Faculté (JCC)"
 		for attack_number in range(len(attacks)):
 			attack = attacks[attack_number]
 			attack_n = ""
@@ -468,17 +421,13 @@ def generate_wikicode(content, card_info):
 			attack_damage = attack["damage"]
 
 			if not attack_energy is None:
-				faculty_paragraph += f"\n| type{attack_n}={attack_energy}"
+				faculty_paragraph += f"\n| attaque{attack_n}-type={attack_energy}"
 			if not attack_name is None:
-				faculty_paragraph += f"\n| nom{attack_n}={attack_name}"
+				faculty_paragraph += f"\n| attaque{attack_n}-nom={attack_name}"
 			if not attack_effect is None and attack_effect != "":
-				faculty_paragraph += f"\n| description{attack_n}={attack_effect}"
+				faculty_paragraph += f"\n| attaque{attack_n}-description={attack_effect}"
 			if not attack_damage is None:
-				faculty_paragraph += f"\n| dégâts{attack_n}={attack_damage}"
-
-		faculty_paragraph += f"\n}}}}\n\n"
-
-	faculty_paragraph = faculty_paragraph[:-2] # To remove the excess \n\n
+				faculty_paragraph += f"\n| attaque{attack_n}-dégâts={attack_damage}"
 
 	# Adding links, but only one of each type
 	for link_dict in link_dict_list:
@@ -488,54 +437,26 @@ def generate_wikicode(content, card_info):
 
 		# Computing which formulation comes first
 		for key, item in link_dict.items():
-			pattern = re.compile(r"(\| description[0-9]?=[^=]*?)" + key)
+			patterns = [r"(\| [^\n]*?-description=[^=\n]*?)" + key, r"(\| [^\n]*?-description=[^=\n]*?\n\n[^\|][^=\n]*?)" + key]
+			for pattern in patterns:
+				pattern = re.compile(pattern)
+				pattern_search = pattern.search(faculty_paragraph)
 
-			pattern_search = pattern.search(faculty_paragraph)
-
-			if not pattern_search is None:
-				# Way to find the beginning of the key
-				position_found = re.search(key, faculty_paragraph[pattern_search.span()[0]:]).span()[0]
-				if first_pattern is None or first_position > position_found:
-					first_pattern = pattern
-					first_key = key
-					first_item = item
-					first_position = position_found
+				if not pattern_search is None:
+					if not "\n| [[" in faculty_paragraph[pattern_search.span()[0]:]:
+						# Way to find the beginning of the key
+						position_found = re.search(key, faculty_paragraph[pattern_search.span()[0]:]).span()[0]
+						if first_pattern is None or first_position > position_found:
+							first_pattern = pattern
+							first_key = key
+							first_item = item
+							first_position = position_found
 
 		if not first_pattern is None:
 			new_faculty_paragraph = first_pattern.sub(first_pattern.search(faculty_paragraph).group(1) + first_item, faculty_paragraph, 1)
 
 			if new_faculty_paragraph != faculty_paragraph:
 				faculty_paragraph = new_faculty_paragraph
-
-	if category == "Pokémon":
-		if category2 == "ex":
-			if category3 == "Téracristal":
-				faculty_paragraph += "\n\n=== Règle pour les Pokémon Téracristal ===\n\nTant que ce Pokémon est sur votre [[Banc (JCC)|Banc]], évitez tous les dégâts infligés à ce Pokémon par des attaques ''(les vôtres et celles de votre adversaire)''."
-			faculty_paragraph += "\n\n=== Règle pour les [[Pokémon-ex]] ===\n\nLorsque votre Pokémon-ex est mis [[K.O. (JCC)|K.O.]], l'adversaire récupère 2 [[Carte Récompense|cartes Récompense]]."
-
-	# Additional rules paragraph
-	rule1 = None
-	rule2 = None
-	rule = None
-	try:
-		rule1 = additional_rules[category2]
-		rule = rule1
-	except KeyError:
-		()
-	try:
-		rule2 = additional_rules[category3]
-		if not rule1 is None:
-			rule += "\n\n" + rule2
-		else:
-			rule = rule2
-	except KeyError:
-		()
-
-	if not rule is None:
-		additional_rules_header = "Règle supplémentaire"
-		if not rule1 is None and not rule2 is None:
-			additional_rules_header = "Règles supplémentaires"
-		faculty_paragraph += f"\n\n=== {additional_rules_header} ===\n\n{{{{Infobox Faculté (JCC)\n| description={rule}\n}}}}"
 
 	# Weakness, Resistance, Retreat Cost
 	if category == "Pokémon":
@@ -568,7 +489,8 @@ def generate_wikicode(content, card_info):
 	regulation_mark = soup.find('div', class_='regulation-mark').get_text(strip=True)[0]
 
 	if category == "Pokémon":
-		text_box = f"""{{{{Infobox Carte
+		text_box = f"""{{{{Article carte
+<!-- Infobox -->
 | nom={display_name}
 | extension={expansion}
 | jeu={game}
@@ -581,18 +503,9 @@ def generate_wikicode(content, card_info):
 | stade={evolution_stage}
 | retraite={retreat_cost}
 | marque-régulation={regulation_mark}
-}}}}
-'''{display_name}''' est une {card_type_intro} de l'[[extension]] [[{expansion}]], à l'effigie du Pokémon [[{pokemon_name}]].{evolve_sentence}
 
-== Facultés ==
-{faculty_paragraph}{pokemon_description_paragraph}
-
-== Voir aussi ==
-
-* Pour plus d'informations sur le Pokémon : [[{pokemon_name}]].
-* Pour plus d'informations sur l'[[extension]] : [[{expansion}]].{{related_pokemon_paragraph}}{additional_info}
-
-{{{{Bandeau JCC}}}}"""
+<!-- Facultés -->{faculty_paragraph}{pokemon_description_paragraph}
+}}}}"""
 	
 		if not real_name is None:
 			text_box = text_box.replace("| extension=", f"| nomréel={real_name}\n| extension=")
@@ -600,22 +513,26 @@ def generate_wikicode(content, card_info):
 			text_box = text_box.replace("| type=", f"| sous-catégorie={category2}\n| type=", 1)
 		if not category3 is None:
 			text_box = text_box.replace("| type=", f"| sous-catégorie2={category3}\n| type=", 1)
+		if not trainer is None:
+			text_box = text_box.replace("| type=", f"| dresseur={trainer}\n| type=")
 		if not time is None:
 			text_box = text_box.replace("| stade=", f"| temps={time}\n| stade=")
+		if not evolves_from is None:
+			print("\tÉvolution de :", evolves_from)
+			text_box = text_box.replace("| stade=", f"| niveau-précédent={evolves_from}\n| stade=")
+		if not evolves_from_artwork is None:
+			text_box = text_box.replace("| stade=", f"| niveau-précédent-artwork={evolves_from_artwork}\n| stade=")
 		if not weakness is None:
 			text_box = text_box.replace("| retraite=", f"| faiblesse={weakness}\n| retraite=")
 		if not resistance is None:
 			text_box = text_box.replace("| retraite=", f"| resist={resistance}\n| retraite=")
 
-		try:
-			card_info["ndex"] = pokemon_ndex.pokemon_fr.index(pokemon_name) + 1
-		except ValueError:
-			print("Pokémon not found:", pokemon_name, "({})".format(card_number))
-
 
 	# Structure de carte Dresseur ou Énergie
 	elif category == "Dresseur" or category == "Énergie":
-		text_box = f"""{{{{Infobox Carte
+		faculty_paragraph = faculty_paragraph.replace("| attaque", "| faculté")
+		text_box = f"""{{{{Article carte
+<!-- Infobox -->
 | nom={display_name}
 | extension={expansion}
 | jeu={game}
@@ -624,18 +541,10 @@ def generate_wikicode(content, card_info):
 | illus={illustrator}
 | catégorie={category}
 | marque-régulation={regulation_mark}
-}}}}
-'''{name}''' est une {card_type_intro} de l'[[extension]] [[{expansion}]].
 
-== Facultés ==
-{faculty_paragraph}
+<!-- Facultés -->{faculty_paragraph}
+}}}}"""
 
-== Voir aussi ==
-
-* Pour plus d'informations sur l'[[extension]] : [[{expansion}]].
-
-{{{{Bandeau JCC}}}}"""
-		
 		if category == "Énergie":
 			text_box = text_box.replace("| marque-régulation=", f"| type=\n| marque-régulation=")
 		if not category2 is None:
@@ -669,6 +578,10 @@ def generate_wikicode(content, card_info):
 		if region in japanese_name:
 			japanese_name = japanese_name.replace(region, "<small>" + region + "</small>")
 
+	if category2 == "Dresseur" or category3 == "Dresseur":
+		english_name = "<small>" + english_name.replace("'s ", "'s</small> ", 1)
+		japanese_name = "<small>" + japanese_name.replace("の", "の</small>", 1)
+
 	if not english_name is None:
 		english_card_number = str(int(re.sub(r"[A-Z]*", "", card_number)))
 		interwiki = f"\n\n[[en:{english_link} ({english_expansion} {english_card_number})]]"
@@ -677,12 +590,11 @@ def generate_wikicode(content, card_info):
 	if not japanese_name is None:
 		text_box = text_box.replace("| extension=", f"| nomja={japanese_name}\n| extension=")
 
-	text_box = ribbon_text + "\n" + text_box
-
 	card_info["real_name"] = real_name
 	card_info["evolution_stage"] = evolution_stage
 	card_info["evolves_from"] = evolves_from
 	card_info["text_box"] = text_box
+	card_info["faculties"] = faculty_paragraph
 
 	return card_info
 
@@ -728,14 +640,13 @@ def get_card_info_list(expansion, is_promo):
 				card_category = "Dresseur"
 
 		time = None
-		if not is_promo and "symbole jcc" in item_list[4].lower():
+		if not is_promo and len(item_list) > 5 and "symbole jcc" in item_list[4].lower():
 			time = item_list[4].lower().replace("{{symbole jcc|temps ", "").replace("}}", "").strip()
 
 		card_info = {
 			"expansion": expansion,
 			"number": card_number,
 			"max_number": max_card_number,
-			"ndex": None,
 			"link": card_link,
 			"page": card_page,
 			"name": card_name,
@@ -807,18 +718,23 @@ def get_html_content(url):
 
 
 # Définitions
-expansion = "Écarlate et Violet Évolutions Prismatiques"
-english_expansion = "Prismatic Evolutions"
+expansion = "Promo SV"
+english_expansion = "SVP Promo"
+
+# expansion = "Écarlate et Violet Aventures Ensemble"
+# english_expansion = "Journey Together"
+
 expansion_page = None
-abreviation = "PRE"
+abreviation = "SVP"
+
 is_promo = "Promo" in expansion
 card_info_list = get_card_info_list(expansion, is_promo)
 
 
 # Boucle
 # r = range(1, len(card_info_list) + 1)
-# r = range(150, 165)
-r = [58,160]
+r = range(185, 189)
+# r = [53, 159]
 r = [p - 1 for p in r]
 
 for i in r:
@@ -852,137 +768,41 @@ for i in r:
 	html_content = get_html_content(f"https://limitlesstcg.com/cards/fr/{abreviation}/{url_number}/")
 	# print("French page fetched!")
 
-	previous_card_info = None
-	if i != 0:
-		previous_card_info = get_other_card_ribbon_info(i - 1)
-	card_info_list[i]["previous_card"] = previous_card_info
-
-	next_card_info = None
-	if i != len(card_info_list) - 1:
-		next_card_info = get_other_card_ribbon_info(i + 1)
-	card_info_list[i]["next_card"] = next_card_info
-
-
 	wikicode = generate_wikicode(html_content, card_info_list[i])
 
-if is_promo:
+# Identical cards
+if not is_promo:
 	for i in r:
-		card_info = card_info_list[i]
-		card_info["text_box"] = re.sub(r"\{related_pokemon_paragraph\}", "", card_info["text_box"])
-else:
-	# Regrouping Pokémon cards by evolution family
-	grouping_lists = []
-	for i in r:
-		card_info = card_info_list[i]
-		name = card_info["name"].replace("<small>", "").replace("</small>", "")
-		expansion = card_info["expansion"]
-		card_number = card_info["number"]
+		card = card_info_list[i]
+		identical_cards = []
 
-		if card_info["category"] == "Pokémon":
-			evolves_from = card_info["evolves_from"]
-			relevant_info = [name]
-			if not evolves_from is None:
-				relevant_info.append(evolves_from)
+		for j in r:
+			if i != j:
+				other_card = card_info_list[j]
+				if card["name"] == other_card["name"] and card["faculties"] == other_card["faculties"]:
+					identical_cards.append(other_card["page"])
 
-			found = False
+		if identical_cards != []:
+			identical_cards_paragraph = "<!-- Cartes identiques -->"
+			j = 1
+			for identical_card in identical_cards:
+				str_j = str(j)
+				if j == 1:
+					str_j = ""
+				identical_cards_paragraph += "\n| carte-identique" + str_j + "=" + identical_card
+				j += 1
 
-			for grouping_list in grouping_lists:
-				for card_j in grouping_list:
-					card_j_name = card_j["name"].replace("<small>", "").replace("</small>", "")
-					card_j_evolves_from = card_j["evolves_from"]
-					if card_j_name in relevant_info or (not card_j_evolves_from is None and card_j_evolves_from in relevant_info):
-						grouping_list.append(card_info)
-						found = True
-						break
+			card["text_box"] = card["text_box"].replace("\n}}", "\n\n" + identical_cards_paragraph + "\n}}")
 
-			if not found:
-				grouping_lists.append([card_info])
-
-	# Adding the evolution sentences to each group
-	for grouping_list in grouping_lists:
-		number_other_cards = len(grouping_list) - 1
-		grouping_list.sort(key = lambda x : (x["evolution_stage"], x["ndex"], x["number"],))
-		print([c["name"] for c in grouping_list])
-
-		for card in grouping_list:
-			if len(grouping_list) == 1:
-				card["text_box"] = re.sub(r"\{related_pokemon_paragraph\}", "", card["text_box"])
-			else:
-				related_pokemon_paragraph = ""
-				other_cards = [c for c in grouping_list if not c is card]
-				other_real_names = []
-
-				for other_card in other_cards:
-					if other_card["real_name"] is None:
-						other_real_names.append(other_card["name"])
-					else:
-						other_real_names.append(other_card["real_name"])
-
-				other_stages = [c["evolution_stage"] for c in other_cards]
-				stage = card["evolution_stage"]
-				evolution_family = "INCONNU"
-				if stage == 0:
-					if 1 in other_stages or 2 in other_stages:
-						if 0 in other_stages:
-							evolution_family = "sa famille d'[[Évolution (JCC)|évolution]]"
-						elif number_other_cards >= 2:
-							evolution_family = "ses [[Évolution (JCC)|évolutions]]"
-						else:
-							evolution_family = "son [[Évolution (JCC)|évolution]]"
-					else:
-						evolution_family = "ce Pokémon"
-				elif stage == 1:
-					if 0 in other_stages and 2 in other_stages:
-						evolution_family = "sa famille d'[[Évolution (JCC)|évolution]]"
-					elif 0 in other_stages:
-						if 1 in other_stages:
-							evolution_family = "sa famille d'[[Évolution (JCC)|évolution]]"
-						elif number_other_cards >= 2:
-							evolution_family = "ses pré-[[Évolution (JCC)|évolutions]]"
-						else:
-							evolution_family = "sa pré-[[Évolution (JCC)|évolution]]"
-					elif 2 in other_stages:
-						if 1 in other_stages:
-							evolution_family = "sa famille d'[[Évolution (JCC)|évolution]]"
-						elif number_other_cards >= 2:
-							evolution_family = "ses [[Évolution (JCC)|évolutions]]"
-						else:
-							evolution_family = "son [[Évolution (JCC)|évolution]]"
-					else:
-						evolution_family = "ce Pokémon"
-				elif stage == 2:
-					if 0 in other_stages or 1 in other_stages:
-						if 2 in other_stages:
-							evolution_family = "sa famille d'[[Évolution (JCC)|évolution]]"
-						elif number_other_cards >= 2:
-							evolution_family = "ses pré-[[Évolution (JCC)|évolutions]]"
-						else:
-							evolution_family = "sa pré-[[Évolution (JCC)|évolution]]"
-					else:
-						evolution_family = "ce Pokémon"
-
-
-				related_pokemon_paragraph = f"\n* Pour plus d'informations sur {evolution_family} dans la même extension :"
-				if number_other_cards == 1:
-					related_pokemon_paragraph += " [[" + other_cards[0]["page"] + "]]."
-				else:
-					for i in range(number_other_cards):
-						punctuation = " ;"
-						if i == number_other_cards - 1:
-							punctuation = "."
-						related_pokemon_paragraph += "\n** [[" + other_cards[i]["page"] + "]]" + punctuation
-
-				card["text_box"] = re.sub(r"\{related_pokemon_paragraph\}", related_pokemon_paragraph, card["text_box"])
-
-
-# Saving the pages
 for i in r:
-	card = card_info_list[i]
+	card = card_info_list[i]	
+
 	page = card["page"].replace(":", "$")
 	text_box = card["text_box"].replace(" ", " ")
+	text_box = card["text_box"].replace(" .", ".")
 	text_box = re.sub(r"  +", " ", text_box)
 	text_box = text_box.replace("- {{type", "-{{type")
 
-	file = open(f"{expansion}/{page}.txt".replace(":", "-"), "w+", encoding="utf-8")
+	file = open(f"Extensions/{expansion}/{page}.txt".replace(":", "-"), "w+", encoding="utf-8")
 	file.write(text_box)
 	file.close()

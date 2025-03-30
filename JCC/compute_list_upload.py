@@ -1,9 +1,21 @@
-expansion	= "Lumière Triomphale"
+# expansion	= "Promo SV"
+expansion	= "Écarlate et Violet Aventures Ensemble"
+# expansion = "Réjouissances Rayonnantes"
 expansion_link	= expansion # + " (JCC)"
+
+
 f		= open("liste.txt", "r", encoding="utf-8")
 output		= open("description_upload.txt", "w+", encoding="utf-8")
 text		= f.read().split("\n")
 is_english_set	= False
+
+# tcg_pocket = True
+
+
+source = ""
+# source = "\n\n{{Informations Fichier\n| source=[https://drive.google.com/drive/folders/1_2YURmd7dYnCX3VuDLQobLNSJbAeavpt Google Drive TCGPocket]\n| auteur=[[DeNA]]\n}}"
+source = "\n\n{{Informations Fichier\n| source=[https://limitlesstcg.com/cards/fr Limitless]\n| auteur=[[The Pokémon Company]]\n}}"
+
 
 def de(s):
 	if s[0:2] == "EX":
@@ -137,6 +149,7 @@ def extra_category(card_name, page_name, spec):
 		return "\n[[Catégorie:Scan de carte Dresseur]]"
 
 print("Extension :", expansion)
+print("Source :", source)
 for card in text:
 	card_plus_symbol	= card.split("]]")
 
@@ -159,10 +172,6 @@ for card in text:
 
 	page_name		= l_card[0]
 	card_name		= l_card[1]
-
-	source = ""
-	source = "\n\n{{Informations Fichier\n| source=[https://drive.google.com/drive/folders/1_2YURmd7dYnCX3VuDLQobLNSJbAeavpt Google Drive TCGPocket]\n| auteur=[[DeNA]]\n}}"
-	# source = "\n\n{{Informations Fichier\n| source=[https://limitlesstcg.com/cards/fr Limitless]\n| auteur=[[The Pokémon Company]]\n}}"
 
 	new_string = "Scan de la carte {0} de l'[[extension]] [[{2}{3}]].{6}\n\n[[Catégorie:Scan de carte {4}]]{5}\nXXXXX".format(card, symbol, expansion_link, "|" + expansion if expansion != expansion_link else "", de(expansion) + expansion, extra_category(card_name, page_name, spec), source)
 

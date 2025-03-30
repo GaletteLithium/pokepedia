@@ -17,6 +17,16 @@
     <AppendSummary>true</AppendSummary>
     <Replacements>
       <Replacement>
+        <Find>(	| | )</Find>
+        <Replace> </Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>  +</Find>
         <Replace> </Replace>
         <Comment />

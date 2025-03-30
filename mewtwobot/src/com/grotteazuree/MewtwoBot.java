@@ -66,8 +66,8 @@ public class MewtwoBot {
 		
 //		File folderPath = new File(pokepediaPath + "Découpes\\Résultats\\objetsHOME\\");
 //
-		File folderPath = new File(pokepediaPath + "Robot\\JCC\\Extensions\\Lumière Triomphale\\");
-//		File folderPath = new File(pokepediaPath + "Robot\\limitless_scraping\\Écarlate et Violet Évolutions Prismatiques\\");
+//		File folderPath = new File(pokepediaPath + "Robot\\JCC\\Extensions\\Écarlate et Violet Aventures Ensemble\\");
+		File folderPath = new File(pokepediaPath + "Robot\\limitless_scraping\\Extensions\\Écarlate et Violet Aventures Ensemble\\");
 
 		File listPath = new File(pokepediaPath + "Robot\\JCC\\description_upload.txt");
 //		File listPath = new File(pokepediaPath + "Images\\EV\\CT\\VignettesCT.csv");
@@ -166,7 +166,7 @@ public class MewtwoBot {
 //		refactor("Shifours (Mille Poings)-EB.png", "Shifours (Style Mille Poings)-EB.png", listPath);
 //		addCategory();
 		
-//		uploadCardArticles(folderPath, true, false);
+//		uploadCardArticles(folderPath, false, false);
 //		addCardTopics(null, false);
 //		addRequestTables(null, false);
 //		addFormattedNames(null, false);
@@ -1444,15 +1444,19 @@ public class MewtwoBot {
 				if (!skipExistingArticles || pageContents == null || pageContents == "") {
 
 					String fileContents = new String(Files.readAllBytes(Paths.get(folderPath + "\\" + fileName)), StandardCharsets.UTF_8);
-							
-					String description = "{{Édité par robot}}\n" + fileContents;
 					
-					page.setContent(description, "Édition automatique des articles de cartes");
+					if (fileContents.contains("carte-identique")) {
+						
+					
+					String description = "{{Édité par robot|Édition initiale des articles de cartes du JCC.}}\n" + fileContents;
+					
+					page.setContent(description, "Ajout des cartes identiques");
 					
 					System.out.println(uploadName + " ok");
 					
 					if (justOne) {
 						break;
+					}
 					}
 				}
 				
@@ -4004,7 +4008,7 @@ public class MewtwoBot {
 			Page page = pageCollection.getNextPage();
 			String title = page.getTitle();
 			
-//			startingFrom = "Jirachi (HS Déchaînement 1)";
+//			startingFrom = "Kapoera (XY Poings Furieux 49)";
 			
 			if (startingFrom != null) {
 				while (!startingFrom.equals(title)) {
@@ -4296,7 +4300,8 @@ public class MewtwoBot {
 	public void addSecondaryTopicsSections(String[] titles, boolean justOne) {
 		// Terms with custom secondary topics sections, not to be touched
 		String[] exclusionList = new String[]{"Ancient Ruins",
-				"Éventail Houleux", "Rouleau Tourbillons Mille Poings", "Rouleau Acerbe Poing Final", "Urne de Vitalité", "Corne Résonnante", "Lanterne Accueillante", "Échange Croisé", "Récepteur Croisé", "Pastille Puissance"};
+				"Éventail Houleux", "Rouleau Tourbillons Mille Poings", "Rouleau Acerbe Poing Final", "Urne de Vitalité", "Corne Résonnante", "Lanterne Accueillante", "Échange Croisé", "Récepteur Croisé", "Pastille Puissance",
+		};
 		
 		for (String title : titles) {
 			boolean isExcluded = false;
@@ -4316,7 +4321,7 @@ public class MewtwoBot {
 			Page page = new Page(title);
 			String contents = page.getContent();
 			
-			if (contents.contains("=== Apparitions sur d'autres cartes ===")) {
+			if (contents.contains("== Apparitions sur d'autres cartes ==")) {
 				continue;
 			}
 			
@@ -4434,7 +4439,7 @@ public class MewtwoBot {
 			Page page = pageCollection.getNextPage();
 			String title = page.getTitle();
 			
-//			startingFrom = "Jessie et James (Destinées Occultes 68)";
+//			startingFrom = "ラッキースタジアム Yokohama (Japanese World Challenge Summer)";
 			
 			if (startingFrom != null) {
 				while (!startingFrom.equals(title)) {
@@ -4472,11 +4477,9 @@ public class MewtwoBot {
 					name = name.replaceAll("(NIV|LV)\\.[0-9]+", "");
 					name = name.replaceAll(" *<small> *</small>", "");
 					
-					String nameUpperCaseFirst = name.substring(0, 1).toUpperCase() + name.substring(1);
-								
+					String articleName = title.replaceAll(" \\([^\n]*\\)", "");								
 					
-					if (name.contains("{{") || name.contains("<") || name.contains("[") || name.contains("_")
-						|| name.contains("NIV.X") || name.contains("LV.X") || !name.equals(nameUpperCaseFirst)) {
+					if (!name.equals(articleName)) {
 						
 						String link = "[[" + title + "|" + name + "]]";
 
