@@ -107,7 +107,10 @@ link_dict_list = [
 	},
 	{r"Empoisonné": "[[Empoisonnement (JCC)|Empoisonné]]"},
 	{r"Endormi": "[[Sommeil (JCC)|Endormi]]"},
-	{r"État Spécial": "[[État Spécial (JCC)|État Spécial]]"},
+	{
+		r"État Spécial": "[[État Spécial (JCC)|État Spécial]]",
+		r"États Spéciaux": "[[État Spécial (JCC)|États Spéciaux]]"
+	},
 	{
 		r"évoluer": "[[Évolution (JCC)|évoluer]]",
 		r"Évolution": "[[Évolution (JCC)|Évolution]]",
@@ -124,13 +127,13 @@ link_dict_list = [
 	},
 	{r"Paralysé": "[[Paralysie (JCC)|Paralysé]]"},
 	{r"pièce": "[[Pièce (JCC)|pièce]]"},
-	{
-		r"Pokémon Actif": "[[Pokémon Actif]]",
-		r"Actif": "[[Pokémon Actif|Actif]]"
-	},
+	{r"Pokémon Actif": "[[Pokémon Actif]]"},
+	{r"Pokémon Attaquant": "[[Pokémon Attaquant]]"},
 	{r"Pokémon de base": "[[Pokémon de base]]"},
 	{r"Pokémon Défenseur": "[[Pokémon Défenseur]]"},
+	{r"Pokémon Évolutif": "[[Pokémon Évolutif]]"},
 	{r"Pokémon-ex": "[[Pokémon-ex]]"},
+	{r"Pokémon Téracristal": "[[Pokémon Téracristal (JCC)|Pokémon Téracristal]]"},
 	{r"Pokémon-V": "[[Pokémon-V]]"},
 	{r"Pokémon-VMAX": "[[Pokémon-VMAX]]"},
 	{r"Pokémon-VSTAR": "[[Pokémon-VSTAR]]"},
@@ -257,6 +260,14 @@ def generate_wikicode(content, card_info):
 		if has_trainer:
 			trainer_particle = has_trainer.group(1)
 			trainer = has_trainer.group(2)
+			trainer_name = trainer
+
+			if trainer == "la Team Rocket":
+				trainer_name = "Team Rocket"
+			elif trainer == "Pierre":
+				trainer = "Pierre Rochard"
+				trainer_name = trainer
+
 			if category2 is None:
 				category2 = "Dresseur"
 			elif category3 is None:
@@ -514,7 +525,7 @@ def generate_wikicode(content, card_info):
 		if not category3 is None:
 			text_box = text_box.replace("| type=", f"| sous-catégorie2={category3}\n| type=", 1)
 		if not trainer is None:
-			text_box = text_box.replace("| type=", f"| dresseur={trainer}\n| type=")
+			text_box = text_box.replace("| type=", f"| dresseur={trainer_name}\n| type=")
 		if not time is None:
 			text_box = text_box.replace("| stade=", f"| temps={time}\n| stade=")
 		if not evolves_from is None:
@@ -718,23 +729,23 @@ def get_html_content(url):
 
 
 # Définitions
-expansion = "Promo SV"
-english_expansion = "SVP Promo"
+# expansion = "Promo SV"
+# english_expansion = "SVP Promo"
 
-# expansion = "Écarlate et Violet Aventures Ensemble"
-# english_expansion = "Journey Together"
+expansion = "Écarlate et Violet Foudre Noire"
+english_expansion = "Black Bolt"
 
 expansion_page = None
-abreviation = "SVP"
+abreviation = "BLK"
 
 is_promo = "Promo" in expansion
 card_info_list = get_card_info_list(expansion, is_promo)
 
 
 # Boucle
-# r = range(1, len(card_info_list) + 1)
-r = range(185, 189)
-# r = [53, 159]
+r = range(1, len(card_info_list) + 1)
+# r = range(83, 189)
+# r = [88]
 r = [p - 1 for p in r]
 
 for i in r:
@@ -746,8 +757,10 @@ for i in r:
 	english_content = get_html_content(f"https://limitlesstcg.com/cards/{abreviation}/{url_number}/")
 	# print("English page fetched!")
 
+
 	english_soup = BeautifulSoup(english_content, 'html.parser')
-	english_name = english_soup.find('span', class_='card-text-name').get_text(strip=True)
+	english_name_tmp = english_soup.find('span', class_='card-text-name')
+	english_name = english_name_tmp.get_text(strip=True)
 	japanese_name = None
 
 	other_card_prints = str(english_soup.find('table', class_='card-prints-versions'))
