@@ -1,8 +1,9 @@
-from compute_list_upload import pokemon, pokemon_en
+from util import pokemon, pokemon_en
 
-filename = "card_list_A2"
+filename = "card_list_BLK"
+path_file = "Traductions/"
 
-file = open(filename + ".txt", "r", encoding = "utf-8")
+file = open(path_file + filename + ".txt", "r", encoding = "utf-8")
 text = file.read()
 
 # \| ([0-9]+)/([0-9]+) \|\| \{\{TCG ID\|Space-Time Smackdown\|([^\|]*)\|([0-9]+)\}\} \|\| \{\{TCG Icon\|([^\}]*)\}\}([^\n]*?) \|\| \{\{Rar/TCGP\|([^\|]*)\|([0-9])\}\}
@@ -15,5 +16,5 @@ for i in range(len(pokemon)):
 		text = text.replace(pokemon_en[i] + particle, pokemon[i] + particle)
 
 print(text)
-writefile = open(filename + "_translated.txt", "w+", encoding = "utf-8")
+writefile = open(path_file + filename + "_translated.txt", "w+", encoding = "utf-8")
 writefile.write(text)

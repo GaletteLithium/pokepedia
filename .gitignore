@@ -8,13 +8,8 @@ JCC/*.txt
 JCC/limitless_scraping/card_list.txt
 JCC/limitless_scraping/page.html
 JCC/limitless_scraping/Extensions/
-mewtwobot/.classpath
-mewtwobot/.idea/
-mewtwobot/.metadata/
-mewtwobot/.project
-mewtwobot/.vscode/
-mewtwobot/bin/
-mewtwobot/src/com/grotteazuree/Login.java
+javabot/bin/
+javabot/src/silvallie/Login.java
 test/
 card_article.txt
 card_article_sav.txt

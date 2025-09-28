@@ -157,6 +157,16 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>\| (-|–|/)\n</Find>
+        <Replace>| —\n</Replace>
+        <Comment>traits dans les cases vides de tableaux</Comment>
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find>Coup (de |d')BŒuf</Find>
         <Replace>Coup d'Bœuf</Replace>
         <Comment>Frison</Comment>
@@ -245,6 +255,16 @@
         <Minor>false</Minor>
         <BeforeOrAfter>false</BeforeOrAfter>
         <RegularExpressionOptions>None</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
+        <Find>\(jp\)</Find>
+        <Replace>(ja)</Replace>
+        <Comment />
+        <IsRegex>false</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
     </Replacements>
     <AdvancedReps>

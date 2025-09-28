@@ -70,6 +70,30 @@ link_dict_list = [
 		r"Énergie" : "[[Énergie]]"
 	},
 	{
+		r"\[\[Énergie\]\] *\{\{type\|plante\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|plante|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|feu\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|feu|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|eau\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|eau|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|électrique\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|électrique|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|psy\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|psy|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|combat\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|combat|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|obscurité\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|obscurité|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|métal\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|métal|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|dragon\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|dragon|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|fée\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|fée|jcci}} [[Énergie de base|de base]]",
+		r"\[\[Énergie\]\] *\{\{type\|incolore\|jcci\}\} *de base": "[[Énergie de base|Énergie]] {{type|incolore|jcci}} [[Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|plante\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|plante|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|feu\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|feu|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|eau\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|eau|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|électrique\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|électrique|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|psy\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|psy|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|combat\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|combat|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|obscurité\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|obscurité|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|métal\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|métal|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|dragon\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|dragon|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|fée\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|fée|jcci}} [[Carte Énergie de base|de base]]",
+		r"\[\[carte Énergie\]\] *\{\{type\|incolore\|jcci\}\} *de base": "[[Carte Énergie de base|carte Énergie]] {{type|incolore|jcci}} [[Carte Énergie de base|de base]]"
+	},
+	{
 		r"carte HIGH-TECH": "[[carte HIGH-TECH]]",
 		r"cartes HIGH-TECH": "[[Carte HIGH-TECH|cartes HIGH-TECH]]"
 	},
@@ -129,10 +153,24 @@ link_dict_list = [
 	{r"pièce": "[[Pièce (JCC)|pièce]]"},
 	{r"Pokémon Actif": "[[Pokémon Actif]]"},
 	{r"Pokémon Attaquant": "[[Pokémon Attaquant]]"},
-	{r"Pokémon de base": "[[Pokémon de base]]"},
+	{
+		r"Pokémon de base": "[[Pokémon de base]]",
+		r"Pokémon *\{\{type\|plante\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|plante|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|feu\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|feu|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|eau\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|eau|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|électrique\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|électrique|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|psy\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|psy|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|combat\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|combat|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|obscurité\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|obscurité|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|métal\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|métal|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|dragon\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|dragon|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|fée\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|fée|jcci}} [[Pokémon de base|de base]]",
+		r"Pokémon *\{\{type\|incolore\|jcci\}\} *de base": "[[Pokémon de base|Pokémon]] {{type|incolore|jcci}} [[Pokémon de base|de base]]"
+	},
 	{r"Pokémon Défenseur": "[[Pokémon Défenseur]]"},
 	{r"Pokémon Évolutif": "[[Pokémon Évolutif]]"},
 	{r"Pokémon-ex": "[[Pokémon-ex]]"},
+	{r"(\[\[Pokémon-ex\]\]|Pokémon-ex) Méga-(\[\[Évolution \(JCC\)\|Évolution\]\]|Évolution)": "[[Pokémon-ex Méga-Évolution]]"},
 	{r"Pokémon Téracristal": "[[Pokémon Téracristal (JCC)|Pokémon Téracristal]]"},
 	{r"Pokémon-V": "[[Pokémon-V]]"},
 	{r"Pokémon-VMAX": "[[Pokémon-VMAX]]"},
@@ -247,6 +285,11 @@ def generate_wikicode(content, card_info):
 			real_name = display_name.replace("{{Symbole JCC|ex Téracristal}}", "")
 			category2 = "ex"
 			category3 = "Téracristal"
+
+		if "{{Symbole JCC|ex Méga}}" in display_name:
+			real_name = display_name.replace("{{Symbole JCC|ex Méga}}", "")
+			category2 = "ex"
+			category3 = "Méga-Évolution"
 
 		special_pokemon_names = ["Morphéo", "Motisma", "Ursaking", "Ogerpon"]
 		for special_pokemon_name in special_pokemon_names:
@@ -520,6 +563,8 @@ def generate_wikicode(content, card_info):
 	
 		if not real_name is None:
 			text_box = text_box.replace("| extension=", f"| nomréel={real_name}\n| extension=")
+		if expansion != expansion_page:
+			text_box = text_box.replace("| jeu=", f"| extension-page={expansion_page}\n| jeu=")
 		if not category2 is None:
 			text_box = text_box.replace("| type=", f"| sous-catégorie={category2}\n| type=", 1)
 		if not category3 is None:
@@ -556,6 +601,8 @@ def generate_wikicode(content, card_info):
 <!-- Facultés -->{faculty_paragraph}
 }}}}"""
 
+		if expansion != expansion_page:
+			text_box = text_box.replace("| jeu=", f"| extension-page={expansion_page}\n| jeu=")
 		if category == "Énergie":
 			text_box = text_box.replace("| marque-régulation=", f"| type=\n| marque-régulation=")
 		if not category2 is None:
@@ -573,12 +620,12 @@ def generate_wikicode(content, card_info):
 	if not max_card_number is None:
 		text_box = text_box.replace("| rareté=", f"| maxsetcarte={max_card_number}\n| rareté=")
 		if card_number > max_card_number:
-			text_box = text_box.replace("| catégorie=", f"| secrète=oui\n| catégorie=")
+			text_box = text_box.replace("| catégorie=", f"| full-art=oui\n| secrète=oui\n| catégorie=")
 
 	# Foreign names
 	english_name = english_link = card_info["english_name"]
 	japanese_name = japanese_link = card_info["japanese_name"]
-	if symbol in ["ex", "ex Téracristal"]:
+	if symbol in ["ex", "ex Téracristal", "ex Méga"]:
 		english_name = english_name.replace(" ex", "{{Symbole JCC|" + symbol + "}}")
 		japanese_name = japanese_name.replace("ex", "{{Symbole JCC|" + symbol + "}}")
 
@@ -600,6 +647,10 @@ def generate_wikicode(content, card_info):
 		text_box = text_box.replace("| extension=", f"| nomen={english_name}\n| extension=") + interwiki
 	if not japanese_name is None:
 		text_box = text_box.replace("| extension=", f"| nomja={japanese_name}\n| extension=")
+
+	# Anecdotes
+	if is_promo:
+			text_box = text_box.replace("\n}}", "\n\n" + "<!-- Anecdotes -->\n| anecdotes=" + "\n}}")
 
 	card_info["real_name"] = real_name
 	card_info["evolution_stage"] = evolution_stage
@@ -684,6 +735,7 @@ def get_other_card_ribbon_info(i):
 		"{{Symbole JCC|VSTAR}}": "-VSTAR",
 		"{{Symbole JCC|ex}}": "-ex",
 		"{{Symbole JCC|ex Téracristal}}": "-ex",
+		"{{Symbole JCC|ex Méga}}": "-ex",
 		"{{Symbole JCC|ex JCCP}}": "-ex",
 		"<small>": "",
 		"</small>": ""
@@ -729,14 +781,16 @@ def get_html_content(url):
 
 
 # Définitions
-# expansion = "Promo SV"
-# english_expansion = "SVP Promo"
+expansion = "Promo ME"
+english_expansion = "MEP Promo"
 
-expansion = "Écarlate et Violet Foudre Noire"
-english_expansion = "Black Bolt"
+# expansion = "Méga-Évolution"
+# english_expansion = "Mega Evolution"
 
-expansion_page = None
-abreviation = "BLK"
+expansion_page = expansion
+# expansion_page = expansion + " (JCC)"
+
+abreviation = "MEP"
 
 is_promo = "Promo" in expansion
 card_info_list = get_card_info_list(expansion, is_promo)
@@ -745,7 +799,7 @@ card_info_list = get_card_info_list(expansion, is_promo)
 # Boucle
 r = range(1, len(card_info_list) + 1)
 # r = range(83, 189)
-# r = [88]
+# r = [116]
 r = [p - 1 for p in r]
 
 for i in r:
@@ -782,6 +836,7 @@ for i in r:
 	# print("French page fetched!")
 
 	wikicode = generate_wikicode(html_content, card_info_list[i])
+
 
 # Identical cards
 if not is_promo:
