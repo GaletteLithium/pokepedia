@@ -37,6 +37,16 @@
         <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
       </Replacement>
       <Replacement>
+        <Find>\n\n+</Find>
+        <Replace>\n\n</Replace>
+        <Comment />
+        <IsRegex>true</IsRegex>
+        <Enabled>true</Enabled>
+        <Minor>false</Minor>
+        <BeforeOrAfter>false</BeforeOrAfter>
+        <RegularExpressionOptions>IgnoreCase</RegularExpressionOptions>
+      </Replacement>
+      <Replacement>
         <Find> (d|qu)'(Hachécateur|Hariyama|Haydaim|Heatran|Héricendre|Ho-Oh|Hoopa|Hoothoot|Hotte-de-Fer|Hurle-Queue|Okéoké|Oui[^ ]*|Yanma|Yanmega|Yuyu|Hocus)</Find>
         <Replace> $1e $2</Replace>
         <Comment>de -&gt; d' / [B-DFGJ-NP-TVWZ][^ \|]*|</Comment>

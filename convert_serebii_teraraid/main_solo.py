@@ -263,9 +263,13 @@ while c.find('<td class="pkmn"', i + 5) != -1:
 			match game_name:
 				case "Scarlet":
 					current_exclusive_status = "Exclusif Ec."
+				case "Scarlet ONLY":
+					current_exclusive_status = "Exclusif Ec."
 				case "br>Scarlet":
 					current_exclusive_status = "Exclusif Ec."
 				case "Violet":
+					current_exclusive_status = "Exclusif Vi."
+				case "Violet ONLY":
 					current_exclusive_status = "Exclusif Vi."
 				case "br>Violet":
 					current_exclusive_status = "Exclusif Vi."

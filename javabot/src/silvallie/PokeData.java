@@ -1,6 +1,4 @@
-package com.grotteazuree;
-
-import java.util.HashMap;
+package silvallie;
 
 public class PokeData {
 

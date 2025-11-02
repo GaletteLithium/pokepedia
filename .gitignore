@@ -9,6 +9,8 @@ JCC/limitless_scraping/card_list.txt
 JCC/limitless_scraping/page.html
 JCC/limitless_scraping/Extensions/
 javabot/bin/
+javabot/.*
+javabot/Silvallie.iml
 javabot/src/silvallie/Login.java
 test/
 card_article.txt

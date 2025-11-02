@@ -1,18 +1,17 @@
-package com.grotteazuree;
+package silvallie;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.StringWriter;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.sql.Time;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.MatchResult;
@@ -22,7 +21,7 @@ import java.util.stream.Stream;
 
 
 @SuppressWarnings("unused")
-public class MewtwoBot {
+public class Silvallie {
 
 	/**
 	 * @param args
@@ -38,7 +37,7 @@ public class MewtwoBot {
 		// API.login(username, password);
 		
 		//sync();
-		MewtwoBot bot = new MewtwoBot();
+		Silvallie bot = new Silvallie();
 		bot.run();
 
 		System.out.println("stop");
@@ -56,20 +55,21 @@ public class MewtwoBot {
 	public void run() throws IOException, InterruptedException {
 		
 //		File folderPath = new File(pokepediaPath + "Images\\RFVF\\ObjetsE\\");
-//		File folderPath = new File(pokepediaPath + "Images\\HOME\\Pokémon Renders v3 - Copie\\no_metadata\\");
-//		File folderPath = new File(pokepediaPath + "Images\\XY\\Vêtements\\");
+//		File folderPath = new File(pokepediaPath + "Images\\HOME\\Miniatures - Copie\\");
+//		File folderPath = new File(pokepediaPath + "Images\\Friends\\Peluches\\");
 //		File folderPath = new File(pokepediaPath + "Images\\EV\\Sprites EV DI chromatiques\\no_metadata\\");
 //		File folderPath = new File(pokepediaPath + "Images\\CA\\25-05\\");
-//		File folderPath = new File(pokepediaPath + "Images\\XD\\Capacités de Pokémon XD\\");
+//		File folderPath = new File(pokepediaPath + "Images\\PBR\\Capacités Pokémon Battle Revolution\\");
 //		File folderPath = new File(pokepediaPath + "Images\\EV\\objets\\objetsOrdonnésRenommésFiltrés\\no_metadata");
 //		File folderPath = new File(pokepediaPath + "Images\\Miniatures objets 1G 9G\\Miniatures objets (6G)\\Objets_XY_ROSA\\ROSA\\Inutilisés\\5G");
 		
 //		File folderPath = new File(pokepediaPath + "Découpes\\Résultats\\objetsHOME\\");
-//
-//		File folderPath = new File(pokepediaPath + "Robot\\JCC\\Extensions\\Écarlate et Violet Aventures Ensemble\\");
-		File folderPath = new File(pokepediaPath + "Robot\\limitless_scraping\\Extensions\\Écarlate et Violet Aventures Ensemble\\");
+
+		File folderPath = new File(pokepediaPath + "Robot\\JCC\\Extensions\\Méga-Évolution Énergie de base\\");
+//		File folderPath = new File(pokepediaPath + "Robot\\JCC\\limitless_scraping\\Extensions\\Promo ME\\");
 
 		File listPath = new File(pokepediaPath + "Robot\\JCC\\description_upload.txt");
+//		File listPath = new File(pokepediaPath + "Robot\\renames.csv");
 //		File listPath = new File(pokepediaPath + "Images\\EV\\CT\\VignettesCT.csv");
 //		File listPath = new File(pokepediaPath + "Renommages NDEX\\changements.csv");
 //		File listPath = new File(pokepediaPath + "Robot\\deletion_list.txt");
@@ -85,7 +85,7 @@ public class MewtwoBot {
 //			System.out.println(title + " ok");
 //		}
 		
-//		uploadAttacks(folderPath, "XD", "XD : Le Souffle des Ténèbres", true, true, false);
+//		uploadAttacks(folderPath, "PBR", "Battle Revolution", true, true, false);
 		
 //		uploadArtworksWithDescription(pokepediaPath + "Images\\CM\\Artworks ReMix\\", false);
 		
@@ -110,19 +110,21 @@ public class MewtwoBot {
 //		uploadItems(folderPath, false);
 //		uploadArtworks(folderPath, "CA", "Écarlate et Violet", true, false);
 //		
-//		uploadSprites(folderPath, "png", "Upload miniatures EV Le Disque Indigo", "", true, false, 0, false);
+//		uploadSprites(folderPath, "png", "Upload peluches Friends", "Extraction réalisée par {{ut|SombrAbsol}}.", false, false, 0, false);
 //		uploadSprites(folderPath, "png", "Upload empreintes LGPE", "Guide officiel japonais", false, false, 0, false);
 //		uploadSprites(folderPath, "ogg", "Upload cris EV", "", false, false, 0, false);
 //		uploadSprites(folderPath, "png", "Upload sprites GO", "PokeMiners", false, true, 0, false);
 //		uploadSprites(folderPath, "png", "Upload Pokédex EV Le Masque Turquoise", "", false, false, 0, false);
 //		uploadSprites(folderPath, "png", "Upload sprites chromatiques EV Le Disque Indigo", "Serebii", false, false, 0, false);
 		
-//		addDex("Myrtille", false, false);
+//		addDex("Illumis", false, false);
 		
 //		deleteDuplicateFiles(false);
 		
-		int[] namespaces = new int[] {6};
-//		rename("Icône", "Portrait", namespaces, "Icône Pokémon chromatique (Café ReMix)", null, true, false);
+		int[] namespaces = new int[] {API.NS_FILES};
+//		rename("HeartGold SoulSilver", "HeartGold & SoulSilver", namespaces, "Carte de l'extension HeartGold SoulSilver", null, true, false);
+//		namespaces = new int[] {6};
+//		rename("-PGL", "-CA", namespaces, "Corporate Art d'objet", null, true, false);
 //		rename("Icône", "Portrait", namespaces, "Ancienne version d'icône Pokémon (Café ReMix)", null, true, false);
 //		rename("Icône", "Portrait", namespaces, "Ancienne version d'icône Pokémon chromatique (Café ReMix)", null, true, false);
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Rubis et Saphir)", "Fichier:Miniature 0313 RS.gif", false, false);
@@ -131,13 +133,16 @@ public class MewtwoBot {
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Diamant et Perle)", null, false, false);
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Platine)", null, false, false);
 //		rename("NB2", "N2B2", namespaces, "Miniature Pokémon (Noir et Blanc)", null, false, false);
-//		rename("RBJ", "J", namespaces, "Image de capacité de Pokémon Jaune", null, true, false);
+//		rename(" \\(Unys\\)", "", namespaces, "Capture d'écran d'objet à ramasser dans Pokémon Noir et Blanc", null, false, false);
+
+//		String renamePath = pokepediaPath + "Robot\\renames.csv";
+//		renameWithTable(renamePath, true, false	);
 
 //		createRedirections("δ", "Delta", namespaces, "Carte Pokémon ☆", null, false);
 		
 //		API.rename("Fichier:Carte Promo SV SV001.png", "Fichier:Carte Promo SV SV001.png", false, "Test");
 //		
-		String[] pageList = {"Fichier:Bonbon Armure L.png", "Fichier:Bonbon Armure M.png", "Fichier:Bonbon Armure S.png", "Fichier:Bonbon Bleu LGPE.png", "Fichier:Bonbon Esprit L.png", "Fichier:Bonbon Esprit M.png", "Fichier:Bonbon Esprit S.png", "Fichier:Bonbon Force L.png", "Fichier:Bonbon Force M.png", "Fichier:Bonbon Force S.png", "Fichier:Bonbon Jaune LGPE.png", "Fichier:Bonbon Machoc LGPE.png", "Fichier:Bonbon Marron LGPE.png", "Fichier:Bonbon Mélofée LGPE.png", "Fichier:Bonbon Mental L.png", "Fichier:Bonbon Mental M.png", "Fichier:Bonbon Mental S.png", "Fichier:Bonbon Otaria LGPE.png", "Fichier:Bonbon Ronflex LGPE.png", "Fichier:Bonbon Salamèche LGPE.png", "Fichier:Bonbon Santé L.png", "Fichier:Bonbon Santé M.png", "Fichier:Bonbon Santé S.png", "Fichier:Bonbon Sprint L.png", "Fichier:Bonbon Sprint M.png", "Fichier:Bonbon Sprint S.png", "Fichier:Bonbon Vert LGPE.png", "Fichier:Bonbon Violet LGPE.png", "Fichier:Bonbon Amonita LGPE.png", "Fichier:Bonbon Artikodin LGPE.png", "Fichier:Bonbon Carapuce LGPE.png", "Fichier:Bonbon Hypotrempe LGPE.png", "Fichier:Bonbon Kokiyas LGPE.png", "Fichier:Bonbon Lokhlass LGPE.png", "Fichier:Bonbon Minidraco LGPE.png", "Fichier:Bonbon Mystherbe LGPE.png", "Fichier:Bonbon Ptitard LGPE.png", "Fichier:Bonbon Saquedeneu LGPE.png", "Fichier:Bonbon Tentacool LGPE.png", "Fichier:Bonbon Abra LGPE.png", "Fichier:Bonbon Chétiflor LGPE.png", "Fichier:Bonbon Férosinge LGPE.png", "Fichier:Bonbon Miaouss LGPE.png", "Fichier:Bonbon Pikachu LGPE.png", "Fichier:Bonbon Ponyta LGPE.png", "Fichier:Bonbon Psykokwak LGPE.png", "Fichier:Bonbon Sabelette LGPE.png", "Fichier:Bonbon Soporifik LGPE.png", "Fichier:Bonbon Stari LGPE.png", "Fichier:Bonbon Électhor LGPE.png", "Fichier:Bonbon Élektek LGPE.png", "Fichier:Bonbon Magnéti LGPE.png", "Fichier:Bonbon Meltan LGPE.png", "Fichier:Bonbon Onix LGPE.png", "Fichier:Bonbon Ptéra LGPE.png", "Fichier:Bonbon Racaillou LGPE.png", "Fichier:Bonbon Rhinocorne LGPE.png", "Fichier:Bonbon Aspicot LGPE.png", "Fichier:Bonbon Canarticho LGPE.png", "Fichier:Bonbon Doduo LGPE.png", "Fichier:Bonbon Kabuto LGPE.png", "Fichier:Bonbon Kangourex LGPE.png", "Fichier:Bonbon Kicklee LGPE.png", "Fichier:Bonbon Osselait LGPE.png", "Fichier:Bonbon Piafabec LGPE.png", "Fichier:Bonbon Roucool LGPE.png", "Fichier:Bonbon Scarabrute LGPE.png", "Fichier:Bonbon Taupiqueur LGPE.png", "Fichier:Bonbon Tauros LGPE.png", "Fichier:Bonbon Tygnon LGPE.png", "Fichier:Bonbon Évoli LGPE.png", "Fichier:Bonbon Excelangue LGPE.png", "Fichier:Bonbon Leveinard LGPE.png", "Fichier:Bonbon M. Mime LGPE.png", "Fichier:Bonbon Mew LGPE.png", "Fichier:Bonbon Métamorph LGPE.png", "Fichier:Bonbon Noeunoeuf LGPE.png", "Fichier:Bonbon Ramoloss LGPE.png", "Fichier:Bonbon Rondoudou LGPE.png", "Fichier:Bonbon Nidoran♀ LGPE.png", "Fichier:Bonbon Poissirène LGPE.png", "Fichier:Bonbon Caninos LGPE.png", "Fichier:Bonbon Goupix LGPE.png", "Fichier:Bonbon Krabby LGPE.png", "Fichier:Bonbon Magicarpe LGPE.png", "Fichier:Bonbon Magmar LGPE.png", "Fichier:Bonbon Paras LGPE.png", "Fichier:Bonbon Porygon LGPE.png", "Fichier:Bonbon Sulfura LGPE.png", "Fichier:Bonbon Voltorbe LGPE.png", "Fichier:Bonbon Bulbizarre LGPE.png", "Fichier:Bonbon Chenipan LGPE.png", "Fichier:Bonbon Insécateur LGPE.png", "Fichier:Bonbon Abo LGPE.png", "Fichier:Bonbon Fantominus LGPE.png", "Fichier:Bonbon Lippoutou LGPE.png", "Fichier:Bonbon Mewtwo LGPE.png", "Fichier:Bonbon Mimitoss LGPE.png", "Fichier:Bonbon Nidoran♂ LGPE.png", "Fichier:Bonbon Nosferapti LGPE.png", "Fichier:Bonbon Rattata LGPE.png", "Fichier:Bonbon Smogo LGPE.png", "Fichier:Bonbon Tadmorv LGPE.png"};
+		String[] pageList = {"Fichier:Icône 0001 chromatique CM.png", "Fichier:Icône 0001 chromatique CM-v1.png", "Fichier:Icône 0001 CM.png", "Fichier:Icône 0001 Couronne de fête chromatique CM.png", "Fichier:Icône 0001 Couronne de fête CM.png", "Fichier:Icône 0001 Troisième anniversaire chromatique CM.png", "Fichier:Icône 0001 Troisième anniversaire CM.png", "Fichier:Icône 0004 CM.png", "Fichier:Icône 0004 DJ CM.png", "Fichier:Icône 0004 Troisième anniversaire CM.png", "Fichier:Icône 0006 chromatique CM.png", "Fichier:Icône 0006 CM.png", "Fichier:Icône 0006 Peintre chocolatier chromatique CM.png", "Fichier:Icône 0006 Peintre chocolatier CM.png", "Fichier:Icône 0007 Chapeau Carapace chromatique CM.png", "Fichier:Icône 0007 Chapeau Carapace CM.png", "Fichier:Icône 0007 chromatique CM.png", "Fichier:Icône 0007 CM.png", "Fichier:Icône 0007 Imperméable à pois chromatique CM.png", "Fichier:Icône 0007 Imperméable à pois CM.png", "Fichier:Icône 0007 Troisième anniversaire chromatique CM.png", "Fichier:Icône 0007 Troisième anniversaire CM.png", "Fichier:Icône 0025 Agriculteur ♀ CM.png", "Fichier:Icône 0025 Agriculteur ♂ CM.png", "Fichier:Icône 0025 Cadre fleuri ♀ CM.png", "Fichier:Icône 0025 Cadre fleuri ♂ CM.png", "Fichier:Icône 0025 Casquette de détective ♀ CM.png", "Fichier:Icône 0025 Casquette de détective ♂ CM.png", "Fichier:Icône 0025 Chef ♀ CM.png", "Fichier:Icône 0025 Chef ♂ CM.png", "Fichier:Icône 0025 Fan de Ronflex ♀ CM.png", "Fichier:Icône 0025 Fan de Ronflex ♂ CM.png", "Fichier:Icône 0025 Hakama 2022 ♀ CM.png", "Fichier:Icône 0025 Hakama 2022 ♂ CM.png", "Fichier:Icône 0025 Robe de fête ♀ CM.png", "Fichier:Icône 0025 Robe de fête ♂ CM.png", "Fichier:Icône 0025 Smoking de fête ♀ CM.png", "Fichier:Icône 0025 Smoking de fête ♂ CM.png", "Fichier:Icône 0025 Super chef ♀ CM.png", "Fichier:Icône 0025 Super chef ♂ CM.png", "Fichier:Icône 0025 « Sweets » ♀ CM.png", "Fichier:Icône 0025 « Sweets » ♂ CM.png", "Fichier:Icône 0025 ♀ CM.png", "Fichier:Icône 0025 ♂ CM.png", "Fichier:Icône 0026 Alola CM.png", "Fichier:Icône 0026 Alola Pro des pancakes CM.png", "Fichier:Icône 0037 Alola Cape d'hiver CM.png", "Fichier:Icône 0037 Alola CM.png", "Fichier:Icône 0037 Alola Ensemble fleuri CM.png", "Fichier:Icône 0037 Cape d'hiver CM.png", "Fichier:Icône 0037 CM.png", "Fichier:Icône 0037 Pique-nique savoureux CM.png", "Fichier:Icône 0038 Alola CM.png", "Fichier:Icône 0038 Alola Déguisement festif CM.png", "Fichier:Icône 0039 Ballons flottants chromatique CM.png", "Fichier:Icône 0039 Ballons flottants CM.png", "Fichier:Icône 0039 Ballons flottants CM-v1.png", "Fichier:Icône 0039 chromatique CM.png", "Fichier:Icône 0039 CM.png", "Fichier:Icône 0039 CM-v1.png", "Fichier:Icône 0039 Déguisement festif chromatique CM.png", "Fichier:Icône 0039 Déguisement festif CM.png", "Fichier:Icône 0039 Vacances d'été chromatique CM.png", "Fichier:Icône 0039 Vacances d'été CM.png", "Fichier:Icône 0039 Vacances d'été CM-v1.png", "Fichier:Icône 0052 Alola CM.png", "Fichier:Icône 0052 CM.png", "Fichier:Icône 0052 Hakama 2022 CM.png", "Fichier:Icône 0052 Pelotes espiègles CM.png", "Fichier:Icône 0054 Beignet baigné CM.png", "Fichier:Icône 0054 CM.png", "Fichier:Icône 0058 CM.png", "Fichier:Icône 0067 CM.png", "Fichier:Icône 0067 Randonneur CM.png", "Fichier:Icône 0077 Galar CM.png", "Fichier:Icône 0079 Chef spécial CM.png", "Fichier:Icône 0079 CM.png", "Fichier:Icône 0079 Galar chromatique CM.png", "Fichier:Icône 0079 Galar CM.png", "Fichier:Icône 0079 Galar CM-v1.png", "Fichier:Icône 0079 Kotatsu tout doux CM.png", "Fichier:Icône 0083 CM.png", "Fichier:Icône 0094 CM.png", "Fichier:Icône 0094 Halloween CM.png", "Fichier:Icône 0094 Tablier fleuri CM.png", "Fichier:Icône 0100 Hisui CM.png", "Fichier:Icône 0101 CM.png", "Fichier:Icône 0103 Alola CM.png", "Fichier:Icône 0103 chromatique CM.png", "Fichier:Icône 0103 chromatique CM-v1.png", "Fichier:Icône 0103 CM.png", "Fichier:Icône 0113 CM.png", "Fichier:Icône 0113 Œufs colorés CM.png", "Fichier:Icône 0129 chromatique CM.png", "Fichier:Icône 0129 CM.png", "Fichier:Icône 0130 chromatique CM.png", "Fichier:Icône 0130 CM.png", "Fichier:Icône 0131 CM.png", "Fichier:Icône 0132 CM.png", "Fichier:Icône 0132 Morphing Dracolosse CM.png", "Fichier:Icône 0132 Morphing Pikachu CM.png", "Fichier:Icône 0132 Morphing Évoli CM.png", "Fichier:Icône 0133 Chef ♀ CM.png", "Fichier:Icône 0133 Chef ♂ chromatique CM.png", "Fichier:Icône 0133 Chef ♂ CM.png", "Fichier:Icône 0133 Déguisement festif ♀ CM.png", "Fichier:Icône 0133 Déguisement festif ♂ chromatique CM.png", "Fichier:Icône 0133 Déguisement festif ♂ CM.png", "Fichier:Icône 0133 Festival ♀ CM.png", "Fichier:Icône 0133 Festival ♂ chromatique CM.png", "Fichier:Icône 0133 Festival ♂ CM.png", "Fichier:Icône 0133 Robe de fête ♀ CM.png", "Fichier:Icône 0133 Robe de fête ♂ chromatique CM.png", "Fichier:Icône 0133 Robe de fête ♂ CM.png", "Fichier:Icône 0133 Smoking de fête ♀ CM.png", "Fichier:Icône 0133 Smoking de fête ♂ chromatique CM.png", "Fichier:Icône 0133 Smoking de fête ♂ CM.png", "Fichier:Icône 0133 Super chef ♀ CM.png", "Fichier:Icône 0133 Super chef ♂ chromatique CM.png", "Fichier:Icône 0133 Super chef ♂ CM.png", "Fichier:Icône 0133 « Sweets » ♀ CM.png", "Fichier:Icône 0133 « Sweets » ♂ chromatique CM.png", "Fichier:Icône 0133 « Sweets » ♂ CM.png", "Fichier:Icône 0133 ♀ CM.png", "Fichier:Icône 0133 ♂ chromatique CM.png", "Fichier:Icône 0133 ♂ CM.png", "Fichier:Icône 0134 CM.png", "Fichier:Icône 0134 Halloween CM.png", "Fichier:Icône 0134 Splendeur tropicale CM.png", "Fichier:Icône 0135 CM.png", "Fichier:Icône 0135 Firmament brillant CM.png", "Fichier:Icône 0135 Halloween CM.png", "Fichier:Icône 0136 CM.png", "Fichier:Icône 0136 Festival CM.png", "Fichier:Icône 0136 Halloween CM.png", "Fichier:Icône 0143 Beignet douillet CM.png", "Fichier:Icône 0143 CM.png", "Fichier:Icône 0143 Pyjama gros dodo CM.png", "Fichier:Icône 0149 Casquette Dragon CM.png", "Fichier:Icône 0149 CM.png", "Fichier:Icône 0149 Smoking chocolat CM.png", "Fichier:Icône 0150 CM.png", "Fichier:Icône 0151 Bonne étoile CM.png", "Fichier:Icône 0151 Campeur CM.png", "Fichier:Icône 0151 CM.png", "Fichier:Icône 0151 Potager branché CM.png", "Fichier:Icône 0152 CM.png", "Fichier:Icône 0155 CM.png", "Fichier:Icône 0157 Hisui CM.png", "Fichier:Icône 0157 Hisui Maison de thé CM.png", "Fichier:Icône 0158 CM.png", "Fichier:Icône 0162 Champ de fleurs CM.png", "Fichier:Icône 0162 CM.png", "Fichier:Icône 0172 CM.png", "Fichier:Icône 0172 Thé enchanté CM.png", "Fichier:Icône 0173 CM.png", "Fichier:Icône 0173 Doux firmament CM.png", "Fichier:Icône 0175 Casquette Balle Pic chromatique CM.png", "Fichier:Icône 0175 Casquette Balle Pic CM.png", "Fichier:Icône 0175 chromatique CM.png", "Fichier:Icône 0175 CM.png", "Fichier:Icône 0175 Raffinement flottant chromatique CM.png", "Fichier:Icône 0175 Raffinement flottant CM.png", "Fichier:Icône 0178 CM.png", "Fichier:Icône 0182 CM.png", "Fichier:Icône 0183 CM.png", "Fichier:Icône 0183 Déguisement festif CM.png", "Fichier:Icône 0185 chromatique CM.png", "Fichier:Icône 0185 CM.png", "Fichier:Icône 0195 Chocolatier coquet CM.png", "Fichier:Icône 0195 CM.png", "Fichier:Icône 0196 CM.png", "Fichier:Icône 0197 CM.png", "Fichier:Icône 0197 Halloween CM.png", "Fichier:Icône 0202 chromatique CM.png", "Fichier:Icône 0202 CM.png", "Fichier:Icône 0202 Cône de glace chromatique CM.png", "Fichier:Icône 0202 Cône de glace CM.png", "Fichier:Icône 0209 Chapeau de fée chromatique CM.png", "Fichier:Icône 0209 Chapeau de fée CM.png", "Fichier:Icône 0209 chromatique CM.png", "Fichier:Icône 0209 CM.png", "Fichier:Icône 0212 CM.png", "Fichier:Icône 0215 chromatique CM.png", "Fichier:Icône 0215 CM.png", "Fichier:Icône 0215 Hisui chromatique CM.png", "Fichier:Icône 0215 Hisui CM.png", "Fichier:Icône 0215 Hisui Maison de thé chromatique CM.png", "Fichier:Icône 0215 Hisui Maison de thé CM.png", "Fichier:Icône 0215 Maison de thé chromatique CM.png", "Fichier:Icône 0215 Maison de thé CM.png", "Fichier:Icône 0215 Serveur cool chromatique CM.png", "Fichier:Icône 0215 Serveur cool CM.png", "Fichier:Icône 0216 CM.png", "Fichier:Icône 0216 Délices lunaires CM.png", "Fichier:Icône 0222 CM.png", "Fichier:Icône 0233 CM.png", "Fichier:Icône 0249 CM.png", "Fichier:Icône 0250 CM.png", "Fichier:Icône 0251 Bonne étoile chromatique CM.png", "Fichier:Icône 0251 Bonne étoile CM.png", "Fichier:Icône 0251 chromatique CM.png", "Fichier:Icône 0251 CM.png", "Fichier:Icône 0251 Récolte automnale chromatique CM.png", "Fichier:Icône 0251 Récolte automnale CM.png", "Fichier:Icône 0259 CM.png", "Fichier:Icône 0259 Maître sushi CM.png", "Fichier:Icône 0259 Super maître sushi CM.png", "Fichier:Icône 0272 CM.png", "Fichier:Icône 0281 chromatique CM.png", "Fichier:Icône 0281 CM.png", "Fichier:Icône 0281 Robe d'antan chromatique CM.png", "Fichier:Icône 0281 Robe d'antan CM.png", "Fichier:Icône 0281 Serveur rétro chromatique CM.png", "Fichier:Icône 0281 Serveur rétro CM.png", "Fichier:Icône 0282 chromatique CM.png", "Fichier:Icône 0282 CM.png", "Fichier:Icône 0282 Halloween chromatique CM.png", "Fichier:Icône 0282 Halloween CM.png", "Fichier:Icône 0282 Neige royale chromatique CM.png", "Fichier:Icône 0282 Neige royale CM.png", "Fichier:Icône 0303 Chocolatier coquet CM.png", "Fichier:Icône 0303 CM.png", "Fichier:Icône 0303 Solstice d'été CM.png", "Fichier:Icône 0311 Acclameur énergique chromatique CM.png", "Fichier:Icône 0311 Acclameur énergique CM.png", "Fichier:Icône 0311 chromatique CM.png", "Fichier:Icône 0311 CM.png", "Fichier:Icône 0312 Acclameur énergique chromatique CM.png", "Fichier:Icône 0312 Acclameur énergique CM.png", "Fichier:Icône 0312 chromatique CM.png", "Fichier:Icône 0312 CM.png", "Fichier:Icône 0330 CM.png", "Fichier:Icône 0334 CM.png", "Fichier:Icône 0334 Festival CM.png", "Fichier:Icône 0350 CM.png", "Fichier:Icône 0354 CM.png", "Fichier:Icône 0359 CM.png", "Fichier:Icône 0359 Célébration grandiose CM.png", "Fichier:Icône 0363 CM.png", "Fichier:Icône 0363 Déguisement festif CM.png", "Fichier:Icône 0376 CM.png", "Fichier:Icône 0380 CM.png", "Fichier:Icône 0380 Célébration grandiose CM.png", "Fichier:Icône 0381 CM.png", "Fichier:Icône 0381 Célébration grandiose CM.png", "Fichier:Icône 0385 CM.png", "Fichier:Icône 0385 Étoile souhait CM.png", "Fichier:Icône 0389 CM.png", "Fichier:Icône 0389 Festivités CM.png", "Fichier:Icône 0390 chromatique CM.png", "Fichier:Icône 0390 chromatique CM-v1.png", "Fichier:Icône 0390 CM.png", "Fichier:Icône 0390 Explorateur de mine chromatique CM.png", "Fichier:Icône 0390 Explorateur de mine CM.png", "Fichier:Icône 0393 Bonne année 2022 chromatique CM.png", "Fichier:Icône 0393 Bonne année 2022 CM.png", "Fichier:Icône 0393 chromatique CM.png", "Fichier:Icône 0393 CM.png", "Fichier:Icône 0393 Déguisement festif chromatique CM.png", "Fichier:Icône 0393 Déguisement festif CM.png", "Fichier:Icône 0393 Vacancier chromatique CM.png", "Fichier:Icône 0393 Vacancier CM.png", "Fichier:Icône 0396 chromatique CM.png", "Fichier:Icône 0396 CM.png", "Fichier:Icône 0396 Œufs colorés chromatique CM.png", "Fichier:Icône 0396 Œufs colorés CM.png", "Fichier:Icône 0403 CM.png", "Fichier:Icône 0417 chromatique CM.png", "Fichier:Icône 0417 CM.png", "Fichier:Icône 0417 Thé enchanté chromatique CM.png", "Fichier:Icône 0417 Thé enchanté CM.png", "Fichier:Icône 0418 chromatique CM.png", "Fichier:Icône 0418 CM.png", "Fichier:Icône 0418 Surfeur relax chromatique CM.png", "Fichier:Icône 0418 Surfeur relax CM.png", "Fichier:Icône 0429 CM.png", "Fichier:Icône 0429 Halloween CM.png", "Fichier:Icône 0445 CM.png", "Fichier:Icône 0445 Maître sushi CM.png", "Fichier:Icône 0446 Chapeau Goinfre chromatique CM.png", "Fichier:Icône 0446 Chapeau Goinfre CM.png", "Fichier:Icône 0446 chromatique CM.png", "Fichier:Icône 0446 CM.png", "Fichier:Icône 0448 Bal masqué chromatique CM.png", "Fichier:Icône 0448 Bal masqué CM.png", "Fichier:Icône 0448 Chef chromatique CM.png", "Fichier:Icône 0448 Chef CM.png", "Fichier:Icône 0448 chromatique CM.png", "Fichier:Icône 0448 CM.png", "Fichier:Icône 0448 Déguisement festif chromatique CM.png", "Fichier:Icône 0448 Déguisement festif CM.png", "Fichier:Icône 0448 Super chef chromatique CM.png", "Fichier:Icône 0448 Super chef CM.png", "Fichier:Icône 0470 CM.png", "Fichier:Icône 0471 CM.png", "Fichier:Icône 0471 Petit mousse CM.png", "Fichier:Icône 0478 CM.png", "Fichier:Icône 0478 Neige royale CM.png", "Fichier:Icône 0483 CM.png", "Fichier:Icône 0484 CM.png", "Fichier:Icône 0492 Céleste CM.png", "Fichier:Icône 0492 Terrestre CM.png", "Fichier:Icône 0492 Terrestre Maison de thé CM.png", "Fichier:Icône 0494 Chef ardent CM.png", "Fichier:Icône 0494 CM.png", "Fichier:Icône 0494 Roi des fourneaux CM.png", "Fichier:Icône 0495 CM.png", "Fichier:Icône 0495 Pique-nique savoureux CM.png", "Fichier:Icône 0498 CM.png", "Fichier:Icône 0501 chromatique CM.png", "Fichier:Icône 0501 CM.png", "Fichier:Icône 0501 Vacances d'été chromatique CM.png", "Fichier:Icône 0501 Vacances d'été CM.png", "Fichier:Icône 0508 chromatique CM.png", "Fichier:Icône 0508 CM.png", "Fichier:Icône 0511 CM.png", "Fichier:Icône 0531 chromatique CM.png", "Fichier:Icône 0531 CM.png", "Fichier:Icône 0531 Festival d'été chromatique CM.png", "Fichier:Icône 0531 Festival d'été CM.png", "Fichier:Icône 0547 Clonage CM.png", "Fichier:Icône 0547 CM.png", "Fichier:Icône 0547 Raffinement flottant CM.png", "Fichier:Icône 0549 CM.png", "Fichier:Icône 0549 Déguisement festif CM.png", "Fichier:Icône 0559 CM.png", "Fichier:Icône 0570 CM.png", "Fichier:Icône 0570 Firmament brillant CM.png", "Fichier:Icône 0570 Hisui chromatique CM.png", "Fichier:Icône 0570 Hisui CM.png", "Fichier:Icône 0570 Hisui Déguisement festif chromatique CM.png", "Fichier:Icône 0570 Hisui Déguisement festif CM.png", "Fichier:Icône 0570 Hisui Maison de thé chromatique CM.png", "Fichier:Icône 0570 Hisui Maison de thé CM.png", "Fichier:Icône 0572 As du plumeau chromatique CM.png", "Fichier:Icône 0572 As du plumeau CM.png", "Fichier:Icône 0572 chromatique CM.png", "Fichier:Icône 0572 CM.png", "Fichier:Icône 0575 CM.png", "Fichier:Icône 0575 Touriste chic CM.png", "Fichier:Icône 0587 CM.png", "Fichier:Icône 0587 Ruban ravissant CM.png", "Fichier:Icône 0607 CM.png", "Fichier:Icône 0607 Lanterne élégante CM.png", "Fichier:Icône 0609 chromatique CM.png", "Fichier:Icône 0609 CM.png", "Fichier:Icône 0609 Halloween chromatique CM.png", "Fichier:Icône 0609 Halloween CM.png", "Fichier:Icône 0610 CM.png", "Fichier:Icône 0654 CM.png", "Fichier:Icône 0654 Furisode fleuri CM.png", "Fichier:Icône 0654 Halloween CM.png", "Fichier:Icône 0656 CM.png", "Fichier:Icône 0658 Chef spécial chromatique CM.png", "Fichier:Icône 0658 Chef spécial CM.png", "Fichier:Icône 0658 chromatique CM.png", "Fichier:Icône 0658 CM.png", "Fichier:Icône 0658 Happi de festival chromatique CM.png", "Fichier:Icône 0658 Happi de festival CM.png", "Fichier:Icône 0658 Super chef chromatique CM.png", "Fichier:Icône 0658 Super chef CM.png", "Fichier:Icône 0673 CM.png", "Fichier:Icône 0673 Déguisement festif CM.png", "Fichier:Icône 0674 CM.png", "Fichier:Icône 0677 CM.png", "Fichier:Icône 0677 Halloween CM.png", "Fichier:Icône 0685 Chapeau chantilly chromatique CM.png", "Fichier:Icône 0685 Chapeau chantilly CM.png", "Fichier:Icône 0685 chromatique CM.png", "Fichier:Icône 0685 CM.png", "Fichier:Icône 0700 Chocolatier coquet CM.png", "Fichier:Icône 0700 CM.png", "Fichier:Icône 0700 Festival CM.png", "Fichier:Icône 0704 CM.png", "Fichier:Icône 0704 Coussins macarons CM.png", "Fichier:Icône 0719 CM.png", "Fichier:Icône 0719 Étoiles filantes CM.png", "Fichier:Icône 0720 CM.png", "Fichier:Icône 0722 Bûche festive chromatique CM.png", "Fichier:Icône 0722 Bûche festive CM.png", "Fichier:Icône 0722 Chapeau Plumefeuille chromatique CM.png", "Fichier:Icône 0722 Chapeau Plumefeuille CM.png", "Fichier:Icône 0722 chromatique CM.png", "Fichier:Icône 0722 CM.png", "Fichier:Icône 0722 Lit de pétales chromatique CM.png", "Fichier:Icône 0722 Lit de pétales CM.png", "Fichier:Icône 0722 Majordome chromatique CM.png", "Fichier:Icône 0722 Majordome CM.png", "Fichier:Icône 0725 CM.png", "Fichier:Icône 0725 Halloween CM.png", "Fichier:Icône 0730 CM.png", "Fichier:Icône 0733 CM.png", "Fichier:Icône 0743 CM.png", "Fichier:Icône 0760 CM.png", "Fichier:Icône 0760 Pâtissier annelets CM.png", "Fichier:Icône 0762 CM.png", "Fichier:Icône 0762 CM-v1.png", "Fichier:Icône 0762 Déguisement festif CM.png", "Fichier:Icône 0762 Déguisement festif CM-v1.png", "Fichier:Icône 0762 Étoile magique CM.png", "Fichier:Icône 0762 Étoile magique CM-v1.png", "Fichier:Icône 0778 CM.png", "Fichier:Icône 0778 Halloween CM.png", "Fichier:Icône 0778 Thé enchanté CM.png", "Fichier:Icône 0789 CM.png", "Fichier:Icône 0810 Casquette de batteur CM.png", "Fichier:Icône 0810 CM.png", "Fichier:Icône 0810 Rock'n'Roll CM.png", "Fichier:Icône 0813 Casquette football CM.png", "Fichier:Icône 0813 CM.png", "Fichier:Icône 0813 Ensemble fleuri CM.png", "Fichier:Icône 0813 Vacancier au soleil CM.png", "Fichier:Icône 0816 CM.png", "Fichier:Icône 0816 Matelot CM.png", "Fichier:Icône 0818 CM.png", "Fichier:Icône 0818 Serveur charmant CM.png", "Fichier:Icône 0820 Boulanger artisanal CM.png", "Fichier:Icône 0820 CM.png", "Fichier:Icône 0835 Chef glouton CM.png", "Fichier:Icône 0835 CM.png", "Fichier:Icône 0857 CM.png", "Fichier:Icône 0857 Raffinement flottant CM.png", "Fichier:Icône 0869 Lait Matcha CM.png", "Fichier:Icône 0869 Lait Vanille Chocolatier coquet CM.png", "Fichier:Icône 0869 Lait Vanille CM.png", "Fichier:Icône 0869 Mélange Tricolore CM.png", "Fichier:Icône 0872 CM.png", "Fichier:Icône 0872 Imitation glace CM.png", "Fichier:Icône 0880 CM.png", "Fichier:Icône 0886 CM.png", "Fichier:Icône 0898 CM.png", "Fichier:Icône 0906 Chef amical CM.png", "Fichier:Icône 0906 CM.png", "Fichier:Icône 0908 CM.png", "Fichier:Icône 0908 Halloween CM.png", "Fichier:Icône 0909 Chef amical CM.png", "Fichier:Icône 0909 CM.png", "Fichier:Icône 0912 Chef amical CM.png", "Fichier:Icône 0912 CM.png", "Fichier:Icône 0915 CM.png", "Fichier:Icône 0915 Vacances d'été CM.png", "Fichier:Icône 0922 Chef nostalgique CM.png", "Fichier:Icône 0922 CM.png", "Fichier:Icône 0925 CM.png", "Fichier:Icône 0926 CM.png", "Fichier:Icône 0926 Célébration grandiose CM.png", "Fichier:Icône 0929 CM.png", "Fichier:Icône 0937 CM.png", "Fichier:Icône 0939 CM.png", "Fichier:Icône 0959 CM.png", "Fichier:Icône 0959 Tradition mochi CM.png", "Fichier:Icône 0978 Affalée CM.png", "Fichier:Icône 0978 Courbée CM.png", "Fichier:Icône 0978 Raide CM.png", "Fichier:Icône 0980 CM.png", "Fichier:Icône 0985 CM.png", "Fichier:Icône 1000 CM.png", "Fichier:Icône 1007 CM.png", "Fichier:Icône 1008 CM.png", "Fichier:Icône 1012 CM.png", "Fichier:Icône 1017 CM.png", "Fichier:Icône 1017 Turquoise Nouvel An sportif CM.png"};
 		
 //		int[] namespaces = {API.NS_FILES};
 //		boolean isDone = false;
@@ -150,7 +155,7 @@ public class MewtwoBot {
 		
 //		Login.login("Matt.");
 //		for (String s : pageList) {
-//			API.delete(s, "[Auto] Remplacement par des fichiers et redirections qui suivent la nomenclature");
+//			API.delete(s, "[Auto] Suppression de la page");
 //		}
 		
 //		String[][] pageList = {{"Fichier:Cap ecran Forêt Pureté pdm.png", "Fichier:Cap ecran Forêt Pureté PDMRB.png"}, {"Fichier:Cap ecran Forêt Pureté localisation pdm.png", "Fichier:Cap ecran Forêt Pureté localisation PDMRB.png"}, {"Fichier:Cap ecran Forêt Givrée pdm.png", "Fichier:Cap ecran Forêt Givrée PDMRB.png"}, {"Fichier:Cap ecran Forêt Givrée localisation pdm.png", "Fichier:Cap ecran Forêt Givrée localisation PDMRB.png"}, {"Fichier:Cap ecran etang barbicha pdm.png", "Fichier:Cap ecran etang barbicha PDMRB.png"}, {"Fichier:Cap ecran Erg Sans Fin pdm.png", "Fichier:Cap ecran Erg Sans Fin PDMRB.png"}, {"Fichier:Cap ecran Erg Sans Fin localisation pdm.png", "Fichier:Cap ecran Erg Sans Fin localisation PDMRB.png"}, {"Fichier:Cap ecran Eau Merveilleuse pdm.png", "Fichier:Cap ecran Eau Merveilleuse PDMRB.png"}, {"Fichier:Cap ecran Eau Merveilleuse localisation pdm.png", "Fichier:Cap ecran Eau Merveilleuse localisation PDMRB.png"}, {"Fichier:Cap ecran Donjon Inconnu pdm.png", "Fichier:Cap ecran Donjon Inconnu PDMRB.png"}, {"Fichier:Cap ecran Colline Dragon pdm.png", "Fichier:Cap ecran Colline Dragon PDMRB.png"}, {"Fichier:Cap ecran Colline Dragon localisation pdm.png", "Fichier:Cap ecran Colline Dragon localisation PDMRB.png"}, {"Fichier:Cap ecran Caverne Australe pdm.png", "Fichier:Cap ecran Caverne Australe PDMRB.png"}, {"Fichier:Cap ecran Caverne Australe localisation pdm.png", "Fichier:Cap ecran Caverne Australe localisation PDMRB.png"}, {"Fichier:Cap ecran Canal Fantaisie pdm.png", "Fichier:Cap ecran Canal Fantaisie PDMRB.png"}, {"Fichier:Cap ecran Canal Fantaisie localisation pdm.png", "Fichier:Cap ecran Canal Fantaisie localisation PDMRB.png"}, {"Fichier:Cap ecran Bois Sinistre pdm.png", "Fichier:Cap ecran Bois Sinistre PDMRB.png"}, {"Fichier:Cap ecran Bois Sinistre localisation pdm.png", "Fichier:Cap ecran Bois Sinistre localisation PDMRB.png"}, {"Fichier:Cap ecran Bois Sinistre 4 pdm.png", "Fichier:Cap ecran Bois Sinistre 4 PDMRB.png"}, {"Fichier:Cap ecran Bois Sinistre 3 pdm.png", "Fichier:Cap ecran Bois Sinistre 3 PDMRB.png"}, {"Fichier:Cap ecran Bassin Cascade pdm.png", "Fichier:Cap ecran Bassin Cascade PDMRB.png"}, {"Fichier:Cap ecran Bassin Cascade localisation pdm.png", "Fichier:Cap ecran Bassin Cascade localisation PDMRB.png"}, {"Fichier:Cap ecran Base Équipe pdm.png", "Fichier:Cap ecran Base Équipe PDMRB.png"}, {"Fichier:Cap ecran Base Équipe localisation pdm.png", "Fichier:Cap ecran Base Équipe localisation PDMRB.png"}, {"Fichier:Cap ecran banque felicite pdm.png", "Fichier:Cap ecran banque felicite PDMRB.png"}, {"Fichier:Voeu de Jirachi Plus de force PDM.png", "Fichier:Voeu de Jirachi Plus de force PDMRB.png"}, {"Fichier:Voeu de Jirachi Plein d'objets PDM.png", "Fichier:Voeu de Jirachi Plein d'objets PDMRB.png"}, {"Fichier:Voeu de Jirachi beaucoup d'argent PDM.png", "Fichier:Voeu de Jirachi beaucoup d'argent PDMRB.png"}, {"Fichier:Carte PDM.png", "Fichier:Carte PDMRB.png"}, {"Fichier:Carte Alternative PDM.png", "Fichier:Carte Alternative PDMRB.png"}};
@@ -166,17 +171,25 @@ public class MewtwoBot {
 //		refactor("Shifours (Mille Poings)-EB.png", "Shifours (Style Mille Poings)-EB.png", listPath);
 //		addCategory();
 		
-//		uploadCardArticles(folderPath, false, false);
+//		uploadCardArticles(folderPath, false, true);
 //		addCardTopics(null, false);
 //		addRequestTables(null, false);
 //		addFormattedNames(null, false);
-		addSecondaryTopics(null, true, false);
 		
 //		String[] titles = {};
 //		addSecondaryTopicsSections(titles, true);
-		
+
+
+
 		String outputPath = pokepediaPath + "Robot\\cards_special_name.txt";
-		getSpecialCardNames(null, outputPath, true, false);
+		String savPath = pokepediaPath + "Robot\\card_attacks_name.txt";
+//		addSecondaryTopics(null, true, false);
+		getSpecialCardNames(null, outputPath, savPath, true, true, false);
+		
+//		mergeFiles(outputPath, savPath, savPath);
+		
+//		redirectionsCharmilly(false, "EV", true);
+		
 		
 //		String outputPath = pokepediaPath + "Robot\\card_article.txt";
 //		convertCardArticle(null, outputPath, false, true);
@@ -210,7 +223,7 @@ public class MewtwoBot {
 //		updateCycles(pokepediaPath + "Robot\\cycles_list.txt", 1040, false);
 			
 //		fullUpdateLocations();
-		
+
 //		renameNDEX(listPath);
 		
 	}
@@ -219,7 +232,7 @@ public class MewtwoBot {
 		dumpContentFromPages(false);
 		pythonLocDataConverter();
 		uploadLocations(false);
-		
+
 	}
 	
 	
@@ -999,7 +1012,7 @@ public class MewtwoBot {
 		}
 	}
 	
-	public void uploadSprites(File folderPath, String extension, String edit_description, String source, boolean createGeneralRedirection, boolean rename, int starting_version, boolean justOne) {
+	public void uploadSprites(File folderPath, String extension, String edit_description, String source, boolean createGeneralRedirection, boolean rename, int starting_version, boolean justOne) throws InterruptedException {
 		File contents[] = folderPath.listFiles();
 		boolean eraseRedirectsAnyway = true;
 		if (!source.equals("")) {
@@ -1066,6 +1079,8 @@ public class MewtwoBot {
 						break;
 					}
 				}
+
+				TimeUnit.SECONDS.sleep(1);
 			}
 		}
 	}
@@ -1428,11 +1443,13 @@ public class MewtwoBot {
 	}
 	
 	
-	public void uploadCardArticles(File folderPath, boolean skipExistingArticles, boolean justOne) throws IOException {
+	public void uploadCardArticles(File folderPath, boolean skipExistingArticles, boolean justOne) throws IOException, InterruptedException {
 		File contents[] = folderPath.listFiles();
 		
 		for(int i=0; i<contents.length; i++) {
 			String fileName = contents[i].getName();
+			
+//			System.out.println(fileName);
 
 			
 			if (fileName.substring(fileName.length()-4,fileName.length()).equals(".txt")) {
@@ -1441,22 +1458,23 @@ public class MewtwoBot {
 				Page page = new Page(uploadName);
 				String pageContents = page.getContent();
 				
+				
 				if (!skipExistingArticles || pageContents == null || pageContents == "") {
+
+//					System.out.println("\t" + page.getTitle());
 
 					String fileContents = new String(Files.readAllBytes(Paths.get(folderPath + "\\" + fileName)), StandardCharsets.UTF_8);
 					
-					if (fileContents.contains("carte-identique")) {
-						
-					
 					String description = "{{Édité par robot|Édition initiale des articles de cartes du JCC.}}\n" + fileContents;
 					
-					page.setContent(description, "Ajout des cartes identiques");
+					page.setContent(description, "Édition initiale des articles de cartes");
 					
 					System.out.println(uploadName + " ok");
+
+					TimeUnit.SECONDS.sleep(1);
 					
 					if (justOne) {
 						break;
-					}
 					}
 				}
 				
@@ -1552,11 +1570,11 @@ public class MewtwoBot {
 					attackPrecision = " (" + attackLinkThenPrecision[1];
 				}
 				
-				if (skip && !attackLink.equals("Clairvoyance")) {
-					continue;
-				} else {
-					skip = false;
-				}
+//				if (skip && !attackLink.equals("Clairvoyance")) {
+//					continue;
+//				} else {
+//					skip = false;
+//				}
 				
 				// homonymies
 				Page attackPage = new Page(attackLink);
@@ -2249,7 +2267,7 @@ public class MewtwoBot {
 	
 	public void addDex(String region, boolean secondary, boolean justOne) {
 		// String[][] theList = {{"002", "Efflèche"}, {"004", "Héricendre"}, {"005", "Feurisson"}, {"006", "Typhlosion de Hisui"}, {"007", "Moustillon"}, {"008", "Mateloutre"}, {"009", "Clamiral de Hisui"}, {"010", "Keunotor"}, {"011", "Castorno"}, {"012", "Étourmi"}, {"013", "Étourvol"}, {"014", "Étouraptor"}, {"015", "Lixy"}, {"016", "Luxio"}, {"017", "Luxray"}, {"018", "Chenipotte"}, {"019", "Armulys"}, {"020", "Charmillon"}, {"021", "Blindalys"}, {"022", "Papinox"}, {"023", "Ponyta"}, {"024", "Galopa"}, {"025", "Évoli"}, {"026", "Aquali"}, {"027", "Voltali"}, {"028", "Pyroli"}, {"029", "Mentali"}, {"030", "Noctali"}, {"031", "Phyllali"}, {"032", "Givrali"}, {"033", "Nymphali"}, {"034", "Nosferapti"}, {"035", "Nosferalto"}, {"036", "Nostenfer"}, {"037", "Baudrive"}, {"038", "Grodrive"}, {"039", "Crikzik"}, {"040", "Mélokrik"}, {"041", "Mustébouée"}, {"042", "Mustéflott"}, {"043", "Cheniti"}, {"044", "Cheniselle"}, {"045", "Papilord"}, {"046", "Racaillou"}, {"047", "Gravalanch"}, {"048", "Grolem"}, {"049", "Cerfrousse"}, {"050", "Cerbyllin"}, {"051", "Goinfrex"}, {"052", "Ronflex"}, {"053", "Paras"}, {"054", "Parasect"}, {"055", "Pichu"}, {"056", "Pikachu"}, {"057", "Raichu"}, {"058", "Abra"}, {"059", "Kadabra"}, {"060", "Alakazam"}, {"061", "Ouisticram"}, {"062", "Chimpenfeu"}, {"063", "Simiabraz"}, {"064", "Laporeille"}, {"065", "Lockpin"}, {"066", "Ceribou"}, {"067", "Ceriflor"}, {"068", "Psykokwak"}, {"069", "Akwakwak"}, {"070", "Apitrini"}, {"071", "Apireine"}, {"072", "Insécateur"}, {"073", "Cizayox"}, {"074", "Hachécateur"}, {"075", "Scarhino"}, {"076", "Mime Jr."}, {"077", "M. Mime"}, {"078", "Capumain"}, {"079", "Capidextre"}, {"080", "Magicarpe"}, {"081", "Léviator"}, {"082", "Sancoki"}, {"083", "Tritosor"}, {"084", "Qwilfish de Hisui"}, {"085", "Qwilpik"}, {"086", "Ptiravi"}, {"087", "Leveinard"}, {"088", "Leuphorie"}, {"089", "Rozbouton"}, {"090", "Rosélia"}, {"091", "Roserade"}, {"092", "Vortente"}, {"093", "Chlorobule"}, {"094", "Fragilady de Hisui"}, {"095", "Saquedeneu"}, {"096", "Bouldeneu"}, {"097", "Barloche"}, {"098", "Barbicha"}, {"099", "Cradopaud"}, {"100", "Coatox"}, {"101", "Tarsal"}, {"102", "Kirlia"}, {"103", "Gardevoir"}, {"104", "Gallame"}, {"105", "Yanma"}, {"106", "Yanmega"}, {"107", "Hippopotas"}, {"108", "Hippodocus"}, {"109", "Pachirisu"}, {"110", "Moufouette"}, {"111", "Moufflair"}, {"112", "Teddiursa"}, {"113", "Ursaring"}, {"114", "Ursaking"}, {"115", "Mucuscule"}, {"116", "Colimucus de Hisui"}, {"117", "Muplodocus de Hisui"}, {"118", "Onix"}, {"119", "Steelix"}, {"120", "Rhinocorne"}, {"121", "Rhinoféros"}, {"122", "Rhinastoc"}, {"123", "Manzaï"}, {"124", "Simularbre"}, {"125", "Excelangue"}, {"126", "Coudlangue"}, {"127", "Togepi"}, {"128", "Togetic"}, {"129", "Togekiss"}, {"130", "Tortipouss"}, {"131", "Boskara"}, {"132", "Torterra"}, {"133", "Porygon"}, {"134", "Porygon2"}, {"135", "Porygon-Z"}, {"136", "Fantominus"}, {"137", "Spectrum"}, {"138", "Ectoplasma"}, {"139", "Spiritomb"}, {"140", "Cornèbre"}, {"141", "Corboss"}, {"142", "Zarbi"}, {"143", "Obalie"}, {"144", "Phogleur"}, {"145", "Kaimorse"}, {"146", "Rémoraid"}, {"147", "Octillery"}, {"148", "Rapion"}, {"149", "Drascore"}, {"150", "Caninos de Hisui"}, {"151", "Arcanin de Hisui"}, {"152", "Chaglam"}, {"153", "Chaffreux"}, {"154", "Machoc"}, {"155", "Machopeur"}, {"156", "Mackogneur"}, {"157", "Pijako"}, {"158", "Skelénox"}, {"159", "Téraclope"}, {"160", "Noctunoir"}, {"161", "Tiplouf"}, {"162", "Prinplouf"}, {"163", "Pingoléon"}, {"164", "Babimanta"}, {"165", "Démanta"}, {"166", "Bargantua"}, {"167", "Paragruel"}, {"168", "Goupix"}, {"168", "Goupix d'Alola"}, {"169", "Feunard"}, {"169", "Feunard d'Alola"}, {"170", "Tentacool"}, {"171", "Tentacruel"}, {"172", "Écayon"}, {"173", "Luminéon"}, {"174", "Magby"}, {"175", "Magmar"}, {"176", "Maganon"}, {"177", "Magnéti"}, {"178", "Magnéton"}, {"179", "Magnézone"}, {"180", "Archéomire"}, {"181", "Archéodong"}, {"182", "Élekid"}, {"183", "Élektek"}, {"184", "Élekable"}, {"185", "Scorplane"}, {"186", "Scorvol"}, {"187", "Griknot"}, {"188", "Carmache"}, {"189", "Carchacrok"}, {"190", "Tarinor"}, {"191", "Tarinorme"}, {"192", "Voltorbe de Hisui"}, {"193", "Électrode de Hisui"}, {"194", "Motisma"}, {"195", "Korillon"}, {"196", "Éoko"}, {"197", "Feuforêve"}, {"198", "Magirêve"}, {"199", "Mélo"}, {"200", "Mélofée"}, {"201", "Mélodelfe"}, {"202", "Farfuret"}, {"202", "Farfuret de Hisui"}, {"203", "Farfurex"}, {"204", "Dimoret"}, {"205", "Stalgamin"}, {"206", "Oniglali"}, {"207", "Momartik"}, {"208", "Kranidos"}, {"209", "Charkos"}, {"210", "Dinoclier"}, {"211", "Bastiodon"}, {"212", "Marcacrin"}, {"213", "Cochignon"}, {"214", "Mammochon"}, {"215", "Grelaçon"}, {"216", "Séracrawl de Hisui"}, {"217", "Blizzi"}, {"218", "Blizzaroi"}, {"219", "Zorua de Hisui"}, {"220", "Zoroark de Hisui"}, {"221", "Furaiglon"}, {"222", "Gueriaigle de Hisui"}, {"223", "Riolu"}, {"224", "Lucario"}, {"225", "Créhelf"}, {"226", "Créfollet"}, {"227", "Créfadet"}, {"228", "Heatran"}, {"229", "Regigigas"}, {"230", "Cresselia"}, {"231", "Fulguris"}, {"232", "Boréas"}, {"233", "Démétéros"}, {"234", "Amovénus"}, {"235", "Dialga"}, {"236", "Palkia"}, {"237", "Giratina"}, {"238", "Arceus"}, {"239", "Phione"}, {"240", "Manaphy"}, {"241", "Shaymin"}, {"242", "Darkrai"}};
-		String[][] theList = {{"2", "Dodrio"}, {"3", "Noeunoeuf"}, {"4", "Noadkoko"}, {"4", "Noadkoko d'Alola"}, {"5", "Rhinocorne"}, {"6", "Rhinoféros"}, {"7", "Rhinastoc"}, {"8", "Mimitoss"}, {"9", "Aéromite"}, {"10", "Élekid"}, {"11", "Élektek"}, {"12", "Élekable"}, {"13", "Magby"}, {"14", "Magmar"}, {"15", "Maganon"}, {"16", "Ptiravi"}, {"17", "Leveinard"}, {"18", "Leuphorie"}, {"19", "Insécateur"}, {"20", "Cizayox"}, {"21", "Hachécateur"}, {"22", "Tauros"}, {"23", "Zébibron"}, {"24", "Zéblitz"}, {"25", "Girafarig"}, {"26", "Farigiraf"}, {"27", "Mascaïman"}, {"28", "Escroco"}, {"29", "Crocorible"}, {"30", "Léboulérou"}, {"31", "Bérasca"}, {"32", "Furaiglon"}, {"33", "Gueriaigle"}, {"34", "Vostourno"}, {"35", "Vaututrice"}, {"36", "Hélionceau"}, {"37", "Némélios"}, {"38", "Vivaldaim"}, {"39", "Haydaim"}, {"40", "Queulorior"}, {"41", "Motisma"}, {"42", "Crèmy"}, {"43", "Charmilly"}, {"44", "Kraknoix"}, {"45", "Vibraninf"}, {"46", "Libégon"}, {"47", "Picassaut"}, {"48", "Piclairon"}, {"49", "Bazoucan"}, {"50", "Tentacool"}, {"51", "Tentacruel"}, {"52", "Hypotrempe"}, {"53", "Hypocéan"}, {"54", "Hyporoi"}, {"55", "Denticrisse"}, {"56", "Doudouvet"}, {"57", "Farfaduvet"}, {"58", "Guérilande"}, {"59", "Parecool"}, {"60", "Vigoroth"}, {"61", "Monaflèmit"}, {"62", "Mystherbe"}, {"63", "Ortide"}, {"64", "Rafflesia"}, {"65", "Joliflor"}, {"66", "Taupiqueur d'Alola"}, {"67", "Triopikeur d'Alola"}, {"68", "Tadmorv d'Alola"}, {"69", "Grotadmorv d'Alola"}, {"70", "Mangriff"}, {"71", "Séviper"}, {"72", "Crabagarre"}, {"73", "Crabominable"}, {"74", "Plumeline"}, {"75", "Ramoloss de Galar"}, {"76", "Flagadoss de Galar"}, {"77", "Roigada de Galar"}, {"78", "Loupio"}, {"79", "Lanturn"}, {"80", "Sepiatop"}, {"81", "Sepiatroce"}, {"82", "Lovdisc"}, {"83", "Écayon"}, {"84", "Luminéon"}, {"85", "Mamanbo"}, {"86", "Chartor"}, {"87", "Passerouge"}, {"88", "Braisillon"}, {"89", "Flambusard"}, {"90", "Araqua"}, {"91", "Tarenbulle"}, {"92", "Debugant"}, {"93", "Kicklee"}, {"94", "Tygnon"}, {"95", "Kapoera"}, {"96", "Racaillou d'Alola"}, {"97", "Gravalanch d'Alola"}, {"98", "Grolem d'Alola"}, {"99", "Rototaupe"}, {"100", "Minotaupe"}, {"101", "Scrutella"}, {"102", "Mesmérella"}, {"103", "Sidérella"}, {"104", "Psystigri"}, {"105", "Mistigrix"}, {"106", "Météno"}, {"107", "Kranidos"}, {"108", "Charkos"}, {"109", "Dinoclier"}, {"110", "Bastiodon"}, {"111", "Chinchidou"}, {"112", "Pashmilla"}, {"113", "Airmure"}, {"114", "Tylton"}, {"115", "Altaria"}, {"116", "Magnéti"}, {"117", "Magnéton"}, {"118", "Magnézone"}, {"119", "Posipi"}, {"120", "Négapi"}, {"121", "Baggiguane"}, {"122", "Baggaïd"}, {"123", "Gringolem"}, {"124", "Golemastoc"}, {"125", "Chamallot"}, {"126", "Camérupt"}, {"127", "Théffroi"}, {"128", "Polthégeist"}, {"129", "Porygon"}, {"130", "Porygon2"}, {"131", "Porygon-Z"}, {"132", "Statitik"}, {"133", "Mygavolt"}, {"134", "Anchwatt"}, {"135", "Lampéroie"}, {"136", "Ohmassacre"}, {"137", "Terhal"}, {"138", "Métang"}, {"139", "Métalosse"}, {"140", "Coupenotte"}, {"141", "Incisache"}, {"142", "Tranchodon"}, {"143", "Otaria"}, {"144", "Lamantine"}, {"145", "Lokhlass"}, {"146", "Qwilfish de Hisui"}, {"147", "Qwilpik"}, {"148", "Nucléos"}, {"149", "Méios"}, {"150", "Symbios"}, {"151", "Snubbull"}, {"152", "Granbull"}, {"153", "Polarhume"}, {"154", "Polagriffe"}, {"155", "Sabelette d'Alola"}, {"156", "Sablaireau d'Alola"}, {"157", "Goupix d'Alola"}, {"158", "Feunard d'Alola"}, {"159", "Blizzi"}, {"160", "Blizzaroi"}, {"161", "Duralugon"}, {"162", "Pondralugon"}, {"163", "Pomdorochi"}, {"164", "Bulbizarre"}, {"165", "Herbizarre"}, {"166", "Florizarre"}, {"167", "Salamèche"}, {"168", "Reptincel"}, {"169", "Dracaufeu"}, {"170", "Carapuce"}, {"171", "Carabaffe"}, {"172", "Tortank"}, {"173", "Germignon"}, {"174", "Macronium"}, {"175", "Méganium"}, {"176", "Héricendre"}, {"177", "Feurisson"}, {"178", "Typhlosion"}, {"179", "Kaiminus"}, {"180", "Crocrodil"}, {"181", "Aligatueur"}, {"182", "Arcko"}, {"183", "Massko"}, {"184", "Jungko"}, {"185", "Poussifeu"}, {"186", "Galifeu"}, {"187", "Braségali"}, {"188", "Gobou"}, {"189", "Flobio"}, {"190", "Laggron"}, {"191", "Tortipouss"}, {"192", "Boskara"}, {"193", "Torterra"}, {"194", "Ouisticram"}, {"195", "Chimpenfeu"}, {"196", "Simiabraz"}, {"197", "Tiplouf"}, {"198", "Prinplouf"}, {"199", "Pingoléon"}, {"200", "Vipélierre"}, {"201", "Lianaja"}, {"202", "Majaspic"}, {"203", "Gruikui"}, {"204", "Grotichon"}, {"205", "Roitiflam"}, {"206", "Moustillon"}, {"207", "Mateloutre"}, {"208", "Clamiral"}, {"209", "Marisson"}, {"210", "Boguérisse"}, {"211", "Blindépique"}, {"212", "Feunnec"}, {"213", "Roussil"}, {"214", "Goupelin"}, {"215", "Grenousse"}, {"216", "Croâporal"}, {"217", "Amphinobi"}, {"218", "Brindibou"}, {"219", "Efflèche"}, {"220", "Archéduc"}, {"221", "Flamiaou"}, {"222", "Matoufeu"}, {"223", "Félinferno"}, {"224", "Otaquin"}, {"225", "Otarlette"}, {"226", "Oratoria"}, {"227", "Ouistempo"}, {"228", "Badabouin"}, {"229", "Gorythmic"}, {"230", "Flambino"}, {"231", "Lapyro"}, {"232", "Pyrobut"}, {"233", "Larméléon"}, {"234", "Arrozard"}, {"235", "Lézargus"}, {"236", "Feu-Perçant"}, {"237", "Ire-Foudre"}, {"238", "Chef-de-Fer"}, {"239", "Roc-de-Fer"}, {"240", "Terapagos"}, {"241", "Serpente-Eau"}, {"242", "Vert-de-Fer"}};
+		String[][] theList = {{"002", "Macronium"}, {"003", "Méganium"}, {"003", "Méga-Méganium"}, {"004", "Gruikui"}, {"005", "Grotichon"}, {"006", "Roitiflam"}, {"006", "Méga-Roitiflam"}, {"007", "Kaiminus"}, {"008", "Crocrodil"}, {"009", "Aligatueur"}, {"009", "Méga-Aligatueur"}, {"010", "Passerouge"}, {"011", "Braisillon"}, {"012", "Flambusard"}, {"013", "Sapereau"}, {"014", "Excavarenne"}, {"015", "Lépidonille"}, {"016", "Pérégrain"}, {"017", "Prismillon"}, {"018", "Aspicot"}, {"019", "Coconfort"}, {"020", "Dardargnan"}, {"020", "Méga-Dardargnan"}, {"021", "Roucool"}, {"022", "Roucoups"}, {"023", "Roucarnage"}, {"023", "Méga-Roucarnage"}, {"024", "Wattouat"}, {"025", "Lainergie"}, {"026", "Pharamp"}, {"026", "Méga-Pharamp"}, {"027", "Ratentif"}, {"028", "Miradar"}, {"029", "Rozbouton"}, {"030", "Rosélia"}, {"031", "Roserade"}, {"032", "Magicarpe"}, {"033", "Léviator"}, {"033", "Méga-Léviator"}, {"034", "Opermine"}, {"035", "Golgopathe"}, {"035", "Méga-Golgopathe"}, {"036", "Stari"}, {"037", "Staross"}, {"037", "Méga-Staross"}, {"038", "Flabébé"}, {"039", "Floette"}, {"039", "Méga-Floette"}, {"040", "Florges"}, {"041", "Cabriolaine"}, {"042", "Chevroum"}, {"043", "Psystigri"}, {"044", "Mistigrix"}, {"045", "Hélionceau"}, {"046", "Némélios"}, {"046", "Méga-Némélios"}, {"047", "Pandespiègle"}, {"048", "Pandarbare"}, {"049", "Miamiasme"}, {"050", "Miasmax"}, {"051", "Dedenne"}, {"052", "Pichu"}, {"053", "Pikachu"}, {"054", "Raichu"}, {"054", "Raichu d'Alola"}, {"055", "Mélo"}, {"056", "Mélofée"}, {"057", "Mélodelfe"}, {"057", "Méga-Mélodelfe"}, {"058", "Mimigal"}, {"059", "Migalos"}, {"060", "Abo"}, {"061", "Arbok"}, {"062", "Abra"}, {"063", "Kadabra"}, {"064", "Alakazam"}, {"064", "Méga-Alakazam"}, {"065", "Fantominus"}, {"066", "Spectrum"}, {"067", "Ectoplasma"}, {"067", "Méga-Ectoplasma"}, {"068", "Venipatte"}, {"069", "Scobolide"}, {"070", "Brutapode"}, {"070", "Méga-Brutapode"}, {"071", "Monorpale"}, {"072", "Dimoclès"}, {"073", "Exagide"}, {"074", "Chétiflor"}, {"075", "Boustiflor"}, {"076", "Empiflor"}, {"076", "Méga-Empiflor"}, {"077", "Feuillajou"}, {"078", "Feuiloutan"}, {"079", "Flamajou"}, {"080", "Flamoutan"}, {"081", "Flotajou"}, {"082", "Flotoutan"}, {"083", "Méditikka"}, {"084", "Charmina"}, {"084", "Méga-Charmina"}, {"085", "Dynavolt"}, {"086", "Élecsprint"}, {"086", "Méga-Élecsprint"}, {"087", "Tarsal"}, {"088", "Kirlia"}, {"089", "Gardevoir"}, {"089", "Méga-Gardevoir"}, {"090", "Gallame"}, {"090", "Méga-Gallame"}, {"091", "Malosse"}, {"092", "Démolosse"}, {"092", "Méga-Démolosse"}, {"093", "Tylton"}, {"094", "Altaria"}, {"094", "Méga-Altaria"}, {"095", "Nanméouïe"}, {"095", "Méga-Nanméouïe"}, {"096", "Fluvetin"}, {"097", "Cocotine"}, {"098", "Sucroquin"}, {"099", "Cupcanaille"}, {"100", "Évoli"}, {"101", "Aquali"}, {"102", "Voltali"}, {"103", "Pyroli"}, {"104", "Mentali"}, {"105", "Noctali"}, {"106", "Phyllali"}, {"107", "Givrali"}, {"108", "Nymphali"}, {"109", "Laporeille"}, {"110", "Lockpin"}, {"110", "Méga-Lockpin"}, {"111", "Polichombr"}, {"112", "Branette"}, {"112", "Méga-Branette"}, {"113", "Sorbébé"}, {"114", "Sorboul"}, {"115", "Sorbouboul"}, {"116", "Chamallot"}, {"117", "Camérupt"}, {"117", "Méga-Camérupt"}, {"118", "Hippopotas"}, {"119", "Hippodocus"}, {"120", "Rototaupe"}, {"121", "Minotaupe"}, {"121", "Méga-Minotaupe"}, {"122", "Mascaïman"}, {"123", "Escroco"}, {"124", "Crocorible"}, {"125", "Machoc"}, {"126", "Machopeur"}, {"127", "Mackogneur"}, {"128", "Griknot"}, {"129", "Carmache"}, {"130", "Carchacrok"}, {"130", "Méga-Carchacrok"}, {"131", "Strassie"}, {"132", "Ténéfix"}, {"132", "Méga-Ténéfix"}, {"133", "Mysdibule"}, {"133", "Méga-Mysdibule"}, {"134", "Absol"}, {"134", "Méga-Absol"}, {"135", "Riolu"}, {"136", "Lucario"}, {"136", "Méga-Lucario"}, {"137", "Ramoloss"}, {"137", "Ramoloss de Galar"}, {"138", "Flagadoss"}, {"138", "Flagadoss de Galar"}, {"138", "Méga-Flagadoss"}, {"139", "Roigada"}, {"139", "Roigada de Galar"}, {"140", "Carvanha"}, {"141", "Sharpedo"}, {"141", "Méga-Sharpedo"}, {"142", "Anchwatt"}, {"143", "Lampéroie"}, {"144", "Ohmassacre"}, {"144", "Méga-Ohmassacre"}, {"145", "Minidraco"}, {"146", "Draco"}, {"147", "Dracolosse"}, {"147", "Méga-Dracolosse"}, {"148", "Bulbizarre"}, {"149", "Herbizarre"}, {"150", "Florizarre"}, {"150", "Méga-Florizarre"}, {"151", "Salamèche"}, {"152", "Reptincel"}, {"153", "Dracaufeu"}, {"153", "Méga-Dracaufeu X"}, {"153", "Méga-Dracaufeu Y"}, {"154", "Carapuce"}, {"155", "Carabaffe"}, {"156", "Tortank"}, {"156", "Méga-Tortank"}, {"157", "Limonde"}, {"157", "Limonde de Galar"}, {"158", "Couafarel"}, {"159", "Sepiatop"}, {"160", "Sepiatroce"}, {"160", "Méga-Sepiatroce"}, {"161", "Venalgue"}, {"162", "Kravarech"}, {"162", "Méga-Kravarech"}, {"163", "Flingouste"}, {"164", "Gamblast"}, {"165", "Mucuscule"}, {"166", "Colimucus"}, {"166", "Colimucus de Hisui"}, {"167", "Muplodocus"}, {"167", "Muplodocus de Hisui"}, {"168", "Cadoizo"}, {"169", "Stalgamin"}, {"170", "Oniglali"}, {"170", "Méga-Oniglali"}, {"171", "Momartik"}, {"171", "Méga-Momartik"}, {"172", "Blizzi"}, {"173", "Blizzaroi"}, {"173", "Méga-Blizzaroi"}, {"174", "Grelaçon"}, {"175", "Séracrawl"}, {"175", "Séracrawl de Hisui"}, {"176", "Insécateur"}, {"177", "Cizayox"}, {"177", "Méga-Cizayox"}, {"178", "Scarabrute"}, {"178", "Méga-Scarabrute"}, {"179", "Scarhino"}, {"179", "Méga-Scarhino"}, {"180", "Emolga"}, {"181", "Brutalibré"}, {"181", "Méga-Brutalibré"}, {"182", "Brocélôme"}, {"183", "Desséliande"}, {"184", "Baggiguane"}, {"185", "Baggaïd"}, {"185", "Méga-Baggaïd"}, {"186", "Sonistrelle"}, {"187", "Bruyverne"}, {"188", "Trousselin"}, {"189", "Funécire"}, {"190", "Mélancolux"}, {"191", "Lugulabre"}, {"191", "Méga-Lugulabre"}, {"192", "Ptéra"}, {"192", "Méga-Ptéra"}, {"193", "Ptyranidur"}, {"194", "Rexillius"}, {"195", "Amagara"}, {"196", "Dragmara"}, {"197", "Onix"}, {"198", "Steelix"}, {"198", "Méga-Steelix"}, {"199", "Galekid"}, {"200", "Galegon"}, {"201", "Galeking"}, {"201", "Méga-Galeking"}, {"202", "Galvaran"}, {"203", "Iguolta"}, {"204", "Pitrouille"}, {"205", "Banshitrouye"}, {"206", "Embrylex"}, {"207", "Ymphect"}, {"208", "Tyranocif"}, {"208", "Méga-Tyranocif"}, {"209", "Grenousse"}, {"210", "Croâporal"}, {"211", "Amphinobi"}, {"211", "Méga-Amphinobi"}, {"212", "Hexadron"}, {"212", "Méga-Hexadron"}, {"213", "Marisson"}, {"214", "Boguérisse"}, {"215", "Blindépique"}, {"215", "Méga-Blindépique"}, {"216", "Airmure"}, {"216", "Méga-Airmure"}, {"217", "Feunnec"}, {"218", "Roussil"}, {"219", "Goupelin"}, {"219", "Méga-Goupelin"}, {"220", "Draby"}, {"221", "Drackhaus"}, {"222", "Drattak"}, {"222", "Méga-Drattak"}, {"223", "Kangourex"}, {"223", "Méga-Kangourex"}, {"224", "Draïeul"}, {"224", "Méga-Draïeul"}, {"225", "Terhal"}, {"226", "Métang"}, {"227", "Métalosse"}, {"227", "Méga-Métalosse"}, {"228", "Xerneas"}, {"229", "Yveltal"}, {"230", "Zygarde"}, {"230", "Méga-Zygarde"}, {"231", "Diancie"}, {"231", "Méga-Diancie"}, {"232", "Mewtwo"}, {"232", "Méga-Mewtwo X"}, {"232", "Méga-Mewtwo Y"}};
 		for (String[] couple : theList) {
 			String num = couple[0];
 			String pokeName = couple[1];
@@ -2261,7 +2279,7 @@ public class MewtwoBot {
 			String patternSetBeginning;
 			String patternSetEnding = "\n";
 			
-			if (contents.matches("[^µ]*" + region + "/[0-9]+[^µ]*")) {
+			if (contents.matches("[^👻]*" + region + "/[0-9]+[^👻]*")) {
 				patternSearch = region + "/[0-9]+\n";
 				patternSetBeginning = "";
 			}
@@ -2304,7 +2322,7 @@ public class MewtwoBot {
 	/**
 	 * Remplace les "oeufpas" d'une liste de Pokémon donnée dans un fichier texte par le nombre de Cycles associés
 	 * @param path : chemin d'accès vers le fichier texte
-	 * @param resume : Permets de reprendre à partir d'une certaine ligne du fichier si le programme à été interrompu en cours de route (0 pour commencer du début)
+	 * @param startPage : Permet de reprendre à partir d'une certaine ligne du fichier si le programme à été interrompu en cours de route (0 pour commencer du début)
 	 * @param justOne : true pour s'arrêter après le premier remplament réussi. Evite de casser plein de pages durant les tests.
 	 * @throws IOException
 	 */
@@ -2362,7 +2380,6 @@ public class MewtwoBot {
 	/**
 	 * Méthode de remplacement specifique objets et monnaue PDM 
 	 * @param from chaine à remplacer (regexp)
-	 * @param to chaine de remplacement (prend en charge les groupes capturants)
 	 * @param nameSpaces un tableau d'espaces de nom (voir les constantes de la classe API). Laisser à null pour l'espace de nom principal seul.
 	 * @param categoryName le nom de la catégorie à laquelle les articles éligibles au remplacement appartiennent (sans namespace devant). Laisser à null pour pas de filtrage.
 	 * @param trigger une chaine de texte devant être présente dans les pages pour déclencher le remplacement. Laisser à null pour pas de filtrage.
@@ -2651,6 +2668,41 @@ public class MewtwoBot {
 		}
 		return allUploadedAtFirst;
 	}
+	
+	public void renameWithTable(String path, boolean keepRedirect, boolean justOne) throws IOException, InterruptedException {
+		FileReader fr = new FileReader(path);
+		BufferedReader br = new BufferedReader(fr);
+
+		String currentLine = "currentLine";
+		
+		while (!currentLine.equals("")) {
+			currentLine = br.readLine();
+			String[] currentItems = currentLine.split(";");
+			
+			if (currentItems.length != 2) {
+				System.err.println("Error with line " + currentLine);
+			} else {
+				String from = currentItems[0];
+				String to = currentItems[1];
+				
+				Page toPage = new Page(to);
+				String toContents = toPage.getContent();
+				if (toContents == null || toContents.equals("")) {
+					API.rename(from, to, keepRedirect, "Renommage auto");
+					System.out.println("Renamed " + from + " => " + to);
+					TimeUnit.SECONDS.sleep(1);
+					
+				}
+				
+			}
+
+			if (justOne) {
+				break;
+			}
+		}
+		
+		br.close();
+	}
 
 	public void addCategory() {
 		String category = "[[Catégorie:Artwork Pokémon]]";
@@ -2718,7 +2770,7 @@ public class MewtwoBot {
 //					System.out.println("\tSaved");
 //					
 //					hadNothingToDo = false;
-////					TimeUnit.SECONDS.sleep(1);
+//					TimeUnit.SECONDS.sleep(1);
 //				}
 //				
 				if(justOne) {
@@ -3911,12 +3963,13 @@ public class MewtwoBot {
 			"Copieuse (Épée et Bouclier Évolution Céleste 222)",
 			"Copieuse (EX Île des Dragons 73)",
 			"Copieuse (Expedition 138)",
-			"Copieuse (HeartGold SoulSilver 90)",
+			"Copieuse (HeartGold & SoulSilver 90)",
 			"Copieuse (HS Kit du Dresseur Raichu 21)",
 			"Copieuse (L'Appel des Légendes 77)",
 			"Copieuse (Soleil et Lune Tempête Céleste 127)",
 			"Copieuse (Soleil et Lune Tempête Céleste 163)",
 			"Copycat (EX Team Rocket Returns 83)",
+			"Dedenne (Épée et Bouclier Stars Étincelantes TG07)",
 			"Démolosse (Noir & Blanc Explosion Plasma 56)",
 			"Mackogneur (Noir & Blanc Explosion Plasma 49)",
 			"Magicarpe (Soleil et Lune Invasion Carmin 17)",
@@ -4032,7 +4085,7 @@ public class MewtwoBot {
 					continue;
 				}
 				
-//				System.out.println(title);
+				System.out.println(title);
 				
 				String contents = page.getContent();
 				String[] contentsSplit = contents.split("\n");
@@ -4195,7 +4248,7 @@ public class MewtwoBot {
 							}
 							
 							// On vérifie que le sujet est bien secondaire
-						    pattern = Pattern.compile("\\| (nom|nomréel|sujet)[0-9]*=" + topic.replace("(", "\\(").replace(")", "\\)") + "\n");
+						    pattern = Pattern.compile("\\| (nom|nomréel|sujet|sujetnommé)[0-9]*=" + topic.replace("(", "\\(").replace(")", "\\)") + "\n");
 						    matcher = pattern.matcher(contents);
 						    
 						    if (!matcher.find()) {
@@ -4211,6 +4264,20 @@ public class MewtwoBot {
 							    }
 						    }
 					    }
+					}
+				}
+
+				// Ajout des sujets nommés à la liste des sujets secondaires
+				Pattern pattern = Pattern.compile("\\| sujetnommé=([^\n]*)");
+				Matcher matcher = pattern.matcher(contents);
+				if (matcher.find()) {
+					String namedTopic = matcher.group();
+					namedTopic = namedTopic.replace("| sujetnommé=", "");
+					System.out.println(namedTopic);
+
+					// Ajout du sujet nommé à la liste des sujets secondaires
+					if (generateCompleteTopicList && !completeTopicList.contains(namedTopic)) {
+						completeTopicList.add(namedTopic);
 					}
 				}
 				
@@ -4269,10 +4336,10 @@ public class MewtwoBot {
 							topicRecord = topicNumber - 1;
 							System.out.println("\tNEW RECORD: " + Integer.toString(topicRecord));
 						}
-						
-						if (justOne) {
-							break;
-						}
+					}
+
+					if (justOne) {
+						break;
 					}
 				}
 				
@@ -4422,10 +4489,11 @@ public class MewtwoBot {
 		}
 	}
 	
-	public void getSpecialCardNames(String startingFrom, String outputName, boolean post, boolean justOne) throws IOException {
+	public void getSpecialCardNames(String startingFrom, String outputName, String outputAttacksName, boolean merge, boolean post, boolean justOne) throws IOException {
 		String[] categoryNames = {"Carte du JCC", "Carte du JCCP"};
 //		String[] categoryNames = {"Carte de l'extension XY Vigueur Spectrale"};
 		String ans = "";
+		String attacksAns = "";
 		
 		for (String categoryName : categoryNames) {
 			
@@ -4450,33 +4518,52 @@ public class MewtwoBot {
 			
 			while (page != null) {
 				title = page.getTitle();
-//				System.out.println(title);
 				String contents = page.getContent();
 				
-				if (!contents.contains("{{Infobox Carte") && (!contents.contains("{{Article carte"))) {
+				if (!contents.contains("{{Article carte")) {
 					page = pageCollection.getNextPage();
 					continue;
 				}
 				
 				String[] lines = contents.split("\n");
 				String name = "";
-				for (String line : lines) {
-					if (line.contains("| nom=")) {
-						name = line.replace("| nom=", "");
-						break;
+				String[] attacks = new String[5];
+				String[] prefixesAttacks = {"attaque", "attaque2", "attaque3", "attaque4", "vstar"};
+
+				// Finding the name
+				String key = "| nom=";
+				if (contents.contains(key)) {
+					int keyIndex = contents.indexOf(key);
+					name = contents.substring(keyIndex + key.length(), contents.indexOf("\n", keyIndex));
+				}
+
+				// Finding the more appropriate key for attacks
+				for (int i = 0; i < prefixesAttacks.length; i++) {
+					String prefixAttack = prefixesAttacks[i];
+					key = "| " + prefixAttack + "-nom-formaté=";
+					if (!contents.contains(key)) {
+						key = "| " + prefixAttack + "-nom-trad=";
+						if (contents.contains(key)) {
+							if (contents.contains("| " + prefixAttack + "-nom-ref=non")) {
+								key = "| " + prefixAttack + "-nom=";
+							}
+						} else {
+							key = "| " + prefixAttack + "-nom=";
+						}
+					}
+
+					if (contents.contains(key)) {
+						int keyIndex = contents.indexOf(key);
+						String newAttack = contents.substring(keyIndex + key.length(), contents.indexOf("\n", keyIndex));
+						if (!newAttack.isEmpty()) {
+							attacks[i] = newAttack;
+						}
 					}
 				}
+
 				if (name.equals("")) {
 					System.err.println("Nom non trouvé pour la carte " + title);
 				} else {
-
-					// On remplace les ESPÈCES DELTA
-					name = name.replace("ESPÈCES DELTA", "");	
-					
-					// On remplace les niveaux qui ne sont pas les NIV.X
-					name = name.replaceAll("(NIV|LV)\\.[0-9]+", "");
-					name = name.replaceAll(" *<small> *</small>", "");
-					
 					String articleName = title.replaceAll(" \\([^\n]*\\)", "");								
 					
 					if (!name.equals(articleName)) {
@@ -4503,6 +4590,12 @@ public class MewtwoBot {
 						}
 					}
 				}
+
+				for (String attack : attacks) {
+					if (attack != null) {
+						attacksAns += attack + "\n";
+					}
+				}
 				page = pageCollection.getNextPage();
 			}
 			ans = ans + "\n";
@@ -4510,17 +4603,110 @@ public class MewtwoBot {
 		
 //		System.out.println(ans);
 		ans = "<includeonly>{{#switch: {{{1}}}" + ans + "\n| #default = [[{{{1}}}|{{#invoke:Regexp|retirerparentheses|{{{1}}}}}]]\n}}</includeonly><noinclude>{{/Documentation}}</noinclude>";
-		
+
+		// Names
 		FileOutputStream outputStream = new FileOutputStream(outputName);
 	    byte[] strToBytes = ans.getBytes();
 	    outputStream.write(strToBytes);
+		String savName = outputName.replace(".txt", "_sav.txt");
 
 	    outputStream.close();
+
+		// Attacks
+		String[] attacksAnsSplit = attacksAns.split("\n");
+		List<String> attacksAnsList = new ArrayList<>(List.of(attacksAnsSplit));
+		List<String> attacksAnsListFiltered = new ArrayList<>(new LinkedHashSet<>(attacksAnsList));
+
+		Collections.sort(attacksAnsListFiltered, Util.comparateurSansAccent);
+		System.out.println(attacksAnsListFiltered);
+		String newAttacksAns = "";
+		for (String a : attacksAnsListFiltered) {
+			if (a != "") {
+				newAttacksAns += a + "\n";
+			}
+		}
+
+		FileOutputStream outputStreamAttacks = new FileOutputStream(outputAttacksName);
+		byte[] strToBytesAttacks = newAttacksAns.getBytes();
+		outputStreamAttacks.write(strToBytesAttacks);
+		String savAttacksName = outputAttacksName.replace(".txt", "_sav.txt");
+
+		outputStreamAttacks.close();
+	    
+	    if (merge) {
+		    mergeFiles(outputName, savName, savName);
+		    
+		    byte[] encoded = Files.readAllBytes(Paths.get(savName));
+		    ans = new String(encoded, "utf-8");
+	    }
 	    
 	    if (!justOne && post) {
 		    Page page = new Page("Modèle:Lien carte");
 		    page.setContent(ans, "Mise à jour des liens de cartes");
 	    }
+	}
+	
+	public static void mergeFiles(String inputName1, String inputName2, String outputName) {
+		Set<String> seenLines = new HashSet<>();
+		List<String> mergedLines = new ArrayList<>();
+
+		try {
+			// Lire le premier fichier et ajouter les lignes
+			readAndAddLines(inputName1, seenLines, mergedLines);
+
+			// Lire le deuxième fichier et insérer les nouvelles lignes dans le bon ordre
+			try (BufferedReader reader = new BufferedReader(new FileReader(inputName2))) {
+				String line;
+				int index = 0;
+
+				while ((line = reader.readLine()) != null) {
+					if (line.trim().isEmpty()) {
+						mergedLines.add(index++, line); // Intercaler ligne vide
+					} else if (!seenLines.contains(line)) {
+						mergedLines.add(index++, line);
+						seenLines.add(line);
+					} else {
+						// Si déjà vue, avancer l'index mais ne pas l'ajouter
+						index = mergedLines.indexOf(line) + 1;
+					}
+				}
+			}
+
+			// Écriture dans le fichier de sortie
+			try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputName))) {
+				int emptyCount = 0;
+
+				for (String line : mergedLines) {
+					if (line.trim().isEmpty()) {
+						emptyCount++;
+						if (emptyCount <= 1) {
+							writer.write(line);
+							writer.newLine();
+						}
+					} else {
+						emptyCount = 0;
+						writer.write(line);
+						writer.newLine();
+					}
+				}
+			}
+
+			System.out.println("Fusion terminée avec intercalation.");
+		} catch (IOException e) {
+			System.err.println("Erreur lors de la lecture ou de l'écriture des fichiers : " + e.getMessage());
+		}
+	}
+
+	private static void readAndAddLines(String file, Set<String> seenLines, List<String> mergedLines) throws IOException {
+		try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+			String line;
+			while ((line = reader.readLine()) != null) {
+				mergedLines.add(line);
+				if (!line.trim().isEmpty()) {
+					seenLines.add(line);
+				}
+			}
+		}
 	}
 	
 	public void backUpArticles(String startingFrom, String outputPath) throws IOException {
@@ -5671,6 +5857,45 @@ public class MewtwoBot {
 	    outputStream.close();
 	    
 	    System.out.println("Error count: " + Integer.toString(errorCount) + "/" + Integer.toString(pageCount));
+	}
+
+	public void redirectionsCharmilly(boolean isMiniature, String game, boolean justOne) throws InterruptedException {
+		String[] sucres = {"Fraise", "Baie", "Cœur", "Étoile", "Trèfle", "Fleur", "Ruban"};
+		String[] nappages = {"Lait Vanille", "Lait Ruby", "Lait Matcha", "Lait Menthe", "Lait Citron", "Lait Salé", "Mélange Ruby", "Mélange Caramel", "Mélange Tricolore"};
+
+		isMiniature = true;
+		game = "EV";
+		justOne = false;
+
+		if (isMiniature) {
+			for (String nappage : nappages) {
+				String target = "Fichier:Miniature 0869 " + nappage + " " + game + ".png";
+				for (String sucre : sucres) {
+					Page page = new Page("Fichier:Miniature 0869 " + nappage + " " + sucre + " en Sucre " + game + ".png");
+					page.setContent("#REDIRECTION [[" + target + "]]", "Redirection vers [[" + target + "]]");
+					System.out.println(nappage + " " + sucre + " en Sucre ok");
+					System.out.println("-> " + target);
+					if (justOne) {
+						return;
+					}
+
+					TimeUnit.SECONDS.sleep(1);
+				}
+			}
+		} else {
+			for (String sucre : sucres) {
+				String target = "Fichier:Sprite 0869 " + sucre + " en Sucre chromatique " + game + ".png";
+				for (String nappage : nappages) {
+					Page page = new Page("Fichier:Sprite 0869 " + nappage + " " + sucre + " en Sucre chromatique " + game + ".png");
+					page.setContent("#REDIRECTION [[" + target + "]]", "Redirection vers [[" + target + "]]");
+					System.out.println(nappage + " " + sucre + " en Sucre ok");
+					System.out.println("-> " + target);
+					if (justOne) {
+						return;
+					}
+				}
+			}
+		}
 	}
 	
 	

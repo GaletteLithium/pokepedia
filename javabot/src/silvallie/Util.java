@@ -1,6 +1,9 @@
-package com.grotteazuree;
+package silvallie;
 
+import java.text.Normalizer;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -26,6 +29,14 @@ public class Util {
 		}
 		return counter;
 	}
+
+	public static String enleverAccents(String s) {
+		return Normalizer.normalize(s, Normalizer.Form.NFD);
+	}
+
+	static Comparator<String> comparateurSansAccent = (o1, o2) -> {
+		return enleverAccents(o1).compareTo(enleverAccents(o2));
+	};
 	
 	public static String de(String str) {
 		String name = str.toLowerCase();

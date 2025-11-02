@@ -1,12 +1,12 @@
-expansion		= "Promo SV"
-abrv			= "SVP"
-# expansion		= "Écarlate et Violet Aventures Ensemble"
-# abrv			= "JTG"
+expansion		= "Promo ME"
+abrv			= "MEP"
+# expansion		= "Méga-Évolution"
+# abrv			= "MEG"
 prefixe_num		= ""
 suffixe_num		= ""
-complete_number_entry	= True
+complete_number_entry	= True # not "Promo" in expansion
 complete_number_out	= True
-max_number		= 193
+max_number		= 10
 max_digits		= 3
 ans				= ""
 
@@ -16,8 +16,12 @@ def get_url(card_num):
 	return "https://limitlesstcg.nyc3.digitaloceanspaces.com/tpci/{0}/{0}_{1}{2}_R_FR.png".format(abrv, card_num, suffixe_num)
 	# return "https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/tpc/SM12a/SM12a_{0}_R_JP.png".format(card_num)
 
+print("cd Extensions")
+print("mkdir {0}".format(expansion))
+print("cd ..")
+
 # for i in [67, 150, 177, 198, 200]:
-for i in range(173, max_number + 1):
+for i in range(1, max_number + 1):
 	string_i			= str(i)
 	complete_string_i	= prefixe_num + "0" * (max_digits - len(string_i)) + string_i
 	string_i			= prefixe_num + string_i
