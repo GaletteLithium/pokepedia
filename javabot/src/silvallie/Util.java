@@ -9,6 +9,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Util {
+	public static String getPokepediaPath() {
+		return "C:\\Users\\ueiht\\Poképédia\\";
+	}
+
 	/**
 	 * Return the number of occurences of a word in a string
 	 * @param str the  complete strring to inspect at

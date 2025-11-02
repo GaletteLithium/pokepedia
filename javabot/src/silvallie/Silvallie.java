@@ -1,13 +1,7 @@
 package silvallie;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import silvallie.modules.*;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -47,9 +41,7 @@ public class Silvallie {
 		System.out.println("Execution time: " + Long.toString(duration / 60) + " min " + Long.toString(duration % 60) + " s");
 	}
 
-
-//	String pokepediaPath = "D:\\Poképédia\\";
-	String pokepediaPath = "C:\\Users\\ueiht\\Poképédia\\";
+	String pokepediaPath = Util.getPokepediaPath();
 	
 	@SuppressWarnings("unused")
 	public void run() throws IOException, InterruptedException {
@@ -184,7 +176,7 @@ public class Silvallie {
 		String outputPath = pokepediaPath + "Robot\\cards_special_name.txt";
 		String savPath = pokepediaPath + "Robot\\card_attacks_name.txt";
 //		addSecondaryTopics(null, true, false);
-		getSpecialCardNames(null, outputPath, savPath, true, true, false);
+//		getSpecialCardNames(null, outputPath, savPath, true, true, false);
 		
 //		mergeFiles(outputPath, savPath, savPath);
 		
@@ -221,124 +213,11 @@ public class Silvallie {
 //		postMissingAttackImagesTable(pokepediaPath + "Robot\\dumps\\tabledump.txt", true);
 		
 //		updateCycles(pokepediaPath + "Robot\\cycles_list.txt", 1040, false);
-			
-//		fullUpdateLocations();
+
+		fullUpdateLocations.main(null);
 
 //		renameNDEX(listPath);
 		
-	}
-	
-	public void fullUpdateLocations() throws IOException {
-		dumpContentFromPages(false);
-		pythonLocDataConverter();
-		uploadLocations(false);
-
-	}
-	
-	
-	public void savePage(String path, Page page) throws IOException {
-		String pageName = page.getTitle();
-		String pageSave = pageName.replace(":", "-");
-		
-		Path saveFilePath = Path.of(path + pageSave + ".txt");			
-		String pageContent = page.getContent();
-		
-		Files.writeString(saveFilePath, pageContent);
-		System.out.println(pageName + " dump ok");
-	}
-	
-	public void dumpContentFromPages(boolean justOne) throws IOException {
-
-		String[] categoryNames = new String[] {"Page avec un module Tableau Pokémon"};
-//		String[] moreArticles = new String[] {"Pokémon mouvant", "Monde Distorsion", "Réserve Naturelle", "Pokémon Rubis Oméga et Saphir Alpha : Version démo spéciale", "Expédition Dynamax", "Quête des Taupiqueur d'Alola"};
-		String path = pokepediaPath + "Robot\\dumps\\locdump\\";
-		List<PageCollection> pageCollections = new ArrayList<>();
-		for(int i=0; i<categoryNames.length; i++) {
-			
-			PageCollection pageCollection = new PageCollection(
-					new int[] {API.NS_MAIN},
-					API.FILTER_NONREDIRECTS,
-					categoryNames[i]
-				);
-			pageCollections.add(pageCollection);
-			System.out.println(categoryNames[i] + " category dump ok");
-		}
-		
-
-		
-		System.out.println("\n********\nFILEDUMP\n********\n");
-		
-
-		
-		int counter = 0;
-		for(PageCollection pageCollection : pageCollections) {
-			Page page = pageCollection.getNextPage();
-	
-			while(page!=null) {
-				
-				savePage(path, page);
-				
-				if (justOne) {
-					break;
-				}
-				
-				page = pageCollection.getNextPage();
-			}
-			System.out.println("\n********\nCategory " + categoryNames[counter] + " ok\n********\n");
-			counter++;
-		}
-//		for(String article : moreArticles) {
-//			Page page = new Page(article);
-//			savePage(path, page);
-//		}
-		System.out.println("\n********\nBonus pages ok\n********\n");
-		
-	}
-	
-	public void pythonLocDataConverter() throws IOException {
-		Process p = Runtime.getRuntime().exec("python " + pokepediaPath + "Robot\\locdata_converter.py\"");
-		BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
-		String line = "";
-		while ((line = reader.readLine()) != null) {
-		    System.out.println(line);
-		}
-	}
-	
-	@SuppressWarnings("resource")
-	public void uploadLocations(boolean justOne) throws IOException {
-		File folderPath = new File(pokepediaPath + "Robot\\dumps\\locdump_converted\\");
-
-		File contents[] = folderPath.listFiles();
-		
-		
-		for(int i=0; i<contents.length; i++) {
-			String contentString	= contents[i].getName();
-			contentString = contentString.replace("_", ":");
-			contentString = contentString.replace(".txt", "");
-			String uploadName		= "Module:Localisations/Données/" + contentString;
-			
-			Page filePage = new Page(uploadName);
-			
-
-			FileReader		fr		= new FileReader(contents[i]);
-			BufferedReader	br		= new BufferedReader(fr);
-			String			currentLine			= br.readLine();
-			String 			locations = "";
-			
-			while (currentLine != null) {
-				locations		+= currentLine + "\n";
-				currentLine		= br.readLine();
-			}
-			currentLine		= br.readLine();
-			
-			Page page = new Page(uploadName);
-			page.setContent(locations, "Mise à jour des localisations");
-			System.out.println(uploadName + " ok");
-			
-			if (justOne) {
-				break;
-			}
-		}
 	}
 
 	public void uploadFiles(File folderPath, boolean justOne) {

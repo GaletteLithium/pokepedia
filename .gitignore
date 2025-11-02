@@ -11,6 +11,7 @@ JCC/limitless_scraping/Extensions/
 javabot/bin/
 javabot/.*
 javabot/Silvallie.iml
+javabot/classes/
 javabot/src/silvallie/Login.java
 test/
 card_article.txt
