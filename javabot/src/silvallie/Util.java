@@ -38,7 +38,7 @@ public class Util {
 		return Normalizer.normalize(s, Normalizer.Form.NFD);
 	}
 
-	static Comparator<String> comparateurSansAccent = (o1, o2) -> {
+	public static Comparator<String> comparateurSansAccent = (o1, o2) -> {
 		return enleverAccents(o1).compareTo(enleverAccents(o2));
 	};
 	

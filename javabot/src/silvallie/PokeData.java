@@ -915,7 +915,7 @@ public class PokeData {
 		return null;
 	}
 	
-	static int getGenerationAttack(String attackName) {
+	public static int getGenerationAttack(String attackName) {
 		attackName = attackName.replace(" (capacité)", "");
 		Object[][] temporaryDict = new Object[][]{
 			{"Abîme", 1}, {"Acidarmure", 1}, {"Acide", 1}, {"Affûtage", 1}, {"Amnésie", 1}, {"Armure", 1}, {"Balayage", 1}, {"Bec Vrille", 1}, {"Bélier", 1}, {"Berceuse", 1}, {"Blizzard", 1}, {"Bombe Œuf", 1}, {"Bouclier", 1}, {"Boul'Armure", 1}, {"Brouillard", 1}, {"Brume", 1}, {"Buée Noire", 1}, {"Bulles d'O", 1}, {"Cage Éclair", 1}, {"Cascade", 1}, {"Charge", 1}, {"Choc Mental", 1}, {"Claquoir", 1}, {"Clonage", 1}, {"Combo-Griffe", 1}, {"Constriction", 1}, {"Conversion", 1}, {"Copie", 1}, {"Coud'Krâne", 1}, {"Coup d'Boule", 1}, {"Coupe", 1}, {"Coupe-Vent", 1}, {"Croc de Mort", 1}, {"Croc Fatal", 1}, {"Croissance", 1}, {"Cru-Ailes", 1}, {"Cyclone", 1}, {"Damoclès", 1}, {"Danse Flammes", 1}, {"Danse Fleurs", 1}, {"Danse Lames", 1}, {"Dard-Nuée", 1}, {"Dard-Venin", 1}, {"Déflagration", 1}, {"Destruction", 1}, {"Détritus", 1}, {"Dévorêve", 1}, {"Double Dard", 1}, {"Double Pied", 1}, {"Draco-Rage", 1}, {"E-Coque", 1}, {"Éboulement", 1}, {"Éclair", 1}, {"Écras'Face", 1}, {"Écrasement", 1}, {"Écume", 1}, {"Empal'Korne", 1}, {"Entrave", 1}, {"Étreinte", 1}, {"Explosion", 1}, {"Fatal-Foudre", 1}, {"Flammèche", 1}, {"Flash", 1}, {"Force", 1}, {"Force Poigne", 1}, {"Fouet Lianes", 1}, {"Frappe Atlas", 1}, {"Frénésie", 1}, {"Furie", 1}, {"Gaz Toxik", 1}, {"Griffe", 1}, {"Grincement", 1}, {"Grobisou", 1}, {"Groz'Yeux", 1}, {"Guillotine", 1}, {"Hâte", 1}, {"Hurlement", 1}, {"Hydrocanon", 1}, {"Hypnose", 1}, {"Jackpot", 1}, {"Jet de Sable", 1}, {"Jet-Pierres", 1}, {"Koud'Korne", 1}, {"Lance-Flammes", 1}, {"Lance-Soleil", 1}, {"Laser Glace", 1}, {"Léchouille", 1}, {"Ligotage", 1}, {"Lilliput", 1}, {"Lutte", 1}, {"Mania", 1}, {"Massd'Os", 1}, {"Mawashi Geri", 1}, {"Méga-Sangsue", 1}, {"Météores", 1}, {"Métronome", 1}, {"Mimi-Queue", 1}, {"Mimique", 1}, {"Morphing", 1}, {"Morsure", 1}, {"Mur Lumière", 1}, {"Ombre Nocturne", 1}, {"Onde Boréale", 1}, {"Onde Folie", 1}, {"Osmerang", 1}, {"Para-Spore", 1}, {"Patience", 1}, {"Picanon", 1}, {"Picpic", 1}, {"Pied Sauté", 1}, {"Pied Voltige", 1}, {"Pilonnage", 1}, {"Pince-Masse", 1}, {"Piqué", 1}, {"Pistolet à O", 1}, {"Plaquage", 1}, {"Poing Comète", 1}, {"Poing Éclair", 1}, {"Poing Feu", 1}, {"Poing Glace", 1}, {"Poing Karaté", 1}, {"Poudre Dodo", 1}, {"Poudre Toxik", 1}, {"Protection", 1}, {"Psyko", 1}, {"Puissance", 1}, {"Purédpois", 1}, {"Rafale Psy", 1}, {"Reflet", 1}, {"Regard Médusant", 1}, {"Repli", 1}, {"Repos", 1}, {"Riposte", 1}, {"Rugissement", 1}, {"Sacrifice", 1}, {"Sécrétion", 1}, {"Séisme", 1}, {"Soin", 1}, {"Sonic Boom", 1}, {"Souplesse", 1}, {"Spore", 1}, {"Surf", 1}, {"Télékinésie", 1}, {"Téléport", 1}, {"Tonnerre", 1}, {"Torgnoles", 1}, {"Tornade", 1}, {"Toxik", 1}, {"Tranch'Herbe", 1}, {"Tranche", 1}, {"Trempette", 1}, {"Triplattaque", 1}, {"Tunnel", 1}, {"Ultimapoing", 1}, {"Ultimawashi", 1}, {"Ultralaser", 1}, {"Ultrason", 1}, {"Uppercut", 1}, {"Vague Psy", 1}, {"Vampigraine", 1}, {"Vampirisme", 1}, {"Vive-Attaque", 1}, {"Vol", 1}, {"Vole-Vie", 1}, {"Yoga", 1},
@@ -940,7 +940,7 @@ public class PokeData {
 	}
 	
 	// Returns a list of attacks absent from a specific pair of games
-	static String[] getUnavailableAttacks (String games) {
+	public static String[] getUnavailableAttacks(String games) {
 		switch (games) {
 			case ("SL"):
 				return new String[] {"Écrous d'Poing", "Évo-Chardasso", "Évo-Congélo", "Évo-Dynamo", "Évo-Écolo", "Évo-Fabulo", "Évo-Flambo", "Évo-Psycho", "Évo-Ténébro", "Évo-Thalasso", "Pika-Fracas", "Pika-Piqué", "Pika-Splash", "Pika-Sprint", "Apocalypsis Luminis", "Caboche-Kaboum", "Dracacophonie Flamboyante", "Hélio-Choc Dévastateur", "Hurlement des Roches-Lames", "Patati-Patattrape", "Photo-Geyser", "Plasma Punch", "Rayons Séléno-Explosifs"};
@@ -963,7 +963,7 @@ public class PokeData {
 	static String[] getZAbilities () {
 		return new String[] {"Apocalypse Gigalithique", "Apocalypsis Luminis", "Appel des Ombres Éternelles", "Chaos Draconique", "Cocon Fatal", "Colère du Gardien d'Alola", "Combo Hyper-Furie", "Dark Body Press", "Dracacophonie Flamboyante", "Déluge Causti-Toxique", "Électro-Surf Survolté", "Éruption Géo-Sismique", "Fauche-Âme des Sept Étoiles", "Fulguro-Lance Gigavolt", "Fureur des Plumes Spectrales", "Gare au Ronflex", "Giga-Tonnerre", "Hélio-Choc Dévastateur", "Hurlement des Roches-Lames", "Impact Choupinova", "Laser Cryogénique", "Neuf pour Un", "Patati-Patattrape", "Pétalexplosion Éblouissante", "Pikachute Foudroyante", "Piqué Supersonique", "Psycho-Pulvérisation EX", "Pyro-Explosion Cataclysmique", "Rayons Séléno-Explosifs", "Super Tourbillon Abyssal", "Supernova Originelle", "Symphonie des Ondines", "Trou Noir des Ombres", "Turbo-Charge Bulldozer", "Vrille Maximum"};
 	}
-	static boolean isZAbility (String ability) {
+	public static boolean isZAbility (String ability) {
 		String[] zAbilities = getZAbilities();
 		for (String zAbility : zAbilities) {
 			if (ability.equals(zAbility)) {
@@ -977,7 +977,7 @@ public class PokeData {
 	static String[] getDynamaxAbilities () {
 		return new String[] {"Aéromax", "Cryomax", "Dracomax", "Enchantomax", "Fulguromax", "Gardomax", "Hydromax", "Insectomax", "Lithomax", "Métallomax", "Normalomax", "Phytomax", "Psychomax", "Pugilomax", "Pyromax", "Sinistromax", "Sismomax", "Spectromax", "Toxinomax"};
 	}
-	static boolean isDynamaxAbility (String ability) {
+	public static boolean isDynamaxAbility(String ability) {
 		String[] dynamaxAbilities = getDynamaxAbilities();
 		for (String dynamaxAbility : dynamaxAbilities) {
 			if (ability.equals(dynamaxAbility)) {
@@ -990,7 +990,7 @@ public class PokeData {
 	static String[] getGigantamaxAbilities () {
 		return new String[] {"Bulles G-Max", "Canonnade G-Max", "Choc G-Max", "Combustion G-Max", "Corrosion G-Max", "Coup Final G-Max", "Cure G-Max", "Câlin G-Max", "Enlisement G-Max", "Fonte G-Max", "Foudre G-Max", "Fouet G-Max", "Fournaise G-Max", "Frappe G-Max", "Gâchette G-Max", "Hantise G-Max", "Illusion G-Max", "Multicoup G-Max", "Nectar G-Max", "Ondes G-Max", "Pactole G-Max", "Percussion G-Max", "Percée G-Max", "Pestilence G-Max", "Pyroball G-Max", "Rafale G-Max", "Récif G-Max", "Récolte G-Max", "Résonance G-Max", "Sentence G-Max", "Téphra G-Max", "Torpeur G-Max", "Usure G-Max"};
 	}
-	static boolean isGigantamaxAbility (String ability) {
+	public static boolean isGigantamaxAbility(String ability) {
 		String[] gigantamaxAbilities = getGigantamaxAbilities();
 		for (String gigantamaxAbility : gigantamaxAbilities) {
 			if (ability.equals(gigantamaxAbility)) {
