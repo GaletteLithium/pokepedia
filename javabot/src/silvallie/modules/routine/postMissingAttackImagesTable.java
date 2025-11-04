@@ -24,8 +24,8 @@ public class postMissingAttackImagesTable {
 	}
 
 	/**
-	 * Posts onto a sandpage the table of the missing attack images on Poképédia
-	 * @param path The path where the table dump is saved
+	 * Posts onto <a href="https://www.pokepedia.fr/User:Matt./Tableau_des_images_de_capacités">a sandbox page</a> the table of the missing attack images on Poképédia
+	 * @param path The path where the table dump should be saved
 	 * @param useGenerationToAttackDict Set to true to use previously configured information. Should only be set to false when new attacks are revealed
 	 */
 	private static void run(String path, boolean useGenerationToAttackDict) throws IOException, InterruptedException {

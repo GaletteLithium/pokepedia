@@ -15,6 +15,17 @@ public class uploadItems {
 		File folderPath = new File(pokepediaPath + "Images\\EV\\objets\\objetsOrdonnésRenommésFiltrés\\no_metadata");
 		boolean justOne = true;
 
+		run(folderPath, justOne);
+
+		Silvallie.endRun(startTime);
+	}
+
+	/**
+	 * Upload item images contained in a given folder
+	 * @param folderPath The path to the folder containing the files
+	 * @param justOne Set to true to stop after the first upload. Please use this on the first run to avoid accidents
+	 */
+	private static void run(File folderPath, boolean justOne) {
 		File[] contents = folderPath.listFiles();
 		String descriptionHeader = "== Description ==\n\n";
 
@@ -22,7 +33,7 @@ public class uploadItems {
 			String contentString	= contents[i].toString();
 			String uploadName		= "Fichier:" + contents[i].getName();
 
-			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals(".png")) {
+			if (uploadName.endsWith(".png")) {
 				// Computing the games names from the item title
 				String[] uploadNameSplit = uploadName.split(" ");
 				String gamesShortName = uploadNameSplit[uploadNameSplit.length - 1];
@@ -55,49 +66,42 @@ public class uploadItems {
 
 
 				// Items that have special links
-				if (itemName.length() > 15 && itemName.substring(0, 15).equals("Lettre Végétale")) {
+				if (itemName.startsWith("Lettre Végétale")) {
 					String letter = itemName.substring(0, 15);
 					String pokemon = itemName.substring(15);
 					itemName = letter;
 					suffixItemName = suffixItemName + pokemon;
-				}
-				if (itemName.length() > 14 && itemName.substring(0, 14).equals("Malle Penderie")) {
+				} else if (itemName.startsWith("Malle Penderie")) {
 					String malle = itemName.substring(0, 14);
 					String color = itemName.substring(14);
 					itemName = malle;
 					suffixItemName = suffixItemName + color;
-				}
-				if (itemName.length() > 12 && itemName.substring(0, 12).equals("Moticyclette")) {
+				} else if (itemName.startsWith("Moticyclette")) {
 					String bike = itemName.substring(0, 12);
 					String color = itemName.substring(12);
 					itemName = bike;
 					suffixItemName = suffixItemName + color;
-				}
-				if (itemName.length() > 10 && itemName.substring(0, 10).equals("Bicyclette")) {
+				} else if (itemName.startsWith("Bicyclette")) {
 					String bike = itemName.substring(0, 10);
 					String color = itemName.substring(10);
 					itemName = bike;
 					suffixItemName = suffixItemName + color;
-				}
-				if (itemName.length() > 7 && itemName.substring(0, 7).equals("Holokit")) {
+				} else if (itemName.startsWith("Holokit")) {
 					String holokit = itemName.substring(0, 7);
 					String color = itemName.substring(7);
 					itemName = holokit;
 					suffixItemName = suffixItemName + color;
-				}
-				if (itemName.length() > 9 && itemName.substring(0, 9).equals("Météorite")) {
+				} else if (itemName.startsWith("Météorite")) {
 					String meteorite = itemName.substring(0, 9);
 					String color = itemName.substring(9);
 					itemName = meteorite;
 					suffixItemName = suffixItemName + color;
-				}
-				if (itemName.length() > 5 && itemName.substring(0, 5).equals("Vokit")) {
+				} else if (itemName.startsWith("Vokit")) {
 					String vokit = itemName.substring(0, 5);
 					String color = itemName.substring(5);
 					itemName = vokit;
 					suffixItemName = suffixItemName + color;
-				}
-				if (itemName.equals("Œuf (objet)")) {
+				} else if (itemName.equals("Œuf (objet)")) {
 					itemName = "Œuf";
 				}
 
@@ -143,7 +147,5 @@ public class uploadItems {
 				}
 			}
 		}
-
-		Silvallie.endRun(startTime);
 	}
 }

@@ -9,15 +9,19 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Util {
+	/**
+	 * Returns the path to the Poképédia folder, to be used in other contexts. Change this if on another computer
+	 * @return The path to the Poképédia folder
+	 */
 	public static String getPokepediaPath() {
 		return "C:\\Users\\ueiht\\Poképédia\\";
 	}
 
 	/**
-	 * Return the number of occurences of a word in a string
-	 * @param str the  complete strring to inspect at
-	 * @param word the word we want to count
-	 * @return the number of occurences
+	 * Return the number of occurrences of a word in a string
+	 * @param str The complete string to inspect
+	 * @param word The word to be counted
+	 * @return The number of occurrences
 	 */
 	public static int count(String str, String word) {
 		if(str==null || word==null) {
@@ -25,7 +29,7 @@ public class Util {
 		}
 		int counter = 0;
 		Pattern pattern = Pattern.compile(word, Pattern.MULTILINE);
-		Matcher matcher = null;
+		Matcher matcher;
 
 		matcher = pattern.matcher(str);
 		while(matcher.find()) {
@@ -34,14 +38,27 @@ public class Util {
 		return counter;
 	}
 
+	/**
+	 * Normalizes a given string, e.g. for sorting purposes
+	 * @param s The string to normalize
+	 * @return The normalized string
+	 */
 	public static String enleverAccents(String s) {
 		return Normalizer.normalize(s, Normalizer.Form.NFD);
 	}
 
+	/**
+	 * A comparator that doesn't take accents into account
+	 */
 	public static Comparator<String> comparateurSansAccent = (o1, o2) -> {
 		return enleverAccents(o1).compareTo(enleverAccents(o2));
 	};
-	
+
+	/**
+	 * Returns "de" or "d'" depending on the word that follows it
+	 * @param str The following word
+	 * @return The corresponding article
+	 */
 	public static String de(String str) {
 		String name = str.toLowerCase();
 		String[] vowels = {"a", "à", "e", "é", "è", "ê", "ë", "i", "î", "ï", "o", "ô", "ö", "u", "û", "ü", "y"};
@@ -69,7 +86,12 @@ public class Util {
 		
 		return "de ";
 	}
-	
+
+	/**
+	 * Returns the list of wiki links in a given text
+	 * @param str The text to be read
+	 * @return A list of links in the given text
+	 */
 	public static String[] getLinks(String str) {
 		List<String> results = new ArrayList<String>();
 		
@@ -84,7 +106,12 @@ public class Util {
 	    
 	    return results.toArray(new String[0]);
 	}
-	
+
+	/**
+	 * Returns the region tied to the given games
+	 * @param gamesShort Abbreviated form of the games (example: EV)
+	 * @return The name of the region
+	 */
 	public static String gamesShortToRegion(String gamesShort) {
 		if (gamesShort.equals("RB") || gamesShort.equals("RV") || gamesShort.equals("J") || gamesShort.equals("RFVF") || gamesShort.equals("LGPE")) {
 			return "Kanto";
@@ -119,6 +146,12 @@ public class Util {
 		return "";
 	}
 
+	/**
+	 * If needed, add a particle onto a word to distinguish it from other items with the same name
+	 * @param itemName The name of the item
+	 * @param gamesShort Abbreviated form of the games (example: EV), used for context
+	 * @return The name of the item with an eventual particle
+	 */
 	public static String addHomonymy(String itemName, String gamesShort) {
 		String region = gamesShortToRegion(gamesShort);
 
@@ -250,7 +283,12 @@ public class Util {
 				return itemName;
 		}
 	}
-	
+
+	/**
+	 * Returns the long version of a game abbreviation
+	 * @param gamesShort Abbreviated form of the games (example: EV)
+	 * @return The long form of the given games (example: Écarlate et Violet)
+	 */
 	public static String gamesShortToGamesLong(String gamesShort) {
 		switch (gamesShort) {
 			case "R":
@@ -373,12 +411,21 @@ public class Util {
 				return "Le Masque Turquoise";
 			case "EVdi":
 				return "Le Disque Indigo";
+			case "LPZA":
+				return "Légendes Pokémon : Z-A";
+			case "LPZAmd":
+				return "Méga-Dimension";
 			default:
 				System.err.println("Did not find game long for " + gamesShort);
 				return gamesShort;
 		}
 	}
-	
+
+	/**
+	 * Returns the editor tied to the given games
+	 * @param gamesShort Abbreviated form of the games (example: EV)
+	 * @return The editor of the given games
+	 */
 	public static String gamesShortToEditor (String gamesShort) {
 		switch (gamesShort) {
 			case "DEPS":

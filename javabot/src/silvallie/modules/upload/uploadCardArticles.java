@@ -20,16 +20,28 @@ public class uploadCardArticles {
 		boolean skipExistingArticles = false;
 		boolean justOne = true;
 
+		run(folderPath, skipExistingArticles, justOne);
+
+		Silvallie.endRun(startTime);
+	}
+
+	/**
+	 * Uploads card articles from a folder
+	 * @param folderPath The folder containing the card articles to be uploaded
+	 * @param skipExistingArticles Set to true to skip any non-empty articles
+	 * @param justOne Set to true to stop after the first upload. Please use this on the first run to avoid accidents
+	 */
+	private static void run(File folderPath, boolean skipExistingArticles, boolean justOne) throws IOException, InterruptedException {
 		File[] contents = folderPath.listFiles();
 
-		for(int i=0; i<contents.length; i++) {
-			String fileName = contents[i].getName();
+		assert contents != null;
+		for (File content : contents) {
+			String fileName = content.getName();
 
 //			System.out.println(fileName);
 
-
-			if (fileName.substring(fileName.length()-4,fileName.length()).equals(".txt")) {
-				String uploadName = contents[i].getName().replace(".txt", "").replace("$", ":");
+			if (fileName.endsWith(".txt")) {
+				String uploadName = content.getName().replace(".txt", "").replace("$", ":");
 
 				Page page = new Page(uploadName);
 				String pageContents = page.getContent();
@@ -54,8 +66,6 @@ public class uploadCardArticles {
 					}
 				}
 			}
-
-			Silvallie.endRun(startTime);
 		}
 	}
 }

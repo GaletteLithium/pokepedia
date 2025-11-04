@@ -20,6 +20,19 @@ public class uploadCards {
 		File listPath = new File(pokepediaPath + "Robot\\JCC\\description_upload.txt");
 		boolean justOne = true;
 
+		run(folderPath, listPath, justOne);
+
+		Silvallie.endRun(startTime);
+	}
+
+	/**
+	 * Uploads card images from a folder, with text descriptions in an attached file
+	 * @param folderPath The folder containing the card images
+	 * @param listPath The text file containing all descriptions for the card files, delimited by "XXXXX" lines
+	 * @param justOne Set to true to stop after the first upload. Please use this on the first run to avoid accidents
+	 */
+	private static void run(File folderPath, File listPath, boolean justOne) throws IOException, InterruptedException {
+
 		FileReader fr					= new FileReader(listPath);
 		BufferedReader br					= new BufferedReader(fr);
 
@@ -72,6 +85,5 @@ public class uploadCards {
 		}
 
 		br.close();
-		Silvallie.endRun(startTime);
 	}
 }

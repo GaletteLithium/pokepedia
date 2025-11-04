@@ -18,15 +18,28 @@ public class uploadCT {
 		File folderPath = new File(pokepediaPath + "Images\\EV\\CT\\Images\\");
 		File listPath = new File(pokepediaPath + "Images\\EV\\CT\\VignettesCT.csv");
 		String gamesShort = "EV";
-		String games = "Écarlate et Violet";
 		boolean justOne = true;
 
+		run(folderPath, listPath, gamesShort, justOne);
+
+		Silvallie.endRun(startTime);
+	}
+
+	/**
+	 * Uploads card articles from a folder
+	 * @param folderPath The folder containing the card articles to be uploaded
+	 * @param listPath The path to the text file containing the CT numbers and attack names
+	 * @param gamesShort Abbreviated form of the games the images are from, used in the files' title (example: EV)
+	 * @param justOne Set to true to stop after the first upload. Please use this on the first run to avoid accidents
+	 */
+	private static void run(File folderPath, File listPath, String gamesShort, boolean justOne) throws IOException {
 		FileReader fr					= new FileReader(listPath);
 		BufferedReader br					= new BufferedReader(fr);
 
 		String			delimiter			= ";";
 		String			currentLine			= br.readLine();
 		String			descriptionHeader	= "== Description ==\n";
+		String games = Util.gamesShortToGamesLong(gamesShort);
 
 
 		while (currentLine != null) {
@@ -72,6 +85,5 @@ public class uploadCT {
 		}
 
 		br.close();
-		Silvallie.endRun(startTime);
 	}
 }

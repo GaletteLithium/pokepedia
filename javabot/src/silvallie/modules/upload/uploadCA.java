@@ -8,15 +8,29 @@ import silvallie.Util;
 import java.io.File;
 
 public class uploadCA {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		long startTime = Silvallie.beginRun();
 
 		String folder = "";
 		File folderPath = new File(Util.getPokepediaPath() + folder + "\\");
 
-		boolean justOne = false;
+		String source = "[https://archives.bulbagarden.net/w/index.php/Category:Pokémon_Dream_World_artwork Bulbapedia], [https://www.wikidex.net/wiki/WikiDex:Proyecto_Pokédex/Ilustraciones_de_Pokémon_en_el_Dream_World Wikidex]";
 
-		File contents[] = folderPath.listFiles();
+		boolean justOne = true;
+
+		run(folderPath, source, justOne);
+
+		Silvallie.endRun(startTime);
+	}
+
+	/**
+	 * Uploads Corporate Art artworks from a given folder
+	 * @param folderPath Path to the folder containing the images to upload
+	 * @param source The source of the artworks
+	 * @param justOne Set to true to stop after the first upload. Please use this on the first run to avoid accidents
+	 */
+	private static void run(File folderPath, String source, boolean justOne) {
+		File[] contents = folderPath.listFiles();
 
 		for(int i=0; i<contents.length; i++) {
 			String contentString	= contents[i].toString();
@@ -31,15 +45,15 @@ public class uploadCA {
 
 			String descriptionHeader = "== Description ==\n\n";
 			String description = "Corporate Art " + Util.de(pokeName) + "[[" + pokeName + "]].\n\n{{Informations Fichier\n"
-					+ "| Source = [https://archives.bulbagarden.net/w/index.php/Category:Pokémon_Dream_World_artwork Bulbapedia], [https://www.wikidex.net/wiki/WikiDex:Proyecto_Pokédex/Ilustraciones_de_Pokémon_en_el_Dream_World Wikidex]\n"
-					+ "| Auteur = [[The Pokémon Company]]\n"
+					+ "| source=" + source + "\n"
+					+ "| auteur=[[The Pokémon Company]]\n"
 					+ "}}\n\n[[Catégorie:Corporate Art de Pokémon]]\n[[Catégorie:Image Pokémon représentant " + categoryName + "]]";
 //			String description = "Détourage des localisations EV";
 //			String description = "Sprite du vêtement " + uploadName.replace("Fichier:Sprite ", "").replace(" XY.png", "")
 //					+ " dans {{Jeu|XY}}.\n\n[[Catégorie:Sprite de vêtement (X et Y)]]";
 //			description = description.replace("♂", "(masculin)").replace("♀", "(féminin)");
 
-			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals(".png")) {
+			if (uploadName.endsWith(".png")) {
 				boolean uploaded = API.upload(uploadName, contents[i], descriptionHeader + description, description);
 
 				Page filePage = new Page(uploadName);
@@ -59,7 +73,5 @@ public class uploadCA {
 				}
 			}
 		}
-
-		Silvallie.endRun(startTime);
 	}
 }

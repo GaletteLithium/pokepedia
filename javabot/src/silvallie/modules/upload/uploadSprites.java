@@ -12,17 +12,33 @@ public class uploadSprites {
 
 		File folderPath = new File(pokepediaPath + "Images\\Friends\\Peluches\\");
 		String extension = "png";
-		String edit_description = "Upload peluches Friends";
+		String editDescription = "Upload peluches Friends";
 		String source = "Extraction réalisée par {{ut|SombrAbsol}}.";
 		boolean createGeneralRedirection = false;
 		boolean rename = false;
-		int starting_version = 0;
+		int startingVersion = 0;
 		boolean justOne = true;
 
+		run(folderPath, extension, editDescription, source, createGeneralRedirection, rename, startingVersion, justOne);
 
-		File contents[] = folderPath.listFiles();
+		Silvallie.endRun(startTime);
+	}
+
+	/**
+	 * Upload sprites contained in a given folder
+	 * @param folderPath The path to the folder containing the files
+	 * @param extension The extension of the files (example: png)
+	 * @param editDescription The description used when editing (not the one present on the page, this one is automatic)
+	 * @param source The source of the uploaded files
+	 * @param createGeneralRedirection Set to true to create a general redirection when uploading the files (example: Miniature 0001.png -> Miniature 0001 EV.png)
+	 * @param rename Set to true to rename any pre-existing files instead of uploading on top
+	 * @param startingVersion A number to use if you're uploading not the most recent files (default is 0)
+	 * @param justOne Set to true to stop after the first upload. Please use this on the first run to avoid accidents
+	 */
+	private static void run(File folderPath, String extension, String editDescription, String source, boolean createGeneralRedirection, boolean rename, int startingVersion, boolean justOne) throws InterruptedException {
+		File[] contents = folderPath.listFiles();
 		boolean eraseRedirectsAnyway = true;
-		if (!source.equals("")) {
+		if (!source.isEmpty()) {
 			source = "|source=" + source;
 		}
 		String description = "== Description ==\n{{#invoke:Description|sprite" + source + "}}";
@@ -33,14 +49,14 @@ public class uploadSprites {
 			String ogUploadName		= "Fichier:" + contents[i].getName();
 			String uploadName		= "Fichier:" + contents[i].getName();
 			System.out.println(uploadName);
-			if (uploadName.substring(uploadName.length()-4,uploadName.length()).equals("." + extension)) {
+			if (uploadName.endsWith("." + extension)) {
 				uploadName = uploadName.replace("interrogation", "?");
 
 
 				Page filePage = new Page(uploadName);
 				Page ogFilePage = new Page(uploadName);
 				String fileContents = filePage.getContent();
-				int version = starting_version;
+				int version = startingVersion;
 
 
 				if (createGeneralRedirection) {
@@ -79,7 +95,7 @@ public class uploadSprites {
 					System.out.println("Upload "+ogUploadName);
 					boolean uploaded = API.upload(ogUploadName, contents[i], description,
 							////						"Correction du fichier");
-							edit_description);
+							editDescription);
 					// filePage.setContent(description, edit_description);
 
 					if (justOne) {
@@ -90,10 +106,11 @@ public class uploadSprites {
 				TimeUnit.SECONDS.sleep(1);
 			}
 		}
-
-		Silvallie.endRun(startTime);
 	}
 
+	/**
+	 * @deprecated
+	 */
 	public static void deprecated(String[] args) {
 		long startTime = Silvallie.beginRun();
 		String pokepediaPath = Util.getPokepediaPath();
